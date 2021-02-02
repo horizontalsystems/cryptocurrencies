@@ -1,6 +1,6 @@
 {
     "categories": [
-        { "id": "blockhain", "name": "Blockhain" },
+        { "id": "blockchain", "name": "Blockchain" },
         { "id": "dexes", "name": "DEXes" },
         { "id": "lending", "name": "Lending" },
         { "id": "privacy", "name": "Privacy" },

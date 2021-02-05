@@ -3573,6 +3573,26 @@
             "rating": ""
         },
         {
+            "code": "RGT",
+            "name": "Rari Governance Token",
+            "categories": ["yield_aggregators"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0xd291e7a03283640fdc51b121ac401383a46cc623",
+                "type": "ERC20"
+            },
+            "description": "",
+            "details": {
+                "website": "http://rari.capital",
+                "whitepaper": "",
+                "twitter": "https://twitter.com/RariCapital",
+                "reddit": "",
+                "telegram": "https://t.me/RariCapitalChat"
+            },
+            "rating": ""
+        },
+        {
             "code": "RING",
             "name": "Darwinia Network Native Token",
             "categories": ["cross_chain"],

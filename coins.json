@@ -2690,7 +2690,7 @@
         },
         {
             "code": "MFT",
-            "name": "Mainframe",
+            "name": "Hifi Finance",
             "categories": ["lending"],
             "active": true,
             "platform": {

@@ -4,12 +4,13 @@ const fs = require('fs')
 
 //--------------------------------------------
 
-const pathApp = './config/app.coins.json'
+const pathCoinCat = './config/coins.categories.json'
 const pathCg = './config/coingecko.coins.json'
 const pathCc = './config/cryptocompare.coins.json'
 const pathPr = './config/provider.coins.json'
+const pathAppCoins = './config/app.coins.json'
 
-const appFile = readFile(pathApp)
+const coinCatFile = readFile(pathCoinCat)
 const cgFile = readFile(pathCg)
 const ccFile = readFile(pathCc)
 
@@ -19,14 +20,18 @@ const cgCoins = jsonCg
 const jsonCc = JSON.parse(ccFile)
 const ccCoins = jsonCc
 
+let mergedCoinsList = []
+
 //--------------------------------------------
-function isNullOrEmpty(value){
-    if(value){
-        return true
+function sortByProperty(property) {
+    return (a, b) => {
+        if (a[property] > b[property]) return 1
+        if (a[property] < b[property]) return -1
+
+        return 0
     }
-    else
-        return false
 }
+
 async function saveFile(path, data) {
     fs.writeFileSync(path, data)
 }
@@ -44,10 +49,16 @@ function getPlatformInfo(cgCoin){
 
             if(platformValue){
                 if(platformName === 'binancecoin'){
-                    return { platform:'binance', address: platformValue, coinId: `bnb|${platformValue}`}
+                    return { platform:'binance', platformType:'bep2', address: platformValue, coinId: `bep2|${platformValue}`}
                 }
                 else if(platformName === 'ethereum'){
-                    return { platform:'ethereum', address: platformValue, coinId: `erc20|${platformValue}`}
+                    return { platform:'ethereum', platformType:'erc20', address: platformValue, coinId: `erc20|${platformValue}`}
+                }
+                else if(platformName === 'binance-smart-chain'){
+                    return { platform:'binance-smart-chain', platformType:'bep20', address: platformValue, coinId: `bep20|${platformValue}`}
+                }
+                else{
+                    return { platform:platformName, platformType:'', address: platformValue, coinId: `${platformName}|${platformValue}`}
                 }
             }
         }
@@ -58,19 +69,19 @@ function getPlatformInfo(cgCoin){
 //--------------------------------------------
 function generateId(cgCoin){
     if(cgCoin.name.toLowerCase() === "bitcoin" )
-        return { platform:'', address:'', coinId: "bitcoin"}
+        return { platform:'', platformType:'', address:'', coinId: "bitcoin"}
     else if(cgCoin.name.toLowerCase() === "ethereum" )
-        return { platform:'', address:'', coinId: "ethereum"}
+        return { platform:'', platformType:'', address:'', coinId: "ethereum"}
     else if(cgCoin.name.toLowerCase() === "binance coin" )
-        return { platform:'', address:'', coinId: "binance"}
+        return { platform:'', platformType:'', address:'', coinId: "binance"}
     else if(cgCoin.name.toLowerCase() === "zcash" )
-        return { platform:'', address:'', coinId: "zcash"}
+        return { platform:'', platformType:'', address:'', coinId: "zcash"}
     else if(cgCoin.name.toLowerCase() === "litecoin" )
-        return { platform:'', address:'', coinId: "litecoin"}
+        return { platform:'', platformType:'', address:'', coinId: "litecoin"}
     else if(cgCoin.name.toLowerCase() === "dash" )
-        return { platform:'', address:'', coinId: "dash"}
+        return { platform:'', platformType:'', address:'', coinId: "dash"}
     else if(cgCoin.name.toLowerCase() === "bitcoin cash" )
-        return { platform:'', address:'' , coinId: "bitcoin-cash"}
+        return { platform:'', platformType:'', address:'' , coinId: "bitcoin-cash"}
     else
         return getPlatformInfo(cgCoin)
 }
@@ -83,19 +94,31 @@ function mergeCoinGeckoCoins(){
     for(const cgCoin of cgCoins){
         const platform = generateId(cgCoin)
         const coinId = platform.coinId
+        const platfromJson = { name: platform.platform, address: platform.address, type: platform.platformType }
 
-        newCoins.push({
-            id : coinId,
-            code : cgCoin.symbol,
-            name : cgCoin.name,
-            platform : platform.address,
-            external_id: {
-                coingecko: cgCoin.id,
-            }
-        })
+        if(platform.platform){
+            newCoins.push({
+                id : coinId,
+                code : cgCoin.symbol,
+                name : cgCoin.name,
+                platform : platfromJson,
+                external_id: {
+                    coingecko: cgCoin.id,
+                }
+            })
+        } else {
+            newCoins.push({
+                id : coinId,
+                code : cgCoin.symbol,
+                name : cgCoin.name,
+                external_id: {
+                    coingecko: cgCoin.id,
+                }
+            })
+        }
     }
 
-    saveFile(pathPr, JSON.stringify({coins : newCoins}))
+    saveFile(pathAppCoins, JSON.stringify({coins : newCoins}))
 }
 
 //--------------------------------------------
@@ -110,24 +133,51 @@ function compareStrings(str1, str2){
     return ratio
 }
 //--------------------------------------------
+function addCryptoCompareSmartContractData(appCoin, ccCoin){
 
-function mergeCryptoCompareCoinsBySmartContract(prCoins, foundCcCoins){
+    let newAppCoin = appCoin
+
+    if(ccCoin.SmartContractAddress){
+        let platformName = ''
+        let platformType = ''
+
+        if(ccCoin.BuiltOn == 'ETH'){
+            platformName = 'ethereum'
+            platformType = 'erc20'
+        } else if(ccCoin.BuiltOn == 'TRX'){
+            platformName = 'tron'
+            platformType = 'tron'
+        } else if(ccCoin.BuiltOn == 'BNB'){
+            platformName = 'binance'
+            platformType = 'bep2'
+        }
+        newAppCoin.id = `${platformType}|${ccCoin.SmartContractAddress}`
+        newAppCoin.platform = { name: platformName, address: ccCoin.SmartContractAddress, type: platformType }
+    }
+
+    return newAppCoin
+}
+//--------------------------------------------
+
+function mergeCryptoCompareCoinsBySmartContract(appCoins, foundCcCoins){
         //  --- Merge coins with Uniq address ------------
         const hasSmartContractCc = foundCcCoins.filter(ccCoin =>
             ccCoin.SmartContractAddress
         )
 
-        const hasSmartContractPr = prCoins.filter(prCoin =>
-            prCoin.platform
+        const hasSmartContractAppCoins = appCoins.filter(appCoin =>
+            appCoin.platform
         )
 
         const uniqAddressCoinsCc = []
-        const uniqAddressCoinsPr = []
+        const uniqAddressCoinsApp = []
+        let mergedIndex = 0
+        mergedCoinsList.push('*********  Merged By SmartContract (100%) ******************* ')
 
-        for(let prCoin of hasSmartContractPr){
+        for(const appCoin of hasSmartContractAppCoins){
 
             const found = hasSmartContractCc.filter(ccCoin =>
-                ccCoin.SmartContractAddress.trim().toLowerCase() == prCoin.platform.trim().toLowerCase()
+                ccCoin.SmartContractAddress.trim().toLowerCase() == appCoin.platform.address.trim().toLowerCase()
             )
 
             if(found.length > 0){
@@ -135,140 +185,195 @@ function mergeCryptoCompareCoinsBySmartContract(prCoins, foundCcCoins){
                 if(found.length > 1){
                     found.forEach(f => {
                         if(f.Symbol == 'FTT' || f.Symbol == 'WABI' ||  f.Symbol == 'RDN' ){
-                            prCoin.external_id['cryptocompare'] = f.Symbol
-                            //prCoin.description = f.Description
+                            appCoin.external_id['cryptocompare'] = f.Symbol
+                            appCoin.description = f.Description
                             uniqAddressCoinsCc.push(f)
+                            mergedCoinsList.push(`${++mergedIndex} - ${appCoin.code}-${appCoin.name} --- ${f.Symbol}-${f.CoinName}`)
                         }
                     })
                 } else {
-                    prCoin.external_id['cryptocompare'] = found[0].Symbol
-                    //prCoin.description = found[0].Description
+                    appCoin.external_id['cryptocompare'] = found[0].Symbol
+                    appCoin.description = found[0].Description
                     uniqAddressCoinsCc.push(found[0])
                 }
-                uniqAddressCoinsPr.push(prCoin)
+                uniqAddressCoinsApp.push(appCoin)
+                mergedCoinsList.push(`${++mergedIndex} - ${appCoin.code}-${appCoin.name} --- ${found[0].Symbol}-${found[0].CoinName}`)
             }
         }
-        prCoins = prCoins.filter(pr => uniqAddressCoinsPr.indexOf(pr) === -1 )
+        appCoins = appCoins.filter(appC => uniqAddressCoinsApp.indexOf(appC) === -1 )
         foundCcCoins = foundCcCoins.filter(cc => uniqAddressCoinsCc.indexOf(cc) === -1 )
-        console.log(`Merged UniqAddress Coins: ${uniqAddressCoinsPr.length}`)
+        console.log(`Merged UniqAddress Coins: ${uniqAddressCoinsApp.length}`)
 
-        return {outCoins: uniqAddressCoinsPr, prCoins, foundCcCoins  }
+        return {outCoins: uniqAddressCoinsApp, appCoins: appCoins, foundCcCoins  }
 }
 //--------------------------------------------
-function mergeCryptoCompareCoinsByCodeName(prCoins, foundCcCoins){
+function mergeCryptoCompareCoinsByCodeName(appCoins, foundCcCoins){
         //  --- Merge coins with Code/Name ------------
         const uniqCodesCoinsCc = []
-        const uniqCodesCoinsPr = []
+        const uniqCodesCoinsApp = []
+        let mergedIndex = mergedCoinsList.length
+        mergedCoinsList.push('*********  Merged By Code/Name (100%) ******************* ')
 
-        for(let prCoin of prCoins){
+        for(let appCoin of appCoins){
 
             const found = foundCcCoins.filter(ccCoin =>
-                ccCoin.Symbol.trim().toLowerCase() == prCoin.code.trim().toLowerCase()
-                && ( ccCoin.CoinName.trim().toLowerCase() == prCoin.name.trim().toLowerCase())
+                ccCoin.Symbol.trim().toLowerCase() == appCoin.code.trim().toLowerCase()
+                && ( ccCoin.CoinName.trim().toLowerCase() == appCoin.name.trim().toLowerCase())
             )
 
             if(found.length > 0){
-                prCoin.external_id['cryptocompare'] = found[0].Symbol
-                //prCoin.description = found[0].Description
+                appCoin.external_id['cryptocompare'] = found[0].Symbol
+                appCoin.description = found[0].Description
+
+                if(!appCoin.platform && found[0].SmartContractAddress){
+                    appCoin = addCryptoCompareSmartContractData(appCoin, found[0])
+                }
+
                 uniqCodesCoinsCc.push(found[0])
-                uniqCodesCoinsPr.push(prCoin)
+                uniqCodesCoinsApp.push(appCoin)
+                mergedCoinsList.push(`${++mergedIndex} - ${appCoin.code}-${appCoin.name} --- ${found[0].Symbol}-${found[0].CoinName}`)
             }
         }
 
-        prCoins = prCoins.filter(pr => uniqCodesCoinsPr.indexOf(pr) === -1 )
+        appCoins = appCoins.filter(appC => uniqCodesCoinsApp.indexOf(appC) === -1 )
         foundCcCoins = foundCcCoins.filter(cc => uniqCodesCoinsCc.indexOf(cc) === -1 )
-        console.log(`Merged UniqCodes and Name Coins: ${uniqCodesCoinsPr.length}`)
+        console.log(`Merged UniqCodes and Name Coins: ${uniqCodesCoinsApp.length}`)
 
-        return {outCoins: uniqCodesCoinsPr, prCoins, foundCcCoins  }
+        return {outCoins: uniqCodesCoinsApp, appCoins: appCoins, foundCcCoins  }
 }
+
 //--------------------------------------------
-function mergeCryptoCompareCoinsByNameIdenticRatio(prCoins, foundCcCoins){
+function mergeCryptoCompareCoinsByNameIdenticRatio(appCoins, foundCcCoins){
     //  --- Merge coins with Code likely name ------------
     const uniqCodesCoinsCc = []
-    const uniqCodesCoinsPr = []
+    const uniqCodesCoinsApp = []
+    let mergedIndex = mergedCoinsList.length
+    mergedCoinsList.push('*********  Merged By Code(100%)  Name (50%) ******************* ')
 
-    for(let prCoin of prCoins){
+    for(let appCoin of appCoins){
 
         const found = foundCcCoins.filter(ccCoin =>
-            ccCoin.Symbol.trim().toLowerCase() == prCoin.code.trim().toLowerCase()
-            && 50 <= compareStrings(ccCoin.CoinName.trim().toLowerCase(), prCoin.name.trim().toLowerCase())
+            ccCoin.Symbol.trim().toLowerCase() == appCoin.code.trim().toLowerCase()
+            && 50 <= compareStrings(ccCoin.CoinName.trim().toLowerCase(), appCoin.name.trim().toLowerCase())
         )
 
         if(found.length > 0){
-            prCoin.external_id['cryptocompare'] = found[0].Symbol
-            //prCoin.description = found[0].Description
-            //console.log(found[0].CoinName, '-', prCoin.name)
+            appCoin.external_id['cryptocompare'] = found[0].Symbol
+            appCoin.description = found[0].Description
+            //console.log(found[0].CoinName, '-', appCoin.name)
             uniqCodesCoinsCc.push(found[0])
-            uniqCodesCoinsPr.push(prCoin)
+            uniqCodesCoinsApp.push(appCoin)
+            mergedCoinsList.push(`${++mergedIndex} - ${appCoin.code}-${appCoin.name} --- ${found[0].Symbol}-${found[0].CoinName}`)
         }
     }
-    prCoins = prCoins.filter(pr => uniqCodesCoinsPr.indexOf(pr) === -1 )
+    appCoins = appCoins.filter(appC => uniqCodesCoinsApp.indexOf(appC) === -1 )
     foundCcCoins = foundCcCoins.filter(cc => uniqCodesCoinsCc.indexOf(cc) === -1 )
-    console.log(`Merged Name identic ration Coins: ${uniqCodesCoinsPr.length}`)
+    console.log(`Merged Name identic ratio Coins: ${uniqCodesCoinsApp.length}`)
 
-    return {outCoins: uniqCodesCoinsPr, prCoins, foundCcCoins  }
+    return {outCoins: uniqCodesCoinsApp, appCoins: appCoins, foundCcCoins  }
 }
 
 //--------------------------------------------
+function mergeCryptoCompareCoinsByCodeIdenticRatio(appCoins, foundCcCoins){
+    //  --- Merge coins with Code likely name ------------
+    const uniqCodesCoinsCc = []
+    const uniqCodesCoinsApp = []
+    let mergedIndex = mergedCoinsList.length
+    mergedCoinsList.push('*********  Merged By Code(80%) ******************* ')
+
+    for(let appCoin of appCoins){
+
+        const found = foundCcCoins.filter(ccCoin =>
+            85 <= compareStrings(ccCoin.Symbol.trim().toLowerCase(), appCoin.code.trim().toLowerCase())
+        )
+
+        if(found.length > 0){
+            appCoin.external_id['cryptocompare'] = found[0].Symbol
+            appCoin.description = found[0].Description
+            //console.log(found[0].CoinName, '-', appCoin.name)
+            uniqCodesCoinsCc.push(found[0])
+            uniqCodesCoinsApp.push(appCoin)
+            mergedCoinsList.push(`${++mergedIndex} - ${appCoin.code}-${appCoin.name} --- ${found[0].Symbol}-${found[0].CoinName}`)
+        }
+    }
+    appCoins = appCoins.filter(appC => uniqCodesCoinsApp.indexOf(appC) === -1 )
+    foundCcCoins = foundCcCoins.filter(cc => uniqCodesCoinsCc.indexOf(cc) === -1 )
+    console.log(`Merged Code identic ratio Coins: ${uniqCodesCoinsApp.length}`)
+
+    return {outCoins: uniqCodesCoinsApp, appCoins: appCoins, foundCcCoins  }
+}
+//--------------------------------------------
 
 function mergeCryptoCompareCoins(){
-    const providerFile = readFile(pathPr)
-    const jsonPr = JSON.parse(providerFile)
-    let prCoins = jsonPr.coins
+    const appCoinsFile = readFile(pathAppCoins)
+    const jsonAppCoins = JSON.parse(appCoinsFile)
+    let appCoins = jsonAppCoins.coins
     let foundCcCoins = Object.values(ccCoins.Data)
 
     //  --- Merge coins with Uniq address ------------
-    let out = mergeCryptoCompareCoinsBySmartContract(prCoins, foundCcCoins)
-    prCoins = out.prCoins
+    let out = mergeCryptoCompareCoinsBySmartContract(appCoins, foundCcCoins)
+    appCoins = out.appCoins
     foundCcCoins = out.foundCcCoins
     let outCoins = out.outCoins
 
     //  --- Merge coins with Code/Name ------------
-    out = mergeCryptoCompareCoinsByCodeName(prCoins, foundCcCoins)
-    prCoins = out.prCoins
+    out = mergeCryptoCompareCoinsByCodeName(appCoins, foundCcCoins)
+    appCoins = out.appCoins
     foundCcCoins = out.foundCcCoins
     outCoins = [].concat(outCoins, out.outCoins)
 
-    //  --- Merge coins with Code and Name  ------------
-    out = mergeCryptoCompareCoinsByNameIdenticRatio(prCoins, foundCcCoins)
-    prCoins = out.prCoins
+    //  --- Merge coins with  Name  Identic ------------
+    out = mergeCryptoCompareCoinsByNameIdenticRatio(appCoins, foundCcCoins)
+    appCoins = out.appCoins
     foundCcCoins = out.foundCcCoins
-    outCoins = [].concat(outCoins, out.outCoins)
+    outCoins =  [].concat(outCoins, out.outCoins)
 
-    console.log(prCoins.length, foundCcCoins.length)
+    //  --- Merge coins with Code Identic  ------------
+    out = mergeCryptoCompareCoinsByCodeIdenticRatio(appCoins, foundCcCoins)
+    appCoins = out.appCoins
+    foundCcCoins = out.foundCcCoins
+    outCoins =  ([].concat(outCoins, out.outCoins)).sort(sortByProperty('code'))
 
-    //saveFile(pathPr, JSON.stringify({coins : outCoins}))
+    console.log('Found items:')
+    console.log('CoinGecko', appCoins.length, 'CryptoCompare:', foundCcCoins.length)
+
+    const outProviderCoins = outCoins
+    outProviderCoins.forEach(outCoin => {
+        delete outCoin['description']
+        delete outCoin['platform']
+        delete outCoin['code']
+        delete outCoin['name']
+    })
+    saveFile(pathPr, JSON.stringify({coins : outProviderCoins}))
+    saveFile('./config/merged.json', JSON.stringify(mergedCoinsList))
+
+    //--------------------------------------------
+    getNotMergedCoins(appCoins, foundCcCoins)
 }
 
 //--------------------------------------------
+function getNotMergedCoins(appCoins, foundCcCoins){
+    mergedCoinsList = []
+    appCoins = appCoins.sort(sortByProperty(`code`))
+    foundCcCoins = foundCcCoins.sort(sortByProperty('Symbol'))
+
+    let mergedIndex = mergedCoinsList.length
+
+    for(const appCoin of appCoins){
+        const appCoinData = `${appCoin.code}-${appCoin.name}`
+        const ccCoinData = foundCcCoins[mergedIndex] ? `${foundCcCoins[mergedIndex].Symbol}-${foundCcCoins[mergedIndex].CoinName}` : ''
+        mergedCoinsList.push(`${++mergedIndex} - ${appCoinData} --- ${ccCoinData}`)
+    }
+    saveFile('./config/notmerged.json', JSON.stringify(mergedCoinsList))
+
+}
+//--------------------------------------------
+
 function mergeAppCoins(){
 
-    const str1 = 'backddddd3'
-    const str2 = 'back123123'
-
-    var distance = levenshtein.get(str1, str2);
-    console.log(`Compare:${str1}-${str1.length} ${str2}-${str2.length}, D:${distance}`)
-
 }
-
-//--------------------------------------------
-function findIdenticalCoinIds(){
-
-    const providerFile = readFile(pathPr)
-    const jsonPr = JSON.parse(providerFile)
-    const prCoins = jsonPr.coins
-
-    for(const prCoin of prCoins){
-        const found = prCoins.filter(pr =>
-            pr.code.toLowerCase() === prCoin.code.toLowerCase()
-        )
-        if(found.length > 1)
-            console.log(found)
-    }
-}
-
 //--------------------------------------------
 
-//mergeCoinGeckoCoins()
+mergeCoinGeckoCoins()
 mergeCryptoCompareCoins()
 //mergeAppCoins()

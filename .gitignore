@@ -1,0 +1,8 @@
+.DS_STORE
+.idea
+.vscode
+data
+node_modules
+*.log*
+.env
+database.sqlite3

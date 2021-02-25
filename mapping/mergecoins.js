@@ -1,10 +1,11 @@
 var levenshtein = require('fast-levenshtein');
-
+const CoinGecko = require('coingecko-api');
+const coinGeckoClient = new CoinGecko();
 const fs = require('fs')
 
 //--------------------------------------------
 
-const pathCoinCategories = './config/coins.categories.json'
+const pathCoinCategories = '../coins.json'
 const pathCoinGeckoCoins = './config/coingecko.coins.json'
 const pathCryptocomCoins = './config/cryptocompare.coins.json'
 const pathProviderIds = './config/provider.coins.json'
@@ -13,8 +14,6 @@ const pathMergedCoins = './config/merged.json'
 const pathNotMergedCryptocomCoins = './config/notmerged_cryptocom.json'
 const pathNotMergedCoinGeckoCoins = './config/notmerged_coingecko.json'
 
-const fileAppCoins = readFile(pathAppCoins)
-const fileCoinsCategory = readFile(pathCoinCategories)
 const fileCoinGeckoCoins = readFile(pathCoinGeckoCoins)
 const fileCryptocomCoins = readFile(pathCryptocomCoins)
 
@@ -53,39 +52,39 @@ function getPlatformInfo(coinGeckoCoin){
 
             if(platformValue){
                 if(platformName === 'binancecoin'){
-                    return { platform:'binance', platformType:'bep2', address: platformValue, coinId: `bep2|${platformValue}`}
+                    return { name:'binance', type:'bep2', address: platformValue, coinId: `bep2|${platformValue}`}
                 }
                 else if(platformName === 'ethereum'){
-                    return { platform:'ethereum', platformType:'erc20', address: platformValue, coinId: `erc20|${platformValue}`}
+                    return { name:'ethereum', type:'erc20', address: platformValue, coinId: `erc20|${platformValue}`}
                 }
                 else if(platformName === 'binance-smart-chain'){
-                    return { platform:'binance-smart-chain', platformType:'bep20', address: platformValue, coinId: `bep20|${platformValue}`}
+                    return { name:'binance-smart-chain', type:'bep20', address: platformValue, coinId: `bep20|${platformValue}`}
                 }
                 else{
-                    return { platform:platformName, platformType:'', address: platformValue, coinId: `${platformName}|${platformValue}`}
+                    return { name:platformName, type:'', address: platformValue, coinId: `${platformName}|${platformValue}`}
                 }
             }
         }
     }
 
-    return { platform:'',  address:'', coinId: coinGeckoCoin.id}
+    return { platform:'',  address:'', coinId: `unsupported|${coinGeckoCoin.id}`}
 }
 //--------------------------------------------
 function generateId(coinGeckoCoin){
     if(coinGeckoCoin.name.toLowerCase() === "bitcoin" )
-        return { platform:'', platformType:'', address:'', coinId: "bitcoin"}
+        return { name:'', type:'', address:'', coinId: "bitcoin"}
     else if(coinGeckoCoin.name.toLowerCase() === "ethereum" )
-        return { platform:'', platformType:'', address:'', coinId: "ethereum"}
+        return { name:'', type:'', address:'', coinId: "ethereum"}
     else if(coinGeckoCoin.name.toLowerCase() === "binance coin" )
-        return { platform:'', platformType:'', address:'', coinId: "binance"}
+        return { name:'', type:'', address:'', coinId: "bep2|BNB"}
     else if(coinGeckoCoin.name.toLowerCase() === "zcash" )
-        return { platform:'', platformType:'', address:'', coinId: "zcash"}
+        return { name:'', type:'', address:'', coinId: "zcash"}
     else if(coinGeckoCoin.name.toLowerCase() === "litecoin" )
-        return { platform:'', platformType:'', address:'', coinId: "litecoin"}
+        return { name:'', type:'', address:'', coinId: "litecoin"}
     else if(coinGeckoCoin.name.toLowerCase() === "dash" )
-        return { platform:'', platformType:'', address:'', coinId: "dash"}
+        return { name:'', type:'', address:'', coinId: "dash"}
     else if(coinGeckoCoin.name.toLowerCase() === "bitcoin cash" )
-        return { platform:'', platformType:'', address:'' , coinId: "bitcoin-cash"}
+        return { name:'', type:'', address:'' , coinId: "bitcoinCash"}
     else
         return getPlatformInfo(coinGeckoCoin)
 }
@@ -98,9 +97,9 @@ function mergeCoinGeckoCoins(){
     for(const coinGeckoCoin of coinGeckoCoins){
         const platform = generateId(coinGeckoCoin)
         const coinId = platform.coinId
-        const platfromJson = { name: platform.platform, address: platform.address, type: platform.platformType }
+        const platfromJson = { name: platform.name, address: platform.address, type: platform.type }
 
-        if(platform.platform){
+        if(platform.name){
             newCoins.push({
                 id : coinId,
                 code : coinGeckoCoin.symbol,
@@ -115,6 +114,18 @@ function mergeCoinGeckoCoins(){
                 id : coinId,
                 code : coinGeckoCoin.symbol,
                 name : coinGeckoCoin.name,
+                external_id: {
+                    coingecko: coinGeckoCoin.id,
+                }
+            })
+        }
+
+        // -- Dublicate Record ---------------
+        if(platform.coinId == 'bep2|BNB'){
+            newCoins.push({
+                id : 'binanceSmartChain',
+                code : coinGeckoCoin.symbol,
+                name : 'Binance Smart Chain',
                 external_id: {
                     coingecko: coinGeckoCoin.id,
                 }
@@ -394,6 +405,7 @@ function mergeCryptoCompareCoins(){
     outProviderCoins.forEach(outCoin => {
         delete outCoin['description']
         delete outCoin['platform']
+        delete outCoin['links']
     })
     saveFile(pathAppCoins, JSON.stringify({coins : appCoinsOriginal}))
     saveFile(pathProviderIds, JSON.stringify({coins : outProviderCoins}))
@@ -513,9 +525,11 @@ function mergeAppCoinsByCodeNameIdenticRatio(appCoins, categoryCoins){
 //--------------------------------------------
 
 function mergeAppCoins(){
+    const fileAppCoins = readFile(pathAppCoins)
     let appCoinsJson = JSON.parse(fileAppCoins)
     let appCoins = appCoinsJson.coins
 
+    const fileCoinsCategory = readFile(pathCoinCategories)
     let categoryCoinsJson = JSON.parse(fileCoinsCategory)
     let categoryCoins = categoryCoinsJson.coins
 
@@ -536,12 +550,90 @@ function mergeAppCoins(){
         console.log(`${notMCoin.code} - ${notMCoin.name}`)
     )
 
-    saveFile('./config/cat.json', JSON.stringify(outCoins))
+    saveFile('./config/coins.json', JSON.stringify(outCoins))
 
 }
 
 //--------------------------------------------
+function addLinksData(links){
 
-mergeCoinGeckoCoins()
-mergeCryptoCompareCoins()
+    let twitterUrl = ''
+    let telegramUrl = ''
+    let website = ''
+    let githubUrl = ''
+    let redditUrl = ''
+
+    if(links){
+
+        if(links.homepage[0]) website = links.homepage[0]
+        if(links.subreddit_url) redditUrl = links.subreddit_url
+        if(links.repos_url){
+            if(links.repos_url.github)
+                githubUrl = links.repos_url.github[0]
+        }
+
+        if (links.twitter_screen_name) {
+            twitterUrl = `https://twitter.com/${links.twitter_screen_name}`
+        }
+
+        if (links.telegram_channel_identifier) {
+            telegramUrl = `https://t.me/${links.telegram_channel_identifier}`
+        }
+    }
+
+    return {
+        website: website,
+        whitepaper: '',
+        guide: '',
+        twitter: twitterUrl,
+        github: githubUrl,
+        reddit: redditUrl,
+        telegram: telegramUrl
+    }
+}
+//--------------------------------------------
+async function addCoinGeckoCommunityData(){
+
+    const fileAppCoins = readFile(pathAppCoins)
+    let appCoinsJson = JSON.parse(fileAppCoins)
+    let appCoins = appCoinsJson.coins
+
+    const fileCoinsCategory = readFile(pathCoinCategories)
+    let categoryCoinsJson = JSON.parse(fileCoinsCategory)
+    let categoryCoins = categoryCoinsJson.coins
+
+    for (const catCoin of categoryCoins) {
+
+        const found = appCoins.filter(appCoin =>
+            appCoin.id.trim().toLowerCase() == catCoin.id.trim().toLowerCase()
+        )
+
+        if(found.length > 0){
+            await new Promise(r => setTimeout(r, 1000));
+            if(found[0].external_id){
+                const coinId = found[0].external_id.coingecko
+                console.log(`Fetching data for:${found[0].code}`)
+                const result = await coinGeckoClient.coins.fetch(coinId, {
+                    localization: false,
+                    community_data: true,
+                    market_data: false,
+                    developer_data: false,
+                    tickers: false
+                })
+
+                if (result.code === 200){
+                    catCoin.links = addLinksData(result.data.links)
+                }
+            }
+        }
+    }
+
+    saveFile('./config/coins.json', JSON.stringify(categoryCoins))
+}
+//--------------------------------------------
+
+//mergeCoinGeckoCoins()
+//mergeCryptoCompareCoins()
 //mergeAppCoins()
+//addCoinGeckoCommunityData()
+

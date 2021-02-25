@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "coingecko-api": "^1.0.10",
     "esm": "^3.2.25",
     "fast-levenshtein": "^3.0.0",
     "fs": "0.0.1-security",

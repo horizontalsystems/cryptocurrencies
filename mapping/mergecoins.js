@@ -60,9 +60,9 @@ function getPlatformInfo(coinGeckoCoin){
                 else if(platformName === 'binance-smart-chain'){
                     return { name:'binance-smart-chain', type:'bep20', address: platformValue, coinId: `bep20|${platformValue}`}
                 }
-                else{
-                    return { name:platformName, type:'', address: platformValue, coinId: `${platformName}|${platformValue}`}
-                }
+                // else{
+                //     return { name:platformName, type:'', address: platformValue, coinId: `${platformName}|${platformValue}`}
+                // }
             }
         }
     }
@@ -128,6 +128,7 @@ function mergeCoinGeckoCoins(){
                 name : 'Binance Smart Chain',
                 external_id: {
                     coingecko: coinGeckoCoin.id,
+                    cryptocompare: `BNB`,
                 }
             })
         }
@@ -632,8 +633,8 @@ async function addCoinGeckoCommunityData(){
 }
 //--------------------------------------------
 
-//mergeCoinGeckoCoins()
-//mergeCryptoCompareCoins()
-//mergeAppCoins()
+mergeCoinGeckoCoins()
+mergeCryptoCompareCoins()
+mergeAppCoins()
 //addCoinGeckoCommunityData()
 

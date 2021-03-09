@@ -1,5 +1,5 @@
 {
-    "version": 1,
+    "version": 2,
     "categories": [
         { "id": "blockchain", "name": "Blockchain" },
         { "id": "dexes", "name": "DEXes" },
@@ -327,7 +327,7 @@
             "name": "Balancer",
             "categories": ["dexes"],
             "active": true,
-            "platform": { "name": "ethereum", "address": "0xba100000625a3754423978a60c9317c58a424e3D", "type": "ERC20" },
+            "platform": { "name": "ethereum", "address": "0xba100000625a3754423978a60c9317c58a424e3d", "type": "ERC20" },
             "description": "An AMM, or Automated Market Maker is a general term that defines an algorithm for creating and managing liquidity. Instead of paying fees to portfolio managers to rebalance the users&#39; portfolio, they collect fees from traders, who rebalance their portfolio. Users can earn returns by providing liquidity or as a trader swap between any assets in the global liquidity pool.",
             "links": {
                 "website": "https://balancer.finance/",
@@ -396,7 +396,7 @@
             "name": "Bidao",
             "categories": ["fiat_stablecoins"],
             "active": true,
-            "platform": { "name": "ethereum", "address": "0x25e1474170c4c0aA64fa98123bdc8dB49D7802fa", "type": "ERC20" },
+            "platform": { "name": "ethereum", "address": "0x25e1474170c4c0aa64fa98123bdc8db49d7802fa", "type": "ERC20" },
             "description": "Bidao® is building a chain agnostic trustless stablecoin and decentralized finance ecosystem. Moreover the Bidao® Token can be staked to earn extra rewards.",
             "links": {
                 "website": "https://bidaochain.com/",
@@ -517,14 +517,14 @@
             "name": "bZx Protocol",
             "categories": ["lending"],
             "active": true,
-            "platform": { "name": "ethereum", "address": "0xB72B31907C1C95F3650b64b2469e08EdACeE5e8F", "type": "ERC20" },
+            "platform": { "name": "ethereum", "address": "0xb72b31907c1c95f3650b64b2469e08edacee5e8f", "type": "ERC20" },
             "links": {
                 "website": "https://bzx.network/",
                 "whitepaper": "",
                 "guide": "",
                 "twitter": "https://twitter.com/bzxHQ",
                 "reddit": "",
-                "telegram": "https://t.me/b0xNet"
+                "telegram": "https://t.me/b0xnet"
             },
             "rating": "",
             "audit": [
@@ -1443,7 +1443,7 @@
             "name": "Golem",
             "categories": ["computing"],
             "active": true,
-            "platform": { "name": "ethereum", "address": "0x7DD9c5Cba05E151C895FDe1CF355C9A1D5DA6429", "type": "ERC20" },
+            "platform": { "name": "ethereum", "address": "0x7dd9c5cba05e151c895fde1cf355c9a1d5da6429", "type": "ERC20" },
             "description": "The Golem Network is a decentralized computation network. Using Golem users can buy or sell computational power from other users in a peer to peer environment. Golem is built using Ethereum smart contracts as a transaction system for nano-payments within the network. Golem Network Tokens (GNT) will serve as a secure medium for all transactions within the Golem Network.Starting 19 NOV 2020, Golem Network Token is migrating towards an ERC20 token, mainly because New Golem’s transaction framework is built on Ethereum’s Layer 2, and this scaling method requires tokens to be ERC-20.Migrate your GNT to the new, ERC-20 GLM token - step by step guide and migration options",
             "links": {
                 "website": "https://golem.network/",
@@ -1590,7 +1590,7 @@
             "name": "HedgeTrade",
             "categories": ["prediction_markets"],
             "active": true,
-            "platform": { "name": "ethereum", "address": "0xF1290473E210b2108A85237fbCd7b6eb42Cc654F", "type": "ERC20" },
+            "platform": { "name": "ethereum", "address": "0xf1290473e210b2108a85237fbcd7b6eb42cc654f", "type": "ERC20" },
             "description": "HedgeTrade is a platform where the traders share their knowledge. Traders post predictions into a smart contract-powered Blueprint that users can purchase or unlock in order to access. Traders are rewarded if the Blueprint is correct, otherwise, the users&#39; purchase is refunded.",
             "links": {
                 "website": "https://hedgetrade.com/",
@@ -2155,7 +2155,7 @@
             "name": "Melon",
             "categories": ["risk_management"],
             "active": true,
-            "platform": { "name": "ethereum", "address": "0xec67005c4E498Ec7f55E092bd1d35cbC47C91892", "type": "ERC20" },
+            "platform": { "name": "ethereum", "address": "0xec67005c4e498ec7f55e092bd1d35cbc47c91892", "type": "ERC20" },
             "description": "Enzyme empowers users to build and scale investment strategies of their choice - from discretionary and robot to ETFs and market-making. Its second-generation smart contract-enforced platform is thoroughly tested and audited before any mainnet deployments are made.Enzyme Finance was formerly known as Melon Protocol. The token has a new icon and name, but the MLN ticker and contract address stay the same. MLN is used to pay for various functions throughout the fund creation process and investment lifecycle.",
             "links": {
                 "website": "https://enzyme.finance/",
@@ -2330,7 +2330,7 @@
             "name": "OctoFi",
             "categories": ["yield_aggregators"],
             "active": true,
-            "platform": { "name": "ethereum", "address": "0x7240aC91f01233BaAf8b064248E80feaA5912BA3", "type": "ERC20" },
+            "platform": { "name": "ethereum", "address": "0x7240ac91f01233baaf8b064248e80feaa5912ba3", "type": "ERC20" },
             "description": "OctoFi is an open-source platform providing decentralized finance oracles tentacles. It believes that the term ‘oracle’ itself implies unreasonable dependence on a single source of truth. In most cases, an oracle is viewed as singular, and while OctoFi appreciates their importance it foresees the existence of many, all of which are auditable against one another.",
             "links": {
                 "website": "https://octo.fi ",
@@ -3406,7 +3406,7 @@
             "name": "Tixl",
             "categories": ["scaling"],
             "active": true,
-            "platform": { "name": "ethereum", "address": "0x8eEF5a82E6Aa222a60F009ac18c24EE12dBf4b41", "type": "ERC20" },
+            "platform": { "name": "ethereum", "address": "0x8eef5a82e6aa222a60f009ac18c24ee12dbf4b41", "type": "ERC20" },
             "links": {
                 "website": "https://tixl.org/",
                 "whitepaper": "",
@@ -3869,8 +3869,8 @@
                 "whitepaper": "",
                 "guide": "",
                 "twitter": "https://twitter.com/0xproject",
-                "github": "https://github.com/0xProject/0x-monorepo",
-                "reddit": "https://www.reddit.com/r/0xProject/",
+                "github": "https://github.com/0xproject/0x-monorepo",
+                "reddit": "https://www.reddit.com/r/0xproject/",
                 "telegram": "https://t.me/official_0x"
             },
             "rating": "",
@@ -4178,7 +4178,7 @@
             "name": "Polkadot",
             "categories": ["blockchain"],
             "active": true,
-            "description": "Polkadot development is on track to deliver a robust platform for security, scalability, and innovation. Currently, Polkadot is in the NPoS phase of launch. Polkadot enables cross-blockchain transfers of any type of data or asset, not just tokens. Connecting to Polkadot gives users the ability to interoperate with a wide variety of blockchains in the Polkadot network.The DOT token serves three distinct purposes: governance over the network, staking, and bonding.\"This page refers to the new DOT which is 100x smaller than the old DOT (the DOT token underwent a redenomination from its original sale on 21 August 2020 at 16:40 UTC, block number 1,248,328)\"",
+            "description": "Polkadot development is on track to deliver a robust platform for security, scalability, and innovation. currently, Polkadot is in the NPoS phase of launch. Polkadot enables cross-blockchain transfers of any type of data or asset, not just tokens. Connecting to Polkadot gives users the ability to interoperate with a wide variety of blockchains in the Polkadot network.the Dot token serves three distinct purposes: governance over the network, staking, and bonding.\"This page refers to the new Dot which is 100x smaller than the old dot (the Dot token underwent a redenomination from its original sale on 21 August 2020 at 16:40 utc, block number 1,248,328)\"",
             "links": {
                 "website": "https://polkadot.network/",
                 "whitepaper": "",

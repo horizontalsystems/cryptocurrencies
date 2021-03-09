@@ -1869,6 +1869,412 @@
             "decimal": 18,
             "type": "erc20",
             "address": "0x9d1233cc46795E94029fDA81aAaDc1455D510f15"
+        },
+        {
+            "title": "Binance Beacon ETH",
+            "code": "BETH",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x250632378e573c6be1ac2f97fcdf00515d0aa91b"
+        },
+        {
+            "title": "Binance-Peg BUSD Token",
+            "code": "BUSD",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56"
+        },
+        {
+            "title": "Binance-Peg Ethereum Token",
+            "code": "ETH",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x2170ed0880ac9a755fd29b2688956bd959f933f8"
+        },
+        {
+            "title": "Binance-Peg BTCB Token",
+            "code": "BTCB",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c"
+        },
+        {
+            "title": "PancakeSwap Token",
+            "code": "Cake",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+        },
+        {
+            "title": "Venus ETH",
+            "code": "vETH",
+            "decimal": 8,
+            "type": "bep20",
+            "address": "0xf508fcd89b8bd15579dc79a6827cb4686a3592c8"
+        },
+        {
+            "title": "Venus BTC",
+            "code": "vBTC",
+            "decimal": 8,
+            "type": "bep20",
+            "address": "0x882c173bc7ff3b7786ca16dfed3dfffb9ee7847b"
+        },
+        {
+            "title": "Wrapped BNB",
+            "code": "WBNB",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+        },
+        {
+            "title": "Binance-Peg BUSD-T",
+            "code": "BUSD-T",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x55d398326f99059ff775485246999027b3197955"
+        },
+        {
+            "title": "Venus USDT",
+            "code": "vUSDT",
+            "decimal": 8,
+            "type": "bep20",
+            "address": "0xfd5840cd36d94d7229439859c0112a4185bc0255"
+        },
+        {
+            "title": "Venus",
+            "code": "XVS",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63"
+        },
+        {
+            "title": "Binance-Peg USD Coin",
+            "code": "USDC",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d"
+        },
+        {
+            "title": "Venus USDC",
+            "code": "vUSDC",
+            "decimal": 8,
+            "type": "bep20",
+            "address": "0xeca88125a5adbe82614ffc12d0db554e2e2867c8"
+        },
+        {
+            "title": "Swipe",
+            "code": "SXP",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x47bead2563dcbf3bf2c9407fea4dc236faba485a"
+        },
+        {
+            "title": "Binance-Peg ChainLink Token",
+            "code": "LINK",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd"
+        },
+        {
+            "title": "VAI Stablecoin",
+            "code": "VAI",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x4bd17003473389a42daf6a0a729f6fdb328bbbd7"
+        },
+        {
+            "title": "AlphaToken",
+            "code": "ALPHA",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xa1faa113cbe53436df28ff0aee54275c13b40975"
+        },
+        {
+            "title": "SafePal Token",
+            "code": "SFP",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xd41fdb03ba84762dd66a0af1a6c8540ff1ba5dfb"
+        },
+        {
+            "title": "BakeryToken",
+            "code": "BAKE",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xe02df9e3e622debdd69fb838bb799e3f168902c5"
+        },
+        {
+            "title": "Venus BETH",
+            "code": "vBETH",
+            "decimal": 8,
+            "type": "bep20",
+            "address": "0x972207a639cc1b374b893cc33fa251b55ceb7c07"
+        },
+        {
+            "title": "Trust Wallet",
+            "code": "TWT",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x4b0f1812e5df2a09796481ff14017e6005508003"
+        },
+        {
+            "title": "Binance-Peg Dai Token",
+            "code": "DAI",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3"
+        },
+        {
+            "title": "Venus XVS",
+            "code": "vXVS",
+            "decimal": 8,
+            "type": "bep20",
+            "address": "0x151b1e2635a717bcdc836ecd6fbb62b674fe3e1d"
+        },
+        {
+            "title": "Binance-Peg Litecoin Token",
+            "code": "LTC",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x4338665cbb7b2485a8855a139b75d5e34ab0db94"
+        },
+        {
+            "title": "Venus LINK",
+            "code": "vLINK",
+            "decimal": 8,
+            "type": "bep20",
+            "address": "0x650b940a1033b8a1b1873f78730fcfc73ec11f1f"
+        },
+        {
+            "title": "Binance-Peg Uniswap",
+            "code": "UNI",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xbf5140a22578168fd562dccf235e5d43a02ce9b1"
+        },
+        {
+            "title": "Burger Swap",
+            "code": "BURGER",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xae9269f27437f0fcbc232d39ec814844a51d6b8f"
+        },
+        {
+            "title": "AUTOv2",
+            "code": "AUTO",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xa184088a740c695e156f91f5cc086a06bb78b827"
+        },
+        {
+            "title": "Linear Token",
+            "code": "LINA",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x762539b45a1dcce3d36d080f74d1aed37844b878"
+        },
+        {
+            "title": "Prometeus",
+            "code": "PROM",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xaf53d56ff99f1322515e54fdde93ff8b3b7dafd5"
+        },
+        {
+            "title": "Binance-Peg Band Protocol Token",
+            "code": "BAND",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xad6caeb32cd2c308980a548bd0bc5aa4306c6c18"
+        },
+        {
+            "title": "SPARTAN PROTOCOL TOKEN",
+            "code": "SPARTA",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xe4ae305ebe1abe663f261bc00534067c80ad677c"
+        },
+        {
+            "title": "BSCX",
+            "code": "BSCX",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x5ac52ee5b2a633895292ff6d8a89bb9190451587"
+        },
+        {
+            "title": "Venus SXP",
+            "code": "vSXP",
+            "decimal": 8,
+            "type": "bep20",
+            "address": "0x2ff3d0f6990a40261c66e1ff2017acbc282eb6d0"
+        },
+        {
+            "title": "Reef.finance",
+            "code": "REEF",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xf21768ccbc73ea5b6fd3c687208a7c2def2d966e"
+        },
+        {
+            "title": "Binance-Peg Bitcoin Cash Token",
+            "code": "BCH",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x8ff795a6f4d97e7887c79bea79aba5cc76444adf"
+        },
+        {
+            "title": "Venus DAI",
+            "code": "vDAI",
+            "decimal": 8,
+            "type": "bep20",
+            "address": "0x334b3ecb4dca3593bccc3c7ebd1a1c1d1780fbf1"
+        },
+        {
+            "title": "Venus LTC",
+            "code": "vLTC",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x57a5297f2cb2c0aac9d554660acd6d385ab50c6b"
+        },
+        {
+            "title": "Binance-Peg yearn.finance",
+            "code": "YFI",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x88f1a5ae2a3bf98aeaf342d26b30a79438c9142e"
+        },
+        {
+            "title": "Cream",
+            "code": "CREAM",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xd4cb328a82bdf5f03eb737f37fa6b370aef3e888"
+        },
+        {
+            "title": "Ankr",
+            "code": "ANKR",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xf307910a4c7bbc79691fd374889b36d8531b08e3"
+        },
+        {
+            "title": "Berry Tributes",
+            "code": "BRY",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xf859bf77cbe8699013d6dbc7c2b926aaf307f830"
+        },
+        {
+            "title": "Certik Token",
+            "code": "CTK",
+            "decimal": 6,
+            "type": "bep20",
+            "address": "0xa8c2b8eec3d368c0253ad3dae65a5f2bbb89c929"
+        },
+        {
+            "title": "Binance-Peg YFII.finance Token",
+            "code": "YFII",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x7f70642d88cf1c4a3a7abb072b53b929b653eda5"
+        },
+        {
+            "title": "MATH Token",
+            "code": "MATH",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xf218184af829cf2b0019f8e6f0b2423498a36983"
+        },
+        {
+            "title": "Wrapped UST Token",
+            "code": "UST",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x23396cf899ca06c4472205fc903bdb4de249d6fc"
+        },
+        {
+            "title": "Binance-Peg Compound Coin",
+            "code": "COMP",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x52ce071bd9b1c4b00a0b92d298c512478cad67e8"
+        },
+        {
+            "title": "Binance-Peg Synthetix Network Token",
+            "code": "SNX",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x9ac983826058b8a9c7aa1c9171441191232e8404"
+        },
+        {
+            "title": "Binance-Peg Zcash Token",
+            "code": "COMP",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x1ba42e5193dfa8b03d15dd1b86a3113bbbef8eeb"
+        },
+        {
+            "title": "Venus BCH",
+            "code": "vBCH",
+            "decimal": 8,
+            "type": "bep20",
+            "address": "0x5f0388ebc2b94fa8e123f404b79ccf5f40b29176"
+        },
+        {
+            "title": "Binance-Peg Basic Attention Token",
+            "code": "BAT",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x101d82428437127bf1608f699cd651e6abf9766e"
+        },
+        {
+            "title": "Binance-Peg Maker",
+            "code": "MKR",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x5f0da599bb2cccfcf6fdfd7d81743b6020864350"
+        },
+        {
+            "title": "Binance-Peg Paxos Standard",
+            "code": "PAX",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xb7f8cd00c5a06c0537e2abff0b58033d02e5e094"
+        },
+        {
+            "title": "Binance-Peg PAX Gold",
+            "code": "PAXG",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x7950865a9140cb519342433146ed5b40c6f210f7"
+        },
+        {
+            "title": "Binance-Peg BTCB Token",
+            "code": "BTCB",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c"
+        },
+        {
+            "title": "Binance-Peg ELF Token",
+            "code": "ELF",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xa3f020a5c92e15be13caf0ee5c95cf79585eecc9"
+        },
+        {
+            "title": "Kebab Token",
+            "code": "KEBAB",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x7979f6c54eba05e18ded44c4f986f49a5de551c2"
+        },
+        {
+            "title": "ACryptoS",
+            "code": "ACS",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x4197C6EF3879a08cD51e5560da5064B773aa1d29"
         }
     ]
 }

@@ -1,5 +1,5 @@
 {
-    "version": 1,
+    "version": 2,
     "coins": [
         {
             "title": "Bitcoin",
@@ -55,21 +55,21 @@
             "code": "$BASED",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5"
+            "address": "0x68a118ef45063051eac49c7e647ce5ace48a68a5"
         },
         {
             "title": "0chain",
             "code": "ZCN",
             "decimal": 10,
             "type": "erc20",
-            "address": "0xb9EF770B6A5e12E45983C5D80545258aA38F3B78"
+            "address": "0xb9ef770b6a5e12e45983c5d80545258aa38f3b78"
         },
         {
             "title": "0x Protocol",
             "code": "ZRX",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498"
+            "address": "0xe41d2489571d322189246dafa5ebde1f4699f498"
         },
         {
             "title": "1INCH Token",
@@ -90,7 +90,7 @@
             "code": "LEND",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x80fB784B7eD66730e8b1DBd9820aFD29931aab03"
+            "address": "0x80fb784b7ed66730e8b1dbd9820afd29931aab03"
         },
         {
             "title": "Aave Token",
@@ -104,14 +104,14 @@
             "code": "ADAI",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d"
+            "address": "0xfc1e690f61efd961294b3e1ce3313fbd8aa4f85d"
         },
         {
             "title": "Aelf",
             "code": "ELF",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xbf2179859fc6D5BEE9Bf9158632Dc51678a4100e"
+            "address": "0xbf2179859fc6d5bee9bf9158632dc51678a4100e"
         },
         {
             "title": "AirSwap",
@@ -132,7 +132,7 @@
             "code": "ALBT",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x00a8b738E453fFd858a7edf03bcCfe20412f0Eb0"
+            "address": "0x00a8b738e453ffd858a7edf03bccfe20412f0eb0"
         },
         {
             "title": "AlphaToken",
@@ -167,28 +167,28 @@
             "code": "API3",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x0b38210ea11411557c13457D4dA7dC6ea731B88a"
+            "address": "0x0b38210ea11411557c13457d4da7dc6ea731b88a"
         },
         {
             "title": "APY Governance Token",
             "code": "APY",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x95a4492F028aa1fd432Ea71146b433E7B4446611"
+            "address": "0x95a4492f028aa1fd432ea71146b433e7b4446611"
         },
         {
             "title": "Aragon",
             "code": "ANT",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x960b236A07cf122663c4303350609A66A7B288C0"
+            "address": "0x960b236a07cf122663c4303350609a66a7b288c0"
         },
         {
             "title": "Aragon Court",
             "code": "ANJ",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xcD62b1C403fa761BAadFC74C525ce2B51780b184"
+            "address": "0xcd62b1c403fa761baadfc74c525ce2b51780b184"
         },
         {
             "title": "Auctus",
@@ -202,14 +202,14 @@
             "code": "REP",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x1985365e9f78359a9B6AD760e32412f4a445E862"
+            "address": "0x1985365e9f78359a9b6ad760e32412f4a445e862"
         },
         {
             "title": "BAC",
             "code": "BAC",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x3449FC1Cd036255BA1EB19d65fF4BA2b8903A69a"
+            "address": "0x3449fc1cd036255ba1eb19d65ff4ba2b8903a69a"
         },
         {
             "title": "Badger",
@@ -223,14 +223,14 @@
             "code": "BAL",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xba100000625a3754423978a60c9317c58a424e3D"
+            "address": "0xba100000625a3754423978a60c9317c58a424e3d"
         },
         {
             "title": "Bancor",
             "code": "BNT",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C"
+            "address": "0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c"
         },
         {
             "title": "Band Protocol",
@@ -244,7 +244,7 @@
             "code": "BOND",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x0391D2021f89DC339F60Fff84546EA23E337750f"
+            "address": "0x0391d2021f89dc339f60fff84546ea23e337750f"
         },
         {
             "title": "Base Protocol",
@@ -258,7 +258,7 @@
             "code": "BAT",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF"
+            "address": "0x0d8775f648430679a709e98d2b0cb6250d2887ef"
         },
         {
             "title": "beefy.finance",
@@ -272,14 +272,14 @@
             "code": "BID",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x25e1474170c4c0aA64fa98123bdc8dB49D7802fa"
+            "address": "0x25e1474170c4c0aa64fa98123bdc8db49d7802fa"
         },
         {
             "title": "Binance ERC20",
             "code": "BNB",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52"
+            "address": "0xb8c77482e45f1f44de1745f52c74426c631bdd52"
         },
         {
             "title": "Binance USD",
@@ -314,7 +314,7 @@
             "code": "BZRX",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x56d811088235F11C8920698a204A5010a788f4b3"
+            "address": "0x56d811088235f11c8920698a204a5010a788f4b3"
         },
         {
             "title": "Cashaa",
@@ -342,21 +342,21 @@
             "code": "CHAI",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x06AF07097C9Eeb7fD685c692751D5C66dB49c215"
+            "address": "0x06af07097c9eeb7fd685c692751d5c66db49c215"
         },
         {
             "title": "Chain Games",
             "code": "CHAIN",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xC4C2614E694cF534D407Ee49F8E44D125E4681c4"
+            "address": "0xc4c2614e694cf534d407ee49f8e44d125e4681c4"
         },
         {
             "title": "Chainlink",
             "code": "LINK",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA"
+            "address": "0x514910771af9ca656af840dff83e8264ecf986ca"
         },
         {
             "title": "Chiliz",
@@ -384,7 +384,7 @@
             "code": "CDAI",
             "decimal": 8,
             "type": "erc20",
-            "address": "0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643"
+            "address": "0x5d3a536e4d6dbd6114cc1ead35777bab948e3643"
         },
         {
             "title": "Compound Sai",
@@ -426,14 +426,14 @@
             "code": "CRO",
             "decimal": 8,
             "type": "erc20",
-            "address": "0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b"
+            "address": "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b"
         },
         {
             "title": "Curve DAO Token",
             "code": "CRV",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xD533a949740bb3306d119CC777fa900bA034cd52"
+            "address": "0xd533a949740bb3306d119cc777fa900ba034cd52"
         },
         {
             "title": "cVault.finance",
@@ -468,7 +468,7 @@
             "code": "MANA",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942"
+            "address": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942"
         },
         {
             "title": "DefiPulse Index",
@@ -482,14 +482,14 @@
             "code": "DYP",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x961C8c0B1aaD0c0b10a51FeF6a867E3091BCef17"
+            "address": "0x961c8c0b1aad0c0b10a51fef6a867e3091bcef17"
         },
         {
             "title": "DefHold",
             "code": "DEFO",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xe481f2311C774564D517d015e678c2736A25Ddd3"
+            "address": "0xe481f2311c774564d517d015e678c2736a25ddd3"
         },
         {
             "title": "dego.finance",
@@ -503,21 +503,21 @@
             "code": "DEUS",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x3b62F3820e0B035cc4aD602dECe6d796BC325325"
+            "address": "0x3b62f3820e0b035cc4ad602dece6d796bc325325"
         },
         {
             "title": "dForce",
             "code": "USDx",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xeb269732ab75A6fD61Ea60b06fE994cD32a83549"
+            "address": "0xeb269732ab75a6fd61ea60b06fe994cd32a83549"
         },
         {
             "title": "dHedge DAO Token",
             "code": "DHT",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xca1207647Ff814039530D7d35df0e1Dd2e91Fa84"
+            "address": "0xca1207647ff814039530d7d35df0e1dd2e91fa84"
         },
         {
             "title": "DefiDollar",
@@ -545,14 +545,14 @@
             "code": "DGD",
             "decimal": 9,
             "type": "erc20",
-            "address": "0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A"
+            "address": "0xe0b7927c4af23765cb51314a0e0521a9645f0e2a"
         },
         {
             "title": "Digix Gold Token",
             "code": "DGX",
             "decimal": 9,
             "type": "erc20",
-            "address": "0x4f3AfEC4E5a3F2A6a1A411DEF7D7dFe50eE057bF"
+            "address": "0x4f3afec4e5a3f2a6a1a411def7d7dfe50ee057bf"
         },
         {
             "title": "District0x",
@@ -566,7 +566,7 @@
             "code": "DMG",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xEd91879919B71bB6905f23af0A68d231EcF87b14"
+            "address": "0xed91879919b71bb6905f23af0a68d231ecf87b14"
         },
         {
             "title": "DOS Network",
@@ -580,7 +580,7 @@
             "code": "DOS",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x0A913beaD80F321E7Ac35285Ee10d9d922659cB7"
+            "address": "0x0a913bead80f321e7ac35285ee10d9d922659cb7"
         },
         {
             "title": "DuckDaoDime",
@@ -601,14 +601,14 @@
             "code": "eXRD",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x6468e79A80C0eaB0F9A2B574c8d5bC374Af59414"
+            "address": "0x6468e79a80c0eab0f9a2b574c8d5bc374af59414"
         },
         {
             "title": "Enjin Coin",
             "code": "ENJ",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c"
+            "address": "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c"
         },
         {
             "title": "Empty Set Dollar",
@@ -636,21 +636,21 @@
             "code": "ETHYS",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xD0d3EbCAd6A20ce69BC3Bc0e1ec964075425e533"
+            "address": "0xd0d3ebcad6a20ce69bc3bc0e1ec964075425e533"
         },
         {
             "title": "FalconSwap Token",
             "code": "FSW",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xfffffffFf15AbF397dA76f1dcc1A1604F45126DB"
+            "address": "0xfffffffff15abf397da76f1dcc1a1604f45126db"
         },
         {
             "title": "FARM Reward Token",
             "code": "FARM",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xa0246c9032bC3A600820415aE600c6388619A14D"
+            "address": "0xa0246c9032bc3a600820415ae600c6388619a14d"
         },
         {
             "title": "Finiko",
@@ -671,7 +671,7 @@
             "code": "FLUX",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x469eDA64aEd3A3Ad6f868c44564291aA415cB1d9"
+            "address": "0x469eda64aed3a3ad6f868c44564291aa415cb1d9"
         },
         {
             "title": "FOAM Token",
@@ -706,7 +706,7 @@
             "code": "FYZ",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x6BFf2fE249601ed0Db3a87424a2E923118BB0312"
+            "address": "0x6bff2fe249601ed0db3a87424a2e923118bb0312"
         },
         {
             "title": "Gas Token Two",
@@ -720,7 +720,7 @@
             "code": "GUSD",
             "decimal": 2,
             "type": "erc20",
-            "address": "0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd"
+            "address": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd"
         },
         {
             "title": "Gifto",
@@ -741,7 +741,7 @@
             "code": "GLM",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x7DD9c5Cba05E151C895FDe1CF355C9A1D5DA6429"
+            "address": "0x7dd9c5cba05e151c895fde1cf355c9a1d5da6429"
         },
         {
             "title": "Graph Token",
@@ -783,7 +783,7 @@
             "code": "HEGIC",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x584bC13c7D411c00c01A62e8019472dE68768430"
+            "address": "0x584bc13c7d411c00c01a62e8019472de68768430"
         },
         {
             "title": "HEDG",
@@ -797,7 +797,7 @@
             "code": "HEZ",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xEEF9f339514298C6A857EfCfC1A762aF84438dEE"
+            "address": "0xeef9f339514298c6a857efcfc1a762af84438dee"
         },
         {
             "title": "Hland Token",
@@ -811,21 +811,21 @@
             "code": "HOT",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x6c6EE5e31d828De241282B9606C8e98Ea48526E2"
+            "address": "0x6c6ee5e31d828de241282b9606c8e98ea48526e2"
         },
         {
             "title": "Holyheld",
             "code": "HH",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x3FA729B4548beCBAd4EaB6EF18413470e6D5324C"
+            "address": "0x3fa729b4548becbad4eab6ef18413470e6d5324c"
         },
         {
             "title": "Huobi Token",
             "code": "HT",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x6f259637dcD74C767781E37Bc6133cd6A68aa161"
+            "address": "0x6f259637dcd74c767781e37bc6133cd6a68aa161"
         },
         {
             "title": "HUSD",
@@ -839,14 +839,14 @@
             "code": "IDEX",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xB705268213D593B8FD88d3FDEFF93AFF5CbDcfAE"
+            "address": "0xb705268213d593b8fd88d3fdeff93aff5cbdcfae"
         },
         {
             "title": "Idle",
             "code": "IDLE",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x875773784Af8135eA0ef43b5a374AaD105c5D39e"
+            "address": "0x875773784af8135ea0ef43b5a374aad105c5d39e"
         },
         {
             "title": "IoTeX",
@@ -888,21 +888,21 @@
             "code": "KCS",
             "decimal": 6,
             "type": "erc20",
-            "address": "0x039B5649A59967e3e936D7471f9c3700100Ee1ab"
+            "address": "0x039b5649a59967e3e936d7471f9c3700100ee1ab"
         },
         {
             "title": "Kyber Network Crystal",
             "code": "KNC",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xdd974D5C2e2928deA5F71b9825b8b646686BD200"
+            "address": "0xdd974d5c2e2928dea5f71b9825b8b646686bd200"
         },
         {
             "title": "LGCY Network",
             "code": "LGCY",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xaE697F994Fc5eBC000F8e22EbFfeE04612f98A0d"
+            "address": "0xae697f994fc5ebc000f8e22ebffee04612f98a0d"
         },
         {
             "title": "Lido DAO Token",
@@ -916,7 +916,7 @@
             "code": "LINA",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x3E9BC21C9b189C09dF3eF1B824798658d5011937"
+            "address": "0x3e9bc21c9b189c09df3ef1b824798658d5011937"
         },
         {
             "title": "Livepeer Token",
@@ -944,14 +944,14 @@
             "code": "LOOM",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xA4e8C3Ec456107eA67d3075bF9e3DF3A75823DB0"
+            "address": "0xa4e8c3ec456107ea67d3075bf9e3df3a75823db0"
         },
         {
             "title": "Loopring",
             "code": "LRC",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xEF68e7C694F40c8202821eDF525dE3782458639f"
+            "address": "0xef68e7c694f40c8202821edf525de3782458639f"
         },
         {
             "title": "LTO Network",
@@ -986,7 +986,7 @@
             "code": "MKR",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2"
+            "address": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2"
         },
         {
             "title": "Melon Token",
@@ -1007,14 +1007,14 @@
             "code": "MCO",
             "decimal": 8,
             "type": "erc20",
-            "address": "0xB63B606Ac810a52cCa15e44bB630fd42D8d1d83d"
+            "address": "0xb63b606ac810a52cca15e44bb630fd42d8d1d83d"
         },
         {
             "title": "MCDEX Token",
             "code": "MCB",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x4e352cF164E64ADCBad318C3a1e222E9EBa4Ce42"
+            "address": "0x4e352cf164e64adcbad318c3a1e222e9eba4ce42"
         },
         {
             "title": "MEME",
@@ -1028,7 +1028,7 @@
             "code": "MTA",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2"
+            "address": "0xa3bed4e1c75d00fa6f4e5e6922db7261b5e9acd2"
         },
         {
             "title": "mStable USD",
@@ -1049,7 +1049,7 @@
             "code": "USDN",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x674C6Ad92Fd080e4004b2312b45f796a192D27a0"
+            "address": "0x674c6ad92fd080e4004b2312b45f796a192d27a0"
         },
         {
             "title": "NEST",
@@ -1063,14 +1063,14 @@
             "code": "NEXO",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206"
+            "address": "0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206"
         },
         {
             "title": "Nsure Network Token",
             "code": "Nsure",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x20945cA1df56D237fD40036d47E866C7DcCD2114"
+            "address": "0x20945ca1df56d237fd40036d47e866c7dccd2114"
         },
         {
             "title": "Numeraire",
@@ -1091,14 +1091,14 @@
             "code": "OCEAN",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x967da4048cD07aB37855c090aAF366e4ce1b9F48"
+            "address": "0x967da4048cd07ab37855c090aaf366e4ce1b9f48"
         },
         {
             "title": "Octo.fi",
             "code": "OCTO",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x7240aC91f01233BaAf8b064248E80feaA5912BA3"
+            "address": "0x7240ac91f01233baaf8b064248e80feaa5912ba3"
         },
         {
             "title": "Offshift",
@@ -1112,14 +1112,14 @@
             "code": "COVER",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x5D8d9F5b96f4438195BE9b99eee6118Ed4304286"
+            "address": "0x5d8d9f5b96f4438195be9b99eee6118ed4304286"
         },
         {
             "title": "OmiseGO",
             "code": "OMG",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xd26114cd6EE289AccF82350c8d8487fedB8A0C07"
+            "address": "0xd26114cd6ee289accf82350c8d8487fedb8a0c07"
         },
         {
             "title": "Oraichain Token",
@@ -1140,28 +1140,28 @@
             "code": "ORN",
             "decimal": 8,
             "type": "erc20",
-            "address": "0x0258F474786DdFd37ABCE6df6BBb1Dd5dfC4434a"
+            "address": "0x0258f474786ddfd37abce6df6bbb1dd5dfc4434a"
         },
         {
             "title": "Orbs",
             "code": "ORBS",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xff56Cc6b1E6dEd347aA0B7676C85AB0B3D08B0FA"
+            "address": "0xff56cc6b1e6ded347aa0b7676c85ab0b3d08b0fa"
         },
         {
             "title": "Orchid",
             "code": "OXT",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x4575f41308EC1483f3d399aa9a2826d74Da13Deb"
+            "address": "0x4575f41308ec1483f3d399aa9a2826d74da13deb"
         },
         {
             "title": "Panvala pan",
             "code": "PAN",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xD56daC73A4d6766464b38ec6D91eB45Ce7457c44"
+            "address": "0xd56dac73a4d6766464b38ec6d91eb45ce7457c44"
         },
         {
             "title": "Parachute",
@@ -1175,28 +1175,28 @@
             "code": "PAX",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x8E870D67F660D95d5be530380D0eC0bd388289E1"
+            "address": "0x8e870d67f660d95d5be530380d0ec0bd388289e1"
         },
         {
             "title": "Perpetual",
             "code": "PERP",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xbC396689893D065F41bc2C6EcbeE5e0085233447"
+            "address": "0xbc396689893d065f41bc2c6ecbee5e0085233447"
         },
         {
             "title": "PickleToken",
             "code": "PICKLE",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5"
+            "address": "0x429881672b9ae42b8eba0e26cd9c73711b891ca5"
         },
         {
             "title": "PLOT",
             "code": "PLOT",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x72F020f8f3E8fd9382705723Cd26380f8D0c66Bb"
+            "address": "0x72f020f8f3e8fd9382705723cd26380f8d0c66bb"
         },
         {
             "title": "POA",
@@ -1210,21 +1210,21 @@
             "code": "POLS",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x83e6f1E41cdd28eAcEB20Cb649155049Fac3D5Aa"
+            "address": "0x83e6f1e41cdd28eaceb20cb649155049fac3d5aa"
         },
         {
             "title": "Polymath",
             "code": "POLY",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x9992eC3cF6A55b00978cdDF2b27BC6882d88D1eC"
+            "address": "0x9992ec3cf6a55b00978cddf2b27bc6882d88d1ec"
         },
         {
             "title": "Populous",
             "code": "PPT",
             "decimal": 8,
             "type": "erc20",
-            "address": "0xd4fa1460F537bb9085d22C7bcCB5DD450Ef28e3a"
+            "address": "0xd4fa1460f537bb9085d22c7bccb5dd450ef28e3a"
         },
         {
             "title": "pTokens BTC",
@@ -1238,7 +1238,7 @@
             "code": "NPXS",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xA15C7Ebe1f07CaF6bFF097D8a589fb8AC49Ae5B3"
+            "address": "0xa15c7ebe1f07caf6bff097d8a589fb8ac49ae5b3"
         },
         {
             "title": "Quant",
@@ -1266,7 +1266,7 @@
             "code": "RGT",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xD291E7a03283640FDc51b121aC401383A46cC623"
+            "address": "0xd291e7a03283640fdc51b121ac401383a46cc623"
         },
         {
             "title": "renBTC",
@@ -1308,7 +1308,7 @@
             "code": "RFI",
             "decimal": 9,
             "type": "erc20",
-            "address": "0xA1AFFfE3F4D611d252010E3EAf6f4D77088b0cd7"
+            "address": "0xa1afffe3f4d611d252010e3eaf6f4d77088b0cd7"
         },
         {
             "title": "Reputation",
@@ -1329,7 +1329,7 @@
             "code": "REV",
             "decimal": 0,
             "type": "erc20",
-            "address": "0x48f775EFBE4F5EcE6e0DF2f7b5932dF56823B990"
+            "address": "0x48f775efbe4f5ece6e0df2f7b5932df56823b990"
         },
         {
             "title": "Rio Fuel Token",
@@ -1350,7 +1350,7 @@
             "code": "RLC",
             "decimal": 9,
             "type": "erc20",
-            "address": "0x607F4C5BB672230e8672085532f7e901544a7375"
+            "address": "0x607f4c5bb672230e8672085532f7e901544a7375"
         },
         {
             "title": "Robonomics",
@@ -1371,28 +1371,28 @@
             "code": "ROOT",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xCb5f72d37685C3D5aD0bB5F982443BC8FcdF570E"
+            "address": "0xcb5f72d37685c3d5ad0bb5f982443bc8fcdf570e"
         },
         {
             "title": "Sai",
             "code": "SAI",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359"
+            "address": "0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
         },
         {
             "title": "Salt",
             "code": "SALT",
             "decimal": 8,
             "type": "erc20",
-            "address": "0x4156D3342D5c385a87D264F90653733592000581"
+            "address": "0x4156d3342d5c385a87d264f90653733592000581"
         },
         {
             "title": "SAND",
             "code": "SAND",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x3845badAde8e6dFF049820680d1F14bD3903a5d0"
+            "address": "0x3845badade8e6dff049820680d1f14bd3903a5d0"
         },
         {
             "title": "Santiment Network Token",
@@ -1406,7 +1406,7 @@
             "code": "SHARE",
             "decimal": 9,
             "type": "erc20",
-            "address": "0x39795344CBCc76cC3Fb94B9D1b15C23c2070C66D"
+            "address": "0x39795344cbcc76cc3fb94b9d1b15c23c2070c66d"
         },
         {
             "title": "SelfKey",
@@ -1420,7 +1420,7 @@
             "code": "SRM",
             "decimal": 6,
             "type": "erc20",
-            "address": "0x476c5E26a75bd202a9683ffD34359C0CC15be0fF"
+            "address": "0x476c5e26a75bd202a9683ffd34359c0cc15be0ff"
         },
         {
             "title": "ShareToken",
@@ -1434,7 +1434,7 @@
             "code": "XOR",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x40FD72257597aA14C7231A7B1aaa29Fce868F677"
+            "address": "0x40fd72257597aa14c7231a7b1aaa29fce868f677"
         },
         {
             "title": "SpankChain",
@@ -1462,14 +1462,14 @@
             "code": "EURS",
             "decimal": 2,
             "type": "erc20",
-            "address": "0xdB25f211AB05b1c97D595516F45794528a807ad8"
+            "address": "0xdb25f211ab05b1c97d595516f45794528a807ad8"
         },
         {
             "title": "Status",
             "code": "SNT",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x744d70FDBE2Ba4CF95131626614a1763DF805B9E"
+            "address": "0x744d70fdbe2ba4cf95131626614a1763df805b9e"
         },
         {
             "title": "Storj",
@@ -1490,14 +1490,14 @@
             "code": "SWFL",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xBa21Ef4c9f433Ede00badEFcC2754B8E74bd538A"
+            "address": "0xba21ef4c9f433ede00badefcc2754b8e74bd538a"
         },
         {
             "title": "Swerve DAO Token",
             "code": "SWRV",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xB8BAa0e4287890a5F79863aB62b7F175ceCbD433"
+            "address": "0xb8baa0e4287890a5f79863ab62b7f175cecbd433"
         },
         {
             "title": "Swipe",
@@ -1525,28 +1525,28 @@
             "code": "SNX",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F"
+            "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f"
         },
         {
             "title": "Synth sETH",
             "code": "sETH",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x5e74C9036fb86BD7eCdcb084a0673EFc32eA31cb"
+            "address": "0x5e74c9036fb86bd7ecdcb084a0673efc32ea31cb"
         },
         {
             "title": "Synth sUSD",
             "code": "sUSD",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51"
+            "address": "0x57ab1ec28d129707052df4df418d58a2d46d5f51"
         },
         {
             "title": "Synth sXAU",
             "code": "sXAU",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x261EfCdD24CeA98652B9700800a13DfBca4103fF"
+            "address": "0x261efcdd24cea98652b9700800a13dfbca4103ff"
         },
         {
             "title": "tBTC",
@@ -1567,7 +1567,7 @@
             "code": "USDT",
             "decimal": 6,
             "type": "erc20",
-            "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+            "address": "0xdac17f958d2ee523a2206206994597c13d831ec7"
         },
         {
             "title": "The Force Token",
@@ -1581,7 +1581,7 @@
             "code": "imBTC",
             "decimal": 8,
             "type": "erc20",
-            "address": "0x3212b29E33587A00FB1C83346f5dBFA69A458923"
+            "address": "0x3212b29e33587a00fb1c83346f5dbfa69a458923"
         },
         {
             "title": "THORChain",
@@ -1602,7 +1602,7 @@
             "code": "TAUD",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x00006100F7090010005F1bd7aE6122c3C2CF0090"
+            "address": "0x00006100f7090010005f1bd7ae6122c3c2cf0090"
         },
         {
             "title": "TrueAUD",
@@ -1616,7 +1616,7 @@
             "code": "TCAD",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x00000100F2A2bd000715001920eB70D229700085"
+            "address": "0x00000100f2a2bd000715001920eb70d229700085"
         },
         {
             "title": "TrueGBP",
@@ -1644,7 +1644,7 @@
             "code": "TUSD",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x0000000000085d4780B73119b644AE5ecd22b376"
+            "address": "0x0000000000085d4780b73119b644ae5ecd22b376"
         },
         {
             "title": "TrueUSD",
@@ -1672,7 +1672,7 @@
             "code": "SWAP",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xCC4304A31d09258b0029eA7FE63d032f52e44EFe"
+            "address": "0xcc4304a31d09258b0029ea7fe63d032f52e44efe"
         },
         {
             "title": "Trust Wallet",
@@ -1700,7 +1700,7 @@
             "code": "UMA",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828"
+            "address": "0x04fa0d235c4abf4bcf4787af4cf447de572ef828"
         },
         {
             "title": "Uniswap",
@@ -1714,28 +1714,28 @@
             "code": "USDC",
             "decimal": 6,
             "type": "erc20",
-            "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+            "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
         },
         {
             "title": "Utrust",
             "code": "UTK",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xdc9Ac3C20D1ed0B540dF9b1feDC10039Df13F99c"
+            "address": "0xdc9ac3c20d1ed0b540df9b1fedc10039df13f99c"
         },
         {
             "title": "Veritaseum",
             "code": "VERI",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x8f3470A7388c05eE4e7AF3d01D8C722b0FF52374"
+            "address": "0x8f3470a7388c05ee4e7af3d01d8c722b0ff52374"
         },
         {
             "title": "Waltonchain",
             "code": "WTC",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xb7cB1C96dB6B22b0D3d9536E0108d062BD488F74"
+            "address": "0xb7cb1c96db6b22b0d3d9536e0108d062bd488f74"
         },
         {
             "title": "WAVES",
@@ -1763,7 +1763,7 @@
             "code": "WISE",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x66a0f676479Cee1d7373f3DC2e2952778BfF5bd6"
+            "address": "0x66a0f676479cee1d7373f3dc2e2952778bff5bd6"
         },
         {
             "title": "Whiteheart Token",
@@ -1777,7 +1777,7 @@
             "code": "wANATHA",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x3383c5a8969Dc413bfdDc9656Eb80A1408E4bA20"
+            "address": "0x3383c5a8969dc413bfddc9656eb80a1408e4ba20"
         },
         {
             "title": "Wrapped Bitcoin",
@@ -1798,14 +1798,14 @@
             "code": "WFIL",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x6e1A19F235bE7ED8E3369eF73b196C07257494DE"
+            "address": "0x6e1a19f235be7ed8e3369ef73b196c07257494de"
         },
         {
             "title": "Wrapped MIR Token",
             "code": "MIR",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x09a3EcAFa817268f77BE1283176B946C4ff2E608"
+            "address": "0x09a3ecafa817268f77be1283176b946c4ff2e608"
         },
         {
             "title": "Wrapped ZEC",
@@ -1819,14 +1819,14 @@
             "code": "STAKE",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x0Ae055097C6d159879521C384F1D2123D1f195e6"
+            "address": "0x0ae055097c6d159879521c384f1d2123d1f195e6"
         },
         {
             "title": "XIO Network",
             "code": "XIO",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x0f7F961648aE6Db43C75663aC7E5414Eb79b5704"
+            "address": "0x0f7f961648ae6db43c75663ac7e5414eb79b5704"
         },
         {
             "title": "yAxis",
@@ -1847,14 +1847,14 @@
             "code": "Yf-DAI",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xf4CD3d3Fda8d7Fd6C5a500203e38640A70Bf9577"
+            "address": "0xf4cd3d3fda8d7fd6c5a500203e38640a70bf9577"
         },
         {
             "title": "YFII.finance",
             "code": "YFII",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xa1d0E215a23d7030842FC67cE582a6aFa3CCaB83"
+            "address": "0xa1d0e215a23d7030842fc67ce582a6afa3ccab83"
         },
         {
             "title": "yfi.mobi",
@@ -1868,7 +1868,7 @@
             "code": "ZAI",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x9d1233cc46795E94029fDA81aAaDc1455D510f15"
+            "address": "0x9d1233cc46795e94029fda81aaadc1455d510f15"
         },
         {
             "title": "Binance Beacon ETH",
@@ -2274,7 +2274,7 @@
             "code": "ACS",
             "decimal": 18,
             "type": "bep20",
-            "address": "0x4197C6EF3879a08cD51e5560da5064B773aa1d29"
+            "address": "0x4197c6ef3879a08cd51e5560da5064b773aa1d29"
         }
     ]
 }

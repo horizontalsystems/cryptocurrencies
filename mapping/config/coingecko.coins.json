@@ -1500,6 +1500,14 @@
     {
         "id": "aave-bat",
         "symbol": "abat",
+        "name": "Aave BAT",
+        "platforms": {
+            "ethereum": "0x05ec93c0365baaeabf7aeffb0972ea7ecdd39cf1"
+        }
+    },
+    {
+        "id": "aave-bat-v1",
+        "symbol": "abat",
         "name": "Aave BAT v1",
         "platforms": {
             "ethereum": "0xe1ba0fb44ccb0d11b80f92f4f8ed94ca3ff51d00"
@@ -1507,6 +1515,14 @@
     },
     {
         "id": "aave-busd",
+        "symbol": "abusd",
+        "name": "Aave BUSD",
+        "platforms": {
+            "ethereum": "0xa361718326c15715591c299427c62086f69923d9"
+        }
+    },
+    {
+        "id": "aave-busd-v1",
         "symbol": "abusd",
         "name": "Aave BUSD v1",
         "platforms": {
@@ -1516,6 +1532,14 @@
     {
         "id": "aave-dai",
         "symbol": "adai",
+        "name": "Aave DAI",
+        "platforms": {
+            "ethereum": "0x028171bca77440897b824ca71d1c56cac55b68a3"
+        }
+    },
+    {
+        "id": "aave-dai-v1",
+        "symbol": "adai",
         "name": "Aave DAI v1",
         "platforms": {
             "ethereum": "0xfc1e690f61efd961294b3e1ce3313fbd8aa4f85d"
@@ -1524,13 +1548,21 @@
     {
         "id": "aave-enj",
         "symbol": "aenj",
+        "name": "Aave ENJ",
+        "platforms": {
+            "ethereum": "0xac6df26a590f08dcc95d5a4705ae8abbc88509ef"
+        }
+    },
+    {
+        "id": "aave-enj-v1",
+        "symbol": "aenj",
         "name": "Aave ENJ v1",
         "platforms": {
             "ethereum": "0x712db54daa836b53ef1ecbb9c6ba3b9efb073f40"
         }
     },
     {
-        "id": "aave-eth",
+        "id": "aave-eth-v1",
         "symbol": "aeth",
         "name": "Aave ETH v1",
         "platforms": {
@@ -1549,6 +1581,14 @@
     {
         "id": "aave-knc",
         "symbol": "aknc",
+        "name": "Aave KNC",
+        "platforms": {
+            "ethereum": "0x39c6b3e42d6a679d7d776778fe880bc9487c2eda"
+        }
+    },
+    {
+        "id": "aave-knc-v1",
+        "symbol": "aknc",
         "name": "Aave KNC v1",
         "platforms": {
             "ethereum": "0x9d91be44c06d373a8a226e1f3b146956083803eb"
@@ -1556,6 +1596,14 @@
     },
     {
         "id": "aave-link",
+        "symbol": "alink",
+        "name": "Aave LINK",
+        "platforms": {
+            "ethereum": "0xa06bc25b5805d5f8d82847d191cb4af5a3e873e0"
+        }
+    },
+    {
+        "id": "aave-link-v1",
         "symbol": "alink",
         "name": "Aave LINK v1",
         "platforms": {
@@ -1565,6 +1613,14 @@
     {
         "id": "aave-mana",
         "symbol": "amana",
+        "name": "Aave MANA",
+        "platforms": {
+            "ethereum": "0xa685a61171bb30d4072b338c80cb7b2c865c873e"
+        }
+    },
+    {
+        "id": "aave-mana-v1",
+        "symbol": "amana",
         "name": "Aave MANA v1",
         "platforms": {
             "ethereum": "0x6fce4a401b6b80ace52baaefe4421bd188e76f6f"
@@ -1572,6 +1628,14 @@
     },
     {
         "id": "aave-mkr",
+        "symbol": "amkr",
+        "name": "Aave MKR",
+        "platforms": {
+            "ethereum": "0xc713e5e149d5d0715dcd1c156a020976e7e56b88"
+        }
+    },
+    {
+        "id": "aave-mkr-v1",
         "symbol": "amkr",
         "name": "Aave MKR v1",
         "platforms": {
@@ -1581,6 +1645,14 @@
     {
         "id": "aave-ren",
         "symbol": "aren",
+        "name": "Aave REN",
+        "platforms": {
+            "ethereum": "0xcc12abe4ff81c9378d670de1b57f8e0dd228d77a"
+        }
+    },
+    {
+        "id": "aave-ren-v1",
+        "symbol": "aren",
         "name": "Aave REN v1",
         "platforms": {
             "ethereum": "0x69948cc03f478b95283f7dbf1ce764d0fc7ec54c"
@@ -1588,6 +1660,14 @@
     },
     {
         "id": "aave-snx",
+        "symbol": "asnx",
+        "name": "Aave SNX",
+        "platforms": {
+            "ethereum": "0x35f6b052c598d933d69a4eec4d04c73a191fe6c2"
+        }
+    },
+    {
+        "id": "aave-snx-v1",
         "symbol": "asnx",
         "name": "Aave SNX v1",
         "platforms": {
@@ -1597,6 +1677,14 @@
     {
         "id": "aave-susd",
         "symbol": "asusd",
+        "name": "Aave SUSD",
+        "platforms": {
+            "ethereum": "0x6c5024cd4f8a59110119c56f8933403a539555eb"
+        }
+    },
+    {
+        "id": "aave-susd-v1",
+        "symbol": "asusd",
         "name": "Aave SUSD v1",
         "platforms": {
             "ethereum": "0x625ae63000f46200499120b906716420bd059240"
@@ -1604,6 +1692,14 @@
     },
     {
         "id": "aave-tusd",
+        "symbol": "atusd",
+        "name": "Aave TUSD",
+        "platforms": {
+            "ethereum": "0x101cc05f4a51c0319f570d5e146a8c625198e636"
+        }
+    },
+    {
+        "id": "aave-tusd-v1",
         "symbol": "atusd",
         "name": "Aave TUSD v1",
         "platforms": {
@@ -1613,6 +1709,14 @@
     {
         "id": "aave-usdc",
         "symbol": "ausdc",
+        "name": "Aave USDC",
+        "platforms": {
+            "ethereum": "0xbcca60bb61934080951369a648fb03df4f96263c"
+        }
+    },
+    {
+        "id": "aave-usdc-v1",
+        "symbol": "ausdc",
         "name": "Aave USDC v1",
         "platforms": {
             "ethereum": "0x9ba00d6856a4edf4665bca2c2309936572473b7e"
@@ -1620,6 +1724,14 @@
     },
     {
         "id": "aave-usdt",
+        "symbol": "ausdt",
+        "name": "Aave USDT",
+        "platforms": {
+            "ethereum": "0x3ed3b47dd13ec9a98b44e6204a523e766b225811"
+        }
+    },
+    {
+        "id": "aave-usdt-v1",
         "symbol": "ausdt",
         "name": "Aave USDT v1",
         "platforms": {
@@ -1629,6 +1741,14 @@
     {
         "id": "aave-wbtc",
         "symbol": "awbtc",
+        "name": "Aave WBTC",
+        "platforms": {
+            "ethereum": "0x9ff58f4ffb29fa2266ab25e75e2a8b3503311656"
+        }
+    },
+    {
+        "id": "aave-wbtc-v1",
+        "symbol": "awbtc",
         "name": "Aave WBTC v1",
         "platforms": {
             "ethereum": "0xfc4b8ed459e00e5400be803a9bb3954234fd50e3"
@@ -1636,6 +1756,14 @@
     },
     {
         "id": "aave-zrx",
+        "symbol": "azrx",
+        "name": "Aave ZRX",
+        "platforms": {
+            "ethereum": "0xdf7ff54aacacbff42dfe29dd6144a69b629f8c9e"
+        }
+    },
+    {
+        "id": "aave-zrx-v1",
         "symbol": "azrx",
         "name": "Aave ZRX v1",
         "platforms": {
@@ -1859,6 +1987,14 @@
         }
     },
     {
+        "id": "add-xyz-new",
+        "symbol": "add",
+        "name": "Add.xyz (NEW)",
+        "platforms": {
+            "ethereum": "0x635d081fd8f6670135d8a3640e2cf78220787d56"
+        }
+    },
+    {
         "id": "adelphoi",
         "symbol": "adl",
         "name": "Adelphoi",
@@ -1926,6 +2062,14 @@
         "name": "Adventure Token",
         "platforms": {
             "ethereum": "0xa2ef2757d2ed560c9e3758d1946d7bcccbd5a7fe"
+        }
+    },
+    {
+        "id": "advertise-coin",
+        "symbol": "adco",
+        "name": "Advertise Coin",
+        "platforms": {
+            "ethereum": "0xb6c3dc857845a713d3531cea5ac546f6767992f4"
         }
     },
     {
@@ -2379,7 +2523,7 @@
     {
         "id": "akropolis-delphi",
         "symbol": "adel",
-        "name": "Akropolis Delphi",
+        "name": "Delphi",
         "platforms": {
             "ethereum": "0x94d863173ee77439e4292284ff13fad54b3ba182"
         }
@@ -2407,6 +2551,12 @@
         "platforms": {
             "ethereum": "0x564f45b6bb68aded8b660a0d8a0a948dd6d6e4e8"
         }
+    },
+    {
+        "id": "alaya",
+        "symbol": "atp",
+        "name": "Alaya",
+        "platforms": {}
     },
     {
         "id": "albos",
@@ -2883,6 +3033,14 @@
         "name": "Ampleforth",
         "platforms": {
             "ethereum": "0xd46ba6d942050d489dbd938a2c909a5d5039a161"
+        }
+    },
+    {
+        "id": "ampnet",
+        "symbol": "aapx",
+        "name": "AMPnet",
+        "platforms": {
+            "ethereum": "0xbfd815347d024f449886c171f78fa5b8e6790811"
         }
     },
     {
@@ -3621,17 +3779,15 @@
         }
     },
     {
-        "id": "artis-turba",
-        "symbol": "artis",
-        "name": "Artis Turba",
-        "platforms": {
-            "ethereum": "0x082e13494f12ebb7206fbf67e22a6e1975a1a669"
-        }
-    },
-    {
         "id": "arto",
         "symbol": "rto",
         "name": "Arto",
+        "platforms": {}
+    },
+    {
+        "id": "artube",
+        "symbol": "att",
+        "name": "Artube",
         "platforms": {}
     },
     {
@@ -5143,6 +5299,14 @@
         }
     },
     {
+        "id": "belt",
+        "symbol": "belt",
+        "name": "Belt",
+        "platforms": {
+            "binance-smart-chain": "0xe0e514c71282b6f4e823703a39374cf58dc3ea4f"
+        }
+    },
+    {
         "id": "belugaswap",
         "symbol": "beluga",
         "name": "Belugaswap",
@@ -5827,6 +5991,14 @@
         "platforms": {}
     },
     {
+        "id": "bitcashpay",
+        "symbol": "bcp",
+        "name": "BitcashPay",
+        "platforms": {
+            "ethereum": "0xe047705117eb07e712c3d684f5b18e74577e83ac"
+        }
+    },
+    {
         "id": "bitceo",
         "symbol": "bceo",
         "name": "bitCEO",
@@ -5920,6 +6092,12 @@
         "id": "bitcoin-anonymous",
         "symbol": "btca",
         "name": "Bitcoin Anonymous",
+        "platforms": {}
+    },
+    {
+        "id": "bitcoin-asia",
+        "symbol": "btca",
+        "name": "Bitcoin Asia",
         "platforms": {}
     },
     {
@@ -6737,6 +6915,12 @@
         "platforms": {
             "ethereum": "0xdf22da9a8c1d80095175ae601d182a734923f01a"
         }
+    },
+    {
+        "id": "bitpal",
+        "symbol": "btp",
+        "name": "BitPal",
+        "platforms": {}
     },
     {
         "id": "bitpanda-ecosystem-token",
@@ -8321,6 +8505,14 @@
         }
     },
     {
+        "id": "bscstarter",
+        "symbol": "start",
+        "name": "BSCstarter",
+        "platforms": {
+            "binance-smart-chain": "0x31d0a7ada4d4c131eb612db48861211f63e57610"
+        }
+    },
+    {
         "id": "bscswap",
         "symbol": "bswap",
         "name": "BSCswap",
@@ -8340,14 +8532,6 @@
         "name": "BSYS",
         "platforms": {
             "ethereum": "0x3004cf8b4e28d60f4e305df25a57cd5faf37b8d5"
-        }
-    },
-    {
-        "id": "btc-ai-limit-loss",
-        "symbol": "bll",
-        "name": "BTC AI Limit Loss",
-        "platforms": {
-            "ethereum": "0xc7088fac73c55bfae5c2a963c3029b072c7dff25"
         }
     },
     {
@@ -9514,6 +9698,14 @@
         }
     },
     {
+        "id": "chain-guardians",
+        "symbol": "cgg",
+        "name": "Chain Guardians",
+        "platforms": {
+            "ethereum": "0x1fe24f25b1cf609b9c4e7e12d802e3640dfa5e43"
+        }
+    },
+    {
         "id": "chainium",
         "symbol": "chx",
         "name": "WeOwn",
@@ -10242,7 +10434,7 @@
         "symbol": "coni",
         "name": "Coinbene Token",
         "platforms": {
-            "ethereum": "0x2c949199cff14aeaf1b33d64db01f48fb57f592f"
+            "ethereum": "0x695db6508d66bf111d8d96adaffc5356b7f4581f"
         }
     },
     {
@@ -10544,6 +10736,14 @@
         "symbol": "cgen",
         "name": "Community Generation Core",
         "platforms": {}
+    },
+    {
+        "id": "communitytoken",
+        "symbol": "ct",
+        "name": "CommunityToken",
+        "platforms": {
+            "binance-smart-chain": "0x9130ae8e2826947cf8b6a06333890b4e8a1667c7"
+        }
     },
     {
         "id": "community-token",
@@ -11044,7 +11244,7 @@
         "symbol": "cvr",
         "name": "COVIR",
         "platforms": {
-            "tezos": ""
+            "ethereum": "0x2578a20a07e8761d91d0961d3ea92e14510885aa"
         }
     },
     {
@@ -12030,7 +12230,8 @@
         "symbol": "cgt",
         "name": "Curio Governance",
         "platforms": {
-            "ethereum": "0xf56b164efd3cfc02ba739b719b6526a6fa1ca32a"
+            "ethereum": "0xf56b164efd3cfc02ba739b719b6526a6fa1ca32a",
+            "binance-smart-chain": "0x3d04edc843e74935c09f54cc4b2fe1870e347ac9"
         }
     },
     {
@@ -12194,6 +12395,14 @@
         }
     },
     {
+        "id": "cybertime-finance",
+        "symbol": "ctf",
+        "name": "CyberTime Finance",
+        "platforms": {
+            "binance-smart-chain": "0x299bac24c8ad5635586fde6619eff7891a6c8969"
+        }
+    },
+    {
         "id": "cybertronchain",
         "symbol": "ctc",
         "name": "CyberTronchain",
@@ -12214,14 +12423,6 @@
         "symbol": "cyb",
         "name": "Cybex",
         "platforms": {}
-    },
-    {
-        "id": "cybr-token",
-        "symbol": "cybr",
-        "name": "CYBR Token",
-        "platforms": {
-            "ethereum": "0xaeaabb69dcb0fe926b1979f0b032fcd17fd7b2e0"
-        }
     },
     {
         "id": "cyclone-protocol",
@@ -13277,7 +13478,8 @@
         "symbol": "sbx",
         "name": "Sports Betting Marketplace",
         "platforms": {
-            "ethereum": "0x2579bb08387f0de7ab135edd6c2a985a3f577b6b"
+            "ethereum": "0x2579bb08387f0de7ab135edd6c2a985a3f577b6b",
+            "binance-smart-chain": "0x552d641eaa73622ec37191fa348c4f2c5c70c056"
         }
     },
     {
@@ -14073,6 +14275,12 @@
         }
     },
     {
+        "id": "diminutive-coin",
+        "symbol": "dimi",
+        "name": "Diminutive Coin",
+        "platforms": {}
+    },
+    {
         "id": "dinastycoin",
         "symbol": "dcy",
         "name": "Dinastycoin",
@@ -14285,14 +14493,6 @@
         }
     },
     {
-        "id": "doctailor",
-        "symbol": "doct",
-        "name": "DocTailor",
-        "platforms": {
-            "ethereum": "0xdf775e8cdd0e78e5b4040eb5ac94535849e3f184"
-        }
-    },
-    {
         "id": "documentchain",
         "symbol": "dms",
         "name": "Documentchain",
@@ -14374,6 +14574,14 @@
         "name": "Doki Doki Finance",
         "platforms": {
             "ethereum": "0x9ceb84f92a0561fa3cc4132ab9c0b76a59787544"
+        }
+    },
+    {
+        "id": "dola-usd",
+        "symbol": "dola",
+        "name": "Dola USD Stablecoin",
+        "platforms": {
+            "ethereum": "0x865377367054516e17014ccded1e7d814edc9ce4"
         }
     },
     {
@@ -16203,14 +16411,6 @@
         }
     },
     {
-        "id": "eternal-cash",
-        "symbol": "ec",
-        "name": "Eternal Cash",
-        "platforms": {
-            "ethereum": "0xf0196985601598a35a48606b643fd2c34fb861e1"
-        }
-    },
-    {
         "id": "eternity",
         "symbol": "ent",
         "name": "Eternity",
@@ -16940,6 +17140,14 @@
         "name": "EURO TOKEN",
         "platforms": {
             "ethereum": "0x7a0e91c4204355e0a6bbf746dc0b7e32dfefdecf"
+        }
+    },
+    {
+        "id": "eurxb",
+        "symbol": "eurxb",
+        "name": "EURxb",
+        "platforms": {
+            "ethereum": "0x0bead9a1bcc1b84d06e3f2df67e3549fd55ab054"
         }
     },
     {
@@ -20367,6 +20575,14 @@
         "platforms": {}
     },
     {
+        "id": "gspi",
+        "symbol": "gspi",
+        "name": "GSPI",
+        "platforms": {
+            "binance-smart-chain": "0xb42e1c3902b85b410334f5fff79cdc51fbee6950"
+        }
+    },
+    {
         "id": "gstcoin",
         "symbol": "gst",
         "name": "GSTCOIN",
@@ -20549,7 +20765,7 @@
         "symbol": "halv",
         "name": "Halving",
         "platforms": {
-            "ethereum": "0x245b78f9957f0dc435d1c093c64d2defe78577b2"
+            "ethereum": "0x9e7cb236e43c4bd042fe463df6a175d4479ee186"
         }
     },
     {
@@ -20571,6 +20787,14 @@
         "symbol": "hns",
         "name": "Handshake",
         "platforms": {}
+    },
+    {
+        "id": "hapi",
+        "symbol": "hapi",
+        "name": "HAPI",
+        "platforms": {
+            "ethereum": "0xd9c2d319cd7e6177336b0a9c93c21cb48d84fb54"
+        }
     },
     {
         "id": "happy-birthday-coin",
@@ -22549,6 +22773,12 @@
         }
     },
     {
+        "id": "infinium",
+        "symbol": "inf",
+        "name": "Infinium",
+        "platforms": {}
+    },
+    {
         "id": "inflationcoin",
         "symbol": "iflt",
         "name": "InflationCoin",
@@ -23820,14 +24050,6 @@
         }
     },
     {
-        "id": "kapex",
-        "symbol": "kpx",
-        "name": "KAPEX",
-        "platforms": {
-            "ethereum": ""
-        }
-    },
-    {
         "id": "karaganda-token",
         "symbol": "krg",
         "name": "Karaganda Token",
@@ -24028,6 +24250,12 @@
         }
     },
     {
+        "id": "keytango",
+        "symbol": "tango",
+        "name": "keyTango",
+        "platforms": {}
+    },
+    {
         "id": "khipu-token",
         "symbol": "kip",
         "name": "Khipu Token",
@@ -24111,6 +24339,14 @@
         "name": "Kind Ads Token",
         "platforms": {
             "ethereum": "0x4618519de4c304f3444ffa7f812dddc2971cc688"
+        }
+    },
+    {
+        "id": "kine-protocol",
+        "symbol": "kine",
+        "name": "Kine Protocol",
+        "platforms": {
+            "ethereum": "0xcbfef8fdd706cde6f208460f2bf39aa9c785f05d"
         }
     },
     {
@@ -24482,6 +24718,14 @@
         }
     },
     {
+        "id": "kskin",
+        "symbol": "ksk",
+        "name": "Kskin",
+        "platforms": {
+            "ethereum": "0x44bbb689aa13315ea5d56ebda2d263e53cb4b0b7"
+        }
+    },
+    {
         "id": "kstarcoin",
         "symbol": "ksc",
         "name": "KStarCoin",
@@ -24602,6 +24846,12 @@
         }
     },
     {
+        "id": "kyanite",
+        "symbol": "kyan",
+        "name": "Kyanite",
+        "platforms": {}
+    },
+    {
         "id": "kyber-network",
         "symbol": "knc",
         "name": "Kyber Network",
@@ -24668,6 +24918,14 @@
         "symbol": "lana",
         "name": "LanaCoin",
         "platforms": {}
+    },
+    {
+        "id": "landbox",
+        "symbol": "land",
+        "name": "LandBox",
+        "platforms": {
+            "ethereum": "0xc8001e5fe8188a7dbd8af5d91f172dc11ced22b5"
+        }
     },
     {
         "id": "laq-pay",
@@ -25370,12 +25628,6 @@
         "platforms": {
             "ethereum": "0x59ad6061a0be82155e7acce9f0c37bf59f9c1e3c"
         }
-    },
-    {
-        "id": "liquid-regenerative-medicine-coin",
-        "symbol": "lrm",
-        "name": "Liquid Regenerative Medicine Coin",
-        "platforms": {}
     },
     {
         "id": "liquidwave",
@@ -26923,6 +27175,14 @@
         }
     },
     {
+        "id": "medusa",
+        "symbol": "dusa",
+        "name": "Medusa",
+        "platforms": {
+            "binance-smart-chain": "0x376ba3ffac2643555731349fae9fc8ca28e2c9a2"
+        }
+    },
+    {
         "id": "meetluna",
         "symbol": "lstr",
         "name": "Luna Stars",
@@ -26936,6 +27196,14 @@
         "name": "MEET.ONE",
         "platforms": {
             "eos": null
+        }
+    },
+    {
+        "id": "meetple",
+        "symbol": "mpt",
+        "name": "Meetple",
+        "platforms": {
+            "ethereum": "0x47481c1b44f2a1c0135c45aa402ce4f4dde4d30e"
         }
     },
     {
@@ -27421,6 +27689,14 @@
         }
     },
     {
+        "id": "midas-gold",
+        "symbol": "mdg",
+        "name": "Midas Gold",
+        "platforms": {
+            "binance-smart-chain": "0xc1edcc306e6faab9da629efca48670be4678779d"
+        }
+    },
+    {
         "id": "midas-protocol",
         "symbol": "mas",
         "name": "Midas Protocol",
@@ -27471,7 +27747,8 @@
         "symbol": "milk2",
         "name": "MILK2",
         "platforms": {
-            "ethereum": "0x80c8c3dcfb854f9542567c8dac3f44d709ebc1de"
+            "ethereum": "0x80c8c3dcfb854f9542567c8dac3f44d709ebc1de",
+            "binance-smart-chain": "0x4a5a34212404f30c5ab7eb61b078fa4a55adc5a5"
         }
     },
     {
@@ -27902,6 +28179,12 @@
         "id": "mnpcoin",
         "symbol": "mnp",
         "name": "MNPCoin",
+        "platforms": {}
+    },
+    {
+        "id": "mnpostree",
+        "symbol": "mptc",
+        "name": "MNPoSTree",
         "platforms": {}
     },
     {
@@ -28671,6 +28954,14 @@
         "platforms": {}
     },
     {
+        "id": "mute",
+        "symbol": "mute",
+        "name": "Mute",
+        "platforms": {
+            "ethereum": "0xa49d7499271ae71cd8ab9ac515e6694c755d400c"
+        }
+    },
+    {
         "id": "muzika-network",
         "symbol": "mzk",
         "name": "Muzika Network",
@@ -29169,14 +29460,6 @@
         "platforms": {}
     },
     {
-        "id": "neodiamond",
-        "symbol": "DET",
-        "name": "DET Token",
-        "platforms": {
-            "ethereum": "0xf4e4f9e5ba2b0892c289ef2de60ca44e1f6b2527"
-        }
-    },
-    {
         "id": "neon-exchange",
         "symbol": "nex",
         "name": "Nash Exchange",
@@ -29561,6 +29844,14 @@
         }
     },
     {
+        "id": "nft-rehab",
+        "symbol": "rehab",
+        "name": "NFT Rehab",
+        "platforms": {
+            "ethereum": "0x6c93c838d362656430d81e150cdbe9b69ba8efc4"
+        }
+    },
+    {
         "id": "nftx",
         "symbol": "nftx",
         "name": "NFTX",
@@ -29691,14 +29982,6 @@
         "platforms": {}
     },
     {
-        "id": "nkcl",
-        "symbol": "nkcl",
-        "name": "NKCL",
-        "platforms": {
-            "ethereum": "0x5378a8bfe52592fcf436dfbe3cd389c494706c5f"
-        }
-    },
-    {
         "id": "nkn",
         "symbol": "nkn",
         "name": "NKN",
@@ -29759,6 +30042,12 @@
         "platforms": {
             "ethereum": "0x739763a258640919981f9ba610ae65492455be53"
         }
+    },
+    {
+        "id": "nodestats",
+        "symbol": "ns",
+        "name": "Nodestats",
+        "platforms": {}
     },
     {
         "id": "noel-capital",
@@ -31195,7 +31484,7 @@
         "symbol": "paid",
         "name": "PAID Network",
         "platforms": {
-            "ethereum": "0x8c8687fc965593dfb2f0b4eaefd55e9d8df348df"
+            "ethereum": "0x1614f18fc94f47967a3fbe5ffcd46d4e7da3d787"
         }
     },
     {
@@ -31271,6 +31560,14 @@
         "symbol": "pnd",
         "name": "Pandacoin",
         "platforms": {}
+    },
+    {
+        "id": "panda-dao",
+        "symbol": "pdao",
+        "name": "Panda Dao",
+        "platforms": {
+            "binance-smart-chain": "0x1af3b59a839e97e944c65177ab3a024b499133f8"
+        }
     },
     {
         "id": "panda-yield",
@@ -31480,6 +31777,12 @@
         "platforms": {
             "binance-smart-chain": "0xab9d0fae6eb062f2698c2d429a1be9185a5d4f6e"
         }
+    },
+    {
+        "id": "pastel",
+        "symbol": "psl",
+        "name": "Pastel",
+        "platforms": {}
     },
     {
         "id": "patientory",
@@ -32198,6 +32501,14 @@
         "platforms": {}
     },
     {
+        "id": "pig-finance",
+        "symbol": "pig",
+        "name": "Pig Finance",
+        "platforms": {
+            "binance-smart-chain": "0x8850d2c68c632e3b258e612abaa8fada7e6958e5"
+        }
+    },
+    {
         "id": "pigx",
         "symbol": "pigx",
         "name": "PIGX",
@@ -32322,7 +32633,7 @@
     {
         "id": "pizza-usde",
         "symbol": "pizza",
-        "name": "PIZZA-USDE",
+        "name": "PIZZA",
         "platforms": {
             "eos": ""
         }
@@ -32404,6 +32715,14 @@
         }
     },
     {
+        "id": "playcent",
+        "symbol": "pcnt",
+        "name": "Playcent",
+        "platforms": {
+            "ethereum": "0x657b83a0336561c8f64389a6f5ade675c04b0c3b"
+        }
+    },
+    {
         "id": "playchip",
         "symbol": "pla",
         "name": "PlayChip",
@@ -32417,6 +32736,14 @@
         "name": "PlayX",
         "platforms": {
             "ethereum": "0x59be937f05cf2c406b61c42c6c82a093fa54edfe"
+        }
+    },
+    {
+        "id": "playdapp",
+        "symbol": "pla",
+        "name": "PlayDapp",
+        "platforms": {
+            "ethereum": "0x3a4f40631a4f906c2bad353ed06de7a5d3fcb430"
         }
     },
     {
@@ -32542,7 +32869,7 @@
     {
         "id": "plutus-defi",
         "symbol": "plt",
-        "name": "Add.xyz",
+        "name": "Add.xyz (OLD)",
         "platforms": {}
     },
     {
@@ -34514,14 +34841,6 @@
         }
     },
     {
-        "id": "rebase",
-        "symbol": "rebase",
-        "name": "Rebase",
-        "platforms": {
-            "ethereum": "0x4208d8d500b1643dca98dd27ba6c0060bca311c5"
-        }
-    },
-    {
         "id": "rebased",
         "symbol": "reb2",
         "name": "Rebased",
@@ -35240,6 +35559,14 @@
         }
     },
     {
+        "id": "rocket-bunny",
+        "symbol": "bunny",
+        "name": "Rocket Bunny",
+        "platforms": {
+            "ethereum": "0x3ea50b7ef6a7eaf7e966e2cb72b519c16557497c"
+        }
+    },
+    {
         "id": "rocket-fund",
         "symbol": "rkt",
         "name": "Rocket Fund",
@@ -35391,6 +35718,12 @@
         "id": "rowan-coin",
         "symbol": "rwn",
         "name": "Rowan Coin",
+        "platforms": {}
+    },
+    {
+        "id": "roxe",
+        "symbol": "roc",
+        "name": "Roxe",
         "platforms": {}
     },
     {
@@ -36549,7 +36882,8 @@
         "symbol": "shake",
         "name": "SHAKE",
         "platforms": {
-            "ethereum": "0x6006fc2a849fedaba8330ce36f5133de01f96189"
+            "ethereum": "0x6006fc2a849fedaba8330ce36f5133de01f96189",
+            "binance-smart-chain": "0xba8a6ef5f15ed18e7184f44a775060a6bf91d8d0"
         }
     },
     {
@@ -36880,14 +37214,6 @@
         "name": "SignatureChain",
         "platforms": {
             "waves": "9sQutD5HnRvjM1uui5cVC4w9xkMPAfYEV8ymug3Mon2Y"
-        }
-    },
-    {
-        "id": "silent-notary",
-        "symbol": "sntr",
-        "name": "Silent Notary",
-        "platforms": {
-            "ethereum": "0x2859021ee7f2cb10162e67f33af2d22764b31aff"
         }
     },
     {
@@ -37392,6 +37718,14 @@
         "name": "Snowball",
         "platforms": {
             "ethereum": "0x198a87b3114143913d4229fb0f6d4bcb44aa8aff"
+        }
+    },
+    {
+        "id": "snowball-token",
+        "symbol": "snob",
+        "name": "SnowBall Token",
+        "platforms": {
+            "Avalanche": ""
         }
     },
     {
@@ -38176,6 +38510,12 @@
         }
     },
     {
+        "id": "sprink",
+        "symbol": "sprink",
+        "name": "Sprink",
+        "platforms": {}
+    },
+    {
         "id": "sprint-coin",
         "symbol": "sprx",
         "name": "Sprint Coin",
@@ -38951,12 +39291,6 @@
         }
     },
     {
-        "id": "sunny-coin",
-        "symbol": "sun",
-        "name": "Sunny Coin",
-        "platforms": {}
-    },
-    {
         "id": "sun-token",
         "symbol": "sun",
         "name": "Sun Token",
@@ -39021,7 +39355,8 @@
         "symbol": "super",
         "name": "SuperFarm",
         "platforms": {
-            "ethereum": "0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55"
+            "ethereum": "0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55",
+            "binance-smart-chain": "0x51ba0b044d96c3abfca52b64d733603ccc4f0d4d"
         }
     },
     {
@@ -39644,6 +39979,12 @@
         }
     },
     {
+        "id": "talleo",
+        "symbol": "tlo",
+        "name": "Talleo",
+        "platforms": {}
+    },
+    {
         "id": "tama-egg-niftygotchi",
         "symbol": "tme",
         "name": "TAMA EGG NiftyGotchi",
@@ -39836,7 +40177,7 @@
         "symbol": "tdi",
         "name": "Tedesis",
         "platforms": {
-            "ethereum": "0xa7b4a94254e59ea96c127d15062847e91173b71c"
+            "binance-smart-chain": "0x57fb0ea298de58b2a2a442b66affebf9565695eb"
         }
     },
     {
@@ -41010,6 +41351,14 @@
         }
     },
     {
+        "id": "tools",
+        "symbol": "tools",
+        "name": "TOOLS",
+        "platforms": {
+            "binance-smart-chain": "0x1311b352467d2b5c296881badea82850bcd8f886"
+        }
+    },
+    {
         "id": "topb",
         "symbol": "topb",
         "name": "TOPBTC Token",
@@ -41402,6 +41751,14 @@
         "name": "Treep Token",
         "platforms": {
             "stellar": ""
+        }
+    },
+    {
+        "id": "trees-finance",
+        "symbol": "ganja",
+        "name": "Trees Finance",
+        "platforms": {
+            "binance-smart-chain": "0x447c324f7eb99e512ff18308203b36d3c2607e0e"
         }
     },
     {
@@ -42144,6 +42501,14 @@
         }
     },
     {
+        "id": "ubu-finance",
+        "symbol": "ubu",
+        "name": "UBU Finance",
+        "platforms": {
+            "binance-smart-chain": "0xd2ddfba7bb12f6e70c2aab6b6bf9edaef42ed22f"
+        }
+    },
+    {
         "id": "uca",
         "symbol": "uca",
         "name": "UCA Coin",
@@ -42170,6 +42535,14 @@
         "symbol": "u",
         "name": "Ucoin",
         "platforms": {}
+    },
+    {
+        "id": "ucos-token",
+        "symbol": "ucos",
+        "name": "UCOS Token",
+        "platforms": {
+            "ethereum": "0xd8d887b5611a5b3e90bf764085d9858031d2be67"
+        }
     },
     {
         "id": "ucot",
@@ -42336,6 +42709,14 @@
         }
     },
     {
+        "id": "ume-token",
+        "symbol": "ume",
+        "name": "UME Token",
+        "platforms": {
+            "tron": "TRkuKAxmWZ4G74MvZnFpoosQZsfvtNpmwH"
+        }
+    },
+    {
         "id": "unagii-dai",
         "symbol": "udai",
         "name": "Unagii Dai",
@@ -42455,6 +42836,14 @@
         "name": "UniDex",
         "platforms": {
             "ethereum": "0x95b3497bbcccc46a8f45f5cf54b0878b39f8d96c"
+        }
+    },
+    {
+        "id": "unidexbot-bsc",
+        "symbol": "bundb",
+        "name": "UniDexBot BSC",
+        "platforms": {
+            "binance-smart-chain": "0x3dc8311b7d0fbc88ef600174e079bb0a34d370e6"
         }
     },
     {
@@ -43220,6 +43609,14 @@
         }
     },
     {
+        "id": "uze-token",
+        "symbol": "uze",
+        "name": "Uze Tokens",
+        "platforms": {
+            "ethereum": "0xbdcd5fafe4336a844233ebb0aff845d6b2100899"
+        }
+    },
+    {
         "id": "v2x-token",
         "symbol": "v2xt",
         "name": "V2X Token",
@@ -43303,6 +43700,14 @@
         "name": "Value Liquidity",
         "platforms": {
             "ethereum": "0x49e833337ece7afe375e44f4e3e8481029218e5c"
+        }
+    },
+    {
+        "id": "value-set-dollar",
+        "symbol": "vsd",
+        "name": "Value Set Dollar",
+        "platforms": {
+            "ethereum": "0x35de3eccaccb02e627062b5d63aa941b137288fe"
         }
     },
     {
@@ -43738,6 +44143,14 @@
         }
     },
     {
+        "id": "veraswap",
+        "symbol": "vrap",
+        "name": "VeraSwap",
+        "platforms": {
+            "binance-smart-chain": "0x271c418b045d05a1d52c6bf849d47b5b5b4d769e"
+        }
+    },
+    {
         "id": "verge",
         "symbol": "xvg",
         "name": "Verge",
@@ -43972,6 +44385,14 @@
         }
     },
     {
+        "id": "vidiachange",
+        "symbol": "vida",
+        "name": "Vidiachange",
+        "platforms": {
+            "ethereum": "0xe35f19e4457a114a951781aaf421ec5266ef25fe"
+        }
+    },
+    {
         "id": "vidulum",
         "symbol": "vdl",
         "name": "Vidulum",
@@ -44154,6 +44575,14 @@
         "symbol": "vivo",
         "name": "VIVO",
         "platforms": {}
+    },
+    {
+        "id": "vlad-finance",
+        "symbol": "vlad",
+        "name": "Vlad Finance",
+        "platforms": {
+            "binance-smart-chain": "0x279d41f3f78fe5c1f0ba41ae963d6e545113c973"
+        }
     },
     {
         "id": "vndc",
@@ -44812,6 +45241,14 @@
         }
     },
     {
+        "id": "whaleroom",
+        "symbol": "whl",
+        "name": "WhaleRoom",
+        "platforms": {
+            "ethereum": "0x2af72850c504ddd3c1876c66a914caee7ff8a46a"
+        }
+    },
+    {
         "id": "whalesburg",
         "symbol": "wbt",
         "name": "Whalesburg",
@@ -44825,6 +45262,14 @@
         "name": "WHEN Token",
         "platforms": {
             "ethereum": "0xf4fe95603881d0e07954fd7605e0e9a916e42c44"
+        }
+    },
+    {
+        "id": "whirl-finance",
+        "symbol": "whirl",
+        "name": "Whirl Finance",
+        "platforms": {
+            "binance-smart-chain": "0x7f479d78380ad00341fdd7322fe8aef766e29e5a"
         }
     },
     {
@@ -45000,14 +45445,6 @@
         }
     },
     {
-        "id": "winsshi",
-        "symbol": "wns",
-        "name": "WINSSHI",
-        "platforms": {
-            "ethereum": "0x4a0eedf6e95581cda46a767e612e83731c0cd418"
-        }
-    },
-    {
         "id": "winstars",
         "symbol": "wnl",
         "name": "WinStars Live",
@@ -45064,7 +45501,8 @@
         "symbol": "wis",
         "name": "Wish Coin",
         "platforms": {
-            "ethereum": "0xfa12040497bc7b6077ea125bad27daa8b74e7edc"
+            "ethereum": "0xfa12040497bc7b6077ea125bad27daa8b74e7edc",
+            "binance-smart-chain": "0x46ca6f4704077651c2d1b55daadd88475ce15c2c"
         }
     },
     {
@@ -45090,6 +45528,14 @@
         "platforms": {
             "ethereum": "0x7a82c573b378ceea29772afb93891f0d0afa93b7",
             "tron": "TH5QRMscT9z15EZrhmgtZ5tttKerSjv2wd"
+        }
+    },
+    {
+        "id": "wiz-coin",
+        "symbol": "wiz1",
+        "name": "Wiz Coin",
+        "platforms": {
+            "ethereum": "0x018a6106cb540af1ae6da985361afd5e176d1c00"
         }
     },
     {
@@ -45193,7 +45639,8 @@
         "symbol": "world",
         "name": "World Token",
         "platforms": {
-            "ethereum": "0xbf494f02ee3fde1f20bee6242bce2d1ed0c15e47"
+            "ethereum": "0xbf494f02ee3fde1f20bee6242bce2d1ed0c15e47",
+            "binance-smart-chain": "0x31ffbe9bf84b4d9d02cd40eccab4af1e2877bbc6"
         }
     },
     {

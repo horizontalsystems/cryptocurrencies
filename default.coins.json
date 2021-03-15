@@ -181,7 +181,7 @@
             "code": "ANT",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x960b236a07cf122663c4303350609a66a7b288c0"
+            "address": "0xa117000000f279d81a1d3cc75430faa017fa5a2e"
         },
         {
             "title": "Aragon Court",
@@ -2208,7 +2208,7 @@
         },
         {
             "title": "Binance-Peg Zcash Token",
-            "code": "COMP",
+            "code": "ZEC",
             "decimal": 18,
             "type": "bep20",
             "address": "0x1ba42e5193dfa8b03d15dd1b86a3113bbbef8eeb"

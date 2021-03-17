@@ -896,7 +896,8 @@
             "code": "BONDLY",
             "name": "Bondly",
             "categories": [
-                "dexes"
+                "dexes",
+                "nft"
             ],
             "active": true,
             "platform": {

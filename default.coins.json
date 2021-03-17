@@ -2275,6 +2275,20 @@
             "decimal": 18,
             "type": "bep20",
             "address": "0x4197c6ef3879a08cd51e5560da5064b773aa1d29"
+        },
+        {
+            "title": "Radicle",
+            "code": "RAD",
+            "decimal": 18,
+            "type": "erc20",
+            "address": "0x31c8eacbffdd875c74b94b077895bd78cf1e64a3"
+        },
+        {
+            "title": "Nebulas",
+            "code": "NAS",
+            "decimal": 18,
+            "type": "erc20",
+            "address": "0x5d65D971895Edc438f465c17DB6992698a52318D"
         }
     ]
 }

@@ -5,6 +5,7 @@ csv = CSV.read('./funds.csv')
 coins = JSON.parse(File.read('../coins.json'))
 
 funds = []
+coins["coins"].each { |coin| coin["funds"] = [] }
 
 csv.shift
 notMatched = []
@@ -12,7 +13,6 @@ notMatched = []
 csv.each { |fund|
 	fundId = fund[0].downcase.gsub(/ /, '_').strip
 	funds << {id: fundId, name: fund[0], url: fund[1], description: ""}
-	# puts fundId
 	matched = false
 
 	fund[2].split("\n")
@@ -24,10 +24,7 @@ csv.each { |fund|
 			coins["coins"].each { |coin|
 				if coin["code"] == coinCode
 					matched = true
-					coinFunds = coin["funds"] || []
-					coinFunds << fundId
-
-					coin["funds"] = coinFunds
+					coin["funds"] << fundId
 				end
 			}
 

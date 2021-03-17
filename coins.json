@@ -1,113 +1,262 @@
 {
-    "version": 2,
+    "version": 3,
     "categories": [
+        { "id": "blockchain", "name": "Blockchain" },
+        { "id": "dexes", "name": "DEXes" },
+        { "id": "lending", "name": "Lending" },
+        { "id": "privacy", "name": "Privacy" },
+        { "id": "scaling", "name": "Scaling" },
+        { "id": "oracles", "name": "Oracles" },
+        { "id": "prediction_markets", "name": "Prediction Markets" },
+        { "id": "yield_aggregators", "name": "Yield Aggregators" },
+        { "id": "fiat_stablecoins", "name": "Fiat Stablecoins" },
+        { "id": "algo_stablecoins", "name": "Algo Stablecoins" },
+        { "id": "tokenized_bitcoin", "name": "Tokenized Bitcoin" },
+        { "id": "stablecoin_issuers", "name": "Stablecoin Issuers" },
+        { "id": "exchange_tokens", "name": "Exchange Tokens" },
+        { "id": "metals", "name": "Metals" },
+        { "id": "risk_management", "name": "Risk Management" },
+        { "id": "wallets", "name": "Wallets" },
+        { "id": "synthetics", "name": "Synthetics" },
+        { "id": "index_funds", "name": "Index Funds" },
+        { "id": "nft", "name": "NFT" },
+        { "id": "fundraising", "name": "Fundraising" },
+        { "id": "gaming", "name": "Gaming" },
+        { "id": "b2b", "name": "B2B" },
+        { "id": "infrastructure", "name": "Infrastructure" },
+        { "id": "staking_eth_2_0", "name": "Staking ETH 2.0" },
+        { "id": "governance", "name": "Governance" },
+        { "id": "cross_chain", "name": "Cross Chain" },
+        { "id": "computing", "name": "Computing" }
+    ],
+    "funds": [
         {
-            "id": "blockchain",
-            "name": "Blockchain"
+            "id": "kr1",
+            "name": "KR1",
+            "url": "https://www.kryptonite1.co/",
+            "description": ""
         },
         {
-            "id": "dexes",
-            "name": "DEXes"
+            "id": "placeholder",
+            "name": "Placeholder",
+            "url": "https://www.placeholder.vc/",
+            "description": ""
         },
         {
-            "id": "lending",
-            "name": "Lending"
+            "id": "fenbushi_capital",
+            "name": "Fenbushi Capital",
+            "url": "https://www.fenbushicapital.vc/index_en.html",
+            "description": ""
         },
         {
-            "id": "privacy",
-            "name": "Privacy"
+            "id": "fbg_capital",
+            "name": "FBG Capital",
+            "url": "https://www.fbg.capital/",
+            "description": ""
         },
         {
-            "id": "scaling",
-            "name": "Scaling"
+            "id": "blockchain_capital",
+            "name": "Blockchain Capital",
+            "url": "https://blockchain.capital/",
+            "description": ""
         },
         {
-            "id": "oracles",
-            "name": "Oracles"
+            "id": "ausum_ventures",
+            "name": "Ausum Ventures",
+            "url": "https://www.ausum.vc/",
+            "description": ""
         },
         {
-            "id": "prediction_markets",
-            "name": "Prediction Markets"
+            "id": "paradigm",
+            "name": "Paradigm",
+            "url": "https://www.paradigm.xyz/",
+            "description": ""
         },
         {
-            "id": "yield_aggregators",
-            "name": "Yield Aggregators"
+            "id": "sino_global_capital",
+            "name": "Sino Global Capital",
+            "url": "https://www.sinoglobalcapital.com/",
+            "description": ""
         },
         {
-            "id": "fiat_stablecoins",
-            "name": "Fiat Stablecoins"
+            "id": "spark_digital_capital",
+            "name": "Spark Digital Capital",
+            "url": "https://www.sparkdigitalcapital.com/",
+            "description": ""
         },
         {
-            "id": "algo_stablecoins",
-            "name": "Algo Stablecoins"
+            "id": "1confirmation",
+            "name": "1confirmation",
+            "url": "https://www.1confirmation.com/",
+            "description": ""
         },
         {
-            "id": "tokenized_bitcoin",
-            "name": "Tokenized Bitcoin"
+            "id": "dragonfly_capital_partners",
+            "name": "Dragonfly Capital Partners",
+            "url": "https://www.dcp.capital/",
+            "description": ""
         },
         {
-            "id": "stablecoin_issuers",
-            "name": "Stablecoin Issuers"
+            "id": "arrington_xrp_capital",
+            "name": "Arrington XRP Capital",
+            "url": "http://arringtonxrpcapital.com/",
+            "description": ""
         },
         {
-            "id": "exchange_tokens",
-            "name": "Exchange Tokens"
+            "id": "digital_finance_group",
+            "name": "Digital Finance Group",
+            "url": "https://www.dfg.group/",
+            "description": ""
         },
         {
-            "id": "metals",
-            "name": "Metals"
+            "id": "digital_currency_group",
+            "name": "Digital Currency Group",
+            "url": "https://dcg.co/",
+            "description": ""
         },
         {
-            "id": "risk_management",
-            "name": "Risk Management"
+            "id": "sora_ventures",
+            "name": "Sora Ventures",
+            "url": "http://www.sora.vc/",
+            "description": ""
         },
         {
-            "id": "wallets",
-            "name": "Wallets"
+            "id": "libertus_capital",
+            "name": "Libertus Capital",
+            "url": "https://www.libertuscapital.com/",
+            "description": ""
         },
         {
-            "id": "synthetics",
-            "name": "Synthetics"
+            "id": "infinite_capital",
+            "name": "Infinite Capital",
+            "url": "https://infinitecapital.io/",
+            "description": ""
         },
         {
-            "id": "index_funds",
-            "name": "Index Funds"
+            "id": "framework_ventures",
+            "name": "Framework Ventures",
+            "url": "https://framework.ventures/",
+            "description": ""
         },
         {
-            "id": "nft",
-            "name": "NFT"
+            "id": "electric_capital",
+            "name": "Electric Capital",
+            "url": "https://www.electriccapital.com/",
+            "description": ""
         },
         {
-            "id": "fundraising",
-            "name": "Fundraising"
+            "id": "parafi_capital",
+            "name": "ParaFi Capital",
+            "url": "https://www.parafi.capital/",
+            "description": ""
         },
         {
-            "id": "gaming",
-            "name": "Gaming"
+            "id": "maven_11_capital",
+            "name": "Maven 11 Capital",
+            "url": "https://maven11.com/",
+            "description": ""
         },
         {
-            "id": "b2b",
-            "name": "B2B"
+            "id": "collider_ventures",
+            "name": "Collider Ventures",
+            "url": "https://www.collider.vc/",
+            "description": ""
         },
         {
-            "id": "infrastructure",
-            "name": "Infrastructure"
+            "id": "lemniscap",
+            "name": "Lemniscap",
+            "url": "https://lemniscap.com/",
+            "description": ""
         },
         {
-            "id": "staking_eth_2_0",
-            "name": "Staking ETH 2.0"
+            "id": "multicoin_capital",
+            "name": "Multicoin Capital",
+            "url": "https://multicoin.capital/",
+            "description": ""
         },
         {
-            "id": "governance",
-            "name": "Governance"
+            "id": "zee_prime_capital",
+            "name": "Zee Prime Capital",
+            "url": "https://zeeprime.capital/",
+            "description": ""
         },
         {
-            "id": "cross_chain",
-            "name": "Cross Chain"
+            "id": "dtc_capital",
+            "name": "DTC Capital",
+            "url": "https://www.dtc.capital/",
+            "description": ""
         },
         {
-            "id": "computing",
-            "name": "Computing"
+            "id": "1kx",
+            "name": "1kx",
+            "url": "1kx.network",
+            "description": ""
+        },
+        {
+            "id": "pantera_capital",
+            "name": "Pantera Capital",
+            "url": "https://www.panteracapital.com/",
+            "description": ""
+        },
+        {
+            "id": "coinfund",
+            "name": "CoinFund",
+            "url": "https://www.coinfund.io/",
+            "description": ""
+        },
+        {
+            "id": "robot_ventures",
+            "name": "Robot Ventures",
+            "url": "https://robvc.com/",
+            "description": ""
+        },
+        {
+            "id": "hex_capital",
+            "name": "Hex Capital",
+            "url": "http://hex.capital/",
+            "description": ""
+        },
+        {
+            "id": "kenetic",
+            "name": "Kenetic",
+            "url": "https://kenetic.capital/",
+            "description": ""
+        },
+        {
+            "id": "woodstock",
+            "name": "Woodstock",
+            "url": "https://woodstockfund.com/",
+            "description": ""
+        },
+        {
+            "id": "divergence_ventures",
+            "name": "Divergence Ventures",
+            "url": "https://www.div.vc/",
+            "description": ""
+        },
+        {
+            "id": "galaxy_digital_lp",
+            "name": "Galaxy Digital LP",
+            "url": "https://www.galaxydigital.io/",
+            "description": ""
+        },
+        {
+            "id": "iosg_ventures",
+            "name": "IOSG Ventures",
+            "url": "https://www.iosg.vc/#/",
+            "description": ""
+        },
+        {
+            "id": "greenfield_one",
+            "name": "Greenfield One",
+            "url": "https://www.greenfield.one/",
+            "description": ""
+        },
+        {
+            "id": "ngc_ventures",
+            "name": "NGC Ventures",
+            "url": "https://www.ngc.fund/",
+            "description": ""
         }
     ],
     "coins": [
@@ -6474,236 +6623,6 @@
                 "telegram": ""
             },
             "id": "unsupported|tezos"
-        }
-    ],
-    "funds": [
-        {
-            "id": "kr1",
-            "name": "KR1",
-            "url": "https://www.kryptonite1.co/",
-            "description": ""
-        },
-        {
-            "id": "placeholder",
-            "name": "Placeholder",
-            "url": "https://www.placeholder.vc/",
-            "description": ""
-        },
-        {
-            "id": "fenbushi_capital",
-            "name": "Fenbushi Capital",
-            "url": "https://www.fenbushicapital.vc/index_en.html",
-            "description": ""
-        },
-        {
-            "id": "fbg_capital",
-            "name": "FBG Capital",
-            "url": "https://www.fbg.capital/",
-            "description": ""
-        },
-        {
-            "id": "blockchain_capital",
-            "name": "Blockchain Capital",
-            "url": "https://blockchain.capital/",
-            "description": ""
-        },
-        {
-            "id": "ausum_ventures",
-            "name": "Ausum Ventures",
-            "url": "https://www.ausum.vc/",
-            "description": ""
-        },
-        {
-            "id": "paradigm",
-            "name": "Paradigm",
-            "url": "https://www.paradigm.xyz/",
-            "description": ""
-        },
-        {
-            "id": "sino_global_capital",
-            "name": "Sino Global Capital",
-            "url": "https://www.sinoglobalcapital.com/",
-            "description": ""
-        },
-        {
-            "id": "spark_digital_capital",
-            "name": "Spark Digital Capital",
-            "url": "https://www.sparkdigitalcapital.com/",
-            "description": ""
-        },
-        {
-            "id": "1confirmation",
-            "name": "1confirmation",
-            "url": "https://www.1confirmation.com/",
-            "description": ""
-        },
-        {
-            "id": "dragonfly_capital_partners",
-            "name": "Dragonfly Capital Partners",
-            "url": "https://www.dcp.capital/",
-            "description": ""
-        },
-        {
-            "id": "arrington_xrp_capital",
-            "name": "Arrington XRP Capital",
-            "url": "http://arringtonxrpcapital.com/",
-            "description": ""
-        },
-        {
-            "id": "digital_finance_group",
-            "name": "Digital Finance Group",
-            "url": "https://www.dfg.group/",
-            "description": ""
-        },
-        {
-            "id": "digital_currency_group",
-            "name": "Digital Currency Group",
-            "url": "https://dcg.co/",
-            "description": ""
-        },
-        {
-            "id": "sora_ventures",
-            "name": "Sora Ventures",
-            "url": "http://www.sora.vc/",
-            "description": ""
-        },
-        {
-            "id": "libertus_capital",
-            "name": "Libertus Capital",
-            "url": "https://www.libertuscapital.com/",
-            "description": ""
-        },
-        {
-            "id": "infinite_capital",
-            "name": "Infinite Capital",
-            "url": "https://infinitecapital.io/",
-            "description": ""
-        },
-        {
-            "id": "framework_ventures",
-            "name": "Framework Ventures",
-            "url": "https://framework.ventures/",
-            "description": ""
-        },
-        {
-            "id": "electric_capital",
-            "name": "Electric Capital",
-            "url": "https://www.electriccapital.com/",
-            "description": ""
-        },
-        {
-            "id": "parafi_capital",
-            "name": "ParaFi Capital",
-            "url": "https://www.parafi.capital/",
-            "description": ""
-        },
-        {
-            "id": "maven_11_capital",
-            "name": "Maven 11 Capital",
-            "url": "https://maven11.com/",
-            "description": ""
-        },
-        {
-            "id": "collider_ventures",
-            "name": "Collider Ventures",
-            "url": "https://www.collider.vc/",
-            "description": ""
-        },
-        {
-            "id": "lemniscap",
-            "name": "Lemniscap",
-            "url": "https://lemniscap.com/",
-            "description": ""
-        },
-        {
-            "id": "multicoin_capital",
-            "name": "Multicoin Capital",
-            "url": "https://multicoin.capital/",
-            "description": ""
-        },
-        {
-            "id": "zee_prime_capital",
-            "name": "Zee Prime Capital",
-            "url": "https://zeeprime.capital/",
-            "description": ""
-        },
-        {
-            "id": "dtc_capital",
-            "name": "DTC Capital",
-            "url": "https://www.dtc.capital/",
-            "description": ""
-        },
-        {
-            "id": "1kx",
-            "name": "1kx",
-            "url": "1kx.network",
-            "description": ""
-        },
-        {
-            "id": "pantera_capital",
-            "name": "Pantera Capital",
-            "url": "https://www.panteracapital.com/",
-            "description": ""
-        },
-        {
-            "id": "coinfund",
-            "name": "CoinFund",
-            "url": "https://www.coinfund.io/",
-            "description": ""
-        },
-        {
-            "id": "robot_ventures",
-            "name": "Robot Ventures",
-            "url": "https://robvc.com/",
-            "description": ""
-        },
-        {
-            "id": "hex_capital",
-            "name": "Hex Capital",
-            "url": "http://hex.capital/",
-            "description": ""
-        },
-        {
-            "id": "kenetic",
-            "name": "Kenetic",
-            "url": "https://kenetic.capital/",
-            "description": ""
-        },
-        {
-            "id": "woodstock",
-            "name": "Woodstock",
-            "url": "https://woodstockfund.com/",
-            "description": ""
-        },
-        {
-            "id": "divergence_ventures",
-            "name": "Divergence Ventures",
-            "url": "https://www.div.vc/",
-            "description": ""
-        },
-        {
-            "id": "galaxy_digital_lp",
-            "name": "Galaxy Digital LP",
-            "url": "https://www.galaxydigital.io/",
-            "description": ""
-        },
-        {
-            "id": "iosg_ventures",
-            "name": "IOSG Ventures",
-            "url": "https://www.iosg.vc/#/",
-            "description": ""
-        },
-        {
-            "id": "greenfield_one",
-            "name": "Greenfield One",
-            "url": "https://www.greenfield.one/",
-            "description": ""
-        },
-        {
-            "id": "ngc_ventures",
-            "name": "NGC Ventures",
-            "url": "https://www.ngc.fund/",
-            "description": ""
         }
     ]
 }

@@ -1,262 +1,490 @@
 {
     "version": 3,
     "categories": [
-        { "id": "blockchain", "name": "Blockchain", "description": "Native cryptocurrencies on major blockchains."},
-        { "id": "dexes", "name": "DEXes", "description":"Decentralized cryptocurrency exchanges."},
-        { "id": "lending", "name": "Lending", "description":"Protocols for lending and borrowing.\n" },
-        { "id": "privacy", "name": "Privacy", "description":"Projects working on privacy solutions." },
-        { "id": "scaling", "name": "Scaling", "description":"Solutions for faster blockchain transactions." },
-        { "id": "oracles", "name": "Oracles", "description":"Connecting real world data to smart contracts." },
-        { "id": "prediction_markets", "name": "Prediction Markets", "description": "Markets to bet on events in the future." },
-        { "id": "yield_aggregators", "name": "Yield Aggregators", "description": "Solutions for earning from idle crypto assets." },
-        { "id": "fiat_stablecoins", "name": "Fiat Stablecoins", "description":"Crypto tokens pegged 1-1 to fiat currency." },
-        { "id": "algo_stablecoins", "name": "Algo Stablecoins","description": "Stablecoins with algorithmic 1-1 price peg to fiat." },
-        { "id": "tokenized_bitcoin", "name": "Tokenized Bitcoin","description": "Crypto tokens pegged 1-1 to Bitcoin price."},
-        { "id": "stablecoin_issuers", "name": "Stablecoin Issuers","description": "Decentralized issuers of fiat pegged stablecoin tokens."},
-        { "id": "exchange_tokens", "name": "Exchange Tokens", "description": "Tokens issued by centralized exchanges." },
-        { "id": "metals", "name": "Metals", "description": "Tokens pegged to metal prices." },
-        { "id": "risk_management", "name": "Risk Management", "description": "Risk assessment, insurance and hedging." },
-        { "id": "wallets", "name": "Wallets", "description": "Tokens issued by cryptocurrency wallets."},
-        { "id": "synthetics", "name": "Synthetics","description": "Platforms for creating decentralized synthetic assets."},
-        { "id": "index_funds", "name": "Index Funds", "description": "Assets that pegged in price to a set of tokens."},
-        { "id": "nft", "name": "NFT", "description": "Marketplaces for NFT tokens."},
-        { "id": "fundraising", "name": "Fundraising", "description": "Fundraising and token sale platforms." },
-        { "id": "gaming", "name": "Gaming", "description": "Crypto projects in gaming and VR sector."},
-        { "id": "b2b", "name": "B2B", "description": "B2B service providers." },
-        { "id": "infrastructure", "name": "Infrastructure", "description": "Projects building infrastructure solutions."},
-        { "id": "staking_eth_2_0", "name": "Staking ETH 2.0", "description": "Protocols that reward liquidity providers." },
-        { "id": "governance", "name": "Governance", "description": "Decentralized governance protocols for DAOs."},
-        { "id": "cross_chain", "name": "Cross Chain", "description": "Cross-chain protocols." },
-        { "id": "computing", "name": "Computing", "description": "Decentralized on-demand computing solutions." }
+        {
+            "id": "blockchain",
+            "name": "Blockchain",
+            "description": "Native cryptocurrencies on major blockchains."
+        },
+        {
+            "id": "dexes",
+            "name": "DEXes",
+            "description": "Decentralized cryptocurrency exchanges."
+        },
+        {
+            "id": "lending",
+            "name": "Lending",
+            "description": "Protocols for lending and borrowing.\n"
+        },
+        {
+            "id": "privacy",
+            "name": "Privacy",
+            "description": "Projects working on privacy solutions."
+        },
+        {
+            "id": "scaling",
+            "name": "Scaling",
+            "description": "Solutions for faster blockchain transactions."
+        },
+        {
+            "id": "oracles",
+            "name": "Oracles",
+            "description": "Connecting real world data to smart contracts."
+        },
+        {
+            "id": "prediction_markets",
+            "name": "Prediction Markets",
+            "description": "Markets to bet on events in the future."
+        },
+        {
+            "id": "yield_aggregators",
+            "name": "Yield Aggregators",
+            "description": "Solutions for earning from idle crypto assets."
+        },
+        {
+            "id": "fiat_stablecoins",
+            "name": "Fiat Stablecoins",
+            "description": "Crypto tokens pegged 1-1 to fiat currency."
+        },
+        {
+            "id": "algo_stablecoins",
+            "name": "Algo Stablecoins",
+            "description": "Stablecoins with algorithmic 1-1 price peg to fiat."
+        },
+        {
+            "id": "tokenized_bitcoin",
+            "name": "Tokenized Bitcoin",
+            "description": "Crypto tokens pegged 1-1 to Bitcoin price."
+        },
+        {
+            "id": "stablecoin_issuers",
+            "name": "Stablecoin Issuers",
+            "description": "Decentralized issuers of fiat pegged stablecoin tokens."
+        },
+        {
+            "id": "exchange_tokens",
+            "name": "Exchange Tokens",
+            "description": "Tokens issued by centralized exchanges."
+        },
+        {
+            "id": "metals",
+            "name": "Metals",
+            "description": "Tokens pegged to metal prices."
+        },
+        {
+            "id": "risk_management",
+            "name": "Risk Management",
+            "description": "Risk assessment, insurance and hedging."
+        },
+        {
+            "id": "wallets",
+            "name": "Wallets",
+            "description": "Tokens issued by cryptocurrency wallets."
+        },
+        {
+            "id": "synthetics",
+            "name": "Synthetics",
+            "description": "Platforms for creating decentralized synthetic assets."
+        },
+        {
+            "id": "index_funds",
+            "name": "Index Funds",
+            "description": "Assets that pegged in price to a set of tokens."
+        },
+        {
+            "id": "nft",
+            "name": "NFT",
+            "description": "Marketplaces for NFT tokens."
+        },
+        {
+            "id": "fundraising",
+            "name": "Fundraising",
+            "description": "Fundraising and token sale platforms."
+        },
+        {
+            "id": "gaming",
+            "name": "Gaming",
+            "description": "Crypto projects in gaming and VR sector."
+        },
+        {
+            "id": "b2b",
+            "name": "B2B",
+            "description": "B2B service providers."
+        },
+        {
+            "id": "infrastructure",
+            "name": "Infrastructure",
+            "description": "Projects building infrastructure solutions."
+        },
+        {
+            "id": "staking_eth_2_0",
+            "name": "Staking ETH 2.0",
+            "description": "Protocols that reward liquidity providers."
+        },
+        {
+            "id": "governance",
+            "name": "Governance",
+            "description": "Decentralized governance protocols for DAOs."
+        },
+        {
+            "id": "cross_chain",
+            "name": "Cross Chain",
+            "description": "Cross-chain protocols."
+        },
+        {
+            "id": "computing",
+            "name": "Computing",
+            "description": "Decentralized on-demand computing solutions."
+        }
     ],
     "funds": [
+        {
+            "id": "polychain_capital",
+            "name": "Polychain Capital",
+            "url": "http://polychain.capital/",
+            "category": "hedge_fund___trading_firm"
+        },
+        {
+            "id": "three_arrows_capital",
+            "name": "Three Arrows Capital",
+            "url": "https://www.threearrowscap.com/",
+            "category": "hedge_fund___trading_firm"
+        },
+        {
+            "id": "8_decimal_capital",
+            "name": "8 Decimal Capital",
+            "url": "http://www.8dcapital.com/index.html",
+            "category": "hedge_fund___trading_firm"
+        },
+        {
+            "id": "blocktower_capital",
+            "name": "BlockTower Capital",
+            "url": "blocktower.com/",
+            "category": "hedge_fund___trading_firm"
+        },
+        {
+            "id": "cms",
+            "name": "CMS",
+            "url": "http://cmsholdings.io/",
+            "category": "hedge_fund___trading_firm"
+        },
+        {
+            "id": "alameda_research_",
+            "name": "Alameda Research ",
+            "url": "https://www.alameda-research.com/",
+            "category": "hedge_fund___trading_firm"
+        },
         {
             "id": "kr1",
             "name": "KR1",
             "url": "https://www.kryptonite1.co/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "placeholder",
             "name": "Placeholder",
             "url": "https://www.placeholder.vc/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "fenbushi_capital",
             "name": "Fenbushi Capital",
             "url": "https://www.fenbushicapital.vc/index_en.html",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "fbg_capital",
             "name": "FBG Capital",
             "url": "https://www.fbg.capital/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "blockchain_capital",
             "name": "Blockchain Capital",
             "url": "https://blockchain.capital/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "ausum_ventures",
             "name": "Ausum Ventures",
             "url": "https://www.ausum.vc/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "paradigm",
             "name": "Paradigm",
             "url": "https://www.paradigm.xyz/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "sino_global_capital",
             "name": "Sino Global Capital",
             "url": "https://www.sinoglobalcapital.com/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "spark_digital_capital",
             "name": "Spark Digital Capital",
             "url": "https://www.sparkdigitalcapital.com/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "1confirmation",
             "name": "1confirmation",
             "url": "https://www.1confirmation.com/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "dragonfly_capital_partners",
             "name": "Dragonfly Capital Partners",
             "url": "https://www.dcp.capital/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "arrington_xrp_capital",
             "name": "Arrington XRP Capital",
             "url": "http://arringtonxrpcapital.com/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "digital_finance_group",
             "name": "Digital Finance Group",
             "url": "https://www.dfg.group/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "digital_currency_group",
             "name": "Digital Currency Group",
             "url": "https://dcg.co/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "sora_ventures",
             "name": "Sora Ventures",
             "url": "http://www.sora.vc/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "libertus_capital",
             "name": "Libertus Capital",
             "url": "https://www.libertuscapital.com/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "infinite_capital",
             "name": "Infinite Capital",
             "url": "https://infinitecapital.io/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "framework_ventures",
             "name": "Framework Ventures",
             "url": "https://framework.ventures/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "electric_capital",
             "name": "Electric Capital",
             "url": "https://www.electriccapital.com/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "parafi_capital",
             "name": "ParaFi Capital",
             "url": "https://www.parafi.capital/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "maven_11_capital",
             "name": "Maven 11 Capital",
             "url": "https://maven11.com/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "collider_ventures",
             "name": "Collider Ventures",
             "url": "https://www.collider.vc/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "lemniscap",
             "name": "Lemniscap",
             "url": "https://lemniscap.com/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "multicoin_capital",
             "name": "Multicoin Capital",
             "url": "https://multicoin.capital/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "zee_prime_capital",
             "name": "Zee Prime Capital",
             "url": "https://zeeprime.capital/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "dtc_capital",
             "name": "DTC Capital",
             "url": "https://www.dtc.capital/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "1kx",
             "name": "1kx",
             "url": "1kx.network",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "pantera_capital",
             "name": "Pantera Capital",
             "url": "https://www.panteracapital.com/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "coinfund",
             "name": "CoinFund",
             "url": "https://www.coinfund.io/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "robot_ventures",
             "name": "Robot Ventures",
             "url": "https://robvc.com/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "hex_capital",
             "name": "Hex Capital",
             "url": "http://hex.capital/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "kenetic",
             "name": "Kenetic",
             "url": "https://kenetic.capital/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "woodstock",
             "name": "Woodstock",
             "url": "https://woodstockfund.com/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "divergence_ventures",
             "name": "Divergence Ventures",
             "url": "https://www.div.vc/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "galaxy_digital_lp",
             "name": "Galaxy Digital LP",
             "url": "https://www.galaxydigital.io/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "iosg_ventures",
             "name": "IOSG Ventures",
             "url": "https://www.iosg.vc/#/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "greenfield_one",
             "name": "Greenfield One",
             "url": "https://www.greenfield.one/",
-            "description": ""
+            "category": "crypto_vc"
         },
         {
             "id": "ngc_ventures",
             "name": "NGC Ventures",
             "url": "https://www.ngc.fund/",
-            "description": ""
+            "category": "crypto_vc"
+        },
+        {
+            "id": "hashed",
+            "name": "Hashed",
+            "url": "https://www.hashed.com/",
+            "category": "crypto_vc"
+        },
+        {
+            "id": "9yards_capital",
+            "name": "9Yards Capital",
+            "url": "https://9yardscapital.com/",
+            "category": "traditional_vc"
+        },
+        {
+            "id": "draper_associates",
+            "name": "Draper Associates",
+            "url": "https://draper.vc/",
+            "category": "traditional_vc"
+        },
+        {
+            "id": "andreessen_horowitz",
+            "name": "Andreessen Horowitz",
+            "url": "www.a16z.com",
+            "category": "traditional_vc"
+        },
+        {
+            "id": "kindred_ventures",
+            "name": "Kindred Ventures",
+            "url": "https://kindredventures.com/",
+            "category": "traditional_vc"
+        },
+        {
+            "id": "blue_yard",
+            "name": "Blue Yard",
+            "url": "https://blueyard.com/",
+            "category": "traditional_vc"
+        },
+        {
+            "id": "sequoia_capital",
+            "name": "Sequoia Capital",
+            "url": "www.sequoiacap.com",
+            "category": "traditional_vc"
+        },
+        {
+            "id": "svangel",
+            "name": "SVAngel",
+            "url": "https://www.svangel.com/index",
+            "category": "traditional_vc"
+        },
+        {
+            "id": "foundation_capital",
+            "name": "Foundation Capital",
+            "url": "https://foundationcapital.com/",
+            "category": "traditional_vc"
+        },
+        {
+            "id": "uncorrelated_ventures",
+            "name": "Uncorrelated Ventures",
+            "url": "https://uncorrelated.com/",
+            "category": "traditional_vc"
+        },
+        {
+            "id": "version_one_ventures",
+            "name": "Version One Ventures",
+            "url": "https://versionone.vc/",
+            "category": "traditional_vc"
+        },
+        {
+            "id": "2020_ventures",
+            "name": "2020 Ventures",
+            "url": "http://www.2020.co/",
+            "category": "traditional_vc"
+        },
+        {
+            "id": "coinbase_ventures",
+            "name": "Coinbase Ventures",
+            "url": "https://ventures.coinbase.com/",
+            "category": "corporate_vc"
+        },
+        {
+            "id": "binance_labs",
+            "name": "Binance Labs",
+            "url": "https://labs.binance.com/?_gl=1%2A305qqq%2A_ga%2AMTU2OTMyMDk3My4xNTkwNzMyODIw",
+            "category": "corporate_vc"
         }
     ],
     "coins": [
@@ -284,7 +512,9 @@
             },
             "rating": "",
             "id": "erc20|0x68a118ef45063051eac49c7e647ce5ace48a68a5",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "1INCH",
@@ -319,7 +549,8 @@
                 "divergence_ventures",
                 "galaxy_digital_lp",
                 "iosg_ventures",
-                "greenfield_one"
+                "greenfield_one",
+                "binance_labs"
             ]
         },
         {
@@ -385,6 +616,7 @@
             ],
             "id": "erc20|0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
             "funds": [
+                "three_arrows_capital",
                 "blockchain_capital",
                 "framework_ventures",
                 "maven_11_capital",
@@ -568,7 +800,8 @@
                 "placeholder",
                 "digital_currency_group",
                 "pantera_capital",
-                "coinfund"
+                "coinfund",
+                "hashed"
             ]
         },
         {
@@ -594,7 +827,9 @@
             },
             "rating": "",
             "id": "erc20|0x95a4492f028aa1fd432ea71146b433e7b4446611",
-            "funds": []
+            "funds": [
+                "alameda_research_"
+            ]
         },
         {
             "code": "AUC",
@@ -626,7 +861,9 @@
                 }
             ],
             "id": "erc20|0xc12d099be31567add4e4e4d0d45691c3f58f5663",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "BAC",
@@ -651,7 +888,9 @@
                 "telegram": "https://t.me/FTX_Official"
             },
             "id": "erc20|0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "BADGER",
@@ -684,6 +923,7 @@
             ],
             "id": "erc20|0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
             "funds": [
+                "polychain_capital",
                 "parafi_capital"
             ]
         },
@@ -726,6 +966,8 @@
             ],
             "id": "erc20|0xba100000625a3754423978a60c9317c58a424e3d",
             "funds": [
+                "three_arrows_capital",
+                "alameda_research_",
                 "placeholder",
                 "pantera_capital",
                 "coinfund",
@@ -757,7 +999,8 @@
             "rating": "",
             "id": "erc20|0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
             "funds": [
-                "woodstock"
+                "woodstock",
+                "sequoia_capital"
             ]
         },
         {
@@ -782,7 +1025,9 @@
             },
             "id": "erc20|0x07150e919b4de5fd6a63de1f9384828396f25fdc",
             "description": "BASE aims to function as a synthetic asset which represents speculation on the total market cap of all cryptocurrencies (cmc). This is made possible through an elastic supply characteristic and programmatic rebasing protocol which incentivize market actors to drive BASE price to its target (peg) price. Early on, qualitative factors like new adoption and speculation may disrupt that peg. But as the network grows, the peg stabilizes. In its early stages, BASE is a speculative asset that seeks to peg to cmc. In its final state, BASE is a synthetic asset that is stably pegged to cmc.",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "BID",
@@ -808,7 +1053,9 @@
             },
             "rating": "",
             "id": "erc20|0x25e1474170c4c0aa64fa98123bdc8db49d7802fa",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "BNT",
@@ -861,7 +1108,8 @@
             ],
             "id": "erc20|0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c",
             "funds": [
-                "kr1"
+                "kr1",
+                "draper_associates"
             ]
         },
         {
@@ -917,7 +1165,9 @@
             "rating": "",
             "id": "erc20|0xd2dda223b2617cb616c1580db421e4cfae6a8a85",
             "description": "BONDProtect (BProtect) is a smart contract-based marketplace payment platform designed to make the buying and selling of any good or service easy and protected. It offers a set of capabilities that include escrow, recurring payments, and payment protection. It can be used as an individual merchant to sell digital products using the BProtect GUI or integrated into any online marketplace as a payment method comparable to other services like Paypal and Stripe. The core capability of BProtect focuses on the purchase, sale and transfer of digital assets including cryptocurrencies, non-fungible tokens (NFT) and more.",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "BUSD",
@@ -943,7 +1193,9 @@
             },
             "rating": "",
             "id": "erc20|0x4fabb145d64652a948d72533023f6e7a623c7c53",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "BZRX",
@@ -989,7 +1241,9 @@
                 }
             ],
             "id": "erc20|0xb72b31907c1c95f3650b64b2469e08edacee5e8f",
-            "funds": []
+            "funds": [
+                "hashed"
+            ]
         },
         {
             "code": "CC10",
@@ -1014,7 +1268,9 @@
                 "telegram": ""
             },
             "id": "erc20|0x17ac188e09a7890a1844e5e65471fe8b0ccfadf3",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "CEL",
@@ -1039,7 +1295,9 @@
             },
             "rating": "",
             "id": "erc20|0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "CELR",
@@ -1096,7 +1354,9 @@
             },
             "rating": "",
             "id": "erc20|0xc4c2614e694cf534d407ee49f8e44d125e4681c4",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "CHSB",
@@ -1122,7 +1382,9 @@
             },
             "rating": "",
             "id": "erc20|0xba9d4199fab4f26efe3551d490e3821486f135ba",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "CHZ",
@@ -1147,7 +1409,9 @@
             },
             "rating": "",
             "id": "erc20|0x3506424f91fd33084466f402d5d97f05f8e3b4af",
-            "funds": []
+            "funds": [
+                "binance_labs"
+            ]
         },
         {
             "code": "COIN",
@@ -1173,7 +1437,9 @@
             },
             "rating": "",
             "id": "erc20|0xe61fdaf474fac07063f2234fb9e60c1163cfa850",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "COMP",
@@ -1222,10 +1488,12 @@
             ],
             "id": "erc20|0xc00e94cb662c3520282e6f5717214004a7f26888",
             "funds": [
+                "polychain_capital",
                 "paradigm",
                 "dragonfly_capital_partners",
                 "robot_ventures",
-                "divergence_ventures"
+                "divergence_ventures",
+                "andreessen_horowitz"
             ]
         },
         {
@@ -1252,7 +1520,9 @@
             },
             "rating": "",
             "id": "erc20|0x4688a8b1f292fdab17e9a90c8bc379dc1dbd8713",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "CREAM",
@@ -1277,7 +1547,9 @@
             },
             "rating": "",
             "id": "erc20|0x2ba592f78db6436527729929aaf6c908497cb200",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "CRO",
@@ -1303,7 +1575,9 @@
             },
             "rating": "",
             "id": "erc20|0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "CRPT",
@@ -1328,7 +1602,9 @@
             },
             "rating": "",
             "id": "erc20|0x08389495d7456e1951ddf7c3a1314a4bfb646d8b",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "CRV",
@@ -1360,7 +1636,9 @@
                 }
             ],
             "id": "erc20|0xd533a949740bb3306d119cc777fa900ba034cd52",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "CVC",
@@ -1416,6 +1694,7 @@
             "rating": "",
             "id": "erc20|0x6b175474e89094c44da98b954eedeac495271d0f",
             "funds": [
+                "polychain_capital",
                 "1confirmation"
             ]
         },
@@ -1442,7 +1721,9 @@
             },
             "rating": "",
             "id": "erc20|0xfbeea1c75e4c4465cb2fccc9c6d6afe984558e20",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "DEFI5",
@@ -1467,7 +1748,9 @@
                 "telegram": "https://t.me/ndxfi"
             },
             "id": "erc20|0xfa6de2697d59e88ed7fc4dfe5a33dac43565ea41",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "DEFO",
@@ -1491,7 +1774,9 @@
             },
             "rating": "",
             "id": "erc20|0xe481f2311c774564d517d015e678c2736a25ddd3",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "DEGO",
@@ -1517,7 +1802,9 @@
             },
             "rating": "",
             "id": "erc20|0x88ef27e69108b2633f8e1c184cc37940a075cc02",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "DEUS",
@@ -1541,7 +1828,9 @@
                 "telegram": "https://t.me/deusfinance"
             },
             "id": "erc20|0x3b62f3820e0b035cc4ad602dece6d796bc325325",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "DF",
@@ -1567,7 +1856,9 @@
             },
             "rating": "",
             "id": "erc20|0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "DGX",
@@ -1593,7 +1884,9 @@
             },
             "rating": "",
             "id": "erc20|0x4f3afec4e5a3f2a6a1a411def7d7dfe50ee057bf",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "DHT",
@@ -1619,6 +1912,8 @@
             "rating": "",
             "id": "erc20|0xca1207647ff814039530d7d35df0e1dd2e91fa84",
             "funds": [
+                "three_arrows_capital",
+                "blocktower_capital",
                 "framework_ventures",
                 "lemniscap",
                 "divergence_ventures",
@@ -1650,7 +1945,9 @@
             },
             "rating": "",
             "id": "erc20|0x84ca8bc7997272c7cfb4d0cd3d55cd942b3c9419",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "DIP",
@@ -1704,12 +2001,16 @@
             },
             "rating": "",
             "id": "erc20|0x0abdace70d3790235af448c88547603b945604ea",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "DODO",
             "name": "Dodo",
-            "categories": [],
+            "categories": [
+
+            ],
             "active": true,
             "platform": {
                 "name": "ethereum",
@@ -1738,10 +2039,15 @@
             ],
             "id": "erc20|0x43dfc4159d86f3a37a5a4b3d4580b888ad7d4ddd",
             "funds": [
+                "three_arrows_capital",
+                "cms",
+                "alameda_research_",
                 "framework_ventures",
                 "pantera_capital",
                 "robot_ventures",
-                "galaxy_digital_lp"
+                "galaxy_digital_lp",
+                "coinbase_ventures",
+                "binance_labs"
             ]
         },
         {
@@ -1767,7 +2073,9 @@
                 "telegram": ""
             },
             "id": "erc20|0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "DSD",
@@ -1793,7 +2101,9 @@
             },
             "rating": "",
             "id": "erc20|0xbd2f0cd039e0bfcf88901c98c0bfac5ab27566e3",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "DUSD",
@@ -1845,7 +2155,9 @@
                 "telegram": "https://t.me/FTX_Official"
             },
             "id": "erc20|0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "ENJ",
@@ -1871,7 +2183,9 @@
             },
             "rating": "",
             "id": "erc20|0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "ESD",
@@ -1924,7 +2238,9 @@
                 "telegram": "https://t.me/ethereumstakefarm"
             },
             "id": "erc20|0xd0d3ebcad6a20ce69bc3bc0e1ec964075425e533",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "EURS",
@@ -1950,7 +2266,9 @@
             },
             "rating": "",
             "id": "erc20|0xdb25f211ab05b1c97d595516f45794528a807ad8",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "FARM",
@@ -1986,7 +2304,9 @@
                 }
             ],
             "id": "erc20|0xa0246c9032bc3a600820415ae600c6388619a14d",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "FIN",
@@ -2021,7 +2341,9 @@
                 }
             ],
             "id": "erc20|0x054f76beed60ab6dbeb23502178c52d6c5debe40",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "FLUX",
@@ -2046,7 +2368,9 @@
             },
             "rating": "",
             "id": "erc20|0x469eda64aed3a3ad6f868c44564291aa415cb1d9",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "FNK",
@@ -2071,7 +2395,9 @@
             },
             "rating": "",
             "id": "erc20|0xb5fe099475d3030dde498c3bb6f3854f762a48ad",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "FOR",
@@ -2136,7 +2462,9 @@
             },
             "rating": "",
             "id": "erc20|0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "FTT",
@@ -2190,7 +2518,9 @@
             },
             "rating": "",
             "id": "erc20|0x419d0d8bdd9af5e606ae2232ed285aff190e711b",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "FYZ",
@@ -2215,7 +2545,9 @@
             },
             "rating": "",
             "id": "erc20|0x6bff2fe249601ed0db3a87424a2e923118bb0312",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "GEN",
@@ -2315,7 +2647,9 @@
                 }
             ],
             "id": "erc20|0x6810e776880c02933d47db1b9fc05908e5386b96",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "GRID",
@@ -2341,7 +2675,9 @@
             },
             "rating": "",
             "id": "erc20|0x12b19d3e2ccc14da04fae33e63652ce469b3f2fd",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "GRT",
@@ -2376,7 +2712,8 @@
                 "multicoin_capital",
                 "dtc_capital",
                 "coinfund",
-                "divergence_ventures"
+                "divergence_ventures",
+                "coinbase_ventures"
             ]
         },
         {
@@ -2401,7 +2738,9 @@
                 "telegram": ""
             },
             "id": "erc20|0xe66747a101bff2dba3697199dcce5b743b454759",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "GUSD",
@@ -2427,7 +2766,9 @@
             },
             "rating": "",
             "id": "erc20|0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "HBTC",
@@ -2451,7 +2792,9 @@
             },
             "rating": "",
             "id": "erc20|0x0316eb71485b0ab14103307bf65a021042c6d380",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "HEDG",
@@ -2477,7 +2820,9 @@
             },
             "rating": "",
             "id": "erc20|0xf1290473e210b2108a85237fbcd7b6eb42cc654f",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "HEGIC",
@@ -2509,7 +2854,9 @@
                 }
             ],
             "id": "erc20|0x584bc13c7d411c00c01a62e8019472de68768430",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "HLAND",
@@ -2534,7 +2881,9 @@
             },
             "rating": "",
             "id": "erc20|0xba7b2c094c1a4757f9534a37d296a3bed7f544dc",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "HOLY",
@@ -2559,7 +2908,9 @@
             },
             "rating": "",
             "id": "erc20|0x39eae99e685906ff1c11a962a743440d0a1a6e09",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "HOT",
@@ -2612,7 +2963,9 @@
             },
             "rating": "",
             "id": "erc20|0x6f259637dcd74c767781e37bc6133cd6a68aa161",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "IDEX",
@@ -2638,7 +2991,9 @@
             },
             "rating": "",
             "id": "erc20|0xb705268213d593b8fd88d3fdeff93aff5cbdcfae",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "IDLE",
@@ -2673,7 +3028,9 @@
                 }
             ],
             "id": "erc20|0x875773784af8135ea0ef43b5a374aad105c5d39e",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "IMBTC",
@@ -2697,7 +3054,9 @@
             },
             "rating": "",
             "id": "erc20|0x3212b29e33587a00fb1c83346f5dbfa69a458923",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "INJ",
@@ -2723,7 +3082,9 @@
             "rating": "",
             "id": "erc20|0xe28b3b32b6c345a34ff64674606124dd5aceca30",
             "funds": [
-                "pantera_capital"
+                "pantera_capital",
+                "hashed",
+                "binance_labs"
             ]
         },
         {
@@ -2780,7 +3141,8 @@
             "funds": [
                 "paradigm",
                 "infinite_capital",
-                "dtc_capital"
+                "dtc_capital",
+                "andreessen_horowitz"
             ]
         },
         {
@@ -2826,10 +3188,13 @@
             ],
             "id": "erc20|0xdd974d5c2e2928dea5f71b9825b8b646686bd200",
             "funds": [
+                "three_arrows_capital",
+                "8_decimal_capital",
                 "parafi_capital",
                 "pantera_capital",
                 "kenetic",
-                "iosg_ventures"
+                "iosg_ventures",
+                "hashed"
             ]
         },
         {
@@ -2855,7 +3220,9 @@
             },
             "rating": "",
             "id": "erc20|0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "LDO",
@@ -2909,7 +3276,9 @@
             },
             "rating": "",
             "id": "erc20|0xae697f994fc5ebc000f8e22ebffee04612f98a0d",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "LINK",
@@ -2936,6 +3305,7 @@
             "rating": "",
             "id": "erc20|0x514910771af9ca656af840dff83e8264ecf986ca",
             "funds": [
+                "8_decimal_capital",
                 "framework_ventures"
             ]
         },
@@ -2962,7 +3332,9 @@
             },
             "rating": "",
             "id": "erc20|0x0000000000095413afc295d19edeb1ad7b71c952",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "LOOM",
@@ -2988,7 +3360,9 @@
             },
             "rating": "",
             "id": "erc20|0xa4e8c3ec456107ea67d3075bf9e3df3a75823db0",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "LPT",
@@ -3078,7 +3452,9 @@
                 }
             ],
             "id": "erc20|0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
-            "funds": []
+            "funds": [
+                "coinbase_ventures"
+            ]
         },
         {
             "code": "MCB",
@@ -3114,7 +3490,9 @@
                 }
             ],
             "id": "erc20|0x4e352cf164e64adcbad318c3a1e222e9eba4ce42",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "MEME",
@@ -3139,7 +3517,9 @@
             },
             "rating": "",
             "id": "erc20|0xd5525d397898e5502075ea5e830d8914f6f0affe",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "MFT",
@@ -3166,6 +3546,8 @@
             "rating": "",
             "id": "erc20|0xdf2c7238198ad8b389666574f2d8bc411a4b7428",
             "funds": [
+                "8_decimal_capital",
+                "blocktower_capital",
                 "1kx",
                 "kenetic",
                 "iosg_ventures"
@@ -3253,7 +3635,10 @@
                 "electric_capital",
                 "parafi_capital",
                 "hex_capital",
-                "iosg_ventures"
+                "iosg_ventures",
+                "hashed",
+                "andreessen_horowitz",
+                "uncorrelated_ventures"
             ]
         },
         {
@@ -3307,7 +3692,9 @@
                 "telegram": "https://t.me/join_88mphapp"
             },
             "id": "erc20|0x8888801af4d980682e47f1a9036e589479e835c5",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "MUSD",
@@ -3343,7 +3730,9 @@
                 }
             ],
             "id": "erc20|0xe2f2a5c287993345a840db3b0845fbc70f5935a5",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "MX",
@@ -3367,7 +3756,9 @@
                 "telegram": "https://t.me/MXCEnglish"
             },
             "id": "erc20|0x11eef04c884e24d9b7b4760e7476d06ddf797f36",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "NEST",
@@ -3393,7 +3784,9 @@
             },
             "rating": "",
             "id": "erc20|0x04abeda201850ac0124161f037efd70c74ddc74c",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "NEXO",
@@ -3446,7 +3839,9 @@
             },
             "rating": "",
             "id": "erc20|0xa15c7ebe1f07caf6bff097d8a589fb8ac49ae5b3",
-            "funds": []
+            "funds": [
+                "hashed"
+            ]
         },
         {
             "code": "NSURE",
@@ -3471,7 +3866,9 @@
             },
             "rating": "",
             "id": "erc20|0x20945ca1df56d237fd40036d47e866c7dccd2114",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "NXM",
@@ -3504,7 +3901,8 @@
                 "arrington_xrp_capital",
                 "collider_ventures",
                 "1kx",
-                "kenetic"
+                "kenetic",
+                "version_one_ventures"
             ]
         },
         {
@@ -3531,7 +3929,9 @@
             },
             "rating": "",
             "id": "erc20|0x7240ac91f01233baaf8b064248e80feaa5912ba3",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "OGN",
@@ -3557,10 +3957,13 @@
             },
             "id": "erc20|0x8207c1ffc5b6804f6024322ccf34f29c3541ae26",
             "funds": [
+                "blocktower_capital",
                 "sora_ventures",
                 "1kx",
                 "pantera_capital",
-                "kenetic"
+                "kenetic",
+                "hashed",
+                "foundation_capital"
             ]
         },
         {
@@ -3589,13 +3992,16 @@
             "id": "erc20|0xd26114cd6ee289accf82350c8d8487fedb8a0c07",
             "funds": [
                 "kr1",
-                "pantera_capital"
+                "pantera_capital",
+                "hashed"
             ]
         },
         {
             "code": "OPIUM",
             "name": "Opium",
-            "categories": [],
+            "categories": [
+
+            ],
             "active": true,
             "platform": {
                 "name": "ethereum",
@@ -3621,6 +4027,8 @@
             ],
             "id": "erc20|0x888888888889c00c67689029d7856aac1065ec11",
             "funds": [
+                "cms",
+                "alameda_research_",
                 "zee_prime_capital",
                 "kenetic",
                 "galaxy_digital_lp"
@@ -3650,7 +4058,9 @@
             },
             "rating": "",
             "id": "erc20|0x4c11249814f11b9346808179cf06e71ac328c1b5",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "ORBS",
@@ -3676,7 +4086,9 @@
             },
             "rating": "",
             "id": "erc20|0xff56cc6b1e6ded347aa0b7676c85ab0b3d08b0fa",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "OXT",
@@ -3703,7 +4115,10 @@
             "rating": "",
             "id": "erc20|0x4575f41308ec1483f3d399aa9a2826d74da13deb",
             "funds": [
-                "blockchain_capital"
+                "polychain_capital",
+                "blockchain_capital",
+                "sequoia_capital",
+                "foundation_capital"
             ]
         },
         {
@@ -3730,7 +4145,9 @@
             },
             "rating": "",
             "id": "erc20|0x967da4048cd07ab37855c090aaf366e4ce1b9f48",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "PAR",
@@ -3755,7 +4172,9 @@
             },
             "rating": "",
             "id": "erc20|0x1beef31946fbbb40b877a72e4ae04a8d1a5cee06",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "PAX",
@@ -3781,7 +4200,9 @@
             },
             "rating": "",
             "id": "erc20|0x8e870d67f660d95d5be530380d0ec0bd388289e1",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "PAXG",
@@ -3807,7 +4228,9 @@
             },
             "rating": "",
             "id": "erc20|0x45804880de22913dafe09f4980848ece6ecbaf78",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "PBTC",
@@ -3832,12 +4255,16 @@
             },
             "rating": "",
             "id": "erc20|0x5228a22e72ccc52d415ecfd199f99d0665e7733b",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "PERL",
             "name": "Perlin",
-            "categories": [],
+            "categories": [
+
+            ],
             "active": true,
             "platform": {
                 "name": "ethereum",
@@ -3891,9 +4318,13 @@
             "rating": "",
             "id": "erc20|0xbc396689893d065f41bc2c6ecbee5e0085233447",
             "funds": [
+                "three_arrows_capital",
+                "cms",
+                "alameda_research_",
                 "multicoin_capital",
                 "zee_prime_capital",
-                "divergence_ventures"
+                "divergence_ventures",
+                "binance_labs"
             ]
         },
         {
@@ -3925,7 +4356,9 @@
                 }
             ],
             "id": "erc20|0x429881672b9ae42b8eba0e26cd9c73711b891ca5",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "PIPT",
@@ -3948,7 +4381,9 @@
                 "telegram": "https://t.me/powerpoolcvp"
             },
             "id": "erc20|0x26607ac599266b21d13c7acf7942c7701a8b699c",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "PLOT",
@@ -4000,7 +4435,9 @@
                 "telegram": "https://t.me/kleros"
             },
             "id": "erc20|0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "POLS",
@@ -4053,7 +4490,9 @@
             },
             "rating": "",
             "id": "erc20|0x9992ec3cf6a55b00978cddf2b27bc6882d88d1ec",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "QNT",
@@ -4079,7 +4518,9 @@
             },
             "rating": "",
             "id": "erc20|0x4a220e6096b25eadb88358cb44068a3248254675",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "QSP",
@@ -4106,7 +4547,8 @@
             "rating": "",
             "id": "erc20|0x99ea4db9ee77acd40b119bd1dc4e33e1c070b80d",
             "funds": [
-                "kenetic"
+                "kenetic",
+                "hashed"
             ]
         },
         {
@@ -4135,7 +4577,8 @@
             "funds": [
                 "parafi_capital",
                 "1kx",
-                "coinfund"
+                "coinfund",
+                "coinbase_ventures"
             ]
         },
         {
@@ -4162,7 +4605,9 @@
             },
             "rating": "",
             "id": "erc20|0xeb4c2781e4eba804ce9a9803c67d0893436bb27d",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "RFUEL",
@@ -4187,7 +4632,9 @@
             },
             "rating": "",
             "id": "erc20|0xaf9f549774ecedbd0966c52f250acc548d3f36e5",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "RGT",
@@ -4241,7 +4688,9 @@
             },
             "rating": "",
             "id": "erc20|0x9469d013805bffb7d3debe5e7839237e535ec483",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "RLC",
@@ -4266,7 +4715,9 @@
                 "telegram": ""
             },
             "id": "erc20|0x607f4c5bb672230e8672085532f7e901544a7375",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "RPL",
@@ -4320,7 +4771,9 @@
             },
             "rating": "",
             "id": "erc20|0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
-            "funds": []
+            "funds": [
+                "blocktower_capital"
+            ]
         },
         {
             "code": "RSV",
@@ -4347,7 +4800,8 @@
             "id": "erc20|0x196f4727526ea7fb1e17b2071b3d8eaa38486988",
             "funds": [
                 "arrington_xrp_capital",
-                "digital_currency_group"
+                "digital_currency_group",
+                "coinbase_ventures"
             ]
         },
         {
@@ -4373,7 +4827,9 @@
             },
             "rating": "",
             "id": "erc20|0x3845badade8e6dff049820680d1f14bd3903a5d0",
-            "funds": []
+            "funds": [
+                "hashed"
+            ]
         },
         {
             "code": "SBTC",
@@ -4397,7 +4853,9 @@
                 "telegram": "https://t.me/FTX_Official"
             },
             "id": "erc20|0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "SFI",
@@ -4422,7 +4880,9 @@
                 "telegram": "https://t.me/saffronfinance"
             },
             "id": "erc20|0xb753428af26e81097e7fd17f40c88aaa3e04902c",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "SHARE",
@@ -4448,7 +4908,9 @@
             },
             "rating": "",
             "id": "erc20|0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "SNT",
@@ -4474,7 +4936,9 @@
             },
             "rating": "",
             "id": "erc20|0x744d70fdbe2ba4cf95131626614a1763df805b9e",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "SNX",
@@ -4525,11 +4989,14 @@
             ],
             "id": "erc20|0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
             "funds": [
+                "three_arrows_capital",
                 "paradigm",
                 "infinite_capital",
                 "framework_ventures",
                 "dtc_capital",
-                "iosg_ventures"
+                "iosg_ventures",
+                "hashed",
+                "coinbase_ventures"
             ]
         },
         {
@@ -4556,7 +5023,9 @@
             },
             "rating": "",
             "id": "erc20|0xbcd4b7de6fde81025f74426d43165a5b0d790fdd",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "SRM",
@@ -4582,6 +5051,8 @@
             "rating": "",
             "id": "erc20|0x476c5e26a75bd202a9683ffd34359c0cc15be0ff",
             "funds": [
+                "cms",
+                "alameda_research_",
                 "sino_global_capital",
                 "parafi_capital",
                 "lemniscap",
@@ -4628,7 +5099,9 @@
                 }
             ],
             "id": "erc20|0x0ae055097c6d159879521c384f1d2123d1f195e6",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "STORJ",
@@ -4654,7 +5127,9 @@
             },
             "rating": "",
             "id": "erc20|0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "SUSD",
@@ -4681,7 +5156,9 @@
             },
             "rating": "",
             "id": "erc20|0x57ab1ec28d129707052df4df418d58a2d46d5f51",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "SUSHI",
@@ -4716,7 +5193,9 @@
                 }
             ],
             "id": "erc20|0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "SWAP",
@@ -4740,7 +5219,9 @@
                 "telegram": "https://t.me/TrustSwap"
             },
             "id": "erc20|0xcc4304a31d09258b0029ea7fe63d032f52e44efe",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "SWFL",
@@ -4765,7 +5246,9 @@
             },
             "rating": "",
             "id": "erc20|0xba21ef4c9f433ede00badefcc2754b8e74bd538a",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "SWISS",
@@ -4790,7 +5273,9 @@
             },
             "rating": "",
             "id": "erc20|0x692eb773e0b5b7a79efac5a015c8b36a2577f65c",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "SWRV",
@@ -4822,7 +5307,9 @@
                 }
             ],
             "id": "erc20|0xb8baa0e4287890a5f79863ab62b7f175cecbd433",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "SXP",
@@ -4848,7 +5335,9 @@
             },
             "rating": "",
             "id": "erc20|0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "TBTC",
@@ -4902,7 +5391,9 @@
             },
             "rating": "",
             "id": "erc20|0xaaaf91d9b90df800df4f55c205fd6989c977e73a",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "TMTG",
@@ -4928,7 +5419,9 @@
             },
             "rating": "",
             "id": "erc20|0x10086399dd8c1e3de736724af52587a2044c9fa2",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "TRB",
@@ -4954,7 +5447,9 @@
             },
             "rating": "",
             "id": "erc20|0x0ba45a8b5d5575935b8158a88c631e9f9c95a2e5",
-            "funds": []
+            "funds": [
+                "binance_labs"
+            ]
         },
         {
             "code": "TRU",
@@ -4985,7 +5480,9 @@
                 }
             ],
             "id": "erc20|0x4c19596f5aaff459fa38b0f7ed92f11ae6543784",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "TUSD",
@@ -5011,7 +5508,9 @@
             },
             "rating": "",
             "id": "erc20|0x0000000000085d4780b73119b644ae5ecd22b376",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "TXL",
@@ -5036,7 +5535,9 @@
             },
             "rating": "",
             "id": "erc20|0x8eef5a82e6aa222a60f009ac18c24ee12dbf4b41",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "UBT",
@@ -5061,7 +5562,9 @@
             },
             "rating": "",
             "id": "erc20|0x8400d94a5cb0fa0d041a3788e395285d61c9ee5e",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "UMA",
@@ -5091,7 +5594,9 @@
                 "placeholder",
                 "blockchain_capital",
                 "dragonfly_capital_partners",
-                "iosg_ventures"
+                "iosg_ventures",
+                "uncorrelated_ventures",
+                "coinbase_ventures"
             ]
         },
         {
@@ -5117,7 +5622,9 @@
             },
             "rating": "",
             "id": "erc20|0x10be9a8dae441d276a5027936c3aaded2d82bc15",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "UNI",
@@ -5160,7 +5667,10 @@
                 "blockchain_capital",
                 "paradigm",
                 "parafi_capital",
-                "maven_11_capital"
+                "maven_11_capital",
+                "andreessen_horowitz",
+                "svangel",
+                "version_one_ventures"
             ]
         },
         {
@@ -5190,7 +5700,8 @@
             "funds": [
                 "fenbushi_capital",
                 "blockchain_capital",
-                "digital_currency_group"
+                "digital_currency_group",
+                "2020_ventures"
             ]
         },
         {
@@ -5217,7 +5728,9 @@
             },
             "rating": "",
             "id": "erc20|0x674c6ad92fd080e4004b2312b45f796a192d27a0",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "USDX",
@@ -5241,12 +5754,16 @@
                 "telegram": "https://t.me/FTX_Official"
             },
             "id": "erc20|0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "VALUE",
             "name": "Value Liquidity",
-            "categories": [],
+            "categories": [
+
+            ],
             "active": true,
             "platform": {
                 "name": "ethereum",
@@ -5298,7 +5815,9 @@
                 }
             ],
             "id": "erc20|0x49e833337ece7afe375e44f4e3e8481029218e5c",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "WBTC",
@@ -5324,7 +5843,9 @@
             },
             "rating": "",
             "id": "erc20|0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "WHITE",
@@ -5349,7 +5870,9 @@
             },
             "rating": "",
             "id": "erc20|0x5f0e628b693018f639d10e4a4f59bd4d8b2b6b44",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "WISE",
@@ -5375,7 +5898,9 @@
             },
             "rating": "",
             "id": "erc20|0x66a0f676479cee1d7373f3dc2e2952778bff5bd6",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "XFT",
@@ -5401,7 +5926,9 @@
             },
             "rating": "",
             "id": "erc20|0xabe580e7ee158da464b51ee1a83ac0289622e6be",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "XIO",
@@ -5426,7 +5953,9 @@
             },
             "rating": "",
             "id": "erc20|0x0f7f961648ae6db43c75663ac7e5414eb79b5704",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "YAM",
@@ -5451,7 +5980,9 @@
                 "telegram": ""
             },
             "id": "erc20|0x0aacfbec6a24756c20d41914f2caba817c0d8521",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "YAX",
@@ -5475,7 +6006,9 @@
                 "telegram": "https://t.me/yaxisannouncem"
             },
             "id": "erc20|0xb1dc9124c395c1e97773ab855d66e879f053a289",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "YF-DAI",
@@ -5500,7 +6033,9 @@
             },
             "rating": "",
             "id": "erc20|0xf4cd3d3fda8d7fd6c5a500203e38640a70bf9577",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "YFI",
@@ -5555,7 +6090,9 @@
                 "telegram": "https://t.me/yfiifinance"
             },
             "id": "erc20|0xa1d0e215a23d7030842fc67ce582a6afa3ccab83",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "YFIM",
@@ -5579,7 +6116,9 @@
             },
             "rating": "",
             "id": "erc20|0x2e2f3246b6c65ccc4239c9ee556ec143a7e5de2c",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "ZAI",
@@ -5605,7 +6144,9 @@
             },
             "rating": "",
             "id": "erc20|0x9d1233cc46795e94029fda81aaadc1455d510f15",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "ZCN",
@@ -5631,7 +6172,9 @@
             },
             "rating": "",
             "id": "erc20|0xb9ef770b6a5e12e45983c5d80545258aa38f3b78",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "ZORA",
@@ -5655,7 +6198,9 @@
                 "telegram": "https://t.me/zoracles"
             },
             "id": "erc20|0xd8e3fb3b08eba982f2754988d70d57edc0055ae6",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "ZRX",
@@ -5682,6 +6227,7 @@
             "rating": "",
             "id": "erc20|0xe41d2489571d322189246dafa5ebde1f4699f498",
             "funds": [
+                "8_decimal_capital",
                 "kr1",
                 "placeholder",
                 "infinite_capital",
@@ -5712,7 +6258,9 @@
             },
             "rating": "",
             "id": "unsupported|lto-network",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "BTC",
@@ -5733,7 +6281,9 @@
             },
             "rating": "",
             "id": "bitcoin",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "ETH",
@@ -5755,6 +6305,7 @@
             "rating": "",
             "id": "ethereum",
             "funds": [
+                "8_decimal_capital",
                 "kr1"
             ]
         },
@@ -5775,7 +6326,9 @@
             },
             "rating": "",
             "id": "bitcoinCash",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "DASH",
@@ -5797,7 +6350,9 @@
             },
             "rating": "",
             "id": "dash",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "LTC",
@@ -5818,7 +6373,9 @@
             },
             "rating": "",
             "id": "litecoin",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "ZEC",
@@ -5864,7 +6421,9 @@
             },
             "rating": "",
             "id": "unsupported|cardano",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "ALGO",
@@ -5890,7 +6449,8 @@
             "funds": [
                 "arrington_xrp_capital",
                 "lemniscap",
-                "ngc_ventures"
+                "ngc_ventures",
+                "foundation_capital"
             ]
         },
         {
@@ -5939,7 +6499,9 @@
             "funds": [
                 "kr1",
                 "dragonfly_capital_partners",
-                "iosg_ventures"
+                "iosg_ventures",
+                "hashed",
+                "uncorrelated_ventures"
             ]
         },
         {
@@ -5983,7 +6545,9 @@
             },
             "rating": "",
             "id": "bep20|0xca3f508b8e4dd382ee878a314789373d80a5190a",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "BNB",
@@ -6003,7 +6567,9 @@
             },
             "rating": "",
             "id": "bep2|BNB",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "CAKE",
@@ -6024,7 +6590,9 @@
             },
             "rating": "",
             "id": "bep20|0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "CAS",
@@ -6050,7 +6618,9 @@
             },
             "rating": "",
             "id": "bep20|0x780207b8c0fdc32cf60e957415bfa1f2d4d9718c",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "CTK",
@@ -6070,9 +6640,11 @@
             "rating": "",
             "id": "unsupported|certik",
             "funds": [
+                "8_decimal_capital",
                 "arrington_xrp_capital",
                 "kenetic",
-                "ngc_ventures"
+                "ngc_ventures",
+                "binance_labs"
             ]
         },
         {
@@ -6099,7 +6671,9 @@
             },
             "rating": "",
             "id": "erc20|0x0a913bead80f321e7ac35285ee10d9d922659cb7",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "DOT",
@@ -6118,6 +6692,7 @@
             },
             "id": "unsupported|polkadot",
             "funds": [
+                "8_decimal_capital",
                 "kr1",
                 "placeholder",
                 "digital_finance_group",
@@ -6144,7 +6719,9 @@
             },
             "rating": "",
             "id": "unsupported|edc-blockchain",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "EGLD",
@@ -6186,7 +6763,9 @@
                 "telegram": ""
             },
             "id": "unsupported|eos",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "HEZ",
@@ -6206,7 +6785,9 @@
                 "telegram": "https://t.me/hermez_network"
             },
             "id": "erc20|0xeef9f339514298c6a857efcfc1a762af84438dee",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "ICX",
@@ -6230,8 +6811,10 @@
             },
             "id": "unsupported|icon",
             "funds": [
+                "8_decimal_capital",
                 "pantera_capital",
-                "kenetic"
+                "kenetic",
+                "hashed"
             ]
         },
         {
@@ -6251,7 +6834,9 @@
             },
             "rating": "",
             "id": "unsupported|iris-network",
-            "funds": []
+            "funds": [
+                "8_decimal_capital"
+            ]
         },
         {
             "code": "KAVA",
@@ -6312,7 +6897,9 @@
                 }
             ],
             "id": "erc20|0xbbbbca6a901c926f240b89eacb641d8aec7aeafd",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "LUNA",
@@ -6332,13 +6919,17 @@
             "rating": "",
             "id": "unsupported|terra-luna",
             "funds": [
+                "polychain_capital",
                 "fbg_capital",
                 "arrington_xrp_capital",
                 "infinite_capital",
                 "1kx",
                 "pantera_capital",
                 "kenetic",
-                "galaxy_digital_lp"
+                "galaxy_digital_lp",
+                "hashed",
+                "coinbase_ventures",
+                "binance_labs"
             ]
         },
         {
@@ -6366,7 +6957,10 @@
                 "pantera_capital",
                 "coinfund",
                 "iosg_ventures",
-                "greenfield_one"
+                "greenfield_one",
+                "andreessen_horowitz",
+                "svangel",
+                "coinbase_ventures"
             ]
         },
         {
@@ -6385,7 +6979,9 @@
                 "telegram": ""
             },
             "id": "unsupported|neo",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "OKT",
@@ -6403,7 +6999,9 @@
                 "telegram": "https://t.me/OKExOfficial_English"
             },
             "id": "unsupported|okexchain",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "QTUM",
@@ -6444,6 +7042,7 @@
             },
             "id": "erc20|0x408e41876cccdc0f92210600ef50372656052a38",
             "funds": [
+                "polychain_capital",
                 "fbg_capital",
                 "infinite_capital",
                 "1kx"
@@ -6529,6 +7128,7 @@
             },
             "id": "unsupported|solana",
             "funds": [
+                "blocktower_capital",
                 "zee_prime_capital"
             ]
         },
@@ -6570,7 +7170,9 @@
             },
             "rating": "",
             "id": "unsupported|tron",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "TWT",
@@ -6589,7 +7191,9 @@
             },
             "rating": "",
             "id": "unsupported|trust-wallet-token",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "UNFI",
@@ -6608,7 +7212,9 @@
                 "telegram": "https://t.me/unifi_protocol"
             },
             "id": "bep20|0x441761326490cacf7af299725b6292597ee822c2",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "USDT",
@@ -6628,7 +7234,9 @@
             },
             "rating": "",
             "id": "erc20|0xdac17f958d2ee523a2206206994597c13d831ec7",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "UTK",
@@ -6654,7 +7262,9 @@
             },
             "rating": "",
             "id": "erc20|0xdc9ac3c20d1ed0b540df9b1fedc10039df13f99c",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "WAVES",
@@ -6673,7 +7283,9 @@
             },
             "rating": "",
             "id": "erc20|0x1cf4592ebffd730c7dc92c1bdffdfc3b9efcf29a",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "WRX",
@@ -6694,7 +7306,9 @@
             },
             "rating": "",
             "id": "bep2|WRX-ED1",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "XEM",
@@ -6713,7 +7327,9 @@
             },
             "rating": "",
             "id": "unsupported|nem",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "XLM",
@@ -6731,7 +7347,9 @@
                 "telegram": ""
             },
             "id": "unsupported|stellar",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "XMR",
@@ -6751,7 +7369,9 @@
             },
             "rating": "",
             "id": "unsupported|monero",
-            "funds": []
+            "funds": [
+
+            ]
         },
         {
             "code": "XTZ",
@@ -6769,7 +7389,31 @@
                 "telegram": ""
             },
             "id": "unsupported|tezos",
-            "funds": []
+            "funds": [
+                "draper_associates"
+            ]
+        }
+    ],
+    "fund_categories": [
+        {
+            "id": "hedge_fund___trading_firm",
+            "name": "Hedge fund / Trading Firm",
+            "order": 2
+        },
+        {
+            "id": "crypto_vc",
+            "name": "Crypto VC",
+            "order": 1
+        },
+        {
+            "id": "traditional_vc",
+            "name": "Traditional VC",
+            "order": 3
+        },
+        {
+            "id": "corporate_vc",
+            "name": "Corporate VC",
+            "order": 4
         }
     ]
 }

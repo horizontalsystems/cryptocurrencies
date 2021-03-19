@@ -634,7 +634,7 @@
             "code": "AKRO",
             "name": "Akropolis",
             "categories": [
-                "lending"
+                "yield_aggregators"
             ],
             "active": true,
             "platform": {
@@ -662,7 +662,7 @@
             "code": "ALBT",
             "name": "AllianceBlock",
             "categories": [
-                "dexes"
+                "infrastructure"
             ],
             "active": true,
             "platform": {
@@ -2016,7 +2016,7 @@
             "code": "DODO",
             "name": "Dodo",
             "categories": [
-
+                "dexes"
             ],
             "active": true,
             "platform": {
@@ -2088,8 +2088,7 @@
             "code": "DSD",
             "name": "Dynamic Set Dollar",
             "categories": [
-                "fiat_stablecoins",
-                "algo_stablecoins"
+
             ],
             "active": true,
             "platform": {
@@ -2144,7 +2143,7 @@
             "code": "DYP",
             "name": "DeFi Yield Protocol",
             "categories": [
-                "yield_aggregators"
+
             ],
             "active": true,
             "platform": {
@@ -2198,8 +2197,7 @@
             "code": "ESD",
             "name": "Empty Set Dollar",
             "categories": [
-                "fiat_stablecoins",
-                "algo_stablecoins"
+
             ],
             "active": true,
             "platform": {
@@ -2227,7 +2225,7 @@
             "code": "ETHYS",
             "name": "Ethereum Stake",
             "categories": [
-                "staking_eth_2_0"
+
             ],
             "active": true,
             "platform": {
@@ -2253,7 +2251,7 @@
             "code": "EURS",
             "name": "STATIS EURO",
             "categories": [
-                "fiat_stablecoins"
+
             ],
             "active": true,
             "platform": {
@@ -2356,7 +2354,7 @@
             "code": "FLUX",
             "name": "Flux",
             "categories": [
-                "prediction_markets"
+
             ],
             "active": true,
             "platform": {
@@ -2560,7 +2558,7 @@
             "code": "GEN",
             "name": "DAOstack",
             "categories": [
-                "governance"
+
             ],
             "active": true,
             "platform": {
@@ -2616,7 +2614,8 @@
             "code": "GNO",
             "name": "Gnosis",
             "categories": [
-                "prediction_markets"
+                "prediction_markets",
+                "wallets"
             ],
             "active": true,
             "platform": {
@@ -2807,7 +2806,7 @@
             "code": "HEDG",
             "name": "HedgeTrade",
             "categories": [
-                "prediction_markets"
+
             ],
             "active": true,
             "platform": {
@@ -3125,7 +3124,7 @@
             "code": "KEEP",
             "name": "Keep Network",
             "categories": [
-                "yield_aggregators",
+                "privacy",
                 "stablecoin_issuers"
             ],
             "active": true,
@@ -3208,7 +3207,8 @@
             "code": "KP3R",
             "name": "Keep3rV1",
             "categories": [
-                "computing"
+                "computing",
+                "governance"
             ],
             "active": true,
             "platform": {
@@ -3264,7 +3264,7 @@
             "code": "LGCY",
             "name": "LGCY Network",
             "categories": [
-                "scaling"
+
             ],
             "active": true,
             "platform": {
@@ -5524,7 +5524,7 @@
             "code": "TXL",
             "name": "Tixl",
             "categories": [
-                "scaling"
+
             ],
             "active": true,
             "platform": {
@@ -5886,7 +5886,7 @@
             "code": "WISE",
             "name": "Wise",
             "categories": [
-                "lending"
+
             ],
             "active": true,
             "platform": {
@@ -5942,7 +5942,7 @@
             "code": "XIO",
             "name": "Blockzero Labs",
             "categories": [
-                "fundraising"
+
             ],
             "active": true,
             "platform": {
@@ -5969,7 +5969,7 @@
             "code": "YAM",
             "name": "YAM",
             "categories": [
-                "algo_stablecoins"
+                "governance"
             ],
             "active": true,
             "platform": {
@@ -5996,7 +5996,7 @@
             "code": "YAX",
             "name": "yAxis",
             "categories": [
-                "yield_aggregators"
+
             ],
             "active": true,
             "platform": {
@@ -6022,7 +6022,7 @@
             "code": "YF-DAI",
             "name": "YfDAI.finance",
             "categories": [
-                "yield_aggregators"
+
             ],
             "active": true,
             "platform": {
@@ -6106,7 +6106,7 @@
             "code": "YFIM",
             "name": "Yfi.mobi",
             "categories": [
-                "yield_aggregators"
+
             ],
             "active": true,
             "platform": {
@@ -6188,7 +6188,7 @@
             "code": "ZORA",
             "name": "Zoracles",
             "categories": [
-                "oracles"
+
             ],
             "active": true,
             "platform": {

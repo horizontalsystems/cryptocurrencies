@@ -1,5 +1,5 @@
 {
-    "version": 3,
+    "version": 4,
     "categories": [
         {
             "id": "blockchain",
@@ -409,6 +409,12 @@
             "category": "crypto_vc"
         },
         {
+            "id": "gumi_cryptos",
+            "name": "gumi Cryptos",
+            "url": "https://www.gumi-cryptos.com/",
+            "category": "crypto_vc"
+        },
+        {
             "id": "9yards_capital",
             "name": "9Yards Capital",
             "url": "https://9yardscapital.com/",
@@ -550,6 +556,7 @@
                 "galaxy_digital_lp",
                 "iosg_ventures",
                 "greenfield_one",
+                "gumi_cryptos",
                 "binance_labs"
             ]
         },
@@ -1296,7 +1303,7 @@
             "rating": "",
             "id": "erc20|0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d",
             "funds": [
-
+                "gumi_cryptos"
             ]
         },
         {
@@ -3029,7 +3036,7 @@
             ],
             "id": "erc20|0x875773784af8135ea0ef43b5a374aad105c5d39e",
             "funds": [
-
+                "gumi_cryptos"
             ]
         },
         {
@@ -3963,6 +3970,7 @@
                 "pantera_capital",
                 "kenetic",
                 "hashed",
+                "gumi_cryptos",
                 "foundation_capital"
             ]
         },
@@ -7150,7 +7158,8 @@
             "id": "unsupported|theta-token",
             "funds": [
                 "infinite_capital",
-                "iosg_ventures"
+                "iosg_ventures",
+                "gumi_cryptos"
             ]
         },
         {

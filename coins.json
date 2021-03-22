@@ -1,5 +1,5 @@
 {
-    "version": 4,
+    "version": 5,
     "categories": [
         {
             "id": "blockchain",
@@ -47,6 +47,11 @@
             "description": "Crypto tokens pegged 1-1 to fiat currency."
         },
         {
+            "id": "rebase_tokens",
+            "name": "Rebase Tokens",
+            "description": "Tokens that periodically adjust supply to achieve a target price"
+        },
+        {
             "id": "algo_stablecoins",
             "name": "Algo Stablecoins",
             "description": "Stablecoins with algorithmic 1-1 price peg to fiat."
@@ -65,11 +70,6 @@
             "id": "exchange_tokens",
             "name": "Exchange Tokens",
             "description": "Tokens issued by centralized exchanges."
-        },
-        {
-            "id": "metals",
-            "name": "Metals",
-            "description": "Tokens pegged to metal prices."
         },
         {
             "id": "risk_management",
@@ -498,7 +498,7 @@
             "code": "$BASED",
             "name": "Based Money",
             "categories": [
-                "algo_stablecoins"
+                "rebase_tokens"
             ],
             "active": true,
             "platform": {
@@ -564,7 +564,8 @@
             "code": "AAVE",
             "name": "Aave",
             "categories": [
-                "lending"
+                "lending",
+                "governance"
             ],
             "active": true,
             "platform": {
@@ -724,7 +725,7 @@
             "code": "AMPL",
             "name": "Ampleforth",
             "categories": [
-                "algo_stablecoins"
+                "rebase_tokens"
             ],
             "active": true,
             "platform": {
@@ -783,7 +784,8 @@
             "code": "API3",
             "name": "API3",
             "categories": [
-                "oracles"
+                "oracles",
+                "governance"
             ],
             "active": true,
             "platform": {
@@ -842,7 +844,6 @@
             "code": "AUC",
             "name": "Auctus",
             "categories": [
-                "risk_management"
             ],
             "active": true,
             "platform": {
@@ -903,7 +904,8 @@
             "code": "BADGER",
             "name": "Badger DAO",
             "categories": [
-                "algo_stablecoins"
+                "algo_stablecoins",
+                "governance"
             ],
             "active": true,
             "platform": {
@@ -1014,7 +1016,6 @@
             "code": "BASE",
             "name": "Base Protocol",
             "categories": [
-                "index_funds"
             ],
             "active": true,
             "platform": {
@@ -1123,7 +1124,8 @@
             "code": "BOND",
             "name": "BarnBridge",
             "categories": [
-                "risk_management"
+                "risk_management",
+                "governance"
             ],
             "active": true,
             "platform": {
@@ -1283,7 +1285,8 @@
             "code": "CEL",
             "name": "Celsius Network",
             "categories": [
-                "lending"
+                "lending",
+                "wallets"
             ],
             "active": true,
             "platform": {
@@ -1452,7 +1455,8 @@
             "code": "COMP",
             "name": "Compound",
             "categories": [
-                "lending"
+                "lending",
+                "governance"
             ],
             "active": true,
             "platform": {
@@ -1617,7 +1621,8 @@
             "code": "CRV",
             "name": "Curve DAO Token",
             "categories": [
-                "dexes"
+                "dexes",
+                "governance"
             ],
             "active": true,
             "platform": {
@@ -1763,7 +1768,6 @@
             "code": "DEFO",
             "name": "DefHold",
             "categories": [
-                "risk_management"
             ],
             "active": true,
             "platform": {
@@ -1789,7 +1793,8 @@
             "code": "DEGO",
             "name": "Dego Finance",
             "categories": [
-                "nft"
+                "nft",
+                "governance"
             ],
             "active": true,
             "platform": {
@@ -1871,7 +1876,6 @@
             "code": "DGX",
             "name": "Digix Gold",
             "categories": [
-                "metals"
             ],
             "active": true,
             "platform": {
@@ -1899,7 +1903,8 @@
             "code": "DHT",
             "name": "dHedge DAO",
             "categories": [
-                "risk_management"
+                "risk_management",
+                "governance"
             ],
             "active": true,
             "platform": {
@@ -2115,7 +2120,6 @@
             "code": "DUSD",
             "name": "DefiDollar",
             "categories": [
-                "fiat_stablecoins"
             ],
             "platform": {
                 "name": "ethereum",
@@ -2381,7 +2385,6 @@
             "code": "FNK",
             "name": "Finiko",
             "categories": [
-                "wallets"
             ],
             "active": true,
             "platform": {
@@ -2615,7 +2618,8 @@
             "name": "Gnosis",
             "categories": [
                 "prediction_markets",
-                "wallets"
+                "wallets",
+                "governance"
             ],
             "active": true,
             "platform": {
@@ -2661,7 +2665,6 @@
             "code": "GRID",
             "name": "GridPlus",
             "categories": [
-                "wallets"
             ],
             "active": true,
             "platform": {
@@ -2868,7 +2871,6 @@
             "code": "HLAND",
             "name": "Hland Token",
             "categories": [
-                "risk_management"
             ],
             "active": true,
             "platform": {
@@ -2895,7 +2897,6 @@
             "code": "HOLY",
             "name": "Holyheld",
             "categories": [
-                "wallets"
             ],
             "active": true,
             "platform": {
@@ -3042,7 +3043,6 @@
             "code": "IMBTC",
             "name": "The tokenized_bitcoin",
             "categories": [
-                "tokenized_bitcoin"
             ],
             "active": true,
             "platform": {
@@ -3124,8 +3124,7 @@
             "code": "KEEP",
             "name": "Keep Network",
             "categories": [
-                "privacy",
-                "stablecoin_issuers"
+                "privacy"
             ],
             "active": true,
             "platform": {
@@ -3155,7 +3154,8 @@
             "code": "KNC",
             "name": "Kyber Network",
             "categories": [
-                "dexes"
+                "dexes",
+                "governance"
             ],
             "active": true,
             "platform": {
@@ -3592,7 +3592,8 @@
             "name": "Maker",
             "categories": [
                 "lending",
-                "stablecoin_issuers"
+                "stablecoin_issuers",
+                "governance"
             ],
             "active": true,
             "platform": {
@@ -3916,7 +3917,8 @@
             "code": "OCTO",
             "name": "OctoFi",
             "categories": [
-                "yield_aggregators"
+                "yield_aggregators",
+                "governance"
             ],
             "active": true,
             "platform": {
@@ -3936,6 +3938,2345 @@
             },
             "rating": "",
             "id": "erc20|0x7240ac91f01233baaf8b064248e80feaa5912ba3",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "ONT",
+            "name": "Ontology",
+            "categories": [
+                "blockchains"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|ontology",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "DCR",
+            "name": "Decred",
+            "categories": [
+                "blockchains",
+                "governance"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|decred",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "IOST",
+            "name": "IOST",
+            "categories": [
+                "blockchains"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|iostoken",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "AST",
+            "name": "AirSwap",
+            "categories": [
+                "dexes"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x27054b13b1b798b345b591a4d22e6562d47ea75a",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "AERGO",
+            "name": "Aergo",
+            "categories": [
+                "b2b"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x91af0fbb28aba7e31403cb457106ce79397fd4e6",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "PNG",
+            "name": "Pangolin",
+            "categories": [
+                "dexes"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|pangolin",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "EROWAN",
+            "name": "Sifchain",
+            "categories": [
+                "dexes"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x07bac35846e5ed502aa91adf6a9e7aa210f2dcbe",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "TORN",
+            "name": "Tornado Cash",
+            "categories": [
+                "privacy"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x77777feddddffc19ff86db637967013e6c6a116c",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "ZKS",
+            "name": "ZKSwap",
+            "categories": [
+                "privacy",
+                "scaling"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xe4815ae53b124e7263f08dcdbbb757d41ed658c6",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "NU",
+            "name": "NuCypher",
+            "categories": [
+                "privacy",
+                "infrastructure"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x4fe83213d56308330ec302a8bd641f1d0113a4cc",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "SCRT",
+            "name": "Secret",
+            "categories": [
+                "privacy"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|secret",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "XHV",
+            "name": "Haven",
+            "categories": [
+                "privacy"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|haven",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "HOPR",
+            "name": "HOPR",
+            "categories": [
+                "privacy",
+                "governance"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xf5581dfefd8fb0e4aec526be659cfab1f8c781da",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "SENT",
+            "name": "Sentinel",
+            "categories": [
+                "privacy"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xa44e5137293e855b1b7bc7e2c6f8cd796ffcb037",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "BLANK",
+            "name": "Blank",
+            "categories": [
+                "privacy"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xaec7e1f531bb09115103c53ba76829910ec48966",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "DUSK",
+            "name": "Dusk Network",
+            "categories": [
+                "privacy"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x940a2db1b7008b6c776d4faaca729d6d4a4aa551",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "ZEN",
+            "name": "Horizen",
+            "categories": [
+                "privacy"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|zencash",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "XVG",
+            "name": "Verge",
+            "categories": [
+                "privacy"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|verge",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "ROSE",
+            "name": "Oasis Network",
+            "categories": [
+                "privacy"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|oasis-network",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "ONE",
+            "name": "Harmony",
+            "categories": [
+                "scaling",
+                "cross_chain"
+
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|harmony",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "FTM",
+            "name": "Fantom",
+            "categories": [
+                "scaling"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x4e15361fd6b4bb609fa63c81a2be19d873717870",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "RAZOR",
+            "name": "RAZOR Network",
+            "categories": [
+                "scaling"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x50de6856358cc35f3a9a57eaaa34bd4cb707d2cd",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "KYL",
+            "name": "Kylin Network",
+            "categories": [
+                "oracles"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x67b6d479c7bb412c54e03dca8e1bc6740ce6b99c",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "BRY",
+            "name": "Berry Data",
+            "categories": [
+                "oracles"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "bep20|0xf859bf77cbe8699013d6dbc7c2b926aaf307f830",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "ROOM",
+            "name": "OptionRoom",
+            "categories": [
+                "oracles",
+                "prediction"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xad4f86a25bbc20ffb751f2fac312a0b4d8f88c64",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "UMB",
+            "name": "Umbrella Network",
+            "categories": [
+                "oracles"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x6fc13eace26590b80cccab1ba5d51890577d83b2",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "POLK",
+            "name": "Polkamarkets",
+            "categories": [
+                "prediction"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xd478161c952357f05f0292b56012cd8457f1cfbf",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "VSP",
+            "name": "Vesper Finance",
+            "categories": [
+                "yield_aggregators"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x1b40183efb4dd766f11bda7a7c3ad8982e998421",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "BEL",
+            "name": "Bella Protocol",
+            "categories": [
+                "yield_aggregators"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xa91ac63d040deb1b7a5e4d4134ad23eb0ba07e14",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "AUTO",
+            "name": "Auto",
+            "categories": [
+                "yield_aggregators"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "bep20|0xa184088a740c695e156f91f5cc086a06bb78b827",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "SHROOM",
+            "name": "Shroom.Finance",
+            "categories": [
+                "yield_aggregators",
+                "governance"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xed0439eacf4c4965ae4613d77a5c2efe10e5f183",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "MBTC",
+            "name": "mStable BTC",
+            "categories": [
+                "tokenized_bitcoin"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x945facb997494cc2570096c74b5f66a3507330a1",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "LEO",
+            "name": "LEO Token",
+            "categories": [
+                "exchange_tokens"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "ROOK",
+            "name": "KeeperDAO",
+            "categories": [
+                "risk_management"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xfa5047c9c78b8877af97bdcb85db743fd7313d4a",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "MLN",
+            "name": "Enzyme",
+            "categories": [
+                "risk_management"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xec67005c4e498ec7f55e092bd1d35cbc47c91892",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "FIS",
+            "name": "Stafi",
+            "categories": [
+                "risk_management",
+                "synthetics",
+                "staking_eth_2_0"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|stafi",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "OXY",
+            "name": "Oxygen",
+            "categories": [
+                "risk_management",
+                "wallets"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x965697b4ef02f0de01384d0d4f9f782b1670c163",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "HGET",
+            "name": "Hedget",
+            "categories": [
+                "risk_management"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x7968bc6a03017ea2de509aaa816f163db0f35148",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "ARMOR",
+            "name": "ARMOR",
+            "categories": [
+                "risk_management"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x1337def16f9b486faed0293eb623dc8395dfe46a",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "MATH",
+            "name": "MATH",
+            "categories": [
+                "wallets"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x08d967bb0134f2d07f7cfb6e246680c53927dd30",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "SFP",
+            "name": "SafePal",
+            "categories": [
+                "wallets"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "bep20|0xd41fdb03ba84762dd66a0af1a6c8540ff1ba5dfb",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "LSK",
+            "name": "Lisk",
+            "categories": [
+                "wallets",
+                "infrastructure"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|lisk",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "WAN",
+            "name": "Wanchain",
+            "categories": [
+                "wallets",
+                "infrastructure",
+                "cross_chain"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|wanchain",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "PPAY",
+            "name": "Plasma Finance",
+            "categories": [
+                "wallets"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x054d64b73d3d8a21af3d764efd76bcaa774f3bb2",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "INDEX",
+            "name": "Index Cooperative",
+            "categories": [
+                "index_funds"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x0954906da0bf32d5479e25f46056d22f08464cab",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "NFTX",
+            "name": "NFTX",
+            "categories": [
+                "index_funds"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x87d73e916d7057945c9bcd8cdd94e42a6f47f776",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "DEGEN",
+            "name": "Degen Index",
+            "categories": [
+                "index_funds"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x126c121f99e1e211df2e5f8de2d96fa36647c855",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "SDEFI",
+            "name": "sDEFI",
+            "categories": [
+                "index_funds"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xe1afe1fd76fd88f78cbf599ea1846231b8ba3b6b",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "DEFI+L",
+            "name": "PieDAO DEFI Large Cap",
+            "categories": [
+                "index_funds"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x78f225869c08d478c34e5f645d07a87d3fe8eb78",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "ERN",
+            "name": "Ethernity Chain",
+            "categories": [
+                "nft"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xbbc2ae13b23d715c30720f079fcd9b4a74093505",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "TVK",
+            "name": "Terra Virtua Kolect",
+            "categories": [
+                "nft"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xd084b83c305dafd76ae3e1b4e1f1fe2ecccb3988",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "FLOW",
+            "name": "Flow",
+            "categories": [
+                "nft"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|flow",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "WHALE",
+            "name": "WHALE",
+            "categories": [
+                "nft"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x9355372396e3f6daf13359b7b607a3374cc638e0",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "WAXP",
+            "name": "WAX",
+            "categories": [
+                "nft"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|wax",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "MUSE",
+            "name": "Muse",
+            "categories": [
+                "nft"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xb6ca7399b4f9ca56fc27cbff44f4d2e4eef1fc81",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "DAO",
+            "name": "DAO Maker",
+            "categories": [
+                "fundraising"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x0f51bb10119727a7e5ea3538074fb341f56b09ad",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "AXS",
+            "name": "Axie Infinity",
+            "categories": [
+                "gaming"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xf5d669627376ebd411e34b98f19c868c8aba5ada",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "DG",
+            "name": "Decentral Games",
+            "categories": [
+                "gaming"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xee06a81a695750e71a662b51066f2c74cf4478a0",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "GHST",
+            "name": "Aavegotchi",
+            "categories": [
+                "gaming"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x3f382dbd960e3a9bbceae22651e88158d2791550",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "REVV",
+            "name": "REVV",
+            "categories": [
+                "gaming"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x557b933a7c2c45672b610f8954a3deb39a51a8ca",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "GALA",
+            "name": "Gala",
+            "categories": [
+                "gaming"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x15d4c048f83bd7e37d49ea4c83a07267ec4203da",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "CWS",
+            "name": "Crowns",
+            "categories": [
+                "gaming"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xac0104cca91d167873b8601d2e71eb3d4d8c33e0",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "ORN",
+            "name": "Orion Protocol",
+            "categories": [
+                "b2b",
+                "infrastructure"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x0258f474786ddfd37abce6df6bbb1dd5dfc4434a",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "CRE",
+            "name": "Carry",
+            "categories": [
+                "b2b"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x115ec79f1de567ec68b7ae7eda501b406626478e",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "BLZ",
+            "name": "Bluzelle",
+            "categories": [
+                "infrastructure"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x5732046a883704404f284ce41ffadd5b007fd668",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "KSM",
+            "name": "Kusama",
+            "categories": [
+                "infrastructure"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|kusama",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "FIL",
+            "name": "Filecoin",
+            "categories": [
+                "infrastructure"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|filecoin",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "AR",
+            "name": "Arweave",
+            "categories": [
+                "infrastructure"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|arweave",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "FIO",
+            "name": "FIO Protocol",
+            "categories": [
+                "infrastructure"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|fio-protocol",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "COS",
+            "name": "Contentos",
+            "categories": [
+                "infrastructure"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "bep2|COS-2E4",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "PKF",
+            "name": "PolkaFoundry",
+            "categories": [
+                "infrastructure"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x8b39b70e39aa811b69365398e0aace9bee238aeb",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "META",
+            "name": "Metadium",
+            "categories": [
+                "infrastructure"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xde2f7766c8bf14ca67193128535e5c7454f8387c",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "NDX",
+            "name": "Indexed Finance",
+            "categories": [
+                "governance"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x86772b1409b61c639eaac9ba0acfbb6e238e5f83",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "SUPER",
+            "name": "SuperFarm",
+            "categories": [
+                "cross_chain"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "SWTH",
+            "name": "Switcheo",
+            "categories": [
+                "cross_chain"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|switcheo",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "KONO",
+            "name": "Konomi Network",
+            "categories": [
+                "cross_chain"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x850aab69f0e0171a9a49db8be3e71351c8247df4",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "LINA",
+            "name": "Linear",
+            "categories": [
+                "cross_chain"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x3e9bc21c9b189c09df3ef1b824798658d5011937",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "AETH",
+            "name": "ankrETH",
+            "categories": [
+                "staking_eth_2_0"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xe95a203b1a91a908f9b9ce46459d101078c2c3cb",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "STETH",
+            "name": "StakeHound Staked Ether",
+            "categories": [
+                "staking_eth_2_0"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xdfe66b14d37c77f4e9b180ceb433d1b164f0281d",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "DIGG",
+            "name": "DIGG",
+            "categories": [
+                "rebase_tokens"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x798d1be841a82a273720ce31c822c61a67a601c3",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "MARK",
+            "name": "Benchmark Protocol ",
+            "categories": [
+                "rebase_tokens"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x67c597624b17b16fb77959217360b7cd18284253",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "DITTO",
+            "name": "Ditto ",
+            "categories": [
+                "rebase_tokens"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "bep20|0x233d91a0713155003fc4dce0afa871b508b3b715",
+            "funds": [
+
+            ]
+        },
+        {
+            "code": "COIL",
+            "name": "Coil ",
+            "categories": [
+                "rebase_tokens"
+            ],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x3936ad01cf109a36489d93cabda11cf062fd3d48",
             "funds": [
 
             ]
@@ -4216,7 +6557,6 @@
             "code": "PAXG",
             "name": "Pax Gold",
             "categories": [
-                "metals"
             ],
             "active": true,
             "platform": {
@@ -4563,7 +6903,8 @@
             "code": "RARI",
             "name": "Rarible",
             "categories": [
-                "nft"
+                "nft",
+                "governance"
             ],
             "active": true,
             "platform": {
@@ -4648,7 +6989,8 @@
             "code": "RGT",
             "name": "Rari Governance Token",
             "categories": [
-                "yield_aggregators"
+                "yield_aggregators",
+                "governance"
             ],
             "active": true,
             "platform": {
@@ -4896,7 +7238,6 @@
             "code": "SHARE",
             "name": "Seigniorage",
             "categories": [
-                "stablecoin_issuers"
             ],
             "active": true,
             "platform": {
@@ -4954,7 +7295,8 @@
             "categories": [
                 "synthetics",
                 "dexes",
-                "stablecoin_issuers"
+                "stablecoin_issuers",
+                "governance"
             ],
             "active": true,
             "platform": {
@@ -5172,7 +7514,8 @@
             "code": "SUSHI",
             "name": "Sushi",
             "categories": [
-                "dexes"
+                "dexes",
+                "governance"
             ],
             "active": true,
             "platform": {
@@ -5235,7 +7578,6 @@
             "code": "SWFL",
             "name": "Swapfolio",
             "categories": [
-                "risk_management"
             ],
             "active": true,
             "platform": {
@@ -5262,7 +7604,6 @@
             "code": "SWISS",
             "name": "swiss.finance",
             "categories": [
-                "risk_management"
             ],
             "active": true,
             "platform": {
@@ -5578,7 +7919,8 @@
             "code": "UMA",
             "name": "UMA",
             "categories": [
-                "synthetics"
+                "synthetics",
+                "oracles"
             ],
             "active": true,
             "platform": {
@@ -5638,7 +7980,8 @@
             "code": "UNI",
             "name": "Uniswap",
             "categories": [
-                "dexes"
+                "dexes",
+                "governance"
             ],
             "active": true,
             "platform": {
@@ -6714,7 +9057,6 @@
             "code": "EDC",
             "name": "EDC Blockchain",
             "categories": [
-                "wallets"
             ],
             "active": true,
             "description": "EDC Blockchain is a multifunctional blockchain platform that is based on the DPoS (Delegated-Proof-of-Steak) consensus algorithm. EDC Blockchain it’s the tools platform for entrepreneurs based on blockchain. The goal is to create effective tools for the tokenization of private small and medium businesses and the global popularization of blockchain technology.",
@@ -6735,7 +9077,7 @@
             "code": "EGLD",
             "name": "Elrond",
             "categories": [
-                "metals"
+                "scaling"
             ],
             "active": true,
             "description": "Elrond is a novel architecture that goes beyond state-of-the-art by introducing a genuine State Sharding scheme for practical scalability, eliminating energy and computational waste while ensuring distributed fairness through a Secure Proof of Stake (SPoS) consensus mechanism. Having a strong focus on security, Elrond’s network is built to ensure resistance to known security problems like the Sybil attack, Rogue-key attack, Nothing at Stake attack, and others. In an ecosystem that strives for interconnectivity, Elrond’s solution for smart contracts offers an EVM compliant engine to ensure interoperability by design.Elrond (ERD) to Elrond (EGLD) swap:Following the launch of the Elrond Mainnet on the 30th of July, Elrond officially began the token swap from ERD to EGLD on the 3rd of September of 2020. The eGLD ticker is an abbreviation for eGold, denoting the metaphor of what the Elrond currency aims to become. Elrond&#39;s dedicated website Elrond Bridge enabled ERC20/BEP2 ERD holders to swap their tokens for eGLD at a 1000:1 ratio (1000 ERD (old) = 1 eGLD (new)). ",

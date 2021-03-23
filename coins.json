@@ -1,5 +1,5 @@
 {
-    "version": 5,
+    "version": 6,
     "categories": [
         {
             "id": "blockchain",
@@ -7748,7 +7748,7 @@
             "code": "TMTG",
             "name": "The Midas Touch Gold",
             "categories": [
-                "metals"
+
             ],
             "active": true,
             "platform": {

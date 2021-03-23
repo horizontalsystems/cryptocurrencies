@@ -883,7 +883,7 @@
             "active": true,
             "platform": {
                 "name": "ethereum",
-                "address": "0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
+                "address": "0x3449fc1cd036255ba1eb19d65ff4ba2b8903a69a",
                 "type": "ERC20"
             },
             "description": "FTX is a cryptocurrency derivatives exchange built by traders, for traders. It strives to build a platform powerful enough for professional trading firms and intuitive enough for first-time users.FTX Token (FTT) is the backbone of the FTX ecosystem. It has been carefully designed with incentive schemes to increase network effects and demand for FTT, and to decrease its circulating supply.",
@@ -895,7 +895,7 @@
                 "reddit": "",
                 "telegram": "https://t.me/FTX_Official"
             },
-            "id": "erc20|0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
+            "id": "erc20|0x3449fc1cd036255ba1eb19d65ff4ba2b8903a69a",
             "funds": [
 
             ]
@@ -910,7 +910,7 @@
             "active": true,
             "platform": {
                 "name": "ethereum",
-                "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+                "address": "0x3472a5a71965499acd81997a54bba8d852c6e53d",
                 "type": "ERC20"
             },
             "description": "Synthetix (SNX) is a rebranding of Havven.io (HAV).Synthetix is a decentralised synthetic asset issuance protocol built on Ethereum. These synthetic assets are collateralized by the Synthetix Network Token (SNX) which when locked in the contract enables the issuance of synthetic assets (Synths). This pooled collateral model enables users to perform conversions between Synths directly with the smart contract, avoiding the need for counterparties.This mechanism is designed to solve the liquidity and slippage issues experienced by DEX’s. Synthetix currently supports synthetic fiat currencies, cryptocurrencies (long and short) and commodities. SNX holders are incentivised to stake their tokens as they are paid a pro-rata portion of the fees generated through activity on Synthetix.Exchange, based on their contribution to the network. It is the right to participate in the network and capture fees generated from Synth exchanges, from which the value of the SNX token is derived. Trading on Synthetix.Exchange does not require the trader to hold SNX. ",
@@ -930,7 +930,7 @@
                     "url": "https://assets.website-files.com/5f99eb7870add47583eb24af/5fd9c6549c803429a0c80748_Badger%20SC%20Audit.pdf"
                 }
             ],
-            "id": "erc20|0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+            "id": "erc20|0x3472a5a71965499acd81997a54bba8d852c6e53d",
             "funds": [
                 "polychain_capital",
                 "parafi_capital"
@@ -1853,7 +1853,7 @@
             "active": true,
             "platform": {
                 "name": "ethereum",
-                "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+                "address": "0x431ad2ff6a9c365805ebad47ee021148d6f7dbe0",
                 "type": "ERC20"
             },
             "description": "Synthetix (SNX) is a rebranding of Havven.io (HAV).Synthetix is a decentralised synthetic asset issuance protocol built on Ethereum. These synthetic assets are collateralized by the Synthetix Network Token (SNX) which when locked in the contract enables the issuance of synthetic assets (Synths). This pooled collateral model enables users to perform conversions between Synths directly with the smart contract, avoiding the need for counterparties.This mechanism is designed to solve the liquidity and slippage issues experienced by DEX’s. Synthetix currently supports synthetic fiat currencies, cryptocurrencies (long and short) and commodities. SNX holders are incentivised to stake their tokens as they are paid a pro-rata portion of the fees generated through activity on Synthetix.Exchange, based on their contribution to the network. It is the right to participate in the network and capture fees generated from Synth exchanges, from which the value of the SNX token is derived. Trading on Synthetix.Exchange does not require the trader to hold SNX. ",
@@ -1867,7 +1867,7 @@
                 "telegram": ""
             },
             "rating": "",
-            "id": "erc20|0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+            "id": "erc20|0x431ad2ff6a9c365805ebad47ee021148d6f7dbe0",
             "funds": [
 
             ]
@@ -2455,7 +2455,7 @@
             "active": true,
             "platform": {
                 "name": "ethereum",
-                "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+                "address": "0x853d955acef822db058eb8505911ed77f175b99e",
                 "type": "ERC20"
             },
             "description": "Synthetix (SNX) is a rebranding of Havven.io (HAV).Synthetix is a decentralised synthetic asset issuance protocol built on Ethereum. These synthetic assets are collateralized by the Synthetix Network Token (SNX) which when locked in the contract enables the issuance of synthetic assets (Synths). This pooled collateral model enables users to perform conversions between Synths directly with the smart contract, avoiding the need for counterparties.This mechanism is designed to solve the liquidity and slippage issues experienced by DEX’s. Synthetix currently supports synthetic fiat currencies, cryptocurrencies (long and short) and commodities. SNX holders are incentivised to stake their tokens as they are paid a pro-rata portion of the fees generated through activity on Synthetix.Exchange, based on their contribution to the network. It is the right to participate in the network and capture fees generated from Synth exchanges, from which the value of the SNX token is derived. Trading on Synthetix.Exchange does not require the trader to hold SNX. ",
@@ -2469,7 +2469,7 @@
                 "telegram": ""
             },
             "rating": "",
-            "id": "erc20|0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+            "id": "erc20|0x853d955acef822db058eb8505911ed77f175b99e",
             "funds": [
 
             ]
@@ -7106,7 +7106,7 @@
             "active": true,
             "platform": {
                 "name": "ethereum",
-                "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+                "address": "0x8762db106b2c2a0bccb3a80d1ed41273552616e8",
                 "type": "ERC20"
             },
             "description": "Synthetix (SNX) is a rebranding of Havven.io (HAV).Synthetix is a decentralised synthetic asset issuance protocol built on Ethereum. These synthetic assets are collateralized by the Synthetix Network Token (SNX) which when locked in the contract enables the issuance of synthetic assets (Synths). This pooled collateral model enables users to perform conversions between Synths directly with the smart contract, avoiding the need for counterparties.This mechanism is designed to solve the liquidity and slippage issues experienced by DEX’s. Synthetix currently supports synthetic fiat currencies, cryptocurrencies (long and short) and commodities. SNX holders are incentivised to stake their tokens as they are paid a pro-rata portion of the fees generated through activity on Synthetix.Exchange, based on their contribution to the network. It is the right to participate in the network and capture fees generated from Synth exchanges, from which the value of the SNX token is derived. Trading on Synthetix.Exchange does not require the trader to hold SNX. ",
@@ -7120,7 +7120,7 @@
                 "telegram": ""
             },
             "rating": "",
-            "id": "erc20|0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+            "id": "erc20|0x8762db106b2c2a0bccb3a80d1ed41273552616e8",
             "funds": [
                 "blocktower_capital"
             ]
@@ -7242,7 +7242,7 @@
             "active": true,
             "platform": {
                 "name": "ethereum",
-                "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+                "address": "0x39795344cbcc76cc3fb94b9d1b15c23c2070c66d",
                 "type": "ERC20"
             },
             "description": "Synthetix (SNX) is a rebranding of Havven.io (HAV).Synthetix is a decentralised synthetic asset issuance protocol built on Ethereum. These synthetic assets are collateralized by the Synthetix Network Token (SNX) which when locked in the contract enables the issuance of synthetic assets (Synths). This pooled collateral model enables users to perform conversions between Synths directly with the smart contract, avoiding the need for counterparties.This mechanism is designed to solve the liquidity and slippage issues experienced by DEX’s. Synthetix currently supports synthetic fiat currencies, cryptocurrencies (long and short) and commodities. SNX holders are incentivised to stake their tokens as they are paid a pro-rata portion of the fees generated through activity on Synthetix.Exchange, based on their contribution to the network. It is the right to participate in the network and capture fees generated from Synth exchanges, from which the value of the SNX token is derived. Trading on Synthetix.Exchange does not require the trader to hold SNX. ",
@@ -7256,7 +7256,7 @@
                 "telegram": ""
             },
             "rating": "",
-            "id": "erc20|0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+            "id": "erc20|0x39795344cbcc76cc3fb94b9d1b15c23c2070c66d",
             "funds": [
 
             ]

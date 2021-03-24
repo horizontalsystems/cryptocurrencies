@@ -25,6 +25,16 @@ const cryptocomCoins = jsonCc
 
 let mergedCoinsList = []
 
+let coinGeckoBep2Map = {
+    "binanceidr": "BIDR-0E9",
+    "binance-krw": "BKRW-AB7",
+    "binance-vnd": "BVND-244",
+    "concierge-io": "AVA-645",
+    "snapparazzi": "RNO-14E",
+    "trust-wallet-token": "TWT-8C2",
+    "wab-network": "BAW-DFB"
+}
+
 //--------------------------------------------
 function sortByProperty(property) {
     return (a, b) => {
@@ -44,49 +54,58 @@ function readFile(path) {
 }
 
 //--------------------------------------------
-function getPlatformInfo(coinGeckoCoin){
-    if(coinGeckoCoin.platforms){
-        if(Object.keys(coinGeckoCoin.platforms).length > 0){
-            const platformName = Object.entries(coinGeckoCoin.platforms)[0][0]
-            const platformValue = Object.entries(coinGeckoCoin.platforms)[0][1]
+function getPlatformInfos(coinGeckoCoin){
+    let platforms = []
 
-            if(platformValue){
-                if(platformName === 'binancecoin'){
-                    return { name:'binance', type:'bep2', address: platformValue, coinId: `bep2|${platformValue}`}
+    if (coinGeckoCoin.platforms) {
+        if (Object.keys(coinGeckoCoin.platforms).length > 0){
+            for (const [platformName, platformValue] of Object.entries(coinGeckoCoin.platforms)) {
+                if(platformValue){
+                    if(platformName === 'binancecoin'){
+                        platforms.push({ name:'binance', type:'bep2', address: platformValue, coinId: `bep2|${platformValue}`})
+                    }
+                    else if(platformName === 'ethereum'){
+                        platforms.push({ name:'ethereum', type:'erc20', address: platformValue, coinId: `erc20|${platformValue}`})
+                    }
+                    else if(platformName === 'binance-smart-chain'){
+                        platforms.push({ name:'binance-smart-chain', type:'bep20', address: platformValue, coinId: `bep20|${platformValue}`})
+                    }
+                    // else{
+                    //     return { name:platformName, type:'', address: platformValue, coinId: `${platformName}|${platformValue}`}
+                    // }
+                } else {
+                    if(platformName === 'binancecoin' && coinGeckoBep2Map[coinGeckoCoin.id]){
+                        platforms.push({ name:'binance', type:'bep2', address: coinGeckoBep2Map[coinGeckoCoin.id], coinId: `bep2|${coinGeckoBep2Map[coinGeckoCoin.id]}`})
+                    }
                 }
-                else if(platformName === 'ethereum'){
-                    return { name:'ethereum', type:'erc20', address: platformValue, coinId: `erc20|${platformValue}`}
-                }
-                else if(platformName === 'binance-smart-chain'){
-                    return { name:'binance-smart-chain', type:'bep20', address: platformValue, coinId: `bep20|${platformValue}`}
-                }
-                // else{
-                //     return { name:platformName, type:'', address: platformValue, coinId: `${platformName}|${platformValue}`}
-                // }
             }
         }
     }
 
-    return { platform:'',  address:'', coinId: `unsupported|${coinGeckoCoin.id}`}
+    if (platforms.length == 0) {
+        platforms.push({ platform:'',  address:'', coinId: `unsupported|${coinGeckoCoin.id}`})
+    }
+
+    return platforms
 }
 //--------------------------------------------
-function generateId(coinGeckoCoin){
+function generateIds(coinGeckoCoin){
     if(coinGeckoCoin.name.toLowerCase() === "bitcoin" )
-        return { name:'', type:'', address:'', coinId: "bitcoin"}
+        return [{ name:'', type:'', address:'', coinId: "bitcoin"}]
     else if(coinGeckoCoin.name.toLowerCase() === "ethereum" )
-        return { name:'', type:'', address:'', coinId: "ethereum"}
+        return [{ name:'', type:'', address:'', coinId: "ethereum"}]
     else if(coinGeckoCoin.name.toLowerCase() === "binance coin" )
-        return { name:'', type:'', address:'', coinId: "bep2|BNB"}
+        return [{ name:'', type:'', address:'', coinId: "bep2|BNB"}]
     else if(coinGeckoCoin.name.toLowerCase() === "zcash" )
-        return { name:'', type:'', address:'', coinId: "zcash"}
+        return [{ name:'', type:'', address:'', coinId: "zcash"}]
     else if(coinGeckoCoin.name.toLowerCase() === "litecoin" )
-        return { name:'', type:'', address:'', coinId: "litecoin"}
+        return [{ name:'', type:'', address:'', coinId: "litecoin"}]
     else if(coinGeckoCoin.name.toLowerCase() === "dash" )
-        return { name:'', type:'', address:'', coinId: "dash"}
+        return [{ name:'', type:'', address:'', coinId: "dash"}]
     else if(coinGeckoCoin.name.toLowerCase() === "bitcoin cash" )
-        return { name:'', type:'', address:'' , coinId: "bitcoinCash"}
+        return [{ name:'', type:'', address:'' , coinId: "bitcoinCash"}]
     else
-        return getPlatformInfo(coinGeckoCoin)
+        return getPlatformInfos(coinGeckoCoin)
 }
 
 //--------------------------------------------
@@ -95,43 +114,46 @@ function mergeCoinGeckoCoins(){
     const newCoins = []
 
     for(const coinGeckoCoin of coinGeckoCoins){
-        const platform = generateId(coinGeckoCoin)
-        const coinId = platform.coinId
-        const platfromJson = { name: platform.name, address: platform.address, type: platform.type }
+        const platforms = generateIds(coinGeckoCoin)
+        for (const platform of platforms) {
+            const coinId = platform.coinId
+            const platfromJson = { name: platform.name, address: platform.address, type: platform.type }
 
-        if(platform.name){
-            newCoins.push({
-                id : coinId,
-                code : coinGeckoCoin.symbol,
-                name : coinGeckoCoin.name,
-                platform : platfromJson,
-                external_id: {
-                    coingecko: coinGeckoCoin.id,
-                }
-            })
-        } else {
-            newCoins.push({
-                id : coinId,
-                code : coinGeckoCoin.symbol,
-                name : coinGeckoCoin.name,
-                external_id: {
-                    coingecko: coinGeckoCoin.id,
-                }
-            })
+            if(platform.name){
+                newCoins.push({
+                    id : coinId,
+                    code : coinGeckoCoin.symbol,
+                    name : coinGeckoCoin.name,
+                    platform : platfromJson,
+                    external_id: {
+                        coingecko: coinGeckoCoin.id,
+                    }
+                })
+            } else {
+                newCoins.push({
+                    id : coinId,
+                    code : coinGeckoCoin.symbol,
+                    name : coinGeckoCoin.name,
+                    external_id: {
+                        coingecko: coinGeckoCoin.id,
+                    }
+                })
+            }
+
+            // -- Dublicate Record ---------------
+            if(platform.coinId == 'bep2|BNB'){
+                newCoins.push({
+                    id : 'binanceSmartChain',
+                    code : coinGeckoCoin.symbol,
+                    name : 'Binance Smart Chain',
+                    external_id: {
+                        coingecko: coinGeckoCoin.id,
+                        cryptocompare: `BNB`,
+                    }
+                })
+            }
         }
 
-        // -- Dublicate Record ---------------
-        if(platform.coinId == 'bep2|BNB'){
-            newCoins.push({
-                id : 'binanceSmartChain',
-                code : coinGeckoCoin.symbol,
-                name : 'Binance Smart Chain',
-                external_id: {
-                    coingecko: coinGeckoCoin.id,
-                    cryptocompare: `BNB`,
-                }
-            })
-        }
     }
 
     saveFile(pathAppCoins, JSON.stringify({coins : newCoins}))

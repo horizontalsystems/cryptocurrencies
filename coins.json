@@ -1,5 +1,5 @@
 {
-    "version": 11,
+    "version": 12,
     "categories": [
         {
             "id": "blockchain",
@@ -489,7 +489,7 @@
         {
             "id": "binance_labs",
             "name": "Binance Labs",
-            "url": "https://labs.binance.com/?_gl=1%2A305qqq%2A_ga%2AMTU2OTMyMDk3My4xNTkwNzMyODIw",
+            "url": "https://labs.binance.com/",
             "category": "corporate_vc"
         }
     ],
@@ -9513,7 +9513,7 @@
                 "wallets"
             ],
             "active": true,
-            "description": "Trust Wallet is an iOS (Open Source) and Android (Closed Source) wallet for Ethereum and other Ethereum-based tokens. The Trust Wallet keeps your private keys stored locally and features an open-source and audited code. It also features a decentralized exchange provided by the Kyber Network (Q2 2018). On the 8th of February, Trust wallet team decided to move the Trust Wallet app for Android into closed source development due to security reasons. It supports 14 crypto-currencies, to see the full list click here.Trust Wallet was acquired by Binance in July 2018, and it will natively support Binance DEX and Binance Chain in Q1 2019, it also supports ETC/POA DApps and will soon add support for Tron DApps.Trust Wallet Token is the native token from Trust Wallet.",
+            "description": "Trust Wallet Token is an utility token that provides a range of benefits and incentives to Trust Wallet users. Trust Wallet itself is a mobile cryptocurrency wallet that supports dozens of popular native assets, in addition to popular tokens on the Ethereum, Binance and TRON blockchains.\nHolders of TWT tokens unlock a variety of benefits when using Trust Wallet, including discounts on in-app cryptocurrency purchases and on the use of decentralized exchange (DEX) services. TWT holders can also participate in the governance of Trust Wallet and can vote on Trust Wallet update proposals, helping to shape the development of the app.\nTrust Wallet Token was initially launched as a BEP-2 asset on Binance Chain, but was relaunched as a BEP-20 token on Binance Smart Chain in October 2020.",
             "links": {
                 "website": "",
                 "whitepaper": "",

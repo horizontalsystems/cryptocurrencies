@@ -1,5 +1,5 @@
 {
-    "version": 10,
+    "version": 11,
     "categories": [
         {
             "id": "blockchain",
@@ -3663,7 +3663,7 @@
         },
         {
             "code": "MLN",
-            "name": "Melon",
+            "name": "Enzyme",
             "categories": [
                 "risk_management"
             ],
@@ -4881,34 +4881,6 @@
             "funds": [
                 "polychain_capital",
                 "three_arrows_capital"
-            ]
-        },
-        {
-            "code": "MLN",
-            "name": "Enzyme",
-            "categories": [
-                "risk_management"
-            ],
-            "active": true,
-            "platform": {
-                "name": "",
-                "address": "",
-                "type": ""
-            },
-            "description": "",
-            "links": {
-                "website": "",
-                "whitepaper": "",
-                "guide": "",
-                "twitter": "",
-                "github": "",
-                "reddit": "",
-                "telegram": ""
-            },
-            "rating": "",
-            "id": "erc20|0xec67005c4e498ec7f55e092bd1d35cbc47c91892",
-            "funds": [
-                "placeholder"
             ]
         },
         {
@@ -9751,6 +9723,34 @@
             "id": "unsupported|tezos",
             "funds": [
                 "draper_associates"
+            ]
+        },
+        {
+            "code": "OVR",
+            "name": "Ovr",
+            "categories": [
+                "gaming"
+            ],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697",
+                "type": "ERC20"
+            },
+            "description": "OVR is the decentralized infrastructure for the spatial web, merging physical and virtual world through Augmented Reality, creating a new dimension where everything is possible.",
+            "links": {
+                "website": "https://www.ovr.ai/",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "https://twitter.com/OVRtheReality",
+                "github": "",
+                "reddit": "",
+                "telegram": "https://t.me/OVRtheReality"
+            },
+            "rating": "",
+            "id": "erc20|0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697",
+            "funds": [
+
             ]
         }
     ],

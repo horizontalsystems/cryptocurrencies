@@ -10,13 +10,16 @@ def import(csv, coins, funds, category)
 	csv.each { |fund|
 		fundId = fund[0].downcase.gsub(/ /, '_').strip
 		funds << { id: fundId, name: fund[0], url: fund[1], category: category }
-		matched = false
 
 		fund[2].split("\n")
 			.filter { |c| !c.strip.empty? }
 			.each { |c|
-				captures = c.strip.match(/[^()]+\((.+)\)/).captures
-				coinCode = captures[0].strip
+				matched = false
+				match = c.strip.match(/[^()]+\(([A-z0-9_\-]+)\)/)
+
+				(puts "pattern match fail #{c}"; next) unless match
+
+				coinCode = match.captures[0].strip
 
 				coins["coins"].each { |coin|
 					if coin["code"] == coinCode

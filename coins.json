@@ -2158,19 +2158,20 @@
             "active": true,
             "platform": {
                 "name": "ethereum",
-                "address": "0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
+                "address": "0x961c8c0b1aad0c0b10a51fef6a867e3091bcef17",
                 "type": "ERC20"
             },
-            "description": "FTX is a cryptocurrency derivatives exchange built by traders, for traders. It strives to build a platform powerful enough for professional trading firms and intuitive enough for first-time users.FTX Token (FTT) is the backbone of the FTX ecosystem. It has been carefully designed with incentive schemes to increase network effects and demand for FTT, and to decrease its circulating supply.",
+            "description": "The DeFi Yield Protocol is developing a unique platform that allows anyone to provide liquidity and to be rewarded for the first time with Ethereum. At the same time, the platform maintains both token price stability as well as secure and simplified DeFi for end users by integrating a DYP anti-manipulation feature.",
             "links": {
-                "website": "https://ftx.com",
+                "website": "https://dyp.finance/#/home",
                 "whitepaper": "",
                 "guide": "",
-                "twitter": "https://twitter.com/FTX_official",
+                "twitter": "https://twitter.com/dypfinance",
                 "reddit": "",
-                "telegram": "https://t.me/FTX_Official"
+                "github": "https://github.com/dypfinance",
+                "telegram": "https://t.me/dypfinance"
             },
-            "id": "erc20|0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
+            "id": "erc20|0x961c8c0b1aad0c0b10a51fef6a867e3091bcef17",
             "funds": [
 
             ]
@@ -3452,7 +3453,7 @@
                 "address": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
                 "type": "ERC20"
             },
-            "description": "Matic provides scalable, secure and instant transactions using sidechains based on an adapted implementation of Plasma framework for asset security and a decentralized network of Proof-of-Stake (PoS) validators. In short, it allows anyone to create scalable DApps while ensuring a superior user experience in a secure and decentralized manner. It has a working implementation for Ethereum on Ropsten Testnet. Matic intends to support other blockchains in the future which will enable it to provide interoperability features alongside offering scalability to existing public blockchains.Matic Network is expanding tech scope and mission and becoming Polygon — Ethereum’s Internet of Blockchains.Existing Matic solutions remain functional and high priority. All the existing Matic solutions and implementations, primarily Matic PoS Chain and Matic Plasma Chains, remain fully functional and will continue to be developed and grown as very important components of the Polygon ecosystem. These implementations will not be impacted or changed in any way, and no action is required from developers or end-users. The $MATIC token will continue to exist and will play an increasingly important role, securing the system and enabling governance. See the official announcement.Polygon is a easy-to-use platform for Ethereum scaling and infrastructure development. Its core component is Polygon SDK, a modular, flexible framework that supports building and connecting two major types of solutions:Secured chains (aka Layer 2 chains): Scaling solutions that rely on Ethereum for security instead of establishing their own validator pool. Stand-alone chains (aka Sidechains): Sovereign Ethereum sidechains, normally fully in charge of their own security, i.e. with their own validator pool.",
+            "description": "Polygon (previously Matic Network) is the first well-structured, easy-to-use platform for Ethereum scaling and infrastructure development. Using Polygon, one can create optimistic rollup chains, ZK rollup chains, stand alone chains or any other kind of infra required by the developer. MATIC, the native tokens of Polygon, is an ERC-20 token running on the Ethereum blockchain. The tokens are used for payment services on Polygon and as a settlement currency between users who operate within the Polygon ecosystem. The transaction fees on Polygon sidechains are also paid in MATIC tokens.",
             "links": {
                 "website": "https://matic.network",
                 "whitepaper": "",
@@ -3960,11 +3961,6 @@
                 "blockchain"
             ],
             "active": true,
-            "platform": {
-                "name": "",
-                "address": "",
-                "type": ""
-            },
             "description": "",
             "links": {
                 "website": "",
@@ -3991,11 +3987,6 @@
                 "governance"
             ],
             "active": true,
-            "platform": {
-                "name": "",
-                "address": "",
-                "type": ""
-            },
             "description": "",
             "links": {
                 "website": "",
@@ -4020,11 +4011,6 @@
                 "blockchain"
             ],
             "active": true,
-            "platform": {
-                "name": "",
-                "address": "",
-                "type": ""
-            },
             "description": "",
             "links": {
                 "website": "",
@@ -4105,11 +4091,6 @@
                 "dexes"
             ],
             "active": true,
-            "platform": {
-                "name": "",
-                "address": "",
-                "type": ""
-            },
             "description": "",
             "links": {
                 "website": "",
@@ -4255,11 +4236,6 @@
                 "privacy"
             ],
             "active": true,
-            "platform": {
-                "name": "",
-                "address": "",
-                "type": ""
-            },
             "description": "",
             "links": {
                 "website": "",
@@ -4283,11 +4259,6 @@
                 "privacy"
             ],
             "active": true,
-            "platform": {
-                "name": "",
-                "address": "",
-                "type": ""
-            },
             "description": "",
             "links": {
                 "website": "",
@@ -4425,11 +4396,6 @@
                 "privacy"
             ],
             "active": true,
-            "platform": {
-                "name": "",
-                "address": "",
-                "type": ""
-            },
             "description": "",
             "links": {
                 "website": "",
@@ -4453,11 +4419,6 @@
                 "privacy"
             ],
             "active": true,
-            "platform": {
-                "name": "",
-                "address": "",
-                "type": ""
-            },
             "description": "",
             "links": {
                 "website": "",
@@ -4481,11 +4442,6 @@
                 "privacy"
             ],
             "active": true,
-            "platform": {
-                "name": "",
-                "address": "",
-                "type": ""
-            },
             "description": "",
             "links": {
                 "website": "",
@@ -4512,11 +4468,6 @@
                 "cross_chain"
             ],
             "active": true,
-            "platform": {
-                "name": "",
-                "address": "",
-                "type": ""
-            },
             "description": "",
             "links": {
                 "website": "",
@@ -7258,19 +7209,19 @@
             "active": true,
             "platform": {
                 "name": "ethereum",
-                "address": "0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
+                "address": "0xfe18be6b3bd88a2d2a7f928d00292e7a9963cfc6",
                 "type": "ERC20"
             },
-            "description": "FTX is a cryptocurrency derivatives exchange built by traders, for traders. It strives to build a platform powerful enough for professional trading firms and intuitive enough for first-time users.FTX Token (FTT) is the backbone of the FTX ecosystem. It has been carefully designed with incentive schemes to increase network effects and demand for FTT, and to decrease its circulating supply.",
+            "description": "sBTC or synthetic BTC is a synthetic asset launched by Synthetix Exchange. sBTC mirrors and tracks the price of Bitcoin provided by an oracle - Chainlink.",
             "links": {
-                "website": "https://ftx.com",
+                "website": "https://www.synthetix.io",
                 "whitepaper": "",
                 "guide": "",
-                "twitter": "https://twitter.com/FTX_official",
+                "twitter": "https://twitter.com/synthetix_io",
                 "reddit": "",
-                "telegram": "https://t.me/FTX_Official"
+                "telegram": ""
             },
-            "id": "erc20|0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
+            "id": "erc20|0xfe18be6b3bd88a2d2a7f928d00292e7a9963cfc6",
             "funds": [
 
             ]
@@ -7852,7 +7803,7 @@
             "active": true,
             "platform": {
                 "name": "ethereum",
-                "address": "0x0ba45a8b5d5575935b8158a88c631e9f9c95a2e5",
+                "address": "0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0",
                 "type": "ERC20"
             },
             "description": "Tellor is a decentralized Oracle for bringing high-value off-chain data onto Ethereum. The system utilizes a network of staked miners that compete to solve a PoW challenge to submit the official value for requested data. Tokens are mined with every successful Tellor data point and the company takes a 10% dev share to support the development of the ecosystem.",
@@ -7866,7 +7817,7 @@
                 "telegram": "https://t.me/tellor"
             },
             "rating": "",
-            "id": "erc20|0x0ba45a8b5d5575935b8158a88c631e9f9c95a2e5",
+            "id": "erc20|0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0",
             "funds": [
                 "binance_labs"
             ]
@@ -8161,21 +8112,16 @@
                 "fiat_stablecoins"
             ],
             "active": true,
-            "platform": {
-                "name": "ethereum",
-                "address": "0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
-                "type": "ERC20"
-            },
-            "description": "FTX is a cryptocurrency derivatives exchange built by traders, for traders. It strives to build a platform powerful enough for professional trading firms and intuitive enough for first-time users.FTX Token (FTT) is the backbone of the FTX ecosystem. It has been carefully designed with incentive schemes to increase network effects and demand for FTT, and to decrease its circulating supply.",
+            "description": "USDX is the crypto-backed native stablecoin of the Kava DeFi hub.",
             "links": {
-                "website": "https://ftx.com",
+                "website": "https://www.kava.io/overview",
                 "whitepaper": "",
                 "guide": "",
-                "twitter": "https://twitter.com/FTX_official",
+                "twitter": "",
                 "reddit": "",
-                "telegram": "https://t.me/FTX_Official"
+                "telegram": ""
             },
-            "id": "erc20|0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
+            "id": "unsupported|usdx",
             "funds": [
 
             ]
@@ -8468,19 +8414,20 @@
             "active": true,
             "platform": {
                 "name": "ethereum",
-                "address": "0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
+                "address": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
                 "type": "ERC20"
             },
-            "description": "FTX is a cryptocurrency derivatives exchange built by traders, for traders. It strives to build a platform powerful enough for professional trading firms and intuitive enough for first-time users.FTX Token (FTT) is the backbone of the FTX ecosystem. It has been carefully designed with incentive schemes to increase network effects and demand for FTT, and to decrease its circulating supply.",
+            "description": "Yearn Finance is a suite of products in Decentralized Finance (DeFi) that provides lending aggregation, yield generation, and insurance on the Ethereum blockchain. The protocol is maintained by various independent developers and is governed by YFI holders.\n YFI is the governance token for the Yearn Finance protocol. It can be used to vote and receive cash flows from the fees earned by the protocol.",
             "links": {
-                "website": "https://ftx.com",
+                "website": "https://yearn.finance",
                 "whitepaper": "",
                 "guide": "",
-                "twitter": "https://twitter.com/FTX_official",
-                "reddit": "",
-                "telegram": "https://t.me/FTX_Official"
+                "twitter": "https://twitter.com/iearnfinance",
+                "reddit": "https://www.reddit.com/r/yearn_finance/",
+                "github": "https://github.com/iearn-finance/ygov-finance",
+                "telegram": "https://t.me/yearnfinance"
             },
-            "id": "erc20|0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
+            "id": "erc20|0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
             "funds": [
                 "blockchain_capital",
                 "infinite_capital",
@@ -8854,11 +8801,6 @@
                 "blockchain"
             ],
             "active": true,
-            "platform": {
-                "name": "ethereum",
-                "address": "0xb5a5f22694352c15b00323844ad545abb2b11028",
-                "type": "ERC20"
-            },
             "description": "The Algorand platform is the first public, a permissionless pure proof-of-stake blockchain protocol that solves the “blockchain trilemma” of achieving scalability, security, and true decentralization all at once. Performance on the Algorand platform exceeds 1000 transactions per second (TPS) with a latency of fewer than 5 seconds, putting it on par with the throughput of major global payment networks without compromising security or decentralization.",
             "links": {
                 "website": "https://algorand.foundation/",
@@ -9218,11 +9160,6 @@
                 "blockchain"
             ],
             "active": true,
-            "platform": {
-                "name": "ethereum",
-                "address": "0xb5a5f22694352c15b00323844ad545abb2b11028",
-                "type": "ERC20"
-            },
             "description": "ICON Foundation is leading ICON project, one of the largest blockchain networks in the world, launched in 2017 with the vision of ‘Hyperconnect the World’. By using the high-performance blockchain engine, ‘loopchain’, ICON projects to connect various blockchain communities and build an environment where blockchain technology can be applied to real life. ICON supports not only private blockchain projects cooperating with various companies, but also DApp developments in public blockchain sector through strategic partnerships to expand ICON’s blockchain ecosystem.",
             "links": {
                 "website": "https://www.icon.foundation/en/",
@@ -9482,7 +9419,7 @@
                 "address": "0x1985365e9f78359a9b6ad760e32412f4a445e862",
                 "type": "ERC20"
             },
-            "description": "This page represents Augur v2, which is a fork of the Augur prediction market protocol designed to improve efficiency. Prediction markets like Augur v2 are designed so users can place bets on a variety of different events. With this fork, Augur v2 rolled out a suite of improvements around dispute management, settlements, forking, and more. Prediction markets are widely considered the best forecasting tool. Augur is an open, global platform where anyone anywhere can create, monitor or trade in prediction markets about any topic. Think of it as an \"Early Warning System&#39;&#39; with the most accurate event forecasts, a potential \"Google Search\", \"Bloomberg Terminal\" or \"Reuters Terminal\" for crowdsourced event forecasts.The system plans to use the \"Wisdom of Crowds&#39;&#39; (\"collective intelligence&#39;&#39;) via market incentives, \"Long Tail&#39;&#39; dynamics and blockchain technology to securely generate a more accurate, robust and unfiltered array of dynamic event forecasts than any alternative can match.Augur is decentralized, self-regulating, pseudonymous and autonomous. It offers the promise of markets without exposure to counterparty risk, principal-agent problems or central points of control, failure or censorship. No person is ever in direct control of someone else’s funds or in a position to single-handedly threaten the system’s integrity.The software is comprised of smart contracts perpetually deployed on a blockchain network, which enables applications deployed to be immune to local outages while benefiting from the entire community&#39;s security. All interactions with markets are communicated as database transactions between unique accounts powered by immutable software instructions.Augur v2 Launches\"The Augur v2 protocol contracts have been successfully deployed to the Ethereum Mainnet. The contracts have been verified on Etherscan, and the deployers address can be found here.\" ​See more info on the Augur V2 deployment here.",
+            "description": "Augur is an Ethereum-based decentralized prediction market that leverages the wisdom of the crowds to create a search engine for the future that runs on its own token, REP. Augur allows users to create their markets for specific questions they may have and to profit from the trading buys while allowing users to buy positive or negative shares regarding the outcome of a future event. Augur REP is the gambling cryptocurrency. It’s the crypto token you can use to bet on sporting events, political outcomes, economies and just about everything else in the prediction markets.",
             "links": {
                 "website": "http://www.augur.net/",
                 "whitepaper": "",
@@ -9613,7 +9550,7 @@
                 "telegram": ""
             },
             "rating": "",
-            "id": "unsupported|trust-wallet-token",
+            "id": "bep2|TWT-8C2",
             "funds": [
 
             ]

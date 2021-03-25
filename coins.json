@@ -14,7 +14,7 @@
         {
             "id": "lending",
             "name": "Lending",
-            "description": "Protocols for lending and borrowing.\n"
+            "description": "Protocols for lending and borrowing."
         },
         {
             "id": "privacy",

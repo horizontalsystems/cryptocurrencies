@@ -905,7 +905,8 @@
             "name": "Badger DAO",
             "categories": [
                 "algo_stablecoins",
-                "governance"
+                "governance",
+                "yield_aggregators"
             ],
             "active": true,
             "platform": {
@@ -1249,7 +1250,7 @@
                     "url": "https://github.com/mattdf/audits/blob/master/bZx/bzx-audit.pdf"
                 }
             ],
-            "id": "erc20|0xb72b31907c1c95f3650b64b2469e08edacee5e8f",
+            "id": "erc20|0x56d811088235f11c8920698a204a5010a788f4b3",
             "funds": [
                 "hashed"
             ]
@@ -3946,7 +3947,7 @@
             "code": "ONT",
             "name": "Ontology",
             "categories": [
-                "blockchains"
+                "blockchain"
             ],
             "active": true,
             "platform": {
@@ -3974,7 +3975,7 @@
             "code": "DCR",
             "name": "Decred",
             "categories": [
-                "blockchains",
+                "blockchain",
                 "governance"
             ],
             "active": true,
@@ -4003,7 +4004,7 @@
             "code": "IOST",
             "name": "IOST",
             "categories": [
-                "blockchains"
+                "blockchain"
             ],
             "active": true,
             "platform": {
@@ -4540,7 +4541,8 @@
             "code": "RAZOR",
             "name": "RAZOR Network",
             "categories": [
-                "scaling"
+                "scaling",
+                "oracles"
             ],
             "active": true,
             "platform": {
@@ -4625,7 +4627,7 @@
             "name": "OptionRoom",
             "categories": [
                 "oracles",
-                "prediction"
+                "prediction_markets"
             ],
             "active": true,
             "platform": {
@@ -4681,7 +4683,7 @@
             "code": "POLK",
             "name": "Polkamarkets",
             "categories": [
-                "prediction"
+                "prediction_markets"
             ],
             "active": true,
             "platform": {

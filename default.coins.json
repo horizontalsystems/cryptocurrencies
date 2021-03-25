@@ -884,11 +884,11 @@
             "address": "0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d"
         },
         {
-            "title": "KuCoin Shares",
+            "title": "KuCoin Token",
             "code": "KCS",
             "decimal": 6,
             "type": "erc20",
-            "address": "0x039b5649a59967e3e936d7471f9c3700100ee1ab"
+            "address": "0xf34960d9d60be18cc1d5afc1a6f012a723a28811"
         },
         {
             "title": "Kyber Network Crystal",

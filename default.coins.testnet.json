@@ -1,0 +1,62 @@
+{
+    "version": 2,
+    "coins": [
+        {
+            "title": "Bitcoin",
+            "code": "BTC",
+            "decimal": 8,
+            "type": "bitcoin"
+        },
+        {
+            "title": "Litecoin",
+            "code": "LTC",
+            "decimal": 8,
+            "type": "litecoin"
+        },
+        {
+            "title": "Ethereum",
+            "code": "ETH",
+            "decimal": 18,
+            "type": "ethereum"
+        },
+        {
+            "title": "Bitcoin Cash",
+            "code": "BCH",
+            "decimal": 8,
+            "type": "bitcoinCash"
+        },
+        {
+            "title": "Dash",
+            "code": "DASH",
+            "decimal": 8,
+            "type": "dash"
+        },
+        {
+            "title": "Binance Chain",
+            "code": "BNB",
+            "decimal": 8,
+            "type": "bep2",
+            "symbol": "BNB"
+        },
+        {
+            "title": "Zcash",
+            "code": "ZEC",
+            "decimal": 8,
+            "type": "zcash"
+        },
+        {
+            "title": "Dai",
+            "code": "DAI",
+            "decimal": 18,
+            "type": "erc20",
+            "address": "0xad6d458402f60fd3bd25163575031acdce07538d"
+        },
+        {
+            "title": "WEENUS",
+            "code": "WEENUS",
+            "decimal": 18,
+            "type": "erc20",
+            "address": "0x101848D5C5bbca18E6b4431eedf6b95e9adf82fa"
+        }
+    ]
+}

@@ -122,11 +122,6 @@
             "description": "Protocols that reward liquidity providers."
         },
         {
-            "id": "governance",
-            "name": "Governance",
-            "description": "Decentralized governance protocols for DAOs."
-        },
-        {
             "id": "cross_chain",
             "name": "Cross Chain",
             "description": "Cross-chain protocols."
@@ -564,8 +559,7 @@
             "code": "AAVE",
             "name": "Aave",
             "categories": [
-                "lending",
-                "governance"
+                "lending"
             ],
             "active": true,
             "platform": {
@@ -784,8 +778,7 @@
             "code": "API3",
             "name": "API3",
             "categories": [
-                "oracles",
-                "governance"
+                "oracles"
             ],
             "active": true,
             "platform": {
@@ -906,7 +899,6 @@
             "name": "Badger DAO",
             "categories": [
                 "algo_stablecoins",
-                "governance",
                 "yield_aggregators"
             ],
             "active": true,
@@ -1127,8 +1119,7 @@
             "code": "BOND",
             "name": "BarnBridge",
             "categories": [
-                "risk_management",
-                "governance"
+                "risk_management"
             ],
             "active": true,
             "platform": {
@@ -1458,8 +1449,7 @@
             "code": "COMP",
             "name": "Compound",
             "categories": [
-                "lending",
-                "governance"
+                "lending"
             ],
             "active": true,
             "platform": {
@@ -1624,8 +1614,7 @@
             "code": "CRV",
             "name": "Curve DAO Token",
             "categories": [
-                "dexes",
-                "governance"
+                "dexes"
             ],
             "active": true,
             "platform": {
@@ -1797,8 +1786,7 @@
             "code": "DEGO",
             "name": "Dego Finance",
             "categories": [
-                "nft",
-                "governance"
+                "nft"
             ],
             "active": true,
             "platform": {
@@ -1908,8 +1896,7 @@
             "code": "DHT",
             "name": "dHedge DAO",
             "categories": [
-                "risk_management",
-                "governance"
+                "risk_management"
             ],
             "active": true,
             "platform": {
@@ -1998,7 +1985,6 @@
             "code": "DNT",
             "name": "district0x",
             "categories": [
-                "governance"
             ],
             "active": true,
             "platform": {
@@ -2626,8 +2612,7 @@
             "name": "Gnosis",
             "categories": [
                 "prediction_markets",
-                "wallets",
-                "governance"
+                "wallets"
             ],
             "active": true,
             "platform": {
@@ -3166,8 +3151,7 @@
             "code": "KNC",
             "name": "Kyber Network",
             "categories": [
-                "dexes",
-                "governance"
+                "dexes"
             ],
             "active": true,
             "platform": {
@@ -3219,8 +3203,7 @@
             "code": "KP3R",
             "name": "Keep3rV1",
             "categories": [
-                "computing",
-                "governance"
+                "computing"
             ],
             "active": true,
             "platform": {
@@ -3604,8 +3587,7 @@
             "name": "Maker",
             "categories": [
                 "lending",
-                "stablecoin_issuers",
-                "governance"
+                "stablecoin_issuers"
             ],
             "active": true,
             "platform": {
@@ -3929,8 +3911,7 @@
             "code": "OCTO",
             "name": "OctoFi",
             "categories": [
-                "yield_aggregators",
-                "governance"
+                "yield_aggregators"
             ],
             "active": true,
             "platform": {
@@ -3983,8 +3964,7 @@
             "code": "DCR",
             "name": "Decred",
             "categories": [
-                "blockchain",
-                "governance"
+                "blockchain"
             ],
             "active": true,
             "description": "",
@@ -4279,8 +4259,7 @@
             "code": "HOPR",
             "name": "HOPR",
             "categories": [
-                "privacy",
-                "governance"
+                "privacy"
             ],
             "active": true,
             "platform": {
@@ -4773,8 +4752,7 @@
             "code": "SHROOM",
             "name": "Shroom.Finance",
             "categories": [
-                "yield_aggregators",
-                "governance"
+                "yield_aggregators"
             ],
             "active": true,
             "platform": {
@@ -5962,7 +5940,6 @@
             "code": "NDX",
             "name": "Indexed Finance",
             "categories": [
-                "governance"
             ],
             "active": true,
             "platform": {
@@ -6755,7 +6732,6 @@
             "code": "PNK",
             "name": "Kleros",
             "categories": [
-                "governance"
             ],
             "active": true,
             "platform": {
@@ -6894,8 +6870,7 @@
             "code": "RARI",
             "name": "Rarible",
             "categories": [
-                "nft",
-                "governance"
+                "nft"
             ],
             "active": true,
             "platform": {
@@ -6980,8 +6955,7 @@
             "code": "RGT",
             "name": "Rari Governance Token",
             "categories": [
-                "yield_aggregators",
-                "governance"
+                "yield_aggregators"
             ],
             "active": true,
             "platform": {
@@ -7287,8 +7261,7 @@
             "categories": [
                 "synthetics",
                 "dexes",
-                "stablecoin_issuers",
-                "governance"
+                "stablecoin_issuers"
             ],
             "active": true,
             "platform": {
@@ -7506,8 +7479,7 @@
             "code": "SUSHI",
             "name": "Sushi",
             "categories": [
-                "dexes",
-                "governance"
+                "dexes"
             ],
             "active": true,
             "platform": {
@@ -7913,8 +7885,7 @@
             "code": "UMA",
             "name": "UMA",
             "categories": [
-                "synthetics",
-                "oracles"
+                "synthetics"
             ],
             "active": true,
             "platform": {
@@ -7974,8 +7945,7 @@
             "code": "UNI",
             "name": "Uniswap",
             "categories": [
-                "dexes",
-                "governance"
+                "dexes"
             ],
             "active": true,
             "platform": {
@@ -8301,7 +8271,6 @@
             "code": "YAM",
             "name": "YAM",
             "categories": [
-                "governance"
             ],
             "active": true,
             "platform": {
@@ -8793,7 +8762,6 @@
             "code": "ANT",
             "name": "Aragon",
             "categories": [
-                "governance"
             ],
             "active": true,
             "platform": {
@@ -9107,7 +9075,8 @@
             "code": "HEZ",
             "name": "Hermez Network",
             "categories": [
-                "scaling"
+                "scaling",
+                "wallet"
             ],
             "active": true,
             "description": "Founded on October 15th, 2020 and based in Zug, Switzerland, Hermez Network is a decentralized zk-rollup focused on scaling payments and token transfers on top of Ethereum.One of the most important things about Hermez is the way it decides who the next block creator should be, as block creators are selected via a burn auction, except rather than burning tokens, a 40% of the winning bid goes back to be reinvested in Ethereum public goods through Gitcoin quadratic funding grants.In the Hermez Network this mechanism is referred as proof-of-donation because a significant fraction of this bid is donated to the protocols and social services that run on top of Ethereum.Hermez Network is developed by idem3",

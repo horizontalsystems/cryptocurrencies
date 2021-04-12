@@ -2289,6 +2289,21 @@
             "decimal": 18,
             "type": "erc20",
             "address": "0x5d65D971895Edc438f465c17DB6992698a52318D"
+        },
+        {
+            "title": "Pundi X",
+            "code": "PUNDIX",
+            "decimal": 18,
+            "type": "erc20",
+            "address": "0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38"
+        },
+        {
+            "title": "Yieldwatch ",
+            "code": "WATCH",
+            "decimal": 18,
+            "type": "bep2020",
+            "address": "0x7a9f28eb62c791422aa23ceae1da9c847cbec9b0"
         }
+
     ]
 }

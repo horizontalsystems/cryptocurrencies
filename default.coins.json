@@ -38,6 +38,12 @@
             "type": "binanceSmartChain"
         },
         {
+            "title": "ZOE CASH",
+            "code": "ZOE",
+            "decimal": 18,
+            "type": "binanceSmartChain"
+        },
+        {
             "title": "Binance Coin",
             "code": "BNB",
             "decimal": 8,

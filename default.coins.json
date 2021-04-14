@@ -48,7 +48,7 @@
             "title": "ZOE CASH",
             "code": "ZOE",
             "decimal": 18,
-            "type": "bep2"
+            "type": "bep2",
             "symbol": "ZOE"
         },
         {

@@ -898,7 +898,6 @@
             "code": "BADGER",
             "name": "Badger DAO",
             "categories": [
-                "algo_stablecoins",
                 "yield_aggregators"
             ],
             "active": true,
@@ -1147,7 +1146,6 @@
             "code": "BONDLY",
             "name": "Bondly",
             "categories": [
-                "dexes",
                 "nft"
             ],
             "active": true,

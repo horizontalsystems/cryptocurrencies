@@ -1,5 +1,5 @@
 {
-    "version": 2,
+    "version": 3,
     "coins": [
         {
             "title": "Bitcoin",
@@ -1900,7 +1900,7 @@
         },
         {
             "title": "PancakeSwap Token",
-            "code": "Cake",
+            "code": "CAKE",
             "decimal": 18,
             "type": "bep20",
             "address": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"

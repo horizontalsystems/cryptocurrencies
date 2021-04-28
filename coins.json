@@ -1,5 +1,5 @@
 {
-    "version": 15,
+    "version": 16,
     "categories": [
         {
             "id": "blockchain",
@@ -1655,7 +1655,7 @@
         {
             "code": "DF",
             "name": "dForce Token",
-            "categories": ["yield_aggregators"],
+            "categories": ["yield_aggregators", "lending"],
             "active": true,
             "platform": {
                 "name": "ethereum",
@@ -2953,7 +2953,7 @@
         {
             "code": "LOOM",
             "name": "Loom Network",
-            "categories": ["b2b"],
+            "categories": [],
             "active": true,
             "platform": {
                 "name": "ethereum",
@@ -3643,7 +3643,7 @@
         {
             "code": "ZKS",
             "name": "ZKSwap",
-            "categories": ["privacy", "scaling"],
+            "categories": ["scaling"],
             "active": true,
             "platform": {
                 "name": "",
@@ -3786,7 +3786,7 @@
         {
             "code": "BLANK",
             "name": "Blank",
-            "categories": ["privacy"],
+            "categories": ["wallets"],
             "active": true,
             "platform": {
                 "name": "",
@@ -3891,7 +3891,7 @@
         {
             "code": "ONE",
             "name": "Harmony",
-            "categories": ["scaling", "cross_chain"],
+            "categories": ["scaling", "cross_chain","blockchain"],
             "active": true,
             "description": "",
             "links": {
@@ -6332,7 +6332,7 @@
         {
             "code": "SPDR",
             "name": "SpiderDAO",
-            "categories": ["privacy"],
+            "categories": [ ],
             "active": true,
             "platform": {
                 "name": "ethereum",
@@ -6855,7 +6855,7 @@
         {
             "code": "UMX",
             "name": "UniMex Network",
-            "categories": ["dexes"],
+            "categories": [ ],
             "active": true,
             "platform": {
                 "name": "ethereum",
@@ -7116,7 +7116,7 @@
         {
             "code": "XFT",
             "name": "Offshift",
-            "categories": ["privacy"],
+            "categories": [ ],
             "active": true,
             "platform": {
                 "name": "ethereum",
@@ -7634,7 +7634,7 @@
         {
             "code": "BNB",
             "name": "Binance Coin",
-            "categories": ["dexes", "exchange_tokens"],
+            "categories": ["exchange_tokens"],
             "active": true,
             "description": "BNB powers the Binance ecosystem and is the native asset of the Binance Chain. BNB is a cryptocurrency created in June 2017, launched during an ICO in July, and initially issued as an ERC-20 token. Designed to be used for a fee reduction on the Binance exchange, its scope was extended over the years.BNB powers the Binance Chain as its native chain token. For instance, it is used to pay fees on the Binance DEX, issue new tokens, send/cancel orders, and transfer assets.BNB is also powering the Binance Smart Chain, which is an EVM-compatible network, forked from “go-ethereum”. It supports smart contracts and relies on a new consensus mechanism: Proof-of-Staked Authority (PoSA) consensus (“Parlia”), which incorporates elements from both Proof of Stake and Proof of Authority. BNB is used for delegated staking on the authority validator, leading to staking rewards for users and validators.Besides its on-chain functions, BNB has multiple additional use-cases such as fee discounts on multiple exchanges (e.g., Binance.com), payment asset on third-party services, and participation rights &amp; transacting currency on Binance Launchpad.At the core of the economics of BNB, there is a burn mechanism leading to period reductions in its total supply (~ every three months). From its initial maximum supply of 200 million, burns are expected to continue until the supply reaches 100 million.Whitepaper",
             "links": {
@@ -7878,7 +7878,7 @@
         {
             "code": "LRC",
             "name": "Loopring",
-            "categories": ["dexes"],
+            "categories": ["dexes","scaling"],
             "active": true,
             "platform": {
                 "name": "ethereum",
@@ -8336,7 +8336,248 @@
             "rating": "",
             "id": "erc20|0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697",
             "funds": []
+        },
+        {
+            "code": "EPS",
+            "name": "Ellipsis",
+            "categories": ["dexes"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "bep20|0xa7f552078dcc247c2684336020c03648500c6d9f",
+            "funds": []
+        },
+        {
+            "code": "RDN",
+            "name": "Raiden Network Token",
+            "categories": ["scaling"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x255aa6df07540cb5d3d297f0d0d4d84cb52bc8e6",
+            "funds": []
+        },
+        {
+            "code": "SKL",
+            "name": "SKALE",
+            "categories": ["scaling"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x00c83aecc790e8a4453e5dd3b0b4b3680501a7a7",
+            "funds": []
+        },
+        {
+            "code": "BUNNY",
+            "name": "BunnyToken",
+            "categories": ["yield_aggregators"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "bep20|0xc9849e6fdb743d08faee3e34dd2d1bc69ea11a51",
+            "funds": []
+        },
+        {
+            "code": "VALUE",
+            "name": "Value DeFi",
+            "categories": ["yield_aggregators"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x49e833337ece7afe375e44f4e3e8481029218e5c",
+            "funds": []
+        },
+        {
+            "code": "SGT",
+            "name": "SharedStake Governance Token",
+            "categories": ["staking_eth_2_0"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x49e833337ece7afe375e44f4e3e8481029218e5c",
+            "funds": []
+        },
+        {
+            "code": "ALPACA",
+            "name": "Alpaca Finance",
+            "categories": ["yield_aggregators"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "bep20|0x8f0528ce5ef7b51152a59745befdd91d97091d2f",
+            "funds": []
+        },
+        {
+            "code": "FEI",
+            "name": "Fei Protocol",
+            "categories": ["algo_stablecoins"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x956f47f50a910163d8bf957cf5846d573e7f87ca",
+            "funds": []
+        },
+        {
+            "code": "MIOTA",
+            "name": "IOTA",
+            "categories": ["blockchain"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|iota",
+            "funds": []
+        },
+        {
+            "code": "XRP",
+            "name": "XRP",
+            "categories": ["blockchain"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|ripple",
+            "funds": []
         }
+
     ],
     "fund_categories": [
         {

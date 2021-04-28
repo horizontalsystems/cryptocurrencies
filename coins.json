@@ -1,5 +1,5 @@
 {
-    "version": 14,
+    "version": 15,
     "categories": [
         {
             "id": "blockchain",
@@ -8360,7 +8360,7 @@
             "order": 4
         }
     ],
-    "dexes": [
+    "exchanges": [
         {
             "id": "binance",
             "name": "Binance",

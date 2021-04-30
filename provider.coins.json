@@ -36926,7 +36926,10 @@
           "name": "Wing Shop",
           "external_id": { "coingecko": "wing-shop" }
       },
-      { "id": "unsupported|wink", "code": "win", "name": "WINk", "external_id": { "coingecko": "wink" } },
+      { "id": "unsupported|wink",
+        "code": "win",
+        "name": "WINk",
+        "external_id": { "coingecko": "wink" } },
       {
           "id": "unsupported|winners-group-token",
           "code": "wnt",

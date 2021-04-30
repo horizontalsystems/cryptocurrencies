@@ -130,6 +130,11 @@
             "id": "computing",
             "name": "Computing",
             "description": "Decentralized on-demand computing solutions."
+        },
+        {
+            "id": "fun_tokens",
+            "name": "Fun Tokens",
+            "description": " "
         }
     ],
     "funds": [
@@ -8576,8 +8581,463 @@
             "rating": "",
             "id": "unsupported|ripple",
             "funds": []
+        },
+        {
+            "code": "WIN",
+            "name": "WINk",
+            "categories": ["oracles"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|wink",
+            "funds": []
+        },
+        {
+            "code": "ACS",
+            "name": "ACryptoS",
+            "categories": ["yield_aggregators"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "bep20|0x4197c6ef3879a08cd51e5560da5064b773aa1d29",
+            "funds": []
+        },
+        {
+            "code": "BTMX",
+            "name": "Bitmax Token",
+            "categories": ["exchange_tokens"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xcca0c9c383076649604ee31b20248bc04fdf61ca",
+            "funds": []
+        },
+        {
+            "code": "WOO",
+            "name": "Wootrade Network",
+            "categories": ["exchange_tokens"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x4691937a7508860f876c9c0a2a617e7d9e945d4b",
+            "funds": []
+        },
+        {
+            "code": "ZMT",
+            "name": "Zipmex Token",
+            "categories": ["exchange_tokens"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xaa602de53347579f86b996d2add74bb6f79462b2",
+            "funds": []
+        },
+        {
+            "code": "BDPI",
+            "name": "Interest Bearing DPI",
+            "categories": ["index_funds"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x0309c98b1bffa350bcb3f9fb9780970ca32a5060",
+            "funds": []
+        },
+        {
+            "code": "BAR",
+            "name": "FC Barcelona Fan Token",
+            "categories": ["fun_tokens"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|fc-barcelona-fan-token",
+            "funds": []
+        },
+        {
+            "code": "PSG",
+            "name": "Paris Saint-Germain Fan Token",
+            "categories": ["fun_tokens"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|paris-saint-germain-fan-token",
+            "funds": []
+        },
+        {
+            "code": "JUV",
+            "name": "Juventus Fan Token",
+            "categories": ["fun_tokens"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|juventus-fan-token",
+            "funds": []
+        },
+        {
+            "code": "GAL",
+            "name": "Galatasaray Fan Token",
+            "categories": ["fun_tokens"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|galatasaray-fan-token",
+            "funds": []
+        },
+        {
+            "code": "ACM",
+            "name": "AC Milan Fan Token",
+            "categories": ["fun_tokens"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|ac-milan-fan-token",
+            "funds": []
+        },
+        {
+            "code": "ATM",
+            "name": "Atletico Madrid Fan Token",
+            "categories": ["fun_tokens"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|atletico-madrid",
+            "funds": []
+        },
+        {
+            "code": "OG",
+            "name": "OG Fan Token",
+            "categories": ["fun_tokens"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|og-fan-token",
+            "funds": []
+        },
+        {
+            "code": "ASR",
+            "name": "AS Roma Fan Token",
+            "categories": ["fun_tokens"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|as-roma-fan-token",
+            "funds": []
+        },
+        {
+            "code": "STV",
+            "name": "Sint-Truidense Voetbalvereniging Fan Token",
+            "categories": ["fun_tokens"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|sint-truidense-voetbalvereniging",
+            "funds": []
+        },
+        {
+            "code": "TH",
+            "name": "Team Heretics Fan Token",
+            "categories": ["fun_tokens"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|team-heretics-fan-token",
+            "funds": []
+        },
+        {
+            "code": "TRA",
+            "name": "Trabzonspor Fan Token",
+            "categories": ["fun_tokens"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|trabzonspor-fan-token",
+            "funds": []
+        },
+        {
+            "code": "APL",
+            "name": "Apollo",
+            "categories": ["fun_tokens"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|apollo",
+            "funds": []
+        },
+        {
+            "code": "NAVI",
+            "name": "Natus Vincere Fan Token",
+            "categories": ["fun_tokens"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|natus-vincere-fan-token",
+            "funds": []
         }
-
     ],
     "fund_categories": [
         {

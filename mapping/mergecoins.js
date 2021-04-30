@@ -13,6 +13,7 @@ const pathAppCoins = './config/app.coins.json'
 const pathMergedCoins = './config/merged.json'
 const pathNotMergedCryptocomCoins = './config/notmerged_cryptocom.json'
 const pathNotMergedCoinGeckoCoins = './config/notmerged_coingecko.json'
+const pathExceptionalProviderIds = './config/exceptional.provider.coins.json'
 
 const fileCoinGeckoCoins = readFile(pathCoinGeckoCoins)
 const fileCryptocomCoins = readFile(pathCryptocomCoins)
@@ -375,6 +376,7 @@ function mergeCryptoCompareCoinsByNameIdenticRatio(appCoins, foundcryptocomCoins
 
 function mergeCryptoCompareCoins(){
     const appCoinsFile = readFile(pathAppCoins)
+    const exceptionalCoins = JSON.parse(readFile(pathExceptionalProviderIds))
     const jsonAppCoins = JSON.parse(appCoinsFile)
     let appCoins = jsonAppCoins.coins
     let foundcryptocomCoins = Object.values(cryptocomCoins.Data)
@@ -430,6 +432,12 @@ function mergeCryptoCompareCoins(){
         delete outCoin['platform']
         delete outCoin['links']
     })
+
+    exceptionalCoins.forEach(coin => {
+        console.log(coin)
+        outProviderCoins.push(coin)
+    })
+
     saveFile(pathAppCoins, JSON.stringify({coins : appCoinsOriginal}))
     saveFile(pathProviderIds, JSON.stringify({coins : outProviderCoins}))
 

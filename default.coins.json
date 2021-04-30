@@ -1,5 +1,5 @@
 {
-    "version": 4,
+    "version": 5,
     "coins": [
         {
             "title": "Bitcoin",
@@ -2505,6 +2505,118 @@
             "decimal": 18,
             "type": "bep20",
             "address": "0x2090c8295769791ab7a3cf1cc6e0aa19f35e441a"
+        },
+        {
+            "title": "GourmetGalaxy",
+            "code": "GUM",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xc53708664b99df348dd27c3ac0759d2da9c40462"
+        },
+        {
+            "title": "Hakka Finance on xDai on BSC",
+            "code": "HAKKA",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x1d1eb8e8293222e1a29d2c0e4ce6c0acfd89aaac"
+        },
+        {
+            "title": "HARD",
+            "code": "HARD",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xf79037f6f6be66832de4e7516be52826bc3cbcc4"
+        },
+        {
+            "title": "Helmet.insure Governance Token",
+            "code": "Helmet",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x948d2a81086a075b3130bac19e4c6dee1d2e3fe8"
+        },
+        {
+            "title": "Hedget",
+            "code": "HGET",
+            "decimal": 6,
+            "type": "bep20",
+            "address": "0x794f976c12b2616fa2af3f38a73d3b61fbf68661"
+        },
+        {
+            "title": "Horizon Protocol",
+            "code": "HZN",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xc0eff7749b125444953ef89682201fb8c6a917cd"
+        },
+        {
+            "title": "Injective Protocol",
+            "code": "INJ",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xa2b726b1145a4773f68593cf171187d8ebe4d495"
+        },
+        {
+            "title": "Binance-Peg IoTeX Network",
+            "code": "IOTX",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x9678e42cebeb63f23197d726b29b1cb20d0064e5"
+        },
+        {
+            "title": "ITAM",
+            "code": "ITAM",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x04c747b40be4d535fc83d09939fb0f626f32800b"
+        },
+        {
+            "title": "Juggernaut DeFi",
+            "code": "JGN",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xc13b7a43223bb9bf4b69bd68ab20ca1b79d81c75"
+        },
+        {
+            "title": "Juventus",
+            "code": "JUV",
+            "decimal": 2,
+            "type": "bep20",
+            "address": "0xc40c9a843e1c6d01b7578284a9028854f6683b1b"
+        },
+        {
+            "title": "Wrapped Mirror AMZN Token",
+            "code": "mAMZN",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x3947B992DC0147D2D89dF0392213781b04B25075"
+        },
+        {
+            "title": "Wrapped Mirror GOOGL Token",
+            "code": "mGOOGL",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x62D71B23bF15218C7d2D7E48DBbD9e9c650B173f"
+        },
+        {
+            "title": "Wrapped MIR Token",
+            "code": "MIR",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0x5b6dcf557e2abe2323c48445e8cc948910d8c2c9"
+        },
+        {
+            "title": "Wrapped Mirror NFLX Token",
+            "code": "mNFLX",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xa04F060077D90Fe2647B61e4dA4aD1F97d6649dc"
+        },
+        {
+            "title": "Wrapped Mirror TSLA Token",
+            "code": "mTSLA",
+            "decimal": 18,
+            "type": "bep20",
+            "address": "0xF215A127A196e3988C09d052e16BcFD365Cd7AA3"
         }
     ]
 }

@@ -132,8 +132,8 @@
             "description": "Decentralized on-demand computing solutions."
         },
         {
-            "id": "fan_tokens",
-            "name": "Fan Tokens",
+            "id": "fun_tokens",
+            "name": "Fun Tokens",
             "description": " "
         }
     ],
@@ -8729,7 +8729,7 @@
         {
             "code": "BAR",
             "name": "FC Barcelona Fan Token",
-            "categories": ["fan_tokens"],
+            "categories": ["fun_tokens"],
             "active": true,
             "platform": {
                 "name": "",
@@ -8753,7 +8753,7 @@
         {
             "code": "PSG",
             "name": "Paris Saint-Germain Fan Token",
-            "categories": ["fan_tokens"],
+            "categories": ["fun_tokens"],
             "active": true,
             "platform": {
                 "name": "",
@@ -8777,7 +8777,7 @@
         {
             "code": "JUV",
             "name": "Juventus Fan Token",
-            "categories": ["fan_tokens"],
+            "categories": ["fun_tokens"],
             "active": true,
             "platform": {
                 "name": "",
@@ -8801,7 +8801,7 @@
         {
             "code": "GAL",
             "name": "Galatasaray Fan Token",
-            "categories": ["fan_tokens"],
+            "categories": ["fun_tokens"],
             "active": true,
             "platform": {
                 "name": "",
@@ -8825,7 +8825,7 @@
         {
             "code": "ACM",
             "name": "AC Milan Fan Token",
-            "categories": ["fan_tokens"],
+            "categories": ["fun_tokens"],
             "active": true,
             "platform": {
                 "name": "",
@@ -8849,7 +8849,7 @@
         {
             "code": "ATM",
             "name": "Atletico Madrid Fan Token",
-            "categories": ["fan_tokens"],
+            "categories": ["fun_tokens"],
             "active": true,
             "platform": {
                 "name": "",
@@ -8873,7 +8873,7 @@
         {
             "code": "OG",
             "name": "OG Fan Token",
-            "categories": ["fan_tokens"],
+            "categories": ["fun_tokens"],
             "active": true,
             "platform": {
                 "name": "",
@@ -8897,7 +8897,7 @@
         {
             "code": "ASR",
             "name": "AS Roma Fan Token",
-            "categories": ["fan_tokens"],
+            "categories": ["fun_tokens"],
             "active": true,
             "platform": {
                 "name": "",
@@ -8921,7 +8921,7 @@
         {
             "code": "STV",
             "name": "Sint-Truidense Voetbalvereniging Fan Token",
-            "categories": ["fan_tokens"],
+            "categories": ["fun_tokens"],
             "active": true,
             "platform": {
                 "name": "",
@@ -8945,7 +8945,7 @@
         {
             "code": "TH",
             "name": "Team Heretics Fan Token",
-            "categories": ["fan_tokens"],
+            "categories": ["fun_tokens"],
             "active": true,
             "platform": {
                 "name": "",
@@ -8969,7 +8969,7 @@
         {
             "code": "TRA",
             "name": "Trabzonspor Fan Token",
-            "categories": ["fan_tokens"],
+            "categories": ["fun_tokens"],
             "active": true,
             "platform": {
                 "name": "",
@@ -8993,7 +8993,7 @@
         {
             "code": "APL",
             "name": "Apollo",
-            "categories": ["fan_tokens"],
+            "categories": ["fun_tokens"],
             "active": true,
             "platform": {
                 "name": "",
@@ -9017,7 +9017,7 @@
         {
             "code": "NAVI",
             "name": "Natus Vincere Fan Token",
-            "categories": ["fan_tokens"],
+            "categories": ["fun_tokens"],
             "active": true,
             "platform": {
                 "name": "",
@@ -9036,6 +9036,30 @@
             },
             "rating": "",
             "id": "unsupported|natus-vincere-fan-token",
+            "funds": []
+        },
+        {
+            "code": "TKO",
+            "name": "Tokocrypto",
+            "categories": ["exchange_tokens"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "bep20|0x9f589e3eabe42ebc94a44727b3f3531c0c877809",
             "funds": []
         }
     ],

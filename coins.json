@@ -9066,6 +9066,150 @@
             "rating": "",
             "id": "bep20|0x9f589e3eabe42ebc94a44727b3f3531c0c877809",
             "funds": []
+        },
+        {
+            "code": "PRQ",
+            "name": "PARSIQ",
+            "categories": ["investment_tools"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x362bc847a3a9637d3af6624eec853618a43ed7d2",
+            "funds": []
+        },
+        {
+            "code": "DEXT",
+            "name": "DexTools",
+            "categories": ["investment_tools"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x26ce25148832c04f3d7f26f32478a9fe55197166",
+            "funds": []
+        },
+        {
+            "code": "BDP",
+            "name": "Big Data Protocol",
+            "categories": ["investment_tools"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xf3dcbc6d72a4e1892f7917b7c43b74131df8480e",
+            "funds": []
+        },
+        {
+            "code": "GLQ",
+            "name": "GraphLinq Protocol",
+            "categories": ["investment_tools"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x9f9c8ec3534c3ce16f928381372bfbfbfb9f4d24",
+            "funds": []
+        },
+        {
+            "code": "UWL",
+            "name": "UniWhales",
+            "categories": ["investment_tools"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xdbdd6f355a37b94e6c7d32fef548e98a280b8df5",
+            "funds": []
+        },
+        {
+            "code": "WATCH",
+            "name": "Yieldwatch",
+            "categories": ["investment_tools"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "bep20|0x7a9f28eb62c791422aa23ceae1da9c847cbec9b0",
+            "funds": []
         }
     ],
     "fund_categories": [

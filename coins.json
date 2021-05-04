@@ -132,8 +132,8 @@
             "description": "Decentralized on-demand computing solutions."
         },
         {
-            "id": "fun_tokens",
-            "name": "Fun Tokens",
+            "id": "fan_tokens",
+            "name": "Fan Tokens",
             "description": " "
         }
     ],
@@ -8729,7 +8729,7 @@
         {
             "code": "BAR",
             "name": "FC Barcelona Fan Token",
-            "categories": ["fun_tokens"],
+            "categories": ["fan_tokens"],
             "active": true,
             "platform": {
                 "name": "",
@@ -8753,7 +8753,7 @@
         {
             "code": "PSG",
             "name": "Paris Saint-Germain Fan Token",
-            "categories": ["fun_tokens"],
+            "categories": ["fan_tokens"],
             "active": true,
             "platform": {
                 "name": "",
@@ -8777,7 +8777,7 @@
         {
             "code": "JUV",
             "name": "Juventus Fan Token",
-            "categories": ["fun_tokens"],
+            "categories": ["fan_tokens"],
             "active": true,
             "platform": {
                 "name": "",
@@ -8801,7 +8801,7 @@
         {
             "code": "GAL",
             "name": "Galatasaray Fan Token",
-            "categories": ["fun_tokens"],
+            "categories": ["fan_tokens"],
             "active": true,
             "platform": {
                 "name": "",
@@ -8825,7 +8825,7 @@
         {
             "code": "ACM",
             "name": "AC Milan Fan Token",
-            "categories": ["fun_tokens"],
+            "categories": ["fan_tokens"],
             "active": true,
             "platform": {
                 "name": "",
@@ -8849,7 +8849,7 @@
         {
             "code": "ATM",
             "name": "Atletico Madrid Fan Token",
-            "categories": ["fun_tokens"],
+            "categories": ["fan_tokens"],
             "active": true,
             "platform": {
                 "name": "",
@@ -8873,7 +8873,7 @@
         {
             "code": "OG",
             "name": "OG Fan Token",
-            "categories": ["fun_tokens"],
+            "categories": ["fan_tokens"],
             "active": true,
             "platform": {
                 "name": "",
@@ -8897,7 +8897,7 @@
         {
             "code": "ASR",
             "name": "AS Roma Fan Token",
-            "categories": ["fun_tokens"],
+            "categories": ["fan_tokens"],
             "active": true,
             "platform": {
                 "name": "",
@@ -8921,7 +8921,7 @@
         {
             "code": "STV",
             "name": "Sint-Truidense Voetbalvereniging Fan Token",
-            "categories": ["fun_tokens"],
+            "categories": ["fan_tokens"],
             "active": true,
             "platform": {
                 "name": "",
@@ -8945,7 +8945,7 @@
         {
             "code": "TH",
             "name": "Team Heretics Fan Token",
-            "categories": ["fun_tokens"],
+            "categories": ["fan_tokens"],
             "active": true,
             "platform": {
                 "name": "",
@@ -8969,7 +8969,7 @@
         {
             "code": "TRA",
             "name": "Trabzonspor Fan Token",
-            "categories": ["fun_tokens"],
+            "categories": ["fan_tokens"],
             "active": true,
             "platform": {
                 "name": "",
@@ -8993,7 +8993,7 @@
         {
             "code": "APL",
             "name": "Apollo",
-            "categories": ["fun_tokens"],
+            "categories": ["fan_tokens"],
             "active": true,
             "platform": {
                 "name": "",
@@ -9017,7 +9017,7 @@
         {
             "code": "NAVI",
             "name": "Natus Vincere Fan Token",
-            "categories": ["fun_tokens"],
+            "categories": ["fan_tokens"],
             "active": true,
             "platform": {
                 "name": "",

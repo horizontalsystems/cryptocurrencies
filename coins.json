@@ -1,5 +1,5 @@
 {
-    "version": 19,
+    "version": 20,
     "categories": [
         {
             "id": "blockchain",
@@ -8973,7 +8973,7 @@
         },
         {
             "code": "TRA",
-            "name": "Trabzonspor Fan Token",
+            "name": "Trabzonsport Fan Token",
             "categories": ["fan_tokens"],
             "active": true,
             "platform": {

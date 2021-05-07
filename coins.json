@@ -1,5 +1,5 @@
 {
-    "version": 21,
+    "version": 22,
     "categories": [
         {
             "id": "blockchain",
@@ -2940,7 +2940,7 @@
         {
             "code": "LON",
             "name": "Tokenlon",
-            "categories": ["dexes"],
+            "categories": [""],
             "active": true,
             "platform": {
                 "name": "ethereum",
@@ -3944,7 +3944,7 @@
         {
             "code": "RAZOR",
             "name": "RAZOR Network",
-            "categories": ["scaling", "oracles"],
+            "categories": ["oracles"],
             "active": true,
             "platform": {
                 "name": "",
@@ -4778,7 +4778,7 @@
                 "telegram": ""
             },
             "rating": "",
-            "id": "erc20|0xf5d669627376ebd411e34b98f19c868c8aba5ada",
+            "id": "erc20|0xbb0e17ef65f82ab018d8edd776e8dd940327b28b",
             "funds": ["hashed"]
         },
         {
@@ -5613,7 +5613,7 @@
         {
             "code": "PAR",
             "name": "Parachute",
-            "categories": ["wallets"],
+            "categories": [""],
             "active": true,
             "platform": {
                 "name": "ethereum",
@@ -7420,7 +7420,7 @@
                 "telegram": "https://t.me/LTOnetwork"
             },
             "rating": "",
-            "id": "unsupported|lto-network",
+            "id": "erc20|0x3db6ba6ab6f95efed1a6e794cad492faaabf294d",
             "funds": []
         },
         {
@@ -7804,7 +7804,7 @@
         {
             "code": "EOS",
             "name": "EOS",
-            "categories": ["blockchain"],
+            "categories": [""],
             "active": true,
             "description": "EOS.IO is software that introduces a blockchain architecture designed to enable vertical and horizontal scaling of decentralized applications (the “EOS.IO Software”). This is achieved through an operating system-like construct upon which applications can be built. The software provides accounts, authentication, databases, asynchronous communication and the scheduling of applications across multiple CPU cores and/or clusters. The resulting technology is a blockchain architecture that has the potential to scale to millions of transactions per second, eliminates user fees and allows for quick and easy deployment of decentralized applications. For more information, please read the EOS.IO Technical White Paper.Blockexplorer: https://eospark.com/In the case of EOS, circulating supply and total supply are available but max supply is not available, which indicates that EOS supply is infinite. The current cap is 1 billion tokens, there will be an inflation of up to 5% per annum to reward the block producers and they may use these to sell or to invest back into EOS dapps.Blockchain data provided by: Blockchair (main source), Bloks.io (backup)",
             "links": {
@@ -7922,7 +7922,7 @@
         {
             "code": "LUNA",
             "name": "Terra",
-            "categories": ["fiat_stablecoins"],
+            "categories": ["stablecoin_issuers"],
             "active": true,
             "description": "Terra aims to build a new financial infrastructure that works better for everyone. The network is powered by a family of stablecoins, each pegged to major fiat currencies all algorithmically stabilized by Terra’s native token, Luna. Terra’s mission is to set money free by building open financial infrastructure. Luna, as the native staking asset from which the family of Terra stablecoins derives their stability, utility, and value, acts both as collateral for the entire Terra economy and as a staking token that secures the PoS network. Luna can be held and traded like a normal crypto asset, but can also be staked to accrue rewards in the network generated from transaction fees. Luna can also be used to make and vote on governance proposals.The family of Terra stablecoins is designed to achieve stability through consistent mining rewards with a contracting and expanding money supply. For example, if the system has detected that the price of a Terra currency has deviated from its peg, it applies pressure to normalize the price. Currently, the family of Terra stablecoins includes: KRT (Terra stablecoin pegged to Korean Won), UST (Terra stablecoin pegged to US Dollar), MNT (Terra stablecoin pegged to Mongolian Togrog), SDR (Terra stablecoin pegged to IMF SDR), with more being added in the future.",
             "links": {
@@ -9209,6 +9209,54 @@
             },
             "rating": "",
             "id": "bep20|0x7a9f28eb62c791422aa23ceae1da9c847cbec9b0",
+            "funds": []
+        },
+        {
+            "code": "RAY",
+            "name": "Raydium",
+            "categories": ["dexes"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|raydium",
+            "funds": []
+        },
+        {
+            "code": "HEZ",
+            "name": "Hermez Network",
+            "categories": ["wallets"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xeef9f339514298c6a857efcfc1a762af84438dee",
             "funds": []
         }
     ],

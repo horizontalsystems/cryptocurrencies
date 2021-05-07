@@ -2319,20 +2319,6 @@
             "address": "0x8f0528ce5ef7b51152a59745befdd91d97091d2f"
         },
         {
-            "title": "AlpaToken",
-            "code": "ALPA",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0xc5e6689c9c8b02be7c49912ef19e79cf24977f03"
-        },
-        {
-            "title": "MTLX-ERC20",
-            "code": "anyMTLX",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0x5921dee8556c4593eefcfad3ca5e2f618606483b"
-        },
-        {
             "title": "AS Roma",
             "code": "ASR",
             "decimal": 2,
@@ -2352,33 +2338,6 @@
             "decimal": 18,
             "type": "bep20",
             "address": "0x0eb3a705fc54725037cc9e008bdede697f62f335"
-        },{
-            "title": "AllianceBlock Token",
-            "code": "bALBT",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0x72faa679e1008ad8382959ff48e392042a8b06f7"
-        },
-        {
-            "title": "bDollar",
-            "code": "BDO",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0x190b589cf9fb8ddeabbfeae36a813ffb2a702454"
-        },
-        {
-            "title": "Beflect.finance",
-            "code": "BFI",
-            "decimal": 9,
-            "type": "bep20",
-            "address": "0xbe609eacbfca10f6e5504d39e3b113f808389056"
-        },
-        {
-            "title": "Multiplier",
-            "code": "bMXX",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0x4131b87f74415190425ccd873048c708f8005823"
         },
         {
             "title": "Bondly Token",
@@ -2386,20 +2345,6 @@
             "decimal": 18,
             "type": "bep20",
             "address": "0x96058f8c3e16576d9bd68766f3836d9a33158f89"
-        },
-        {
-            "title": "OPEN Governance Token",
-            "code": "bOPEN",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0xF35262a9d427F96d2437379eF090db986eaE5d42"
-        },
-        {
-            "title": "BUX Token",
-            "code": "BUX",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0x211ffbe424b90e25a15531ca322adf1559779e45"
         },
         {
             "title": "DODO bird",
@@ -2430,13 +2375,6 @@
             "address": "0x928e55dab735aa8260af3cedada18b5f70c72f1b"
         },
         {
-            "title": "CanYaCoin",
-            "code": "CAN",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0x007ea5c0ea75a8df45d288a4debdd5bb633f9e56"
-        },
-        {
             "title": "Contentos",
             "code": "COS",
             "decimal": 18,
@@ -2451,20 +2389,6 @@
             "address": "0x3fda9383a84c05ec8f7630fe10adf1fac13241cc"
         },
         {
-            "title": "DeXe",
-            "code": "DEXE",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0x039cb485212f996a9dbb85a9a75d898f94d38da6"
-        },
-        {
-            "title": "DefiDollar DAO",
-            "code": "DFD",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0x9899a98b222fcb2f3dbee7df45d943093a4ff9ff"
-        },
-        {
             "title": "Binance-Peg Polkadot Token",
             "code": "DOT",
             "decimal": 18,
@@ -2472,67 +2396,11 @@
             "address": "0x7083609fce4d1d8dc0c979aab8c869ea2c873402"
         },
         {
-            "title": "Binance-Peg EOS Token",
-            "code": "EOS",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0x56b6fb708fc5732dec1afc8d8556423a2edccbd6"
-        },
-        {
-            "title": "The Force Token",
-            "code": "FOR",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0x658a109c5900bc6d2357c87549b651670e5b0539"
-        },
-        {
-            "title": "fry.world",
-            "code": "FRIES",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0x393b312c01048b3ed2720bf1b090084c09e408a1"
-        },
-        {
-            "title": "Fuel Token",
-            "code": "Fuel",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0x2090c8295769791ab7a3cf1cc6e0aa19f35e441a"
-        },
-        {
-            "title": "GourmetGalaxy",
-            "code": "GUM",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0xc53708664b99df348dd27c3ac0759d2da9c40462"
-        },
-        {
-            "title": "Hakka Finance on xDai on BSC",
-            "code": "HAKKA",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0x1d1eb8e8293222e1a29d2c0e4ce6c0acfd89aaac"
-        },
-        {
-            "title": "HARD",
-            "code": "HARD",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0xf79037f6f6be66832de4e7516be52826bc3cbcc4"
-        },
-        {
             "title": "Helmet.insure Governance Token",
             "code": "Helmet",
             "decimal": 18,
             "type": "bep20",
             "address": "0x948d2a81086a075b3130bac19e4c6dee1d2e3fe8"
-        },
-        {
-            "title": "Hedget",
-            "code": "HGET",
-            "decimal": 6,
-            "type": "bep20",
-            "address": "0x794f976c12b2616fa2af3f38a73d3b61fbf68661"
         },
         {
             "title": "Horizon Protocol",
@@ -2554,13 +2422,6 @@
             "decimal": 18,
             "type": "bep20",
             "address": "0x9678e42cebeb63f23197d726b29b1cb20d0064e5"
-        },
-        {
-            "title": "ITAM",
-            "code": "ITAM",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0x04c747b40be4d535fc83d09939fb0f626f32800b"
         },
         {
             "title": "Juggernaut DeFi",

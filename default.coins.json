@@ -104,7 +104,7 @@
             "code": "ADAI",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xfc1e690f61efd961294b3e1ce3313fbd8aa4f85d"
+            "address": "0x028171bca77440897b824ca71d1c56cac55b68a3"
         },
         {
             "title": "Aelf",
@@ -196,13 +196,6 @@
             "decimal": 18,
             "type": "erc20",
             "address": "0xc12d099be31567add4e4e4d0d45691c3f58f5663"
-        },
-        {
-            "title": "Augur",
-            "code": "REP",
-            "decimal": 18,
-            "type": "erc20",
-            "address": "0x1985365e9f78359a9b6ad760e32412f4a445e862"
         },
         {
             "title": "BAC",
@@ -660,11 +653,11 @@
             "address": "0xb5fe099475d3030dde498c3bb6f3854f762a48ad"
         },
         {
-            "title": "Flash Token",
+            "title": "Flashstake",
             "code": "FLASH",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xb4467e8d621105312a914f1d42f10770c0ffe3c8"
+            "address": "0x20398ad62bb2d930646d45a6d4292baa0b860c1f"
         },
         {
             "title": "FLUX",
@@ -895,7 +888,7 @@
             "code": "KNC",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xdd974d5c2e2928dea5f71b9825b8b646686bd200"
+            "address": "0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202"
         },
         {
             "title": "LGCY Network",
@@ -944,14 +937,14 @@
             "code": "LOOM",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xa4e8c3ec456107ea67d3075bf9e3df3a75823db0"
+            "address": "0x42476f744292107e34519f9c357927074ea3f75d"
         },
         {
             "title": "Loopring",
             "code": "LRC",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xef68e7c694f40c8202821edf525de3782458639f"
+            "address": "0xbbbbca6a901c926f240b89eacb641d8aec7aeafd"
         },
         {
             "title": "LTO Network",
@@ -1112,7 +1105,7 @@
             "code": "COVER",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x5d8d9f5b96f4438195be9b99eee6118ed4304286"
+            "address": "0x4688a8b1f292fdab17e9a90c8bc379dc1dbd8713"
         },
         {
             "title": "OmiseGO",
@@ -1329,7 +1322,7 @@
             "code": "REV",
             "decimal": 0,
             "type": "erc20",
-            "address": "0x48f775efbe4f5ece6e0df2f7b5932df56823b990"
+            "address": "0x2ef52ed7de8c5ce03a4ef0efbe9b7450f2d7edc9"
         },
         {
             "title": "Rio Fuel Token",
@@ -1560,7 +1553,7 @@
             "code": "TRB",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x0ba45a8b5d5575935b8158a88c631e9f9c95a2e5"
+            "address": "0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0"
         },
         {
             "title": "Tether USD",
@@ -2288,7 +2281,7 @@
             "code": "NAS",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x5d65D971895Edc438f465c17DB6992698a52318D"
+            "address": "0x5d65d971895edc438f465c17db6992698a52318d"
         },
         {
             "title": "Pundi X",
@@ -2588,14 +2581,14 @@
             "code": "mAMZN",
             "decimal": 18,
             "type": "bep20",
-            "address": "0x3947B992DC0147D2D89dF0392213781b04B25075"
+            "address": "0x3947b992dc0147d2d89df0392213781b04b25075"
         },
         {
             "title": "Wrapped Mirror GOOGL Token",
             "code": "mGOOGL",
             "decimal": 18,
             "type": "bep20",
-            "address": "0x62D71B23bF15218C7d2D7E48DBbD9e9c650B173f"
+            "address": "0x62d71b23bf15218c7d2d7e48dbbd9e9c650b173f"
         },
         {
             "title": "Wrapped MIR Token",
@@ -2609,21 +2602,21 @@
             "code": "mNFLX",
             "decimal": 18,
             "type": "bep20",
-            "address": "0xa04F060077D90Fe2647B61e4dA4aD1F97d6649dc"
+            "address": "0xa04f060077d90fe2647b61e4da4ad1f97d6649dc"
         },
         {
             "title": "Wrapped Mirror TSLA Token",
             "code": "mTSLA",
             "decimal": 18,
             "type": "bep20",
-            "address": "0xF215A127A196e3988C09d052e16BcFD365Cd7AA3"
+            "address": "0xf215a127a196e3988c09d052e16bcfd365cd7aa3"
         },
         {
             "title": "lien",
             "code": "LIEN",
             "decimal": 8,
             "type": "bep20",
-            "address": "0x9179089a11feddc9411236b63c8aeb25eb45e2ac"
+            "address": "0xab37e1358b639fd877f015027bb62d3ddaa7557e"
         },
         {
             "title": "Litentry",
@@ -2721,7 +2714,7 @@
             "code": "RAMP",
             "decimal": 18,
             "type": "bep20",
-            "address": "0x277be44551a8c4d4004e2091ff7d3f69be21782f"
+            "address": "0x8519ea49c997f50ceffa444d240fb655e89248aa"
         },
         {
             "title": "renBTC",
@@ -2822,13 +2815,6 @@
             "address": "0x1ffd0b47127fdd4097e54521c9e2c7f0d66aafc5"
         },
         {
-            "title": "Uniswap Finance",
-            "code": "UNFI",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0xa7ca04f7602cd7a939d3e4827f442f48cf8e9dad"
-        },
-        {
             "title": "Wrapped SOTE",
             "code": "wSOTE",
             "decimal": 18,
@@ -2889,14 +2875,14 @@
             "code": "FIN",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x054f76beED60AB6dBEb23502178C52d6C5dEbE40"
+            "address": "0x054f76beed60ab6dbeb23502178c52d6c5debe40"
         },
         {
             "title": "NuCypher",
             "code": "NU",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x4fE83213D56308330EC302a8BD641f1d0113A4Cc"
+            "address": "0x4fe83213d56308330ec302a8bd641f1d0113a4cc"
         },
         {
             "title": "Tornado Cash",
@@ -3008,7 +2994,7 @@
             "code": "PPAY",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x054D64b73d3D8A21Af3D764eFd76bCaA774f3Bb2"
+            "address": "0x054d64b73d3d8a21af3d764efd76bcaa774f3bb2"
         },
         {
             "title": "Blank",
@@ -3029,28 +3015,28 @@
             "code": "MARK",
             "decimal": 9,
             "type": "erc20",
-            "address": "0x67c597624B17b16fb77959217360B7cD18284253"
+            "address": "0x67c597624b17b16fb77959217360b7cd18284253"
         },
         {
             "title": "Coil ",
             "code": "COIL",
             "decimal": 9,
             "type": "erc20",
-            "address": "0x3936Ad01cf109a36489d93cabdA11cF062fd3d48"
+            "address": "0x3936ad01cf109a36489d93cabda11cf062fd3d48"
         },
         {
             "title": "Fei Protocol",
             "code": "FEI",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x956F47F50A910163D8BF957Cf5846D573E7f87CA"
+            "address": "0x956f47f50a910163d8bf957cf5846d573e7f87ca"
         },
         {
             "title": "Reserve",
             "code": "RSV",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x196f4727526eA7FB1e17b2071B3d8eAA38486988"
+            "address": "0x196f4727526ea7fb1e17b2071b3d8eaa38486988"
         },
         {
             "title": "mStable BTC",
@@ -3078,7 +3064,7 @@
             "code": "BTMX",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xcca0c9c383076649604eE31b20248BC04FdF61cA"
+            "address": "0xcca0c9c383076649604ee31b20248bc04fdf61ca"
         },
         {
             "title": "Wootrade Network",
@@ -3113,7 +3099,7 @@
             "code": "ROOK",
             "decimal": 18,
             "type": "erc20",
-            "address": "0xfA5047c9c78B8877af97BDcb85Db743fD7313d4a"
+            "address": "0xfa5047c9c78b8877af97bdcb85db743fd7313d4a"
         },
         {
             "title": "ARMOR",
@@ -3127,7 +3113,7 @@
             "code": "NFTX",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x87d73E916D7057945c9BcD8cdd94e42A6F47f776"
+            "address": "0x87d73e916d7057945c9bcd8cdd94e42a6f47f776"
         },
         {
             "title": "sDEFI",
@@ -3162,7 +3148,7 @@
             "code": "WHALE",
             "decimal": 4,
             "type": "erc20",
-            "address": "0x9355372396e3F6daF13359B7b607a3374cc638e0"
+            "address": "0x9355372396e3f6daf13359b7b607a3374cc638e0"
         },
         {
             "title": "Muse",
@@ -3183,21 +3169,21 @@
             "code": "GALA",
             "decimal": 8,
             "type": "erc20",
-            "address": "0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA"
+            "address": "0x15d4c048f83bd7e37d49ea4c83a07267ec4203da"
         },
         {
             "title": "Aavegotchi",
             "code": "GHST",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x3F382DbD960E3a9bbCeaE22651E88158d2791550"
+            "address": "0x3f382dbd960e3a9bbceae22651e88158d2791550"
         },
         {
             "title": "REVV",
             "code": "REVV",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x557B933a7C2c45672B610F8954A3deB39a51A8Ca"
+            "address": "0x557b933a7c2c45672b610f8954a3deb39a51a8ca"
         },
         {
             "title": "Crowns",
@@ -3225,7 +3211,7 @@
             "code": "AERGO",
             "decimal": 18,
             "type": "erc20",
-            "address": "0x91Af0fBB28ABA7E31403Cb457106Ce79397FD4E6"
+            "address": "0x91af0fbb28aba7e31403cb457106ce79397fd4e6"
         },
         {
             "title": "Metadium",
@@ -3246,7 +3232,7 @@
             "code": "UNFI",
             "decimal": 18,
             "type": "bep20",
-            "address": "0x441761326490cACF7aF299725B6292597EE822c2"
+            "address": "0x441761326490cacf7af299725b6292597ee822c2"
         },
         {
             "title": "PolkaFoundry",

@@ -1,5 +1,5 @@
 {
-    "version": 8,
+    "version": 9,
     "coins": [
         {
             "title": "Bitcoin",
@@ -1220,13 +1220,6 @@
             "address": "0xd4fa1460f537bb9085d22c7bccb5dd450ef28e3a"
         },
         {
-            "title": "pTokens BTC",
-            "code": "pBTC",
-            "decimal": 18,
-            "type": "erc20",
-            "address": "0x5228a22e72ccc52d415ecfd199f99d0665e7733b"
-        },
-        {
             "title": "Pundi X",
             "code": "NPXS",
             "decimal": 18,
@@ -2438,46 +2431,11 @@
             "address": "0xc40c9a843e1c6d01b7578284a9028854f6683b1b"
         },
         {
-            "title": "Wrapped Mirror AMZN Token",
-            "code": "mAMZN",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0x3947b992dc0147d2d89df0392213781b04b25075"
-        },
-        {
-            "title": "Wrapped Mirror GOOGL Token",
-            "code": "mGOOGL",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0x62d71b23bf15218c7d2d7e48dbbd9e9c650b173f"
-        },
-        {
             "title": "Wrapped MIR Token",
             "code": "MIR",
             "decimal": 18,
             "type": "bep20",
             "address": "0x5b6dcf557e2abe2323c48445e8cc948910d8c2c9"
-        },
-        {
-            "title": "Wrapped Mirror NFLX Token",
-            "code": "mNFLX",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0xa04f060077d90fe2647b61e4da4ad1f97d6649dc"
-        },
-        {
-            "title": "Wrapped Mirror TSLA Token",
-            "code": "mTSLA",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0xf215a127a196e3988c09d052e16bcfd365cd7aa3"
-        },
-        {
-            "title": "lien",
-            "code": "LIEN",
-            "decimal": 8,
-            "type": "bep20",
-            "address": "0xab37e1358b639fd877f015027bb62d3ddaa7557e"
         },
         {
             "title": "Litentry",
@@ -2494,41 +2452,6 @@
             "address": "0x857b222fc79e1cbbf8ca5f78cb133d1b7cf34bbd"
         },
         {
-            "title": "NAR Token",
-            "code": "NAR",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0xa1303e6199b319a891b79685f0537d289af1fc83"
-        },
-        {
-            "title": "Nuls",
-            "code": "NULS",
-            "decimal": 8,
-            "type": "bep20",
-            "address": "0x8cd6e29d3686d24d3c2018cee54621ea0f89313b"
-        },
-        {
-            "title": "NerveNetwork",
-            "code": "NVT",
-            "decimal": 8,
-            "type": "bep20",
-            "address": "0xf0e406c49c63abf358030a299c0e00118c4c6ba5"
-        },
-        {
-            "title": "Nyanswop Token",
-            "code": "NYA",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0xbfa0841f7a90c4ce6643f651756ee340991f99d5"
-        },
-        {
-            "title": "OddzToken",
-            "code": "ODDZ",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0xcd40f2670cf58720b694968698a5514e924f742d"
-        },
-        {
             "title": "OG",
             "code": "OG",
             "decimal": 2,
@@ -2543,39 +2466,11 @@
             "address": "0xfd7b3a77848f1c2d67e05e54d78d174a0c850335"
         },
         {
-            "title": "PolyCrowns",
-            "code": "pCWS",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0xbcf39f0edda668c58371e519af37ca705f2bfcbd"
-        },
-        {
-            "title": "Perlin",
-            "code": "PERL",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0x0f9e4d49f25de22c2202af916b681fbb3790497b"
-        },
-        {
             "title": "Paris Saint-Germain",
             "code": "PSG",
             "decimal": 2,
             "type": "bep20",
             "address": "0xbc5609612b7c44bef426de600b5fd1379db2ecf1"
-        },
-        {
-            "title": "QUSD Stablecoin",
-            "code": "QUSD",
-            "decimal": 8,
-            "type": "bep20",
-            "address": "0xb8c540d00dd0bf76ea12e4b4b95efc90804f924e"
-        },
-        {
-            "title": "RAMP DEFI",
-            "code": "RAMP",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0x8519ea49c997f50ceffa444d240fb655e89248aa"
         },
         {
             "title": "renBTC",
@@ -2599,13 +2494,6 @@
             "address": "0x695fd30af473f2960e81dc9ba7cb67679d35edb7"
         },
         {
-            "title": "bDollar Share",
-            "code": "sBDO",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0x0d9319565be7f53cefe84ad201be3f40feae2740"
-        },
-        {
             "title": "StableX Token",
             "code": "STAX",
             "decimal": 18,
@@ -2618,13 +2506,6 @@
             "decimal": 18,
             "type": "bep20",
             "address": "0x947950bcc74888a40ffa2593c5798f11fc9124c4"
-        },
-        {
-            "title": "Suterusu",
-            "code": "Suter",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0x4cfbbdfbd5bf0814472ff35c72717bd095ada055"
         },
         {
             "title": "Swampy",
@@ -2662,13 +2543,6 @@
             "address": "0xeca41281c24451168a37211f0bc2b8645af45092"
         },
         {
-            "title": "UniTrade",
-            "code": "TRADE",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0x7af173f350d916358af3e218bdf2178494beb748"
-        },
-        {
             "title": "Tixl Token",
             "code": "TXL",
             "decimal": 18,
@@ -2681,13 +2555,6 @@
             "decimal": 18,
             "type": "bep20",
             "address": "0x541e619858737031a1244a5d0cd47e5ef480342c"
-        },
-        {
-            "title": "Exeedme",
-            "code": "XED",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0x5621b5a3f4a8008c4ccdd1b942b121c8b1944f1f"
         },
         {
             "title": "Standard on xDai on BSC",

@@ -9479,7 +9479,7 @@
         {
             "code": "FIRO",
             "name": "Firo",
-            "categories": ["Privacy"],
+            "categories": ["privacy"],
             "active": true,
             "platform": {
                 "name": "",
@@ -9503,7 +9503,7 @@
         {
             "code": "GRIN",
             "name": "Grin",
-            "categories": ["Privacy"],
+            "categories": ["privacy"],
             "active": true,
             "platform": {
                 "name": "",
@@ -9527,7 +9527,7 @@
         {
             "code": "PROS",
             "name": "Prosper",
-            "categories": ["prediction"],
+            "categories": ["prediction_markets"],
             "active": true,
             "platform": {
                 "name": "",

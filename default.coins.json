@@ -1,5 +1,5 @@
 {
-    "version": 10,
+    "version": 12,
     "coins": [
         {
             "title": "Bitcoin",
@@ -105,6 +105,13 @@
             "decimal": 18,
             "type": "erc20",
             "address": "0x028171bca77440897b824ca71d1c56cac55b68a3"
+        },
+        {
+            "title": "Aave DAI (Old)",
+            "code": "ADAI",
+            "decimal": 18,
+            "type": "erc20",
+            "address": "0xfc1e690f61efd961294b3e1ce3313fbd8aa4f85d"
         },
         {
             "title": "Aelf",
@@ -660,6 +667,13 @@
             "address": "0x20398ad62bb2d930646d45a6d4292baa0b860c1f"
         },
         {
+            "title": "Flash Token (Old)",
+            "code": "FLASH",
+            "decimal": 18,
+            "type": "erc20",
+            "address": "0xb4467e8d621105312a914f1d42f10770c0ffe3c8"
+        },
+        {
             "title": "FLUX",
             "code": "FLUX",
             "decimal": 18,
@@ -891,6 +905,13 @@
             "address": "0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202"
         },
         {
+            "title": "Kyber Network Crystal (Old)",
+            "code": "KNC",
+            "decimal": 18,
+            "type": "erc20",
+            "address": "0xdd974d5c2e2928dea5f71b9825b8b646686bd200"
+        },
+        {
             "title": "LGCY Network",
             "code": "LGCY",
             "decimal": 18,
@@ -940,11 +961,25 @@
             "address": "0x42476f744292107e34519f9c357927074ea3f75d"
         },
         {
+            "title": "Loom Network (Old)",
+            "code": "LOOM",
+            "decimal": 18,
+            "type": "erc20",
+            "address": "0xa4e8c3ec456107ea67d3075bf9e3df3a75823db0"
+        },
+        {
             "title": "Loopring",
             "code": "LRC",
             "decimal": 18,
             "type": "erc20",
             "address": "0xbbbbca6a901c926f240b89eacb641d8aec7aeafd"
+        },
+        {
+            "title": "Loopring (Old)",
+            "code": "LRC",
+            "decimal": 18,
+            "type": "erc20",
+            "address": "0xef68e7c694f40c8202821edf525de3782458639f"
         },
         {
             "title": "LTO Network",
@@ -1106,6 +1141,13 @@
             "decimal": 18,
             "type": "erc20",
             "address": "0x4688a8b1f292fdab17e9a90c8bc379dc1dbd8713"
+        },
+        {
+            "title": "Old Cover Protocol (Old)",
+            "code": "COVER",
+            "decimal": 18,
+            "type": "erc20",
+            "address": "0x5d8d9f5b96f4438195be9b99eee6118ed4304286"
         },
         {
             "title": "OmiseGO",
@@ -1316,6 +1358,13 @@
             "decimal": 0,
             "type": "erc20",
             "address": "0x2ef52ed7de8c5ce03a4ef0efbe9b7450f2d7edc9"
+        },
+        {
+            "title": "Revain (Old)",
+            "code": "REV",
+            "decimal": 0,
+            "type": "erc20",
+            "address": "0x48f775efbe4f5ece6e0df2f7b5932df56823b990"
         },
         {
             "title": "Rio Fuel Token",
@@ -1547,6 +1596,13 @@
             "decimal": 18,
             "type": "erc20",
             "address": "0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0"
+        },
+        {
+            "title": "Tellor (Old)",
+            "code": "TRB",
+            "decimal": 18,
+            "type": "erc20",
+            "address": "0x0ba45a8b5d5575935b8158a88c631e9f9c95a2e5"
         },
         {
             "title": "Tether USD",

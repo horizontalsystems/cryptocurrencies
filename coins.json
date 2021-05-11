@@ -1,5 +1,5 @@
 {
-    "version": 24,
+    "version": 25,
     "categories": [
         {
             "id": "blockchain",
@@ -123,7 +123,7 @@
         },
         {
             "id": "cross_chain",
-            "name": "Cross Chain",
+            "name": "Cross-Chain",
             "description": "Cross-chain protocols."
         },
         {
@@ -1506,7 +1506,7 @@
         {
             "code": "CVC",
             "name": "Civic",
-            "categories": ["wallets"],
+            "categories": ["infrastructure"],
             "active": true,
             "platform": {
                 "name": "ethereum",
@@ -2847,7 +2847,7 @@
         {
             "code": "KP3R",
             "name": "Keep3rV1",
-            "categories": ["computing"],
+            "categories": ["infrastructure"],
             "active": true,
             "platform": {
                 "name": "ethereum",
@@ -3377,13 +3377,13 @@
             "funds": ["arrington_xrp_capital"]
         },
         {
-            "code": "NPXS",
+            "code": "PUNDIX",
             "name": "Pundi X",
             "categories": ["b2b"],
             "active": true,
             "platform": {
                 "name": "ethereum",
-                "address": "0xa15c7ebe1f07caf6bff097d8a589fb8ac49ae5b3",
+                "address": "0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38",
                 "type": "ERC20"
             },
             "description": "### Project Description\n\nThe Pundi X is a payment platform that will leverage the Ethereum blockchain to ease the cryptocurrency payments or transactions. The platform will feature retail intelligence, inventory management, order management, marketing, loyalty programs and transactions through mobile wallets and bank cards. Furthermore, the Pundi X will reward the global brand retailers for facilitating their customers to complete transactions via Pundi X POS devices.The Pundi X token (NPXS) is an ERC-20 that will be used to reward the retailers and as the medium of exchange within the platform.",
@@ -3391,13 +3391,13 @@
                 "website": "https://pundix.com",
                 "whitepaper": "",
                 "guide": "",
-                "twitter": "https://twitter.com/PundiXLabs",
-                "reddit": "https://www.reddit.com/r/PundiX/",
-                "telegram": "https://t.me/pundix"
+                "twitter": "",
+                "reddit": "",
+                "telegram": ""
             },
             "rating": "",
             "id": "erc20|0xa15c7ebe1f07caf6bff097d8a589fb8ac49ae5b3",
-            "funds": ["hashed"]
+            "funds": []
         },
         {
             "code": "NSURE",
@@ -4233,7 +4233,7 @@
         {
             "code": "ROOK",
             "name": "KeeperDAO",
-            "categories": ["lending"],
+            "categories": ["yield_aggregators"],
             "active": true,
             "platform": {
                 "name": "",
@@ -4809,7 +4809,7 @@
         {
             "code": "GHST",
             "name": "Aavegotchi",
-            "categories": ["gaming"],
+            "categories": ["nft"],
             "active": true,
             "platform": {
                 "name": "",
@@ -6149,7 +6149,7 @@
         {
             "code": "RSV",
             "name": "Reserve",
-            "categories": ["algo_stablecoins"],
+            "categories": [],
             "active": true,
             "platform": {
                 "name": "ethereum",
@@ -7923,7 +7923,7 @@
         {
             "code": "LUNA",
             "name": "Terra",
-            "categories": ["stablecoin_issuers"],
+            "categories": ["stablecoin_issuers","wallets"],
             "active": true,
             "description": "### Project Description\n\nTerra aims to build a new financial infrastructure that works better for everyone. The network is powered by a family of stablecoins, each pegged to major fiat currencies all algorithmically stabilized by Terra’s native token, Luna. Terra’s mission is to set money free by building open financial infrastructure. Luna, as the native staking asset from which the family of Terra stablecoins derives their stability, utility, and value, acts both as collateral for the entire Terra economy and as a staking token that secures the PoS network. Luna can be held and traded like a normal crypto asset, but can also be staked to accrue rewards in the network generated from transaction fees. Luna can also be used to make and vote on governance proposals.The family of Terra stablecoins is designed to achieve stability through consistent mining rewards with a contracting and expanding money supply. For example, if the system has detected that the price of a Terra currency has deviated from its peg, it applies pressure to normalize the price. Currently, the family of Terra stablecoins includes: KRT (Terra stablecoin pegged to Korean Won), UST (Terra stablecoin pegged to US Dollar), MNT (Terra stablecoin pegged to Mongolian Togrog), SDR (Terra stablecoin pegged to IMF SDR), with more being added in the future.",
             "links": {
@@ -7995,19 +7995,19 @@
             "funds": []
         },
         {
-            "code": "OKT",
-            "name": "OKExChain",
+            "code": "OKB",
+            "name": "OKB",
             "categories": ["exchange_tokens"],
             "active": true,
-            "description": "### Project Description\n\nOKExChain is a trading chain — blockchain technology built for trading. It allows people to trade anything of value on-chain, and own and control the assets that they trade. OKExChain is designed to provide safe and efficient infrastructure for creating decentralized applications for seamless on-chain trading of all kinds of assets within a cross-chain, value-exchange ecosystem.",
+            "description": "",
             "links": {
-                "website": "https://www.okex.com/okexchain",
+                "website": "",
                 "whitepaper": "",
-                "twitter": "https://twitter.com/OKExChain",
-                "reddit": "https://www.reddit.com",
-                "telegram": "https://t.me/OKExOfficial_English"
+                "twitter": "",
+                "reddit": "",
+                "telegram": ""
             },
-            "id": "unsupported|okexchain",
+            "id": "erc20|0x75231f58b43240c9718dd58b4967c5114342a86c",
             "funds": []
         },
         {
@@ -9739,8 +9739,55 @@
             "rating": "",
             "id": "unsupported|step-finance",
             "funds": []
+        },
+        {
+            "code": "TerraUSD",
+            "name": "UST",
+            "categories": ["fiat_stablecoins"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xa47c8bf37f92abed4a126bda807a7b7498661acd",
+            "funds": []
+        },
+        {
+            "code": "STETH",
+            "name": "Lido Staked Ether",
+            "categories": ["staking_eth_2_0"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+            "funds": []
         }
-
     ],
     "fund_categories": [
         {

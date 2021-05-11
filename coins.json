@@ -3379,7 +3379,7 @@
         {
             "code": "PUNDIX",
             "name": "Pundi X",
-            "categories": ["b2b"],
+            "categories": ["b2b","wallets"],
             "active": true,
             "platform": {
                 "name": "ethereum",
@@ -9594,30 +9594,6 @@
             },
             "rating": "",
             "id": "erc20|0xbd0793332e9fb844a52a205a233ef27a5b34b927",
-            "funds": []
-        },
-        {
-            "code": "PUNDIX",
-            "name": "Pundi X",
-            "categories": ["wallets"],
-            "active": true,
-            "platform": {
-                "name": "",
-                "address": "",
-                "type": ""
-            },
-            "description": "",
-            "links": {
-                "website": "",
-                "whitepaper": "",
-                "guide": "",
-                "twitter": "",
-                "github": "",
-                "reddit": "",
-                "telegram": ""
-            },
-            "rating": "",
-            "id": "erc20|0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38",
             "funds": []
         },
         {

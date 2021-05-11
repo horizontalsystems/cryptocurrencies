@@ -2801,7 +2801,7 @@
             "active": true,
             "platform": {
                 "name": "ethereum",
-                "address": "0xdd974d5c2e2928dea5f71b9825b8b646686bd200",
+                "address": "0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202",
                 "type": "ERC20"
             },
             "description": "### Project Description\n\nKyberNetwork is an on-chain protocol which allows instant exchange and conversion of digital assets (e.g. crypto tokens) and cryptocurrencies (e.g. Ether, Bitcoin, ZCash) with high liquidity.KyberNetwork wants to implement several ideal operating properties of an exchange including trustless, decentralized execution, instant trade and high liquidity. Besides serving as an exchange, KyberNetwork also provides payment APIs that will allow Ethereum accounts to easily receive payments from any crypto tokens.",
@@ -2833,7 +2833,7 @@
                     "url": "https://github.com/KyberNetwork/smart-contracts/blob/master/audits/kyberV1Audit2/KyberNetwork%20BlockchainLabs%20Audit%20Report.pdf"
                 }
             ],
-            "id": "erc20|0xdd974d5c2e2928dea5f71b9825b8b646686bd200",
+            "id": "erc20|0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202",
             "funds": [
                 "three_arrows_capital",
                 "8_decimal_capital",
@@ -3396,7 +3396,7 @@
                 "telegram": ""
             },
             "rating": "",
-            "id": "erc20|0xa15c7ebe1f07caf6bff097d8a589fb8ac49ae5b3",
+            "id": "erc20|0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38",
             "funds": []
         },
         {

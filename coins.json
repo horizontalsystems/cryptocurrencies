@@ -8997,30 +8997,6 @@
             "funds": []
         },
         {
-            "code": "APL",
-            "name": "Apollo",
-            "categories": ["fan_tokens"],
-            "active": true,
-            "platform": {
-                "name": "",
-                "address": "",
-                "type": ""
-            },
-            "description": "",
-            "links": {
-                "website": "",
-                "whitepaper": "",
-                "guide": "",
-                "twitter": "",
-                "github": "",
-                "reddit": "",
-                "telegram": ""
-            },
-            "rating": "",
-            "id": "unsupported|apollo",
-            "funds": []
-        },
-        {
             "code": "NAVI",
             "name": "Natus Vincere Fan Token",
             "categories": ["fan_tokens"],
@@ -9042,6 +9018,30 @@
             },
             "rating": "",
             "id": "unsupported|natus-vincere-fan-token",
+            "funds": []
+        },
+        {
+            "code": "CKB",
+            "name": "Nervos Network",
+            "categories": ["infrastructure"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|nervos-network",
             "funds": []
         },
         {
@@ -9429,6 +9429,30 @@
             "funds": []
         },
         {
+            "code": "APL",
+            "name": "Apollon Limassol Fan Token",
+            "categories": ["fan_token"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|apollon-limassol",
+            "funds": []
+        },
+        {
             "code": "LQTY",
             "name": "Liquity",
             "categories": ["lending"],
@@ -9767,7 +9791,7 @@
         {
             "code": "STETH",
             "name": "Lido Staked Ether",
-            "categories": ["staking_eth_2_0"],
+            "categories": ["algo_stablecoins"],
             "active": true,
             "platform": {
                 "name": "",

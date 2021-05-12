@@ -1,5 +1,5 @@
 {
-    "version": 27,
+    "version": 28,
     "categories": [
         {
             "id": "blockchain",
@@ -5865,7 +5865,7 @@
         {
             "code": "POLS",
             "name": "Polkastarter",
-            "categories": ["fundraising"],
+            "categories": ["fundraising","cross_chain"],
             "active": true,
             "platform": {
                 "name": "ethereum",
@@ -9431,7 +9431,7 @@
         {
             "code": "APL",
             "name": "Apollon Limassol Fan Token",
-            "categories": ["fan_token"],
+            "categories": ["fan_tokens"],
             "active": true,
             "platform": {
                 "name": "",

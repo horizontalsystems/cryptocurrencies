@@ -543,6 +543,13 @@
                 "reddit": "",
                 "telegram": ""
             },
+            "security": {
+                "privacy": "low",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": true
+            },
             "rating": "",
             "id": "erc20|0x111111111117dc0aa78b770fa6a738034120c302",
             "funds": [
@@ -578,6 +585,13 @@
                 "github": "https://github.com/aave/aave-protocol",
                 "reddit": "https://www.reddit.com/r/Aave_Official",
                 "telegram": "https://t.me/Aavesome"
+            },
+            "security": {
+                "privacy": "low",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": true
             },
             "rating": "",
             "audit": [
@@ -900,6 +914,13 @@
                 "reddit": "",
                 "telegram": ""
             },
+            "security": {
+                "privacy": "low",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": true
+            },
             "rating": "",
             "audit": [
                 {
@@ -1135,6 +1156,13 @@
                 "reddit": "",
                 "telegram": "https://t.me/b0xnet"
             },
+            "security": {
+                "privacy": "low",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": true
+            },
             "description": "### Project Description\n\nbZx defines a protocol for decentralized lending, trading, and borrowing. One of the project highlights is that it seeks to offer margin trading in a truly decentralized fashion.\n\nBorrowing can be done through Torque protocol while the Fulcrum protocol handles aspects of lending and margin trading.\n\nThe bZx protocol employs a hybrid order model, where 3'rd party relayers each maintain order books outside blockchain while the actual orders are settled on blockchain.\n\n### Token Description\n\nThe BZRX token is a governance token, first and foremost. Collectively, the token holders have the power to upgrade the protocol as they see fit.\n\nThe protocol mandates that relay fees are denominated in BZRX, so it acts primarily as a payment token. \n\nIn the future, there are plans to make the token redeemable for a proportion of the insurance fund to provide a backstop to its value.\n\nFurther, the token will be used to vote on various key parameters such as assets supported by the protoco, the % of interest collected from lenders, the rate of inflation of the BZRX token and more.\n\n### Token Emission\n\nThe 1.03 billion tokens are allocated as follows:\n\n- 50% for token sales\n- 15% to the team\n- 15% to development fund\n- 15% to ecosystem fund\n- 5% to project advisors",
             "rating": "",
             "audit": [
@@ -1347,6 +1375,13 @@
                 "reddit": "",
                 "telegram": ""
             },
+            "security": {
+                "privacy": "low",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": true
+            },
             "rating": "",
             "audit": [
                 {
@@ -1492,6 +1527,13 @@
                 "github": "https://github.com/curvefi/curve-contract",
                 "reddit": "",
                 "telegram": "https://t.me/curvefi"
+            },
+            "security": {
+                "privacy": "low",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": true
             },
             "rating": "",
             "audit": [
@@ -2934,6 +2976,13 @@
                 "reddit": "https://www.reddit.com/r/Chainlink/",
                 "telegram": "https://t.me/chainlinkofficial"
             },
+            "security": {
+                "privacy": "low",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": true
+            },
             "rating": "",
             "id": "erc20|0x514910771af9ca656af840dff83e8264ecf986ca",
             "funds": ["8_decimal_capital", "framework_ventures"]
@@ -3186,6 +3235,13 @@
                 "github": "https://github.com/makerdao/dai.js",
                 "reddit": "https://www.reddit.com/r/MakerDAO",
                 "telegram": ""
+            },
+            "security": {
+                "privacy": "low",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": true
             },
             "rating": "",
             "audit": [
@@ -6305,6 +6361,13 @@
                 "reddit": "https://www.reddit.com/r/synthetix_io/",
                 "telegram": ""
             },
+            "security": {
+                "privacy": "low",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": true
+            },
             "rating": "",
             "audit": [
                 {
@@ -6382,6 +6445,13 @@
                 "twitter": "https://twitter.com/projectserum",
                 "reddit": "",
                 "telegram": "https://t.me/ProjectSerum"
+            },
+            "security": {
+                "privacy": "low",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": false
             },
             "rating": "",
             "id": "erc20|0x476c5e26a75bd202a9683ffd34359c0cc15be0ff",
@@ -6500,6 +6570,13 @@
                 "twitter": "https://twitter.com/sushiswap",
                 "reddit": "",
                 "telegram": ""
+            },
+            "security": {
+                "privacy": "low",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": true
             },
             "rating": "",
             "audit": [
@@ -6905,6 +6982,13 @@
                 "reddit": "",
                 "telegram": ""
             },
+            "security": {
+                "privacy": "low",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": true
+            },
             "rating": "",
             "audit": [
                 {
@@ -6950,6 +7034,13 @@
                 "github": "https://github.com/centrehq/centre-tokens",
                 "reddit": "",
                 "telegram": ""
+            },
+            "security": {
+                "privacy": "low",
+                "decentralized": false,
+                "confiscation_resistance": "low",
+                "censorship_resistance": "low",
+                "audited": false
             },
             "rating": "",
             "id": "erc20|0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
@@ -7282,6 +7373,13 @@
                 "reddit": "",
                 "telegram": "https://t.me/yfiifinance"
             },
+            "security": {
+                "privacy": "low",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": true
+            },
             "id": "erc20|0xa1d0e215a23d7030842fc67ce582a6afa3ccab83",
             "funds": []
         },
@@ -7439,6 +7537,13 @@
                 "reddit": "https://www.reddit.com/r/Bitcoin/",
                 "telegram": ""
             },
+            "security": {
+                "privacy": "medium",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": true
+            },
             "rating": "",
             "id": "bitcoin",
             "funds": []
@@ -7458,6 +7563,13 @@
                 "reddit": "https://www.reddit.com/r/ethereum",
                 "telegram": ""
             },
+            "security": {
+                "privacy": "high",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": true
+            },
             "rating": "",
             "id": "ethereum",
             "funds": ["8_decimal_capital", "kr1"]
@@ -7474,6 +7586,13 @@
                 "twitter": "",
                 "reddit": "",
                 "telegram": ""
+            },
+            "security": {
+                "privacy": "medium",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": false
             },
             "rating": "",
             "id": "bitcoinCash",
@@ -7494,6 +7613,13 @@
                 "reddit": "https://www.reddit.com/r/dashpay",
                 "telegram": "https://t.me/dash_chat"
             },
+            "security": {
+                "privacy": "high",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": true
+            },
             "rating": "",
             "id": "dash",
             "funds": []
@@ -7512,6 +7638,13 @@
                 "github": "https://github.com/litecoin-project/litecoin",
                 "reddit": "https://www.reddit.com/r/litecoin/",
                 "telegram": ""
+            },
+            "security": {
+                "privacy": "medium",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": true
             },
             "rating": "",
             "id": "litecoin",
@@ -7532,6 +7665,13 @@
                 "reddit": "https://www.reddit.com/r/zec",
                 "telegram": ""
             },
+            "security": {
+                "privacy": "high",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": true
+            },
             "rating": "",
             "id": "zcash",
             "funds": ["placeholder", "fenbushi_capital", "digital_currency_group", "pantera_capital"]
@@ -7549,6 +7689,13 @@
                 "reddit": "https://www.reddit.com/r/cardano",
                 "telegram": ""
             },
+            "security": {
+                "privacy": "medium",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": true
+            },
             "rating": "",
             "id": "unsupported|cardano",
             "funds": []
@@ -7565,6 +7712,13 @@
                 "twitter": "https://twitter.com/algorand",
                 "reddit": "https://www.reddit.com/r/algorand/",
                 "telegram": "https://t.me/algorand"
+            },
+            "security": {
+                "privacy": "medium",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": true
             },
             "id": "unsupported|algorand",
             "funds": ["arrington_xrp_capital", "lemniscap", "ngc_ventures", "foundation_capital"]
@@ -7621,6 +7775,13 @@
                 "reddit": "",
                 "telegram": ""
             },
+            "security": {
+                "privacy": "medium",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": true
+            },
             "id": "unsupported|avalanche-2",
             "funds": ["digital_finance_group", "lemniscap", "iosg_ventures", "ngc_ventures"]
         },
@@ -7673,6 +7834,13 @@
                 "github": "https://github.com/pancakeswap",
                 "reddit": "",
                 "telegram": "https://t.me/PancakeSwap"
+            },
+            "security": {
+                "privacy": "low",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": true
             },
             "rating": "",
             "id": "bep20|0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
@@ -7755,6 +7923,13 @@
                 "twitter": "https://twitter.com/Polkadot",
                 "reddit": "https://www.reddit.com",
                 "telegram": "https://t.me/PolkadotOfficial"
+            },
+            "security": {
+                "privacy": "medium",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": true
             },
             "id": "unsupported|polkadot",
             "funds": [
@@ -8041,6 +8216,13 @@
                 "reddit": "https://www.reddit.com/r/republicprotocol/",
                 "telegram": "https://t.me/renproject"
             },
+            "security": {
+                "privacy": "low",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": false
+            },
             "id": "erc20|0x408e41876cccdc0f92210600ef50372656052a38",
             "funds": ["polychain_capital", "fbg_capital", "infinite_capital", "1kx"]
         },
@@ -8063,6 +8245,13 @@
                 "github": "https://github.com/AugurProject/augur-core",
                 "reddit": "https://www.reddit.com/r/Augur",
                 "telegram": ""
+            },
+            "security": {
+                "privacy": "low",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": true
             },
             "rating": "",
             "audit": [
@@ -8093,6 +8282,13 @@
                 "reddit": "https://www.reddit.com/r/thorchain",
                 "telegram": "https://t.me/thorchain_org"
             },
+            "security": {
+                "privacy": "low",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": true
+            },
             "rating": "",
             "id": "erc20|0x3155ba85d5f96b2d030a4966af206230e46849cb",
             "funds": ["zee_prime_capital"]
@@ -8109,6 +8305,13 @@
                 "twitter": "https://twitter.com/solana",
                 "reddit": "https://www.reddit.com/r/solana",
                 "telegram": "https://t.me/solanaio"
+            },
+            "security": {
+                "privacy": "medium",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": true
             },
             "id": "unsupported|solana",
             "funds": ["blocktower_capital", "zee_prime_capital"]
@@ -8141,6 +8344,13 @@
                 "twitter": "https://twitter.com/tronfoundation",
                 "reddit": "https://www.reddit.com/r/Tronix",
                 "telegram": "https://t.me/tronnetworkEN03"
+            },
+            "security": {
+                "privacy": "low",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": true
             },
             "rating": "",
             "id": "unsupported|tron",
@@ -8193,6 +8403,13 @@
                 "twitter": "https://twitter.com/Tether_to",
                 "reddit": "",
                 "telegram": ""
+            },
+            "security": {
+                "privacy": "low",
+                "decentralized": false,
+                "confiscation_resistance": "low",
+                "censorship_resistance": "low",
+                "audited": false
             },
             "rating": "",
             "id": "erc20|0xdac17f958d2ee523a2206206994597c13d831ec7",
@@ -8303,6 +8520,13 @@
                 "twitter": "https://twitter.com/monero",
                 "reddit": "https://www.reddit.com/r/monero",
                 "telegram": ""
+            },
+            "security": {
+                "privacy": "high",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": false
             },
             "rating": "",
             "id": "unsupported|monero",
@@ -8583,6 +8807,13 @@
                 "github": "",
                 "reddit": "",
                 "telegram": ""
+            },
+            "security": {
+                "privacy": "low",
+                "decentralized": false,
+                "confiscation_resistance": "medium",
+                "censorship_resistance": "low",
+                "audited": false
             },
             "rating": "",
             "id": "unsupported|ripple",
@@ -9231,6 +9462,13 @@
                 "github": "",
                 "reddit": "",
                 "telegram": ""
+            },
+            "security": {
+                "privacy": "medium",
+                "decentralized": true,
+                "confiscation_resistance": "high",
+                "censorship_resistance": "high",
+                "audited": false
             },
             "rating": "",
             "id": "unsupported|raydium",

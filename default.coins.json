@@ -618,7 +618,7 @@
             "address": "0x36f3fd68e7325a35eb768f1aedaae9ea0689d723"
         },
         {
-            "title": "ETH BEP2",
+            "title": "Ethereum BEP2",
             "code": "ETH",
             "decimal": 8,
             "type": "bep2",
@@ -1374,7 +1374,7 @@
             "address": "0xaf9f549774ecedbd0966c52f250acc548d3f36e5"
         },
         {
-            "title": "Ripple",
+            "title": "Ripple BEP2",
             "code": "XRP",
             "decimal": 8,
             "type": "bep2",
@@ -2562,6 +2562,13 @@
             "decimal": 18,
             "type": "bep20",
             "address": "0x947950bcc74888a40ffa2593c5798f11fc9124c4"
+        },
+        {
+            "title": "SushiToken",
+            "code": "SUSHI",
+            "decimal": 18,
+            "type": "erc20",
+            "address": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2"
         },
         {
             "title": "Swampy",

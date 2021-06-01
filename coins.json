@@ -8098,7 +8098,7 @@
         {
             "code": "LUNA",
             "name": "Terra",
-            "categories": ["stablecoin_issuers","wallets"],
+            "categories": ["stablecoin_issuers"],
             "active": true,
             "description": "### Project Description\n\nTerra aims to build a new financial infrastructure that works better for everyone. The network is powered by a family of stablecoins, each pegged to major fiat currencies all algorithmically stabilized by Terra’s native token, Luna. Terra’s mission is to set money free by building open financial infrastructure. Luna, as the native staking asset from which the family of Terra stablecoins derives their stability, utility, and value, acts both as collateral for the entire Terra economy and as a staking token that secures the PoS network. Luna can be held and traded like a normal crypto asset, but can also be staked to accrue rewards in the network generated from transaction fees. Luna can also be used to make and vote on governance proposals.The family of Terra stablecoins is designed to achieve stability through consistent mining rewards with a contracting and expanding money supply. For example, if the system has detected that the price of a Terra currency has deviated from its peg, it applies pressure to normalize the price. Currently, the family of Terra stablecoins includes: KRT (Terra stablecoin pegged to Korean Won), UST (Terra stablecoin pegged to US Dollar), MNT (Terra stablecoin pegged to Mongolian Togrog), SDR (Terra stablecoin pegged to IMF SDR), with more being added in the future.",
             "links": {

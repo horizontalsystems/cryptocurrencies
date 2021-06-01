@@ -17,14 +17,14 @@
             "description": "Protocols for lending and borrowing."
         },
         {
-            "id": "privacy",
-            "name": "Privacy",
-            "description": "Projects working on privacy solutions."
+            "id": "yield_aggregators",
+            "name": "Yield Aggregators",
+            "description": "Solutions for earning from idle crypto assets."
         },
         {
-            "id": "scaling",
-            "name": "Scaling",
-            "description": "Solutions for faster blockchain transactions."
+            "id": "investment_tools",
+            "name": "Investment Tools",
+            "description": "Token-powered analytics and investment instruments."
         },
         {
             "id": "oracles",
@@ -32,14 +32,29 @@
             "description": "Connecting real world data to smart contracts."
         },
         {
-            "id": "prediction_markets",
-            "name": "Prediction Markets",
-            "description": "Markets to bet on events in the future."
+            "id": "gaming",
+            "name": "Gaming",
+            "description": "Crypto projects in gaming and VR sector."
         },
         {
-            "id": "yield_aggregators",
-            "name": "Yield Aggregators",
-            "description": "Solutions for earning from idle crypto assets."
+            "id": "scaling",
+            "name": "Scaling",
+            "description": "Solutions for faster blockchain transactions."
+        },
+        {
+            "id": "privacy",
+            "name": "Privacy",
+            "description": "Projects working on privacy solutions."
+        },
+        {
+            "id": "exchange_tokens",
+            "name": "Exchange Tokens",
+            "description": "Tokens issued by centralized exchanges."
+        },
+        {
+            "id": "wallets",
+            "name": "Wallets",
+            "description": "Tokens issued by cryptocurrency wallets."
         },
         {
             "id": "fiat_stablecoins",
@@ -57,6 +72,11 @@
             "description": "Stablecoins with algorithmic 1-1 price peg to fiat."
         },
         {
+            "id": "nft",
+            "name": "NFT",
+            "description": "Marketplaces for NFT tokens."
+        },
+        {
             "id": "tokenized_bitcoin",
             "name": "Tokenized Bitcoin",
             "description": "Crypto tokens pegged 1-1 to Bitcoin price."
@@ -66,20 +86,16 @@
             "name": "Stablecoin Issuers",
             "description": "Decentralized issuers of fiat pegged stablecoin tokens."
         },
-        {
-            "id": "exchange_tokens",
-            "name": "Exchange Tokens",
-            "description": "Tokens issued by centralized exchanges."
-        },
+
         {
             "id": "risk_management",
             "name": "Risk Management",
             "description": "Risk assessment, insurance and hedging."
         },
         {
-            "id": "wallets",
-            "name": "Wallets",
-            "description": "Tokens issued by cryptocurrency wallets."
+            "id": "fan_tokens",
+            "name": "Fan Tokens",
+            "description": "Digital fan tokens, typically specific to a team or club ."
         },
         {
             "id": "synthetics",
@@ -92,19 +108,14 @@
             "description": "Assets that pegged in price to a set of tokens."
         },
         {
-            "id": "nft",
-            "name": "NFT",
-            "description": "Marketplaces for NFT tokens."
-        },
-        {
             "id": "fundraising",
             "name": "Fundraising",
             "description": "Fundraising and token sale platforms."
         },
         {
-            "id": "gaming",
-            "name": "Gaming",
-            "description": "Crypto projects in gaming and VR sector."
+            "id": "prediction_markets",
+            "name": "Prediction Markets",
+            "description": "Markets to bet on events in the future."
         },
         {
             "id": "b2b",
@@ -130,16 +141,6 @@
             "id": "computing",
             "name": "Computing",
             "description": "Decentralized on-demand computing solutions."
-        },
-        {
-            "id": "fan_tokens",
-            "name": "Fan Tokens",
-            "description": "Digital fan tokens, typically specific to a team or club ."
-        },
-        {
-            "id": "investment_tools",
-            "name": "Investment Tools",
-            "description": "Token-powered analytics and investment instruments."
         }
     ],
     "funds": [

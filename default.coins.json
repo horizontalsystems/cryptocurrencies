@@ -219,11 +219,6 @@
             "address": "0x09a3ecafa817268f77be1283176b946c4ff2e608"
         },
         {
-            "title": "Ankr Network ",
-            "code": "ANKR",
-            "decimal": 18,
-            "type": "erc20",
-            "address": "0x8290333cef9e6d528dd5618fb97a76f268f3edd4"
-        }
+
     ]
 }

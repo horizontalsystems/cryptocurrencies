@@ -217,8 +217,6 @@
             "decimal": 18,
             "type": "erc20",
             "address": "0x09a3ecafa817268f77be1283176b946c4ff2e608"
-        },
-        {
-
+        }
     ]
 }

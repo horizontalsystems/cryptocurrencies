@@ -1,5 +1,5 @@
 {
-    "version": 29,
+    "version": 30,
     "categories": [
         {
             "id": "blockchain",
@@ -497,6 +497,380 @@
             "name": "Binance Labs",
             "url": "https://labs.binance.com/",
             "category": "corporate_vc"
+        }
+    ],
+    "treasuries": [
+        {
+          "company": { "id": "bitfarms_limited", "name": "Bitfarms Limited", "select": "Public", "country": "CA" },
+          "data": [{ "bitcoin": { "amount": 1114000000000 } }]
+        },
+        {
+          "company": { "id": "seetee_as", "name": "Seetee AS", "select": "Public", "country": "NO" },
+          "data": [{ "bitcoin": { "amount": 1170000000000 } }]
+        },
+        {
+          "company": {
+            "id": "voyager_digital_ltd",
+            "name": "Voyager Digital LTD",
+            "select": "Public",
+            "country": "CA"
+          },
+          "data": [{ "bitcoin": { "amount": 12260000000000 } }]
+        },
+        {
+          "company": {
+            "id": "riot_blockchain_inc",
+            "name": "Riot Blockchain, Inc.",
+            "select": "Public",
+            "country": "US"
+          },
+          "data": [{ "bitcoin": { "amount": 2000000000000 } }]
+        },
+        {
+          "company": {
+            "id": "osprey_bitcoin_trust",
+            "name": "Osprey Bitcoin Trust",
+            "select": "ETF Like",
+            "country": "US"
+          },
+          "data": [{ "bitcoin": { "amount": 2820000000000 } }]
+        },
+        {
+          "company": { "id": "nexon_co_ltd", "name": "NEXON Co. Ltd", "select": "Public", "country": "JP" },
+          "data": [{ "bitcoin": { "amount": 1717000000000 } }]
+        },
+        {
+          "company": {
+            "id": "evolve_bitcoin_etf",
+            "name": "Evolve Bitcoin ETF",
+            "select": "ETF Like",
+            "country": "CA"
+          },
+          "data": [{ "bitcoin": { "amount": 1663000000000 } }]
+        },
+        {
+          "company": {
+            "id": "net_holding_anonim_sirketi",
+            "name": "Net Holding Anonim Sirketi",
+            "select": "Public",
+            "country": "TR"
+          },
+          "data": [{ "bitcoin": { "amount": 3000000000 } }]
+        },
+        {
+          "company": { "id": "hut_8_mining_corp", "name": "Hut 8 Mining Corp", "select": "Public", "country": "CA" },
+          "data": [{ "bitcoin": { "amount": 3522000000000 } }]
+        },
+        {
+          "company": {
+            "id": "galaxy_digital_holdings",
+            "name": "Galaxy Digital Holdings",
+            "select": "Public",
+            "country": "US"
+          },
+          "data": [{ "bitcoin": { "amount": 16400000000000 } }]
+        },
+        {
+          "company": { "id": "bitcoin_group_se", "name": "Bitcoin Group SE", "select": "Public", "country": "DE" },
+          "data": [{ "bitcoin": { "amount": 3947000000000 } }]
+        },
+        {
+          "company": {
+            "id": "coinbase_global_inc",
+            "name": "Coinbase Global, Inc.",
+            "select": "Public",
+            "country": "US"
+          },
+          "data": [{ "bitcoin": { "amount": 4482000000000 } }]
+        },
+        {
+          "company": {
+            "id": "vaneck_vectors_bitcoin_etn",
+            "name": "VanEck Vectors Bitcoin ETN",
+            "select": "ETF Like",
+            "country": "DE"
+          },
+          "data": [{ "bitcoin": { "amount": 3950000000000 } }]
+        },
+        {
+          "company": {
+            "id": "ci_galaxy_bitcoin_fund",
+            "name": "CI Galaxy Bitcoin Fund",
+            "select": "ETF Like",
+            "country": "CA"
+          },
+          "data": [{ "bitcoin": { "amount": 3248000000000 } }]
+        },
+        {
+          "company": {
+            "id": "marathon_digital_holdings",
+            "name": "Marathon Digital Holdings",
+            "select": "Public",
+            "country": "US"
+          },
+          "data": [{ "bitcoin": { "amount": 5518000000000 } }]
+        },
+        {
+          "company": {
+            "id": "grayscale_digital_large_cap_fund",
+            "name": "Grayscale Digital Large Cap Fund",
+            "select": "ETF Like",
+            "country": "US"
+          },
+          "data": [{ "bitcoin": { "amount": 7346000000000 } }]
+        },
+        {
+          "company": { "id": "21shares_ag", "name": "21Shares AG", "select": "ETF Like", "country": "CH" },
+          "data": [{ "bitcoin": { "amount": 5973000000000 } }]
+        },
+        {
+          "company": { "id": "square_inc", "name": "Square Inc.", "select": "Public", "country": "US" },
+          "data": [{ "bitcoin": { "amount": 8000000000 } }]
+        },
+        {
+          "company": {
+            "id": "ninepoint_bitcoin_trust",
+            "name": "Ninepoint Bitcoin Trust",
+            "select": "ETF Like",
+            "country": "CA"
+          },
+          "data": [{ "bitcoin": { "amount": 2736000000000 } }]
+        },
+        {
+          "company": {
+            "id": "stone_ridge_holdings_group",
+            "name": "Stone Ridge Holdings Group",
+            "select": "Private",
+            "country": "US"
+          },
+          "data": [{ "bitcoin": { "amount": 10000000000000 } }]
+        },
+        {
+          "company": {
+            "id": "bitwise_10_crypto_index_fund",
+            "name": "Bitwise 10 Crypto Index Fund",
+            "select": "ETF Like",
+            "country": "US"
+          },
+          "data": [{ "bitcoin": { "amount": 10784000000000 } }]
+        },
+        {
+          "company": {
+            "id": "3iq_coinshares_bitcoin_etf",
+            "name": "3iQ CoinShares Bitcoin ETF",
+            "select": "ETF Like",
+            "country": "CA"
+          },
+          "data": [{ "bitcoin": { "amount": 21237000000000 } }]
+        },
+        {
+          "company": {
+            "id": "3iq_the_bitcoin_fund",
+            "name": "3iQ The Bitcoin Fund",
+            "select": "ETF Like",
+            "country": "CA"
+          },
+          "data": [{ "bitcoin": { "amount": 15396000000000 } }]
+        },
+        {
+          "company": {
+            "id": "purpose_bitcoin_etf",
+            "name": "Purpose Bitcoin ETF",
+            "select": "ETF Like",
+            "country": "CA"
+          },
+          "data": [{ "bitcoin": { "amount": 19692000000000 } }]
+        },
+        {
+          "company": {
+            "id": "the_tezos_foundation",
+            "name": "The Tezos Foundation",
+            "select": "Private",
+            "country": "CH"
+          },
+          "data": [{ "bitcoin": { "amount": 1176000000000 } }]
+        },
+        {
+          "company": { "id": "phunware_inc", "name": "Phunware, Inc.", "select": "Public", "country": "US" },
+          "data": [{ "bitcoin": { "amount": 25800000000 } }]
+        },
+        {
+          "company": {
+            "id": "etc_group_bitcoin_etp",
+            "name": "ETC Group Bitcoin ETP",
+            "select": "ETF Like",
+            "country": "DE"
+          },
+          "data": [{ "bitcoin": { "amount": 17976000000000 } }]
+        },
+        {
+          "company": { "id": "tesla_inc", "name": "Tesla, Inc.", "select": "Public", "country": "US" },
+          "data": [{ "bitcoin": { "amount": 42902000000000 } }]
+        },
+        {
+          "company": { "id": "mogo_financing", "name": "MOGO Financing", "select": "Public", "country": "CA" },
+          "data": [{ "bitcoin": { "amount": 18000000000 } }]
+        },
+        {
+          "company": { "id": "frmo_corp", "name": "FRMO Corp.", "select": "Public", "country": "US" },
+          "data": [{ "bitcoin": { "amount": 63000000000 } }]
+        },
+        {
+          "company": {
+            "id": "coinshares_xbt_provider",
+            "name": "CoinShares / XBT Provider",
+            "select": "ETF Like",
+            "country": "CH"
+          },
+          "data": [{ "bitcoin": { "amount": 48466000000000 } }]
+        },
+        {
+          "company": { "id": "btcs_inc", "name": "BTCS Inc.", "select": "Public", "country": "US" },
+          "data": [{ "bitcoin": { "amount": 90000000000 } }]
+        },
+        {
+          "company": {
+            "id": "neptune_digital_assets",
+            "name": "Neptune Digital Assets",
+            "select": "Public",
+            "country": "CA"
+          },
+          "data": [{ "bitcoin": { "amount": 100000000000 } }]
+        },
+        {
+          "company": { "id": "microstrategy_inc", "name": "MicroStrategy Inc.", "select": "Public", "country": "US" },
+          "data": [{ "bitcoin": { "amount": 105085000000000 } }]
+        },
+        {
+          "company": {
+            "id": "brooker_group's_brook",
+            "name": "Brooker Group's BROOK",
+            "select": "Public",
+            "country": "TH"
+          },
+          "data": [{ "bitcoin": { "amount": 122000000000 } }]
+        },
+        {
+          "company": {
+            "id": "banxa_holdings_inc",
+            "name": "Banxa Holdings Inc",
+            "select": "Public",
+            "country": "CA"
+          },
+          "data": [{ "bitcoin": { "amount": 136000000000 } }]
+        },
+        {
+          "company": { "id": "cleanspark_inc", "name": "CleanSpark Inc", "select": "Public", "country": "US" },
+          "data": [{ "bitcoin": { "amount": 96000000000 } }]
+        },
+        {
+          "company": {
+            "id": "fortress_blockchain",
+            "name": "Fortress Blockchain",
+            "select": "Public",
+            "country": "CA"
+          },
+          "data": [{ "bitcoin": { "amount": 168000000000 } }]
+        },
+        {
+          "company": { "id": "blockone", "name": "Block.one", "select": "Private", "country": "HK" },
+          "data": [{ "bitcoin": { "amount": 140000000000000 } }]
+        },
+        {
+          "company": {
+            "id": "digihost_technology_inc",
+            "name": "Digihost Technology Inc.",
+            "select": "Public",
+            "country": "CA"
+          },
+          "data": [{ "bitcoin": { "amount": 105000000000 } }]
+        },
+        {
+          "company": { "id": "digitalx", "name": "DigitalX", "select": "Public", "country": "AU" },
+          "data": [{ "bitcoin": { "amount": 216000000000 } }]
+        },
+        {
+          "company": {
+            "id": "dmg_blockchain_solutions_inc",
+            "name": "DMG Blockchain Solutions Inc.",
+            "select": "Public",
+            "country": "CA"
+          },
+          "data": [{ "bitcoin": { "amount": 250000000000 } }]
+        },
+        {
+          "company": {
+            "id": "advanced_bitcoin_technologies_ag",
+            "name": "Advanced Bitcoin Technologies AG",
+            "select": "Public",
+            "country": "DE"
+          },
+          "data": [{ "bitcoin": { "amount": 254000000000 } }]
+        },
+        {
+          "company": {
+            "id": "bigg_digital_assets_inc",
+            "name": "BIGG Digital Assets Inc.",
+            "select": "Public",
+            "country": "CA"
+          },
+          "data": [{ "bitcoin": { "amount": 788000000000 } }]
+        },
+        {
+          "company": { "id": "hive_blockchain", "name": "Hive Blockchain", "select": "Public", "country": "CA" },
+          "data": [{ "bitcoin": { "amount": 1033000000000 } }]
+        },
+        {
+          "company": {
+            "id": "cypherpunk_holdings_inc",
+            "name": "Cypherpunk Holdings Inc.",
+            "select": "Public",
+            "country": "CA"
+          },
+          "data": [{ "bitcoin": { "amount": 350000000000 } }]
+        },
+        {
+          "company": { "id": "bit_digital_inc", "name": "Bit Digital, Inc.", "select": "Public", "country": "US" },
+          "data": [{ "bitcoin": { "amount": 581000000000 } }]
+        },
+        {
+          "company": {
+            "id": "grayscale_bitcoin_trust",
+            "name": "Grayscale Bitcoin Trust",
+            "select": "ETF Like",
+            "country": "US"
+          },
+          "data": [{ "bitcoin": { "amount": 654600000000000 } }]
+        },
+        {
+          "company": {
+            "id": "argo_blockchain_plc",
+            "name": "Argo Blockchain PLC",
+            "select": "Public",
+            "country": "GB"
+          },
+          "data": [{ "bitcoin": { "amount": 1108000000000 } }]
+        },
+        {
+          "company": { "id": "meitu", "name": "Meitu", "select": "Public", "country": "HK" },
+          "data": [{ "bitcoin": { "amount": 765000000000 } }]
+        },
+        {
+          "company": { "id": "mercadolibre_inc", "name": "MercadoLibre, Inc.", "select": "Public", "country": "AR" },
+          "data": [{ "bitcoin": { "amount": 150000000000 } }]
+        },
+        {
+          "company": { "id": "lisk_foundation", "name": "Lisk Foundation", "select": "Private", "country": "CH" },
+          "data": [{ "bitcoin": { "amount": 1898000000000 } }]
+        },
+        {
+          "company": {
+            "id": "massachusetts_mutual",
+            "name": "Massachusetts Mutual",
+            "select": "Private",
+            "country": "US"
+          },
+          "data": [{ "bitcoin": { "amount": 3500000000000 } }]
         }
     ],
     "coins": [

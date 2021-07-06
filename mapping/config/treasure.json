@@ -1,0 +1,320 @@
+[
+{
+      "company": "Bitfarms Limited",
+      "amount": "1,114",
+      "select": "Public",
+      "country": "CA"
+    },
+    {
+      "company": "Seetee AS",
+      "amount": "1,170",
+      "select": "Public",
+      "country": "NO"
+    },
+    {
+      "company": "Voyager Digital LTD",
+      "amount": "12,260",
+      "select": "Public",
+      "country": "CA"
+    },
+    {
+      "company": "Riot Blockchain, Inc.",
+      "amount": 2000,
+      "select": "Public",
+      "country": "US"
+    },
+    {
+      "company": "Osprey Bitcoin Trust",
+      "amount": "2,820",
+      "select": "ETF Like",
+      "country": "US"
+    },
+    {
+      "company": "NEXON Co. Ltd",
+      "amount": "1,717",
+      "select": "Public",
+      "country": "JP"
+    },
+    {
+      "company": "Evolve Bitcoin ETF",
+      "amount": "1,663",
+      "select": "ETF Like",
+      "country": "CA"
+    },
+    {
+      "company": "Net Holding Anonim Sirketi",
+      "amount": 3,
+      "select": "Public",
+      "country": "TR"
+    },
+    {
+      "company": "Hut 8 Mining Corp",
+      "amount": "3,522",
+      "select": "Public",
+      "country": "CA"
+    },
+    {
+      "company": "Galaxy Digital Holdings",
+      "amount": "16,400",
+      "select": "Public",
+      "country": "US"
+    },
+    {
+      "company": "Bitcoin Group SE",
+      "amount": "3,947",
+      "select": "Public",
+      "country": "DE"
+    },
+    {
+      "company": "Coinbase Global, Inc.",
+      "amount": "4,482",
+      "select": "Public",
+      "country": "US"
+    },
+    {
+      "company": "VanEck Vectors Bitcoin ETN",
+      "amount": "3,950",
+      "select": "ETF Like",
+      "country": "DE"
+    },
+    {
+      "company": "CI Galaxy Bitcoin Fund",
+      "amount": "3,248",
+      "select": "ETF Like",
+      "country": "CA"
+    },
+    {
+      "company": "Marathon Digital Holdings",
+      "amount": "5,518",
+      "select": "Public",
+      "country": "US"
+    },
+    {
+      "company": "Grayscale Digital Large Cap Fund",
+      "amount": "7,346",
+      "select": "ETF Like",
+      "country": "US"
+    },
+    {
+      "company": "21Shares AG",
+      "amount": "5,973",
+      "select": "ETF Like",
+      "country": "CH"
+    },
+    {
+      "company": "Square Inc.",
+      "amount": "8, 027",
+      "select": "Public",
+      "country": "US"
+    },
+    {
+      "company": "Ninepoint Bitcoin Trust",
+      "amount": "2,736",
+      "select": "ETF Like",
+      "country": "CA"
+    },
+    {
+      "company": "Stone Ridge Holdings Group",
+      "amount": "10,000",
+      "select": "Private",
+      "country": "US"
+    },
+    {
+      "company": "Bitwise 10 Crypto Index Fund",
+      "amount": "10,784",
+      "select": "ETF Like",
+      "country": "US"
+    },
+    {
+      "company": "3iQ CoinShares Bitcoin ETF",
+      "amount": "21,237",
+      "select": "ETF Like",
+      "country": "CA"
+    },
+    {
+      "company": "3iQ The Bitcoin Fund",
+      "amount": "15,396",
+      "select": "ETF Like",
+      "country": "CA"
+    },
+    {
+      "company": "Purpose Bitcoin ETF",
+      "amount": "19,692",
+      "select": "ETF Like",
+      "country": "CA"
+    },
+    {
+      "company": "The Tezos Foundation",
+      "amount": "1,176",
+      "select": "Private",
+      "country": "CH"
+    },
+    {
+      "company": "Phunware, Inc.",
+      "amount": 25.8,
+      "select": "Public",
+      "country": "US"
+    },
+    {
+      "company": "ETC Group Bitcoin ETP",
+      "amount": "17,976",
+      "select": "ETF Like",
+      "country": "DE"
+    },
+    {
+      "company": "Tesla, Inc.",
+      "amount": "42,902",
+      "select": "Public",
+      "country": "US"
+    },
+    {
+      "company": "MOGO Financing",
+      "amount": 18,
+      "select": "Public",
+      "country": "CA"
+    },
+    {
+      "company": "FRMO Corp.",
+      "amount": 63,
+      "select": "Public",
+      "country": "US"
+    },
+    {
+      "company": "CoinShares / XBT Provider",
+      "amount": "48,466",
+      "select": "ETF Like",
+      "country": "CH"
+    },
+    {
+      "company": "BTCS Inc.",
+      "amount": 90,
+      "select": "Public",
+      "country": "US"
+    },
+    {
+      "company": "Neptune Digital Assets",
+      "amount": 100,
+      "select": "Public",
+      "country": "CA"
+    },
+    {
+      "company": "MicroStrategy Inc.",
+      "amount": "105,085",
+      "select": "Public",
+      "country": "US"
+    },
+    {
+      "company": "Brooker Group's BROOK",
+      "amount": 122,
+      "select": "Public",
+      "country": "TH"
+    },
+    {
+      "company": "Banxa Holdings Inc",
+      "amount": 136,
+      "select": "Public",
+      "country": "CA"
+    },
+    {
+      "company": "CleanSpark Inc",
+      "amount": 96,
+      "select": "Public",
+      "country": "US"
+    },
+    {
+      "company": "Fortress Blockchain",
+      "amount": 168,
+      "select": "Public",
+      "country": "CA"
+    },
+    {
+      "company": "Block.one",
+      "amount": "140,000",
+      "select": "Private",
+      "country": "HK"
+    },
+    {
+      "company": "Digihost Technology Inc.",
+      "amount": 105,
+      "select": "Public",
+      "country": "CA"
+    },
+    {
+      "company": "DigitalX",
+      "amount": 216,
+      "select": "Public",
+      "country": "AU"
+    },
+    {
+      "company": "DMG Blockchain Solutions Inc.",
+      "amount": 250,
+      "select": "Public",
+      "country": "CA"
+    },
+    {
+      "company": "Advanced Bitcoin Technologies AG",
+      "amount": 254,
+      "select": "Public",
+      "country": "DE"
+    },
+    {
+      "company": "BIGG Digital Assets Inc.",
+      "amount": 788,
+      "select": "Public",
+      "country": "CA"
+    },
+    {
+      "company": "Hive Blockchain",
+      "amount": "1,033",
+      "select": "Public",
+      "country": "CA"
+    },
+    {
+      "company": "Cypherpunk Holdings Inc.",
+      "amount": 350,
+      "select": "Public",
+      "country": "CA"
+    },
+    {
+      "company": "Bit Digital, Inc.",
+      "amount": 581,
+      "select": "Public",
+      "country": "US"
+    },
+    {
+      "company": "Grayscale Bitcoin Trust",
+      "amount": "654,600",
+      "select": "ETF Like",
+      "country": "US"
+    },
+    {
+      "company": "Argo Blockchain PLC",
+      "amount": "1,108",
+      "select": "Public",
+      "country": "GB"
+    },
+    {
+      "company": "Meitu",
+      "amount": 765,
+      "select": "Public",
+      "country": "HK"
+    },
+    {
+      "company": "MercadoLibre, Inc.",
+      "amount": 150,
+      "select": "Public",
+      "country": "AR"
+    },
+    {
+      "company": "Lisk Foundation",
+      "amount": "1,898",
+      "select": "Private",
+      "country": "CH"
+    },
+    {
+      "company": "Massachusetts Mutual",
+      "amount": "3,500",
+      "select": "Private",
+      "country": "US"
+    }
+  ]

@@ -1,5 +1,5 @@
 {
-    "version": 30,
+    "version": 31,
     "categories": [
         {
             "id": "blockchain",
@@ -141,6 +141,16 @@
             "id": "computing",
             "name": "Computing",
             "description": "Decentralized on-demand computing solutions."
+        },
+        {
+            "id": "data_storage",
+            "name": "Data Storage",
+            "description": "Decentralized data-storage solutions."
+        },
+        {
+            "id": "decentralized_identity",
+            "name": "Decentralized Identity",
+            "description": "Decentralized identity solutions."
         }
     ],
     "funds": [
@@ -1923,7 +1933,7 @@
         {
             "code": "CVC",
             "name": "Civic",
-            "categories": ["infrastructure"],
+            "categories": ["infrastructure", "decentralized_identity"],
             "active": true,
             "platform": {
                 "name": "ethereum",
@@ -3019,7 +3029,7 @@
         {
             "code": "HOT",
             "name": "Holo",
-            "categories": ["infrastructure"],
+            "categories": ["data_storage"],
             "active": true,
             "platform": {
                 "name": "ethereum",
@@ -5360,7 +5370,7 @@
         {
             "code": "CRE",
             "name": "Carry",
-            "categories": ["b2b"],
+            "categories": ["b2b", "decentralized_identity"],
             "active": true,
             "platform": {
                 "name": "",
@@ -5384,7 +5394,7 @@
         {
             "code": "BLZ",
             "name": "Bluzelle",
-            "categories": ["infrastructure"],
+            "categories": ["data_storage"],
             "active": true,
             "platform": {
                 "name": "",
@@ -5432,7 +5442,7 @@
         {
             "code": "FIL",
             "name": "Filecoin",
-            "categories": ["infrastructure"],
+            "categories": ["data_storage"],
             "active": true,
             "platform": {
                 "name": "",
@@ -5464,7 +5474,7 @@
         {
             "code": "AR",
             "name": "Arweave",
-            "categories": ["infrastructure"],
+            "categories": ["data_storage"],
             "active": true,
             "platform": {
                 "name": "",
@@ -5496,7 +5506,7 @@
         {
             "code": "FIO",
             "name": "FIO Protocol",
-            "categories": ["infrastructure"],
+            "categories": ["infrastructure", "decentralized_identity"],
             "active": true,
             "platform": {
                 "name": "",
@@ -5544,7 +5554,7 @@
         {
             "code": "PKF",
             "name": "PolkaFoundry",
-            "categories": ["infrastructure"],
+            "categories": [""],
             "active": true,
             "platform": {
                 "name": "",
@@ -5568,7 +5578,7 @@
         {
             "code": "META",
             "name": "Metadium",
-            "categories": ["infrastructure"],
+            "categories": ["infrastructure", "decentralized_identity"],
             "active": true,
             "platform": {
                 "name": "",
@@ -6882,7 +6892,7 @@
         {
             "code": "STORJ",
             "name": "Storj",
-            "categories": ["infrastructure"],
+            "categories": ["data_storage"],
             "active": true,
             "platform": {
                 "name": "ethereum",
@@ -7259,6 +7269,352 @@
             },
             "rating": "",
             "id": "erc20|0x8eef5a82e6aa222a60f009ac18c24ee12dbf4b41",
+            "funds": []
+        },
+        {
+            "code": "PDEX",
+            "name": "Polkadex",
+            "categories": ["dexes"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0xf59ae934f6fe444afc309586cc60a84a0f89aaea",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xf59ae934f6fe444afc309586cc60a84a0f89aaea",
+            "funds": []
+        },
+        {
+            "code": "OM",
+            "name": "MANTRA DAO",
+            "categories": ["lending"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0x3593d125a4f7849a1b059e64f4517a86dd60c95d",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x3593d125a4f7849a1b059e64f4517a86dd60c95d",
+            "funds": []
+        },
+        {
+            "code": "SAN",
+            "name": "Santiment Network Token",
+            "categories": ["investment_tools"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0x7c5a0ce9267ed19b22f8cae653f198e3e8daf098",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x7c5a0ce9267ed19b22f8cae653f198e3e8daf098",
+            "funds": []
+        },
+        {
+            "code": "ARES",
+            "name": "Ares Protocol",
+            "categories": ["oracles"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0x358aa737e033f34df7c54306960a38d09aabd523",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x358aa737e033f34df7c54306960a38d09aabd523",
+            "funds": []
+        },
+        {
+            "code": "DPR",
+            "name": "Deeper Network",
+            "categories": ["privacy"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0xf3ae5d769e153ef72b4e3591ac004e89f48107a1",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xf3ae5d769e153ef72b4e3591ac004e89f48107a1",
+            "funds": []
+        },
+        {
+            "code": "AUCTION",
+            "name": "Bounce Token",
+            "categories": ["nft"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0xa9b1eb5908cfc3cdf91f9b8b3a74108598009096",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xa9b1eb5908cfc3cdf91f9b8b3a74108598009096",
+            "funds": []
+        },
+        {
+            "code": "SOS",
+            "name": "Solstarter",
+            "categories": ["fundraising"],
+            "active": true,
+            "platform": {
+                "name": "solana",
+                "address": "",
+                "type": ""
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|solstarter",
+            "funds": []
+        },
+        {
+            "code": "DOCK",
+            "name": "Dock",
+            "categories": ["b2b"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0xe5dada80aa6477e85d09747f2842f7993d0df71c",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xe5dada80aa6477e85d09747f2842f7993d0df71c",
+            "funds": []
+        },
+        {
+            "code": "DORA",
+            "name": "Dora Factory",
+            "categories": ["infrastructure"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0xbc4171f45ef0ef66e76f979df021a34b46dcc81d",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xbc4171f45ef0ef66e76f979df021a34b46dcc81d",
+            "funds": []
+        },
+        {
+            "code": "KEY",
+            "name": "SelfKey",
+            "categories": ["decentralized_identity"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0x4cc19356f2d37338b9802aa8e8fc58b0373296e7",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x4cc19356f2d37338b9802aa8e8fc58b0373296e7",
+            "funds": []
+        },
+        {
+            "code": "LIT",
+            "name": "Litentry",
+            "categories": ["decentralized_identity"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0xb59490ab09a0f526cc7305822ac65f2ab12f9723",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xb59490ab09a0f526cc7305822ac65f2ab12f9723",
+            "funds": []
+        },
+        {
+            "code": "SC",
+            "name": "Siacoin",
+            "categories": ["data_storage"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|siacoin",
+            "funds": []
+        },
+        {
+            "code": "PROM",
+            "name": "Prometeus",
+            "categories": ["data_storage"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0xfc82bb4ba86045af6f327323a46e80412b91b27d",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xfc82bb4ba86045af6f327323a46e80412b91b27d",
+            "funds": []
+        },
+        {
+            "code": "CRU",
+            "name": "Crust Network",
+            "categories": ["data_storage"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0x32a7c02e79c4ea1008dd6564b35f131428673c41",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x32a7c02e79c4ea1008dd6564b35f131428673c41",
+            "funds": []
+        },
+
+        {
+            "code": "MXC",
+            "name": "MXC",
+            "categories": ["infrastructure"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0x5ca381bbfb58f0092df149bd3d243b08b9a8386e",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x5ca381bbfb58f0092df149bd3d243b08b9a8386e",
             "funds": []
         },
         {
@@ -7807,7 +8163,7 @@
         {
             "code": "ZCN",
             "name": "0Chain",
-            "categories": ["privacy"],
+            "categories": ["privacy", "data_storage"],
             "active": true,
             "platform": {
                 "name": "ethereum",

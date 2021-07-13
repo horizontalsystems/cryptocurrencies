@@ -1,5 +1,5 @@
 {
-    "version": 33,
+    "version": 34,
     "categories": [
         {
             "id": "blockchain",
@@ -74,7 +74,7 @@
         {
             "id": "nft",
             "name": "NFT",
-            "description": "Marketplaces for NFT tokens."
+            "description": "NFT projects."
         },
         {
             "id": "tokenized_bitcoin",
@@ -143,14 +143,19 @@
             "description": "Decentralized on-demand computing solutions."
         },
         {
-            "id": "data_storage",
+            "id": "storage",
             "name": "Data Storage",
-            "description": "Decentralized data-storage solutions."
+            "description": "Decentralized data-storage."
         },
         {
-            "id": "decentralized_identity",
+            "id": "identity",
             "name": "Decentralized Identity",
-            "description": "Decentralized identity solutions."
+            "description": "Decentralized identity."
+        },
+        {
+            "id": "yield_tokens",
+            "name": "Yield Tokens",
+            "description": "Interesting Bearing Tokens."
         }
     ],
     "funds": [
@@ -1774,7 +1779,7 @@
       {
           "code": "CVC",
           "name": "Civic",
-          "categories": ["infrastructure", "decentralized_identity"],
+          "categories": ["infrastructure", "identity"],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -2328,7 +2333,7 @@
       {
           "code": "FIN",
           "name": "DeFiner",
-          "categories": [""],
+          "categories": [],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -2806,7 +2811,7 @@
       {
           "code": "HOT",
           "name": "Holo",
-          "categories": ["data_storage"],
+          "categories": ["storage"],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -2877,7 +2882,7 @@
       {
           "code": "IDLE",
           "name": "IDLE",
-          "categories": [""],
+          "categories": [],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -3123,7 +3128,7 @@
       {
           "code": "LON",
           "name": "Tokenlon",
-          "categories": [""],
+          "categories": [],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -3738,7 +3743,7 @@
       {
           "code": "EROWAN",
           "name": "Sifchain",
-          "categories": ["dexes"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -4101,7 +4106,7 @@
       {
           "code": "ROOM",
           "name": "OptionRoom",
-          "categories": ["oracles", "prediction_markets"],
+          "categories": ["prediction_markets"],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -4861,7 +4866,7 @@
       {
           "code": "CRE",
           "name": "Carry",
-          "categories": ["b2b", "decentralized_identity"],
+          "categories": ["b2b", "identity"],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -4881,7 +4886,7 @@
       {
           "code": "BLZ",
           "name": "Bluzelle",
-          "categories": ["data_storage"],
+          "categories": ["storage"],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -4921,7 +4926,7 @@
       {
           "code": "FIL",
           "name": "Filecoin",
-          "categories": ["data_storage"],
+          "categories": ["storage"],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -4949,7 +4954,7 @@
       {
           "code": "AR",
           "name": "Arweave",
-          "categories": ["data_storage"],
+          "categories": ["storage"],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -4977,7 +4982,7 @@
       {
           "code": "FIO",
           "name": "FIO Protocol",
-          "categories": ["infrastructure", "decentralized_identity"],
+          "categories": ["infrastructure", "identity"],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -5017,7 +5022,7 @@
       {
           "code": "PKF",
           "name": "PolkaFoundry",
-          "categories": [""],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -5037,7 +5042,7 @@
       {
           "code": "META",
           "name": "Metadium",
-          "categories": ["infrastructure", "decentralized_identity"],
+          "categories": ["infrastructure", "identity"],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -5460,7 +5465,7 @@
       {
           "code": "PAR",
           "name": "Parachute",
-          "categories": [""],
+          "categories": [],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -6247,7 +6252,7 @@
       {
           "code": "STORJ",
           "name": "Storj",
-          "categories": ["data_storage"],
+          "categories": ["storage"],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -6806,10 +6811,447 @@
           "id": "erc20|0xbc4171f45ef0ef66e76f979df021a34b46dcc81d",
           "funds": []
       },
+        {
+            "code": "CDAI",
+            "name": "cDAI",
+            "categories": ["yield_tokens"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0x5d3a536e4d6dbd6114cc1ead35777bab948e3643",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x5d3a536e4d6dbd6114cc1ead35777bab948e3643",
+            "funds": []
+        },
+        {
+            "code": "CUSDC",
+            "name": "cUSDC",
+            "categories": ["yield_tokens"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0x39aa39c021dfbae8fac545936693ac917d5e7563",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x39aa39c021dfbae8fac545936693ac917d5e7563",
+            "funds": []
+        },
+        {
+            "code": "CWBTC",
+            "name": "cWBTC",
+            "categories": ["yield_tokens"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0xc11b1268c1a384e55c48c2391d8d480264a3a7f4",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xc11b1268c1a384e55c48c2391d8d480264a3a7f4",
+            "funds": []
+        },
+        {
+            "code": "CUSDT",
+            "name": "cUSDT",
+            "categories": ["yield_tokens"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0xf650c3d88d12db855b8bf7d11be6c55a4e07dcc9",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xf650c3d88d12db855b8bf7d11be6c55a4e07dcc9",
+            "funds": []
+        },
+        {
+            "code": "CCOMP",
+            "name": "cCOMP",
+            "categories": ["yield_tokens"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0x70e36f6bf80a52b3b46b3af8e106cc0ed743e8e4",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x70e36f6bf80a52b3b46b3af8e106cc0ed743e8e4",
+            "funds": []
+        },
+        {
+            "code": "CUNI",
+            "name": "cUNI",
+            "categories": ["yield_tokens"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0x35a18000230da775cac24873d00ff85bccded550",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x35a18000230da775cac24873d00ff85bccded550",
+            "funds": []
+        },
+        {
+            "code": "CETH",
+            "name": "cETH",
+            "categories": ["yield_tokens"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0x4ddc2d193948926d02f9b1fe9e1daa0718270ed5",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x4ddc2d193948926d02f9b1fe9e1daa0718270ed5",
+            "funds": []
+        },
+        {
+            "code": "ADAI",
+            "name": "Aave DAI v1",
+            "categories": ["yield_tokens"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0xfc1e690f61efd961294b3e1ce3313fbd8aa4f85d",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xfc1e690f61efd961294b3e1ce3313fbd8aa4f85d",
+            "funds": []
+        },
+        {
+            "code": "STPT",
+            "name": "STP Network",
+            "categories": ["synthetics"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0xde7d85157d9714eadf595045cc12ca4a5f3e2adb",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xde7d85157d9714eadf595045cc12ca4a5f3e2adb",
+            "funds": []
+        },
+        {
+            "code": "BTC2X-FLI",
+            "name": "BTC 2x Flexible Leverage Index",
+            "categories": ["index_funds"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0x0b498ff89709d3838a063f1dfa463091f9801c2b",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x0b498ff89709d3838a063f1dfa463091f9801c2b",
+            "funds": []
+        },
+        {
+            "code": "BDI",
+            "name": "BasketDAO DeFi Index",
+            "categories": ["index_funds"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0x0309c98b1bffa350bcb3f9fb9780970ca32a5060",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x0309c98b1bffa350bcb3f9fb9780970ca32a5060",
+            "funds": []
+        },
+        {
+            "code": "AUSDC",
+            "name": "Aave USDC v1",
+            "categories": ["yield_tokens"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0x9ba00d6856a4edf4665bca2c2309936572473b7e",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x9ba00d6856a4edf4665bca2c2309936572473b7e",
+            "funds": []
+        },
+        {
+            "code": "ATUSD",
+            "name": "Aave TUSD v1",
+            "categories": ["yield_tokens"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0x4da9b813057d04baef4e5800e36083717b4a0341",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x4da9b813057d04baef4e5800e36083717b4a0341",
+            "funds": []
+        },
+        {
+            "code": "AUSDT",
+            "name": "Aave USDT v1",
+            "categories": ["yield_tokens"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0x71fc860f7d3a592a4a98740e39db31d25db65ae8",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x71fc860f7d3a592a4a98740e39db31d25db65ae8",
+            "funds": []
+        },
+        {
+            "code": "ALINK",
+            "name": "Aave LINK v1",
+            "categories": ["yield_tokens"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0xa64bd6c70cb9051f6a9ba1f163fdc07e0dfb5f84",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xa64bd6c70cb9051f6a9ba1f163fdc07e0dfb5f84",
+            "funds": []
+        },
+        {
+            "code": "AMKR",
+            "name": "Aave MKR v1",
+            "categories": ["yield_tokens"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0x7deb5e830be29f91e298ba5ff1356bb7f8146998",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x7deb5e830be29f91e298ba5ff1356bb7f8146998",
+            "funds": []
+        },
+        {
+            "code": "AWBTC",
+            "name": "Aave WBTC v1",
+            "categories": ["yield_tokens"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0xfc4b8ed459e00e5400be803a9bb3954234fd50e3",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0xfc4b8ed459e00e5400be803a9bb3954234fd50e3",
+            "funds": []
+        },
+        {
+            "code": "ABUSD",
+            "name": "Aave BUSD v1",
+            "categories": ["yield_tokens"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0x6ee0f7bb50a54ab5253da0667b0dc2ee526c30a8",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x6ee0f7bb50a54ab5253da0667b0dc2ee526c30a8",
+            "funds": []
+        },
+        {
+            "code": "AREN",
+            "name": "Aave REN v1",
+            "categories": ["yield_tokens"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0x69948cc03f478b95283f7dbf1ce764d0fc7ec54c",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x69948cc03f478b95283f7dbf1ce764d0fc7ec54c",
+            "funds": []
+        },
       {
           "code": "KEY",
           "name": "SelfKey",
-          "categories": ["decentralized_identity"],
+          "categories": ["identity"],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -6832,7 +7274,7 @@
       {
           "code": "LIT",
           "name": "Litentry",
-          "categories": ["decentralized_identity"],
+          "categories": ["identity"],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -6855,7 +7297,7 @@
       {
           "code": "SC",
           "name": "Siacoin",
-          "categories": ["data_storage"],
+          "categories": ["storage"],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "links": {
@@ -6874,7 +7316,7 @@
       {
           "code": "PROM",
           "name": "Prometeus",
-          "categories": ["data_storage"],
+          "categories": ["storage"],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -6897,7 +7339,7 @@
       {
           "code": "CRU",
           "name": "Crust Network",
-          "categories": ["data_storage"],
+          "categories": ["storage"],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -7435,7 +7877,7 @@
       {
           "code": "ZCN",
           "name": "0Chain",
-          "categories": ["privacy", "data_storage"],
+          "categories": ["privacy", "storage"],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -7948,7 +8390,7 @@
       {
           "code": "EOS",
           "name": "EOS",
-          "categories": [""],
+          "categories": [],
           "active": true,
           "description": "### Project Description\n\nEOS.IO is software that introduces a blockchain architecture designed to enable vertical and horizontal scaling of decentralized applications (the “EOS.IO Software”). This is achieved through an operating system-like construct upon which applications can be built. The software provides accounts, authentication, databases, asynchronous communication and the scheduling of applications across multiple CPU cores and/or clusters. The resulting technology is a blockchain architecture that has the potential to scale to millions of transactions per second, eliminates user fees and allows for quick and easy deployment of decentralized applications. For more information, please read the EOS.IO Technical White Paper.Blockexplorer: https://eospark.com/In the case of EOS, circulating supply and total supply are available but max supply is not available, which indicates that EOS supply is infinite. The current cap is 1 billion tokens, there will be an inflation of up to 5% per annum to reward the block producers and they may use these to sell or to invest back into EOS dapps.Blockchain data provided by: Blockchair (main source), Bloks.io (backup)",
           "links": {
@@ -9258,7 +9700,7 @@
       {
           "code": "ZERO",
           "name": "0.exchange",
-          "categories": ["dexes"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -9318,7 +9760,7 @@
       {
           "code": "PENDLE",
           "name": "Pendle",
-          "categories": ["dexes"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -9335,6 +9777,26 @@
           "id": "erc20|0x808507121b80c02388fad14726482e061b8da827",
           "funds": []
       },
+        {
+            "code": "RABBIT",
+            "name": "Rabbit",
+            "categories": ["yield_aggregators"],
+            "active": true,
+            "platform": { "name": "", "address": "", "type": "" },
+            "description": "",
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|rabbit",
+            "funds": []
+        },
       {
           "code": "ALCX",
           "name": "Alchemix",

@@ -931,8 +931,8 @@
           "security": {
               "privacy": "low",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "rating": "",
           "id": "erc20|0x111111111117dc0aa78b770fa6a738034120c302",
@@ -973,8 +973,8 @@
           "security": {
               "privacy": "low",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "rating": "",
           "id": "erc20|0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
@@ -1237,8 +1237,8 @@
           "security": {
               "privacy": "low",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "rating": "",
           "id": "erc20|0xba100000625a3754423978a60c9317c58a424e3d",
@@ -1438,8 +1438,8 @@
           "security": {
               "privacy": "low",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "description": "### Project Description\n\nbZx defines a protocol for decentralized lending, trading, and borrowing. One of the project highlights is that it seeks to offer margin trading in a truly decentralized fashion.\n\nBorrowing can be done through Torque protocol while the Fulcrum protocol handles aspects of lending and margin trading.\n\nThe bZx protocol employs a hybrid order model, where 3'rd party relayers each maintain order books outside blockchain while the actual orders are settled on blockchain.\n\n### Token Description\n\nThe BZRX token is a governance token, first and foremost. Collectively, the token holders have the power to upgrade the protocol as they see fit.\n\nThe protocol mandates that relay fees are denominated in BZRX, so it acts primarily as a payment token. \n\nIn the future, there are plans to make the token redeemable for a proportion of the insurance fund to provide a backstop to its value.\n\nFurther, the token will be used to vote on various key parameters such as assets supported by the protoco, the % of interest collected from lenders, the rate of inflation of the BZRX token and more.\n\n### Token Emission\n\nThe 1.03 billion tokens are allocated as follows:\n\n- 50% for token sales\n- 15% to the team\n- 15% to development fund\n- 15% to ecosystem fund\n- 5% to project advisors",
           "rating": "",
@@ -1634,8 +1634,8 @@
           "security": {
               "privacy": "low",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "rating": "",
           "id": "erc20|0xc00e94cb662c3520282e6f5717214004a7f26888",
@@ -1764,8 +1764,8 @@
           "security": {
               "privacy": "low",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "rating": "",
           "id": "erc20|0xd533a949740bb3306d119cc777fa900ba034cd52",
@@ -3113,8 +3113,8 @@
           "security": {
               "privacy": "low",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "rating": "",
           "id": "erc20|0x514910771af9ca656af840dff83e8264ecf986ca",
@@ -3356,8 +3356,8 @@
           "security": {
               "privacy": "low",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "rating": "",
           "id": "erc20|0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
@@ -6142,8 +6142,8 @@
           "security": {
               "privacy": "low",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "rating": "",
           "id": "erc20|0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
@@ -6204,8 +6204,8 @@
           "security": {
               "privacy": "low",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "rating": "",
           "id": "erc20|0x476c5e26a75bd202a9683ffd34359c0cc15be0ff",
@@ -6314,8 +6314,8 @@
           "security": {
               "privacy": "low",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "rating": "",
           "id": "erc20|0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
@@ -7039,8 +7039,8 @@
           "security": {
               "privacy": "low",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "rating": "",
           "id": "erc20|0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
@@ -7077,8 +7077,8 @@
           "security": {
               "privacy": "low",
               "decentralized": false,
-              "confiscation_resistance": "low",
-              "censorship_resistance": "low"
+              "confiscation_resistance": false,
+              "censorship_resistance": false
           },
           "rating": "",
           "id": "erc20|0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
@@ -7380,8 +7380,8 @@
           "security": {
               "privacy": "low",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "id": "erc20|0xa1d0e215a23d7030842fc67ce582a6afa3ccab83",
           "funds": []
@@ -7543,8 +7543,8 @@
           "security": {
               "privacy": "medium",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "rating": "",
           "id": "bitcoin",
@@ -7568,8 +7568,8 @@
           "security": {
               "privacy": "high",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "rating": "",
           "id": "ethereum",
@@ -7585,8 +7585,8 @@
           "security": {
               "privacy": "medium",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "rating": "",
           "id": "bitcoinCash",
@@ -7610,8 +7610,8 @@
           "security": {
               "privacy": "high",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "rating": "",
           "id": "dash",
@@ -7635,8 +7635,8 @@
           "security": {
               "privacy": "medium",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "rating": "",
           "id": "litecoin",
@@ -7660,8 +7660,8 @@
           "security": {
               "privacy": "high",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "rating": "",
           "id": "zcash",
@@ -7683,8 +7683,8 @@
           "security": {
               "privacy": "medium",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "rating": "",
           "id": "unsupported|cardano",
@@ -7706,8 +7706,8 @@
           "security": {
               "privacy": "medium",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "id": "unsupported|algorand",
           "funds": ["arrington_xrp_capital", "lemniscap", "ngc_ventures", "foundation_capital"]
@@ -7761,8 +7761,8 @@
           "security": {
               "privacy": "medium",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "id": "unsupported|avalanche-2",
           "funds": ["digital_finance_group", "lemniscap", "iosg_ventures", "ngc_ventures"]
@@ -7820,8 +7820,8 @@
           "security": {
               "privacy": "low",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "rating": "",
           "id": "bep20|0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
@@ -7908,8 +7908,8 @@
           "security": {
               "privacy": "medium",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "id": "unsupported|polkadot",
           "funds": [
@@ -8159,8 +8159,8 @@
           "security": {
               "privacy": "low",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "id": "erc20|0x408e41876cccdc0f92210600ef50372656052a38",
           "funds": ["polychain_capital", "fbg_capital", "infinite_capital", "1kx"]
@@ -8188,8 +8188,8 @@
           "security": {
               "privacy": "low",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "rating": "",
           "id": "erc20|0x221657776846890989a759ba2973e427dff5c9bb",
@@ -8213,8 +8213,8 @@
           "security": {
               "privacy": "low",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "rating": "",
           "id": "erc20|0x3155ba85d5f96b2d030a4966af206230e46849cb",
@@ -8236,8 +8236,8 @@
           "security": {
               "privacy": "medium",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "id": "unsupported|solana",
           "funds": ["blocktower_capital", "zee_prime_capital"]
@@ -8268,8 +8268,8 @@
           "security": {
               "privacy": "low",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "rating": "",
           "id": "unsupported|tron",
@@ -8320,8 +8320,8 @@
           "security": {
               "privacy": "low",
               "decentralized": false,
-              "confiscation_resistance": "low",
-              "censorship_resistance": "low"
+              "confiscation_resistance": false,
+              "censorship_resistance": false
           },
           "rating": "",
           "id": "erc20|0xdac17f958d2ee523a2206206994597c13d831ec7",
@@ -8436,8 +8436,8 @@
           "security": {
               "privacy": "high",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "rating": "",
           "id": "unsupported|monero",
@@ -8682,8 +8682,8 @@
           "security": {
               "privacy": "low",
               "decentralized": false,
-              "confiscation_resistance": "medium",
-              "censorship_resistance": "low"
+              "confiscation_resistance": false,
+              "censorship_resistance": false
           },
           "rating": "",
           "id": "unsupported|ripple",
@@ -9228,8 +9228,8 @@
           "security": {
               "privacy": "medium",
               "decentralized": true,
-              "confiscation_resistance": "high",
-              "censorship_resistance": "high"
+              "confiscation_resistance": true,
+              "censorship_resistance": true
           },
           "rating": "",
           "id": "unsupported|raydium",

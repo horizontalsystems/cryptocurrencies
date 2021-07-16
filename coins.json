@@ -8390,7 +8390,7 @@
       {
           "code": "EOS",
           "name": "EOS",
-          "categories": [],
+          "categories": ["blockchain"],
           "active": true,
           "description": "### Project Description\n\nEOS.IO is software that introduces a blockchain architecture designed to enable vertical and horizontal scaling of decentralized applications (the “EOS.IO Software”). This is achieved through an operating system-like construct upon which applications can be built. The software provides accounts, authentication, databases, asynchronous communication and the scheduling of applications across multiple CPU cores and/or clusters. The resulting technology is a blockchain architecture that has the potential to scale to millions of transactions per second, eliminates user fees and allows for quick and easy deployment of decentralized applications. For more information, please read the EOS.IO Technical White Paper.Blockexplorer: https://eospark.com/In the case of EOS, circulating supply and total supply are available but max supply is not available, which indicates that EOS supply is infinite. The current cap is 1 billion tokens, there will be an inflation of up to 5% per annum to reward the block producers and they may use these to sell or to invest back into EOS dapps.Blockchain data provided by: Blockchair (main source), Bloks.io (backup)",
           "links": {

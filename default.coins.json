@@ -1,5 +1,5 @@
 {
-    "version": 14,
+    "version": 15,
     "coins": [
         {
             "title": "Bitcoin",
@@ -100,46 +100,11 @@
             "address": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2"
         },
         {
-            "title": "Synthetix",
-            "code": "SNX",
-            "decimal": 18,
-            "type": "erc20",
-            "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f"
-        },
-        {
             "title": "Tether USD",
             "code": "USDT",
             "decimal": 6,
             "type": "erc20",
             "address": "0xdac17f958d2ee523a2206206994597c13d831ec7"
-        },
-        {
-            "title": "Uniswap",
-            "code": "UNI",
-            "decimal": 18,
-            "type": "erc20",
-            "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
-        },
-        {
-            "title": "USD Coin",
-            "code": "USDC",
-            "decimal": 6,
-            "type": "erc20",
-            "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
-        },
-        {
-            "title": "yearn.finance",
-            "code": "YFI",
-            "decimal": 18,
-            "type": "erc20",
-            "address": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e"
-        },
-        {
-            "title": "Crypto.com Coin",
-            "code": "CRO",
-            "decimal": 8,
-            "type": "erc20",
-            "address": "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b"
         },
         {
             "title": "Sushi",
@@ -156,27 +121,6 @@
             "address": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
         },
         {
-            "title": "FTX Token",
-            "code": "FTT",
-            "decimal": 18,
-            "type": "erc20",
-            "address": "0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9"
-        },
-        {
-            "title": "Huobi Token",
-            "code": "HT",
-            "decimal": 18,
-            "type": "erc20",
-            "address": "0x6f259637dcd74c767781e37bc6133cd6a68aa161"
-        },
-        {
-            "title": "KuCoin Token",
-            "code": "KCS",
-            "decimal": 18,
-            "type": "erc20",
-            "address": "0xf34960d9d60be18cc1d5afc1a6f012a723a28811"
-        },
-        {
             "title": "sUSD",
             "code": "SUSD",
             "decimal": 18,
@@ -189,13 +133,6 @@
             "decimal": 18,
             "type": "erc20",
             "address": "0x6b175474e89094c44da98b954eedeac495271d0f"
-        },
-        {
-            "title": "Wrapped Bitcoin",
-            "code": "WBTC",
-            "decimal": 8,
-            "type": "erc20",
-            "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
         },
         {
             "title": "renBTC",
@@ -1128,13 +1065,6 @@
             "symbol": "MATIC-84A"
         },
         {
-            "title": "Maker",
-            "code": "MKR",
-            "decimal": 18,
-            "type": "erc20",
-            "address": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2"
-        },
-        {
             "title": "Melon Token",
             "code": "MLN",
             "decimal": 18,
@@ -1415,13 +1345,6 @@
             "address": "0xd291e7a03283640fdc51b121ac401383a46cc623"
         },
         {
-            "title": "renBTC",
-            "code": "renBTC",
-            "decimal": 8,
-            "type": "erc20",
-            "address": "0xeb4c2781e4eba804ce9a9803c67d0893436bb27d"
-        },
-        {
             "title": "renBCH",
             "code": "renBCH",
             "decimal": 8,
@@ -1688,13 +1611,6 @@
             "address": "0x5e74c9036fb86bd7ecdcb084a0673efc32ea31cb"
         },
         {
-            "title": "Synth sUSD",
-            "code": "sUSD",
-            "decimal": 18,
-            "type": "erc20",
-            "address": "0x57ab1ec28d129707052df4df418d58a2d46d5f51"
-        },
-        {
             "title": "Synth sXAU",
             "code": "sXAU",
             "decimal": 18,
@@ -1721,13 +1637,6 @@
             "decimal": 18,
             "type": "erc20",
             "address": "0x0ba45a8b5d5575935b8158a88c631e9f9c95a2e5"
-        },
-        {
-            "title": "Tether USD",
-            "code": "USDT",
-            "decimal": 6,
-            "type": "erc20",
-            "address": "0xdac17f958d2ee523a2206206994597c13d831ec7"
         },
         {
             "title": "The Force Token",
@@ -1961,13 +1870,6 @@
             "address": "0x6e1a19f235be7ed8e3369ef73b196c07257494de"
         },
         {
-            "title": "Wrapped MIR Token",
-            "code": "MIR",
-            "decimal": 18,
-            "type": "erc20",
-            "address": "0x09a3ecafa817268f77be1283176b946c4ff2e608"
-        },
-        {
             "title": "Wrapped ZEC",
             "code": "WZEC",
             "decimal": 18,
@@ -2057,13 +1959,6 @@
             "decimal": 18,
             "type": "bep20",
             "address": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c"
-        },
-        {
-            "title": "PancakeSwap Token",
-            "code": "CAKE",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
         },
         {
             "title": "Venus ETH",
@@ -2409,13 +2304,6 @@
             "address": "0x7950865a9140cb519342433146ed5b40c6f210f7"
         },
         {
-            "title": "Binance-Peg BTCB Token",
-            "code": "BTCB",
-            "decimal": 18,
-            "type": "bep20",
-            "address": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c"
-        },
-        {
             "title": "Binance-Peg ELF Token",
             "code": "ELF",
             "decimal": 18,
@@ -2680,13 +2568,6 @@
             "decimal": 18,
             "type": "bep20",
             "address": "0x947950bcc74888a40ffa2593c5798f11fc9124c4"
-        },
-        {
-            "title": "SushiToken",
-            "code": "SUSHI",
-            "decimal": 18,
-            "type": "erc20",
-            "address": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2"
         },
         {
             "title": "Swampy",

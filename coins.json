@@ -1,5 +1,5 @@
 {
-    "version": 34,
+    "version": 35,
     "categories": [
         {
             "id": "blockchain",
@@ -22,8 +22,8 @@
             "description": "Solutions for earning from idle crypto assets."
         },
         {
-            "id": "investment_tools",
-            "name": "Investment Tools",
+            "id": "analytics",
+            "name": "Analytics",
             "description": "Token-powered analytics and investment instruments."
         },
         {
@@ -57,19 +57,9 @@
             "description": "Tokens issued by cryptocurrency wallets."
         },
         {
-            "id": "fiat_stablecoins",
-            "name": "Fiat Stablecoins",
+            "id": "stablecoins",
+            "name": "Stablecoins",
             "description": "Crypto tokens pegged 1-1 to fiat currency."
-        },
-        {
-            "id": "rebase_tokens",
-            "name": "Rebase Tokens",
-            "description": "Tokens that periodically adjust supply to achieve a target price"
-        },
-        {
-            "id": "algo_stablecoins",
-            "name": "Algo Stablecoins",
-            "description": "Stablecoins with algorithmic 1-1 price peg to fiat."
         },
         {
             "id": "nft",
@@ -82,20 +72,9 @@
             "description": "Crypto tokens pegged 1-1 to Bitcoin price."
         },
         {
-            "id": "stablecoin_issuers",
-            "name": "Stablecoin Issuers",
-            "description": "Decentralized issuers of fiat pegged stablecoin tokens."
-        },
-
-        {
             "id": "risk_management",
             "name": "Risk Management",
             "description": "Risk assessment, insurance and hedging."
-        },
-        {
-            "id": "fan_tokens",
-            "name": "Fan Tokens",
-            "description": "Digital fan tokens, typically specific to a team or club ."
         },
         {
             "id": "synthetics",
@@ -118,29 +97,9 @@
             "description": "Markets to bet on events in the future."
         },
         {
-            "id": "b2b",
-            "name": "B2B",
-            "description": "B2B service providers."
-        },
-        {
             "id": "infrastructure",
             "name": "Infrastructure",
             "description": "Projects building infrastructure solutions."
-        },
-        {
-            "id": "staking_eth_2_0",
-            "name": "Staking ETH 2.0",
-            "description": "Protocols that reward liquidity providers."
-        },
-        {
-            "id": "cross_chain",
-            "name": "Cross-Chain",
-            "description": "Cross-chain protocols."
-        },
-        {
-            "id": "computing",
-            "name": "Computing",
-            "description": "Decentralized on-demand computing solutions."
         },
         {
             "id": "storage",
@@ -1065,7 +1024,7 @@
       {
           "code": "AMPL",
           "name": "Ampleforth",
-          "categories": ["rebase_tokens"],
+          "categories": ["stablecoins"],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -1183,7 +1142,7 @@
       {
           "code": "BAC",
           "name": "Basis Cash",
-          "categories": ["stablecoin_issuers", "algo_stablecoins"],
+          "categories": [],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -1401,7 +1360,7 @@
       {
           "code": "BUSD",
           "name": "Binance USD",
-          "categories": ["fiat_stablecoins"],
+          "categories": ["stablecoins"],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -1802,7 +1761,7 @@
       {
           "code": "DAI",
           "name": "Dai",
-          "categories": ["algo_stablecoins", "fiat_stablecoins"],
+          "categories":  ["stablecoins"],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -2426,7 +2385,7 @@
       {
           "code": "FRAX",
           "name": "Frax",
-          "categories": ["stablecoin_issuers", "algo_stablecoins"],
+          "categories": [],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -2542,7 +2501,7 @@
       {
           "code": "GLM",
           "name": "Golem",
-          "categories": ["computing"],
+          "categories": [],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -2671,7 +2630,7 @@
       {
           "code": "GUSD",
           "name": "Gemini Dollar",
-          "categories": ["fiat_stablecoins"],
+          "categories": ["stablecoins"],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -3175,7 +3134,7 @@
       {
           "code": "LPT",
           "name": "Livepeer",
-          "categories": ["computing"],
+          "categories": [],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -3341,7 +3300,7 @@
       {
           "code": "MKR",
           "name": "Maker",
-          "categories": ["lending", "stablecoin_issuers"],
+          "categories": ["lending"],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -3430,7 +3389,7 @@
       {
           "code": "MUSD",
           "name": "mStable",
-          "categories": ["fiat_stablecoins"],
+          "categories": ["stablecoins"],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -3524,7 +3483,7 @@
       {
           "code": "PUNDIX",
           "name": "Pundi X",
-          "categories": ["b2b", "wallets"],
+          "categories": ["wallets"],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -3704,7 +3663,7 @@
       {
           "code": "AERGO",
           "name": "Aergo",
-          "categories": ["b2b"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -4007,7 +3966,7 @@
       {
           "code": "ONE",
           "name": "Harmony",
-          "categories": ["scaling", "cross_chain", "blockchain"],
+          "categories": ["scaling", "blockchain"],
           "active": true,
           "description": "",
           "links": {
@@ -4306,7 +4265,7 @@
       {
           "code": "FIS",
           "name": "Stafi",
-          "categories": ["risk_management", "synthetics", "staking_eth_2_0"],
+          "categories": ["risk_management", "synthetics"],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -4446,7 +4405,7 @@
       {
           "code": "WAN",
           "name": "Wanchain",
-          "categories": ["wallets", "infrastructure", "cross_chain"],
+          "categories": ["wallets", "infrastructure"],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -4866,7 +4825,7 @@
       {
           "code": "CRE",
           "name": "Carry",
-          "categories": ["b2b", "identity"],
+          "categories": ["identity"],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -5089,7 +5048,7 @@
       {
           "code": "SUPER",
           "name": "SuperFarm",
-          "categories": ["cross_chain"],
+          "categories": ["nft"],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -5109,7 +5068,7 @@
       {
           "code": "SWTH",
           "name": "Switcheo",
-          "categories": ["cross_chain"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -5129,7 +5088,7 @@
       {
           "code": "KONO",
           "name": "Konomi Network",
-          "categories": ["cross_chain"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -5149,7 +5108,7 @@
       {
           "code": "LINA",
           "name": "Linear",
-          "categories": ["cross_chain"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -5169,7 +5128,7 @@
       {
           "code": "AETH",
           "name": "ankrETH",
-          "categories": ["staking_eth_2_0"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -5189,7 +5148,7 @@
       {
           "code": "STETH",
           "name": "StakeHound Staked Ether",
-          "categories": ["staking_eth_2_0"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -5209,7 +5168,7 @@
       {
           "code": "DIGG",
           "name": "DIGG",
-          "categories": ["rebase_tokens"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -5229,7 +5188,7 @@
       {
           "code": "MARK",
           "name": "Benchmark Protocol ",
-          "categories": ["rebase_tokens"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -5249,7 +5208,7 @@
       {
           "code": "DITTO",
           "name": "Ditto ",
-          "categories": ["rebase_tokens"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -5393,7 +5352,7 @@
       {
           "code": "ORBS",
           "name": "Orbs",
-          "categories": ["b2b"],
+          "categories": [],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -5488,7 +5447,7 @@
       {
           "code": "PAX",
           "name": "Paxos Standard",
-          "categories": ["fiat_stablecoins"],
+          "categories": ["stablecoins"],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -5704,7 +5663,7 @@
       {
           "code": "POLS",
           "name": "Polkastarter",
-          "categories": ["fundraising", "cross_chain"],
+          "categories": ["fundraising"],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -5727,7 +5686,7 @@
       {
           "code": "POLY",
           "name": "Polymath Network",
-          "categories": ["b2b"],
+          "categories": [],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -5751,7 +5710,7 @@
       {
           "code": "QNT",
           "name": "Quant",
-          "categories": ["b2b"],
+          "categories": [],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -5775,7 +5734,7 @@
       {
           "code": "QSP",
           "name": "Quantstamp",
-          "categories": ["b2b"],
+          "categories": [],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -5846,7 +5805,7 @@
       {
           "code": "RFUEL",
           "name": "RioDeFi",
-          "categories": ["cross_chain"],
+          "categories": [],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -5893,7 +5852,7 @@
       {
           "code": "RING",
           "name": "Darwinia Network Native Token",
-          "categories": ["cross_chain"],
+          "categories": [],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -5917,7 +5876,7 @@
       {
           "code": "RLC",
           "name": "iExec RLC",
-          "categories": ["computing"],
+          "categories": [],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -5940,7 +5899,7 @@
       {
           "code": "RPL",
           "name": "Pocket Pool",
-          "categories": ["staking_eth_2_0"],
+          "categories": [],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -5964,7 +5923,7 @@
       {
           "code": "RSR",
           "name": "Reserve Rights Token",
-          "categories": ["stablecoin_issuers"],
+          "categories": [],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -6127,7 +6086,7 @@
       {
           "code": "SNX",
           "name": "Synthetix Network Token",
-          "categories": ["synthetics", "dexes", "stablecoin_issuers"],
+          "categories": ["synthetics", "dexes"],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -6276,7 +6235,7 @@
       {
           "code": "SUSD",
           "name": "sUSD",
-          "categories": ["fiat_stablecoins", "algo_stablecoins"],
+          "categories": ["stablecoins"],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -6564,7 +6523,7 @@
       {
           "code": "TUSD",
           "name": "TrueUSD",
-          "categories": ["fiat_stablecoins"],
+          "categories": ["stablecoins"],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -6657,7 +6616,7 @@
       {
           "code": "SAN",
           "name": "Santiment Network Token",
-          "categories": ["investment_tools"],
+          "categories": ["analytics"],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -6768,7 +6727,7 @@
       {
           "code": "DOCK",
           "name": "Dock",
-          "categories": ["b2b"],
+          "categories": [],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -7385,7 +7344,7 @@
       {
           "code": "UBT",
           "name": "Unibright",
-          "categories": ["b2b"],
+          "categories": [],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -7499,7 +7458,7 @@
       {
           "code": "USDC",
           "name": "USD Coin",
-          "categories": ["fiat_stablecoins"],
+          "categories": ["stablecoins"],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -7529,7 +7488,7 @@
       {
           "code": "USDN",
           "name": "Neutrino USD",
-          "categories": ["algo_stablecoins"],
+          "categories": [],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -7947,7 +7906,7 @@
       {
           "code": "LTO",
           "name": "LTO Network",
-          "categories": ["b2b"],
+          "categories": [],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -8296,7 +8255,7 @@
       {
           "code": "CTK",
           "name": "CertiK",
-          "categories": ["b2b"],
+          "categories": [],
           "active": true,
           "description": "### Project Description\n\nThe CertiK Foundation is a nonprofit, research-driven organization with a mission to give people the power to trust in the blockchain. By pushing forward the adoption of provably secure software, the Foundation hopes to raise the standards of security across space.CertiK Chain provides developers with the safeguards and flexibility to code with confidence, facilitating blockchain adoption for developers, and large enterprises alike.",
           "links": {
@@ -8440,7 +8399,7 @@
       {
           "code": "IRIS",
           "name": "Irisnet",
-          "categories": ["cross_chain"],
+          "categories": [],
           "active": true,
           "description": "### Project Description\n\nThe IRIS network is an internet of blockchains intended to provide a technology foundation that facilitates construction of distributed business applications.The IRIS network is part of the larger Cosmos network -- all zones in the network would be able to interact with any other zone in the Cosmos network over the standard IBC protocol. By introducing a layer of service semantics into the network, IRIS is going to provide an innovative solution that enables a whole new set of business scenarios, which would result in an increase in scale and diversity of the Cosmos network.",
           "links": { "website": "", "whitepaper": "", "twitter": "", "reddit": "", "telegram": "" },
@@ -8492,7 +8451,7 @@
       {
           "code": "LUNA",
           "name": "Terra",
-          "categories": ["stablecoin_issuers", "wallets"],
+          "categories": ["wallets"],
           "active": true,
           "description": "### Project Description\n\nTerra aims to build a new financial infrastructure that works better for everyone. The network is powered by a family of stablecoins, each pegged to major fiat currencies all algorithmically stabilized by Terra’s native token, Luna. Terra’s mission is to set money free by building open financial infrastructure. Luna, as the native staking asset from which the family of Terra stablecoins derives their stability, utility, and value, acts both as collateral for the entire Terra economy and as a staking token that secures the PoS network. Luna can be held and traded like a normal crypto asset, but can also be staked to accrue rewards in the network generated from transaction fees. Luna can also be used to make and vote on governance proposals.The family of Terra stablecoins is designed to achieve stability through consistent mining rewards with a contracting and expanding money supply. For example, if the system has detected that the price of a Terra currency has deviated from its peg, it applies pressure to normalize the price. Currently, the family of Terra stablecoins includes: KRT (Terra stablecoin pegged to Korean Won), UST (Terra stablecoin pegged to US Dollar), MNT (Terra stablecoin pegged to Mongolian Togrog), SDR (Terra stablecoin pegged to IMF SDR), with more being added in the future.",
           "links": { "website": "", "whitepaper": "", "twitter": "", "reddit": "", "telegram": "" },
@@ -8748,7 +8707,7 @@
       {
           "code": "USDT",
           "name": "Tether",
-          "categories": ["fiat_stablecoins"],
+          "categories": ["stablecoins"],
           "active": true,
           "description": "### Project Description\n\nLaunched by a Hong Kong based Tether Limited, Tether is a stablecoin with a value meant to mirror the value of the US dollar. It's currently the biggest stablecoin in the cryptocurrency space. \n\nFor individuals Tether opens up ways for anyone to store assets in USD equivalent without the need to have a bank account.\n\nFor cryptocurrency businesses and exchanges Tether provides means to enable cryptocurrency-to-fiat trading without using legacy banking and payment providers which are currently heavily regulated and just plain slow.\n\nTether tokens may be purchased directly from the Tether's website or on crypto exchanges  using fiat money (USD, EUR etc) or other cryptocurrency. In the same manner, users may redeem Tether tokens into fiat currency by selling them on crypto exchanges or via Tether's website.\n\n### Token Description\n\nTether stablecoin tokens are denoted by USDT symbol and exist on several blockchains \n\nBeing a cryptocurrency token on a blockchain, Tether adopts some benefits of cryptocurrency allowing parties to transact with each other pseudo anonymously.\n\nAny individual accepting Tether tokens as payment may potentially do so without knowing the identity of the sender. The sender only needs a wallet that supports sending and receiving of Tether tokens.\n\nTether stablecoin can be found on most cryptocurrency exchages, both centralized and decentralized, and supported by most crypto wallets. It's a highly liquid stablecoin and usually traded in pairs with the highest daily trading volume.\n\nTether is a centralized stablecoin and can potentially be compared to cash in your bank account. Tether funds on your cryptocurrency wallet can potentially be frozen and confiscated, as such functionality is integarted into a smart contract powering Tether stablecoin.\n\nTether is available on many blockchains (Bitcoin, Ethereum, Tron, etc.) \n\n### Token Emission\n\nThere is no limit to supply, and as of April 2020 there is more than 50 billion tokens in circulation.\n\nThe basic operating principle behind any centralized stablecoin like Tether is that there should be an equivalent amount of USD held by the company issuing the stablecoin.\n\nThis deposit ensures that the Tether Limited can always act as a buyer of last resort to purchase all Tethers in circulation should every Tether token holder decide to sell it.\n\nThe Tether Limited currently acts as a centralized custodian of the reserve assets. The company claims that all Tether tokens in circulation are 100% backed by cash and other liquid assets.\n\nAt this point there is no sure way to know that Tether Limited has the required amount of cash or other liquid reserves. There has been some controversy around that. Thus, the reliability of Tether tokens is fully dependent on the amount of trust someone is willing to place into the Tether Limited as a company as well as the external factors that may affect its ability to operate.\n\nThat said, Tether Limited currently offers one of the most convenient ways to purchase large amount of cryptocurrency for someone outside western hemisphere.",
           "links": {
@@ -8772,7 +8731,7 @@
       {
           "code": "UTK",
           "name": "UTRUST",
-          "categories": ["b2b"],
+          "categories": [],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -9028,7 +8987,7 @@
       {
           "code": "SGT",
           "name": "SharedStake Governance Token",
-          "categories": ["staking_eth_2_0"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -9068,7 +9027,7 @@
       {
           "code": "FEI",
           "name": "Fei Protocol",
-          "categories": ["algo_stablecoins"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -9254,7 +9213,7 @@
       {
           "code": "BAR",
           "name": "FC Barcelona Fan Token",
-          "categories": ["fan_tokens"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -9274,7 +9233,7 @@
       {
           "code": "PSG",
           "name": "Paris Saint-Germain Fan Token",
-          "categories": ["fan_tokens"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -9294,7 +9253,7 @@
       {
           "code": "JUV",
           "name": "Juventus Fan Token",
-          "categories": ["fan_tokens"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -9314,7 +9273,7 @@
       {
           "code": "GAL",
           "name": "Galatasaray Fan Token",
-          "categories": ["fan_tokens"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -9334,7 +9293,7 @@
       {
           "code": "ACM",
           "name": "AC Milan Fan Token",
-          "categories": ["fan_tokens"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -9354,7 +9313,7 @@
       {
           "code": "ATM",
           "name": "Atletico Madrid Fan Token",
-          "categories": ["fan_tokens"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -9374,7 +9333,7 @@
       {
           "code": "OG",
           "name": "OG Fan Token",
-          "categories": ["fan_tokens"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -9394,7 +9353,7 @@
       {
           "code": "ASR",
           "name": "AS Roma Fan Token",
-          "categories": ["fan_tokens"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -9414,7 +9373,7 @@
       {
           "code": "STV",
           "name": "Sint-Truidense Voetbalvereniging Fan Token",
-          "categories": ["fan_tokens"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -9434,7 +9393,7 @@
       {
           "code": "TH",
           "name": "Team Heretics Fan Token",
-          "categories": ["fan_tokens"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -9454,7 +9413,7 @@
       {
           "code": "TRA",
           "name": "Trabzonspor Fan Token",
-          "categories": ["fan_tokens"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -9474,7 +9433,7 @@
       {
           "code": "NAVI",
           "name": "Natus Vincere Fan Token",
-          "categories": ["fan_tokens"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -9534,7 +9493,7 @@
       {
           "code": "PRQ",
           "name": "PARSIQ",
-          "categories": ["investment_tools"],
+          "categories": ["analytics"],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -9554,7 +9513,7 @@
       {
           "code": "DEXT",
           "name": "DexTools",
-          "categories": ["investment_tools"],
+          "categories": ["analytics"],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -9574,7 +9533,7 @@
       {
           "code": "BDP",
           "name": "Big Data Protocol",
-          "categories": ["investment_tools"],
+          "categories": ["analytics"],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -9594,7 +9553,7 @@
       {
           "code": "GLQ",
           "name": "GraphLinq Protocol",
-          "categories": ["investment_tools"],
+          "categories": ["analytics"],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -9614,7 +9573,7 @@
       {
           "code": "UWL",
           "name": "UniWhales",
-          "categories": ["investment_tools"],
+          "categories": ["analytics"],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -9634,7 +9593,7 @@
       {
           "code": "WATCH",
           "name": "Yieldwatch",
-          "categories": ["investment_tools"],
+          "categories": ["analytics"],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -9820,7 +9779,7 @@
       {
           "code": "XVS",
           "name": "Venus",
-          "categories": ["lending", "stablecoin_issuers"],
+          "categories": ["lending"],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -9860,7 +9819,7 @@
       {
           "code": "APL",
           "name": "Apollon Limassol Fan Token",
-          "categories": ["fan_tokens"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -9960,7 +9919,7 @@
       {
           "code": "VAI",
           "name": "Vai",
-          "categories": ["algo_stablecoins"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -10100,7 +10059,7 @@
       {
           "code": "STEP",
           "name": "Step Finance",
-          "categories": ["investment_tools"],
+          "categories": ["analytics"],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -10120,7 +10079,7 @@
       {
           "code": "TerraUSD",
           "name": "UST",
-          "categories": ["fiat_stablecoins"],
+          "categories": ["stablecoins"],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",
@@ -10140,7 +10099,7 @@
       {
           "code": "STETH",
           "name": "Lido Staked Ether",
-          "categories": ["algo_stablecoins"],
+          "categories": [],
           "active": true,
           "platform": { "name": "", "address": "", "type": "" },
           "description": "",

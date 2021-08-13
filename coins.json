@@ -1,5 +1,5 @@
 {
-    "version": 35,
+    "version": 36,
     "categories": [
         {
             "id": "blockchain",
@@ -2864,7 +2864,7 @@
       {
           "code": "IMBTC",
           "name": "The tokenized_bitcoin",
-          "categories": [],
+          "categories": ["tokenized_bitcoin"],
           "active": true,
           "platform": {
               "name": "ethereum",
@@ -7024,6 +7024,75 @@
             "funds": []
         },
         {
+            "code": "QUICK",
+            "name": "Quickswap",
+            "categories": ["dexes"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0x6c28aef8977c9b773996d0e8376d2ee379446f2f",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x6c28aef8977c9b773996d0e8376d2ee379446f2f",
+            "funds": []
+        },
+        {
+            "code": "MDX",
+            "name": "Mdex",
+            "categories": ["dexes"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|mdex",
+            "funds": []
+        },
+        {
+            "code": "TLM",
+            "name": "Alien Worlds",
+            "categories": ["nft"],
+            "active": true,
+            "platform": {
+                "name": "ethereum",
+                "address": "0x888888848b652b3e3a0f34c96e00eec0f3a23f72",
+                "type": "ERC20"
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "erc20|0x888888848b652b3e3a0f34c96e00eec0f3a23f72",
+            "funds": []
+        },
+        {
             "code": "AUSDC",
             "name": "Aave USDC v1",
             "categories": ["yield_tokens"],
@@ -7067,6 +7136,29 @@
             },
             "rating": "",
             "id": "erc20|0x4da9b813057d04baef4e5800e36083717b4a0341",
+            "funds": []
+        },
+        {
+            "code": "ARRR",
+            "name": "Pirate Chain",
+            "categories": ["privacy"],
+            "active": true,
+            "platform": {
+                "name": "",
+                "address": "",
+                "type": ""
+            },
+            "links": {
+                "website": "",
+                "whitepaper": "",
+                "guide": "",
+                "twitter": "",
+                "github": "",
+                "reddit": "",
+                "telegram": ""
+            },
+            "rating": "",
+            "id": "unsupported|pirate-chain",
             "funds": []
         },
         {
@@ -10116,6 +10208,7 @@
           "id": "erc20|0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
           "funds": []
       }
+
     ],
     "fund_categories": [
         {
